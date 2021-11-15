@@ -5,7 +5,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"branches":[{"name":"main","docs":{"dest":".","options":{"add":true}}},{"name":"next","prerelease":"rc","skipChangeLog":true,"docs":{"dest":"next"}}],"docs":{"dir":"docs"},"bundles":[{"type":"npm","folder":"dist"}]}');
+module.exports = JSON.parse('{"branches":[{"name":"main","docs":{"dest":".","options":{"add":true}}},{"name":"next","prerelease":"rc","skipChangeLog":true,"docs":{"dest":"next"}}],"docs":{"dir":"docs"},"bundles":[{"type":"npm","folder":"dist"}],"bumpFiles":["package.json"]}');
 
 /***/ }),
 
@@ -46734,7 +46734,7 @@ module.exports = eval("require")("spawn-sync");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"vars":"bump-and-release-github-action","version":"0.0.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package*.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"vars":"bump-and-release-github-action","version":"0.0.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -47133,28 +47133,38 @@ async function run() {
     const { docs, skipChangeLog } = config;
     if (config) {
       const latest = await getLatestFromNPM();
+      core.info(`Latest Version from NPM: ${latest.version}`);
       const releaseType = await getReleaseType(config, latest);
+      core.info(`Determined Release Type: ${releaseType}`);
       const version = await recommendVersion(
         latest,
         releaseType,
         config.prerelease
       );
+      core.info(`Next Version is: ${version}`);
 
       const changedFiles = await bump(version, config.bumpFiles);
+      core.info(`Bumped Version in ${changedFiles.length} files`);
       if (!skipChangeLog) {
         const changelogFile = path.join(root, "CHANGELOG.md");
         await changelog(version, changedFiles[0], changelogFile);
+        core.info(`Change Log Generated`);
         changedFiles.push(changelogFile);
       }
 
       await commitVersion(version, [...changedFiles]);
+      core.info(`Generated Tag`);
+
       await publish(version, globalConfig.bundles);
+      core.info(`Published Bundles`);
+
       await push();
 
       if (docs) {
         switch (docs.type) {
           case "ghpages":
             await deployGithubPages(version, docs);
+            core.info(`Github Pages Deployed`);
             break;
           default:
             core.warning("Documentation Deploy configuration not valid.");

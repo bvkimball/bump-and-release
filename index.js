@@ -188,28 +188,38 @@ async function run() {
     const { docs, skipChangeLog } = config;
     if (config) {
       const latest = await getLatestFromNPM();
+      core.info(`Latest Version from NPM: ${latest.version}`);
       const releaseType = await getReleaseType(config, latest);
+      core.info(`Determined Release Type: ${releaseType}`);
       const version = await recommendVersion(
         latest,
         releaseType,
         config.prerelease
       );
+      core.info(`Next Version is: ${version}`);
 
       const changedFiles = await bump(version, config.bumpFiles);
+      core.info(`Bumped Version in ${changedFiles.length} files`);
       if (!skipChangeLog) {
         const changelogFile = path.join(root, "CHANGELOG.md");
         await changelog(version, changedFiles[0], changelogFile);
+        core.info(`Change Log Generated`);
         changedFiles.push(changelogFile);
       }
 
       await commitVersion(version, [...changedFiles]);
+      core.info(`Generated Tag`);
+
       await publish(version, globalConfig.bundles);
+      core.info(`Published Bundles`);
+
       await push();
 
       if (docs) {
         switch (docs.type) {
           case "ghpages":
             await deployGithubPages(version, docs);
+            core.info(`Github Pages Deployed`);
             break;
           default:
             core.warning("Documentation Deploy configuration not valid.");

@@ -26,5 +26,6 @@
       "type": "npm",
       "folder": "dist"
     }
-  ]
+  ],
+  "bumpFiles": ["package.json"]
 }
