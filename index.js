@@ -17,8 +17,8 @@ const event = hasEventFile
 
 const root = path.join(process.cwd(), process.env.ROOT_DIR || "./");
 const branch = process.env.GITHUB_REF.split("/").slice(2).join("/");
-const pkg = require(path.join(root, "package.json"));
-const globalConfig = require(path.join(root, "bump.json"));
+const pkg = require("./package.json");
+const globalConfig = require("./bump.json");
 
 const getBranchConfig = async (config) => {
   const internal = config.branches.find((it) => it.name === branch);
@@ -186,6 +186,7 @@ async function run() {
     core.info(`running on branch: ${branch}`);
     core.info(`cwd is ${process.cwd()}`);
     core.info(`root directroy is ${root}`);
+    core.info(JSON.stringify(pkg));
     core.info(JSON.stringify(globalConfig));
     const config = await getBranchConfig(globalConfig);
     const { docs, skipChangeLog } = config;
