@@ -46986,13 +46986,24 @@ const recommendVersion = async (latest, type, prerelease) => {
 
 const getGitHash = async (latest) => {
   // rev-list -n 1 tags/v5.7.0
-  const [hash] = await git.raw([
-    "rev-list",
-    "-n",
-    "1",
-    `tags/v${latest.version}`,
-  ]);
-  return hash;
+  try {
+    const [hash] = await git.raw([
+      "rev-list",
+      "-n",
+      "1",
+      `tags/v${latest.version}`,
+    ]);
+    return hash;
+  } catch (e) {
+    try {
+      // Maybe inital commit
+      const [hash] = await git.raw(["rev-list", "--max-parents=0", "HEAD"]);
+      return hash;
+    } catch (e) {
+      core.info("Can not find hash for latest version");
+    }
+  }
+  return null;
 };
 
 const getReleaseType = async (config, latest) => {
@@ -47004,8 +47015,10 @@ const getReleaseType = async (config, latest) => {
   let messages = [];
   if (latest && latest.version) {
     const hash = latest.gitHead || (await getGitHash(latest));
-    if (hash === process.env.GITHUB_SHA)
-      return core.info("SHA matches latest release, skipping.");
+    if (hash === process.env.GITHUB_SHA) {
+      core.info("SHA matches latest release, skipping.");
+      return;
+    }
     if (hash) {
       try {
         let logs = await git.getlog({
