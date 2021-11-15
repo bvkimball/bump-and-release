@@ -47072,10 +47072,12 @@ async function commitVersion(version, changedFiles) {
 }
 
 async function publish(version, bundles) {
-  core.info("Publishing...");
   try {
     for (let bundle of bundles) {
-      const { stdout } = await shell.exec(`npm publish ${bundle}`);
+      core.info(`Publishing ${bundle.folder}...`);
+      const { stdout } = await shell.exec(
+        `npm publish ${bundle.folder} --access public`
+      );
       core.info(stdout);
     }
   } catch (err) {
@@ -47141,6 +47143,7 @@ const deployGithubPages = async (version, docs) => {
 
 async function run() {
   try {
+    core.info(`bump-and-release: ${pkg.name}`);
     core.info(`running on branch: ${branch}`);
     const config = await getBranchConfig(globalConfig);
     const { docs, skipChangeLog } = config;
@@ -47156,7 +47159,7 @@ async function run() {
       );
       core.info(`Next Version is: ${version}`);
 
-      const changedFiles = await bump(version, config.bumpFiles);
+      const changedFiles = await bump(version, globalConfig.bumpFiles);
       core.info(`Bumped Version in ${changedFiles.length} files`);
       if (!skipChangeLog) {
         const changelogFile = path.join(root, "CHANGELOG.md");
