@@ -10,9 +10,10 @@ const shell = require("child-process-promise");
 const glob = require("fast-glob");
 const ghpages = require("gh-pages");
 
-const event = JSON.parse(
-  fs.readFileSync("/github/workflow/event.json").toString()
-);
+const hasEventFile = fs.existsSync("/github/workflow/event.json");
+const event = hasEventFile
+  ? JSON.parse(fs.readFileSync("/github/workflow/event.json").toString())
+  : null;
 
 const root = path.join(process.cwd(), process.env.ROOT_DIR || "./");
 const branch = process.env.GITHUB_REF.split("/").slice(2).join("/");
@@ -67,10 +68,12 @@ const getReleaseType = async (config, latest) => {
           to: process.env.GITHUB_SHA,
         });
         messages = logs.all.map((r) => r.message + "\n" + r.body);
-      } catch (e) {}
+      } catch (e) {
+        core.debug("no logs found");
+      }
     }
   }
-  if (!messages.length > 0) {
+  if (!messages.length > 0 && event) {
     messages = (event.commits || []).map(
       (commit) => commit.message + "\n" + commit.body
     );

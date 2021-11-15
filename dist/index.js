@@ -5,7 +5,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"branches":[{"name":"master","docs":{"dest":".","options":{"add":true}}},{"name":"next","prerelease":"rc","skipChangeLog":true,"docs":{"dest":"next"}}],"docs":{"dir":"dist/demo"},"bundles":[{"type":"npm","folder":"dist/novo-elements"}]}');
+module.exports = JSON.parse('{"branches":[{"name":"main","docs":{"dest":".","options":{"add":true}}},{"name":"next","prerelease":"rc","skipChangeLog":true,"docs":{"dest":"next"}}],"docs":{"dir":"docs"},"bundles":[{"type":"npm","folder":"dist"}]}');
 
 /***/ }),
 
@@ -13,7 +13,7 @@ module.exports = JSON.parse('{"branches":[{"name":"master","docs":{"dest":".","o
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"vars":"bump-and-release-github-action","version":"0.0.1","description":"Export branch names as environment variables","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"vars":"bump-and-release-github-action","version":"0.0.0","description":"Export branch names as environment variables","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package*.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -50150,7 +50150,7 @@ module.exports = JSON.parse('{"_from":"yargs@^15.3.1","_id":"yargs@15.4.1","_inB
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"vars":"bump-and-release-github-action","version":"0.0.1","description":"Export branch names as environment variables","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"vars":"bump-and-release-github-action","version":"0.0.0","description":"Export branch names as environment variables","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package*.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -50804,9 +50804,10 @@ const shell = __nccwpck_require__(64858);
 const glob = __nccwpck_require__(43664);
 const ghpages = __nccwpck_require__(54290);
 
-const event = JSON.parse(
-  fs.readFileSync("/github/workflow/event.json").toString()
-);
+const hasEventFile = fs.existsSync("/github/workflow/event.json");
+const event = hasEventFile
+  ? JSON.parse(fs.readFileSync("/github/workflow/event.json").toString())
+  : null;
 
 const root = path.join(process.cwd(), process.env.ROOT_DIR || "./");
 const branch = process.env.GITHUB_REF.split("/").slice(2).join("/");
@@ -50861,10 +50862,12 @@ const getReleaseType = async (config, latest) => {
           to: process.env.GITHUB_SHA,
         });
         messages = logs.all.map((r) => r.message + "\n" + r.body);
-      } catch (e) {}
+      } catch {
+        core.debug("no logs found");
+      }
     }
   }
-  if (!messages.length > 0) {
+  if (!messages.length > 0 && event) {
     messages = (event.commits || []).map(
       (commit) => commit.message + "\n" + commit.body
     );
