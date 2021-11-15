@@ -46734,7 +46734,7 @@ module.exports = eval("require")("spawn-sync");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"vars":"bump-and-release-github-action","version":"0.0.0","description":"Export branch names as environment variables","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package*.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"vars":"bump-and-release-github-action","version":"0.0.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package*.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -47002,7 +47002,7 @@ const getReleaseType = async (config, latest) => {
   }
   let releaseType = "patch";
   let messages = [];
-  if (latest) {
+  if (latest && latest.version) {
     const hash = latest.gitHead || (await getGitHash(latest));
     if (hash === process.env.GITHUB_SHA)
       return core.info("SHA matches latest release, skipping.");
@@ -47129,10 +47129,6 @@ const deployGithubPages = async (version, docs) => {
 async function run() {
   try {
     core.info(`running on branch: ${branch}`);
-    core.info(`cwd is ${process.cwd()}`);
-    core.info(`root directroy is ${root}`);
-    core.info(JSON.stringify(pkg));
-    core.info(JSON.stringify(globalConfig));
     const config = await getBranchConfig(globalConfig);
     const { docs, skipChangeLog } = config;
     if (config) {

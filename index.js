@@ -57,7 +57,7 @@ const getReleaseType = async (config, latest) => {
   }
   let releaseType = "patch";
   let messages = [];
-  if (latest) {
+  if (latest && latest.version) {
     const hash = latest.gitHead || (await getGitHash(latest));
     if (hash === process.env.GITHUB_SHA)
       return core.info("SHA matches latest release, skipping.");
@@ -184,10 +184,6 @@ const deployGithubPages = async (version, docs) => {
 async function run() {
   try {
     core.info(`running on branch: ${branch}`);
-    core.info(`cwd is ${process.cwd()}`);
-    core.info(`root directroy is ${root}`);
-    core.info(JSON.stringify(pkg));
-    core.info(JSON.stringify(globalConfig));
     const config = await getBranchConfig(globalConfig);
     const { docs, skipChangeLog } = config;
     if (config) {
