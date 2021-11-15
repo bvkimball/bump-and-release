@@ -47093,10 +47093,8 @@ async function push() {
   await git.pushTags("origin");
 }
 
-async function changelog(version, packageFile, changelogFile) {
-  await shell.exec(
-    `npx conventional-changelog --pkg ${packageFile} -p angular -i ${changelogFile} -s`
-  );
+async function changelog(version, file) {
+  await shell.exec(`npx standard-changelog -i ${file} -s`);
   return version;
 }
 
@@ -47163,7 +47161,7 @@ async function run() {
       core.info(`Bumped Version in ${changedFiles.length} files`);
       if (!skipChangeLog) {
         const changelogFile = path.join(root, "CHANGELOG.md");
-        await changelog(version, changedFiles[0], changelogFile);
+        await changelog(version, changelogFile);
         core.info(`Change Log Generated`);
         changedFiles.push(changelogFile);
       }
