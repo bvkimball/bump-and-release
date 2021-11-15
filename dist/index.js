@@ -46734,7 +46734,7 @@ module.exports = eval("require")("spawn-sync");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepare":"cpy \'package.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepare":"npx cpy \'package.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -46965,6 +46965,12 @@ const branch = process.env.GITHUB_REF.split("/").slice(2).join("/");
 const pkg = __nccwpck_require__(306);
 const globalConfig = __nccwpck_require__(9361);
 
+const initialize = async () => {
+  const gitUserEmail = core.getInput("git-user-email");
+  await git.addConfig("user.email", gitUserEmail);
+  await git.addConfig("user.name", "Bump And Release");
+};
+
 const getBranchConfig = async (config) => {
   const internal = config.branches.find((it) => it.name === branch);
   internal.docs = config.docs ? { ...config.docs, ...internal.docs } : false;
@@ -47075,6 +47081,7 @@ const bump = async (version, bumpFiles) => {
 
 async function commitVersion(version) {
   core.info("Committing...");
+  await git.add("./*");
   await git.commit(`chore(release): ${version}`);
   core.info("Tagging...");
   await git.addAnnotatedTag(`v${version}`, "Version release");
@@ -47137,6 +47144,13 @@ const deployGithubPages = async (version, docs) => {
     core.info("No build for docs task specified");
   }
 
+  //git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+  await git.remote([
+    "set-url",
+    "origin",
+    `https://git:${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}.git`,
+  ]);
+
   return await new Promise((resolve, reject) => {
     const dest = docs.dest || ".";
     ghpages.publish(
@@ -47146,12 +47160,16 @@ const deployGithubPages = async (version, docs) => {
         ...docs.options,
         remove: `${dest}/**/*`,
         message: "chore(release): v" + version,
+        user: {
+          name: "Bump And Release",
+          email: core.getInput("git-user-email"),
+        },
       },
       (err) => {
         if (err) {
           core.error("Error while publishing demo.");
           core.info(err);
-          reject(err);
+          return reject(err);
         }
         core.info("Demo published!");
         resolve(version);
@@ -47162,6 +47180,7 @@ const deployGithubPages = async (version, docs) => {
 
 async function run() {
   try {
+    await initialize();
     core.info(`bump-and-release: ${pkg.name}`);
     core.info(`running on branch: ${branch}`);
     const config = await getBranchConfig(globalConfig);

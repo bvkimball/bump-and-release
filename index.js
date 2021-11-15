@@ -136,6 +136,7 @@ const bump = async (version, bumpFiles) => {
 
 async function commitVersion(version) {
   core.info("Committing...");
+  await git.add("./*");
   await git.commit(`chore(release): ${version}`);
   core.info("Tagging...");
   await git.addAnnotatedTag(`v${version}`, "Version release");
