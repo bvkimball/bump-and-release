@@ -183,6 +183,8 @@ const deployGithubPages = async (version, docs) => {
 
 async function run() {
   try {
+    core.info("globalConfig is ");
+    core.debug(JSON.stringify(globalConfig));
     const config = await getBranchConfig(globalConfig);
     const { docs, skipChangeLog } = config;
     if (config) {

@@ -50862,7 +50862,7 @@ const getReleaseType = async (config, latest) => {
           to: process.env.GITHUB_SHA,
         });
         messages = logs.all.map((r) => r.message + "\n" + r.body);
-      } catch {
+      } catch (e) {
         core.debug("no logs found");
       }
     }
@@ -50977,6 +50977,8 @@ const deployGithubPages = async (version, docs) => {
 
 async function run() {
   try {
+    core.info("globalConfig is ");
+    core.debug(JSON.stringify(globalConfig));
     const config = await getBranchConfig(globalConfig);
     const { docs, skipChangeLog } = config;
     if (config) {
