@@ -29,7 +29,9 @@ const getBranchConfig = async (config) => {
 
 const getLatestFromNPM = async () => {
   const registry = process.env.NPM_REGISTRY_URL || "https://registry.npmjs.org";
-  return await got(`${registry}/${pkg.name}/latest`).json();
+  const response = await got(`${registry}/${pkg.name}/latest`).json();
+  if (response && response.version) return response;
+  return pkg;
 };
 
 const recommendVersion = async (latest, type, prerelease) => {
@@ -118,25 +120,36 @@ const bump = async (version, bumpFiles) => {
   return packageFiles;
 };
 
-async function commitVersion(version, changedFiles) {
+async function commitVersion(version) {
   core.info("Committing...");
-  await git.commit(`chore(release): ${version}`, [...changedFiles]);
+  await git.commit(`chore(release): ${version}`);
   core.info("Tagging...");
   await git.addAnnotatedTag(`v${version}`, "Version release");
   return version;
 }
 
 async function publish(version, bundles) {
+  let response;
   try {
     for (let bundle of bundles) {
-      core.info(`Publishing ${bundle.folder}...`);
-      const { stdout } = await shell.exec(
-        `npm publish ${bundle.folder} --access public`
-      );
-      core.info(stdout);
+      switch (bundle.type.toLowerCase()) {
+        case "npm":
+          core.info(`Publishing ${bundle.folder}...`);
+          response = await shell.exec(
+            `npm publish ${bundle.folder} --access public`
+          );
+          core.info(response.stdout);
+          core.warning(response.stderr);
+          break;
+        default:
+          core.warning(
+            `Bundle type: ${bundle.type} is not currently supported`
+          );
+          break;
+      }
     }
   } catch (err) {
-    core.error("child processes failed with error code: ", err);
+    core.error(err.message);
   }
   return version;
 }
@@ -184,7 +197,8 @@ const deployGithubPages = async (version, docs) => {
       },
       (err) => {
         if (err) {
-          core.error("Error while publishing demo.", err);
+          core.error("Error while publishing demo.");
+          core.infor(err);
           reject(err);
         }
         core.info("Demo published!");

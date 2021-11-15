@@ -19,12 +19,13 @@
     }
   ],
   "docs": {
+    "type": "ghpages",
     "dir": "docs"
   },
   "bundles": [
     {
       "type": "npm",
-      "folder": "dist"
+      "folder": "./dist"
     }
   ],
   "bumpFiles": ["package.json"]

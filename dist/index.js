@@ -5,7 +5,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"branches":[{"name":"main","docs":{"dest":".","options":{"add":true}}},{"name":"next","prerelease":"rc","skipChangeLog":true,"docs":{"dest":"next"}}],"docs":{"dir":"docs"},"bundles":[{"type":"npm","folder":"dist"}],"bumpFiles":["package.json"]}');
+module.exports = JSON.parse('{"branches":[{"name":"main","docs":{"dest":".","options":{"add":true}}},{"name":"next","prerelease":"rc","skipChangeLog":true,"docs":{"dest":"next"}}],"docs":{"type":"ghpages","dir":"docs"},"bundles":[{"type":"npm","folder":"./dist"}],"bumpFiles":["package.json"]}');
 
 /***/ }),
 
@@ -46734,7 +46734,7 @@ module.exports = eval("require")("spawn-sync");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"vars":"bump-and-release-github-action","version":"0.0.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepublishOnly":"cpy \'package.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -46974,7 +46974,9 @@ const getBranchConfig = async (config) => {
 
 const getLatestFromNPM = async () => {
   const registry = process.env.NPM_REGISTRY_URL || "https://registry.npmjs.org";
-  return await got(`${registry}/${pkg.name}/latest`).json();
+  const response = await got(`${registry}/${pkg.name}/latest`).json();
+  if (response && response.version) return response;
+  return pkg;
 };
 
 const recommendVersion = async (latest, type, prerelease) => {
@@ -47063,25 +47065,36 @@ const bump = async (version, bumpFiles) => {
   return packageFiles;
 };
 
-async function commitVersion(version, changedFiles) {
+async function commitVersion(version) {
   core.info("Committing...");
-  await git.commit(`chore(release): ${version}`, [...changedFiles]);
+  await git.commit(`chore(release): ${version}`);
   core.info("Tagging...");
   await git.addAnnotatedTag(`v${version}`, "Version release");
   return version;
 }
 
 async function publish(version, bundles) {
+  let response;
   try {
     for (let bundle of bundles) {
-      core.info(`Publishing ${bundle.folder}...`);
-      const { stdout } = await shell.exec(
-        `npm publish ${bundle.folder} --access public`
-      );
-      core.info(stdout);
+      switch (bundle.type.toLowerCase()) {
+        case "npm":
+          core.info(`Publishing ${bundle.folder}...`);
+          response = await shell.exec(
+            `npm publish ${bundle.folder} --access public`
+          );
+          core.info(response.stdout);
+          core.warning(response.stderr);
+          break;
+        default:
+          core.warning(
+            `Bundle type: ${bundle.type} is not currently supported`
+          );
+          break;
+      }
     }
   } catch (err) {
-    core.error("child processes failed with error code: ", err);
+    core.error(err.message);
   }
   return version;
 }
@@ -47129,7 +47142,8 @@ const deployGithubPages = async (version, docs) => {
       },
       (err) => {
         if (err) {
-          core.error("Error while publishing demo.", err);
+          core.error("Error while publishing demo.");
+          core.infor(err);
           reject(err);
         }
         core.info("Demo published!");
