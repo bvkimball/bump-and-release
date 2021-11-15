@@ -1,0 +1,21 @@
+name: Manually Release
+on: 
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build & Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup
+        run: npm ci  
+      - name: Bump And Release
+        uses: ./
+        with:
+          git-user-email: 'bvkimball@users.noreply.github.com'
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_FOR_GITHUB }}
+          NPM_AUTH_TOKEN: ${{ secrets.TOKEN_FOR_NPM }}
+              

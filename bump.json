@@ -1,0 +1,32 @@
+{
+  "branches": [
+    {
+      "name": "main",
+      "docs": {
+        "dest": ".",
+        "options": {
+          "add": true
+        }
+      }
+    },
+    {
+      "name": "next",
+      "prerelease": "rc",
+      "skipChangeLog": true,
+      "docs": {
+        "dest": "next"
+      }
+    }
+  ],
+  "docs": {
+    "type": "ghpages",
+    "dir": "docs"
+  },
+  "bundles": [
+    {
+      "type": "npm",
+      "folder": "./dist"
+    }
+  ],
+  "bumpFiles": ["package.json"]
+}

@@ -1,0 +1,13 @@
+name: "Bump And Release"
+description: "Bump package versions, create changelog, and release to npm and/or github"
+inputs:
+  git-user-email:  # id of input
+    description: 'Sets git user.email value'
+    required: true
+    default: 'bump-and-release@@users.noreply.github.com'
+branding:
+  icon: "git-pull-request"
+  color: "orange"
+runs:
+  using: "node12"
+  main: "dist/index.js"
