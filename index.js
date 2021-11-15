@@ -147,6 +147,11 @@ async function publish(version, bundles) {
   let response;
   try {
     for (let bundle of bundles) {
+      if (bundle.prepublish) {
+        core.info(`Running prepublish command: ${bundle.prepublish}...`);
+        await shell.exec(bundle.prepublish);
+      }
+
       switch (bundle.type.toLowerCase()) {
         case "npm":
           core.info(`Publishing ${bundle.folder}...`);

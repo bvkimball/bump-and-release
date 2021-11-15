@@ -5,7 +5,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"branches":[{"name":"main","docs":{"dest":".","options":{"add":true}}},{"name":"next","prerelease":"rc","skipChangeLog":true,"docs":{"dest":"next"}}],"docs":{"type":"ghpages","dir":"docs"},"bundles":[{"type":"npm","folder":"./dist"}],"bumpFiles":["package.json"]}');
+module.exports = JSON.parse('{"branches":[{"name":"main","docs":{"dest":".","options":{"add":true}}},{"name":"next","prerelease":"rc","skipChangeLog":true,"docs":{"dest":"next"}}],"docs":{"type":"ghpages","dir":"docs"},"bundles":[{"type":"npm","folder":"./dist","prepublish":"npx cpy \'package.json\' dist"}],"bumpFiles":["package.json"]}');
 
 /***/ }),
 
@@ -46734,7 +46734,7 @@ module.exports = eval("require")("spawn-sync");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest","prepare":"npx cpy \'package.json\' dist"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -47092,6 +47092,11 @@ async function publish(version, bundles) {
   let response;
   try {
     for (let bundle of bundles) {
+      if (bundle.prepublish) {
+        core.info(`Running prepublish command: ${bundle.prepublish}...`);
+        await shell.exec(bundle.prepublish);
+      }
+
       switch (bundle.type.toLowerCase()) {
         case "npm":
           core.info(`Publishing ${bundle.folder}...`);

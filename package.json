@@ -6,8 +6,7 @@
   "scripts": {
     "lint": "eslint index.js",
     "package": "ncc build index.js -o dist",
-    "test": "eslint index.js && jest",
-    "prepare": "cpy 'package.json' dist"
+    "test": "eslint index.js && jest"
   },
   "repository": {
     "type": "git",
@@ -32,11 +31,11 @@
     "got": "^11.8.2",
     "replace": "^1.2.1",
     "semver": "^7.3.5",
-    "simple-git": "^2.47.0",
-    "cpy-cli": "3.1.1"
+    "simple-git": "^2.47.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.31.1",
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "cpy-cli": "3.1.1"
   }
 }

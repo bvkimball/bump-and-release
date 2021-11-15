@@ -25,7 +25,8 @@
   "bundles": [
     {
       "type": "npm",
-      "folder": "./dist"
+      "folder": "./dist",
+      "prepublish": "npx cpy 'package.json' dist"
     }
   ],
   "bumpFiles": ["package.json"]
