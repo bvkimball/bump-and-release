@@ -63,7 +63,7 @@ const getReleaseType = async (config, latest) => {
       return core.info("SHA matches latest release, skipping.");
     if (hash) {
       try {
-        let logs = await getlog({
+        let logs = await git.getlog({
           from: hash,
           to: process.env.GITHUB_SHA,
         });
@@ -183,7 +183,9 @@ const deployGithubPages = async (version, docs) => {
 
 async function run() {
   try {
-    core.info("globalConfig is ");
+    core.info(`running on branch: ${branch}`);
+    core.info(`cwd is ${process.cwd()}`);
+    core.info(`root directroy is ${root}`);
     core.info(JSON.stringify(globalConfig));
     const config = await getBranchConfig(globalConfig);
     const { docs, skipChangeLog } = config;
