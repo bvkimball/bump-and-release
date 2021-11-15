@@ -46973,9 +46973,17 @@ const getBranchConfig = async (config) => {
 };
 
 const getLatestFromNPM = async () => {
-  const registry = process.env.NPM_REGISTRY_URL || "https://registry.npmjs.org";
-  const response = await got(`${registry}/${pkg.name}/latest`).json();
-  if (response && response.version) return response;
+  try {
+    const registry =
+      process.env.NPM_REGISTRY_URL || "https://registry.npmjs.org";
+    const response = await got(`${registry}/${pkg.name}/latest`).json();
+    if (response && response.version) return response;
+  } catch (e) {
+    core.warning(
+      `Unable to find latest info in registry, using package.json as fallback.`
+    );
+  }
+
   return pkg;
 };
 
