@@ -7,7 +7,7 @@
     "lint": "eslint index.js",
     "package": "ncc build index.js -o dist",
     "test": "eslint index.js && jest",
-    "prepare": "cpy 'package.json' dist"
+    "prepare": "npx cpy 'package.json' dist"
   },
   "repository": {
     "type": "git",

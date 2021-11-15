@@ -20,6 +20,12 @@ const branch = process.env.GITHUB_REF.split("/").slice(2).join("/");
 const pkg = require("./package.json");
 const globalConfig = require("./bump.json");
 
+const initialize = async () => {
+  const gitUserEmail = core.getInput("git-user-email");
+  await git.addConfig("user.email", gitUserEmail);
+  await git.addConfig("user.name", "Bump And Release");
+};
+
 const getBranchConfig = async (config) => {
   const internal = config.branches.find((it) => it.name === branch);
   internal.docs = config.docs ? { ...config.docs, ...internal.docs } : false;
@@ -192,6 +198,13 @@ const deployGithubPages = async (version, docs) => {
     core.info("No build for docs task specified");
   }
 
+  //git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+  await git.remote([
+    "set-url",
+    "origin",
+    `https://git:${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}.git`,
+  ]);
+
   return await new Promise((resolve, reject) => {
     const dest = docs.dest || ".";
     ghpages.publish(
@@ -201,12 +214,16 @@ const deployGithubPages = async (version, docs) => {
         ...docs.options,
         remove: `${dest}/**/*`,
         message: "chore(release): v" + version,
+        user: {
+          name: "Bump And Release",
+          email: core.getInput("git-user-email"),
+        },
       },
       (err) => {
         if (err) {
           core.error("Error while publishing demo.");
           core.info(err);
-          reject(err);
+          return reject(err);
         }
         core.info("Demo published!");
         resolve(version);
@@ -217,6 +234,7 @@ const deployGithubPages = async (version, docs) => {
 
 async function run() {
   try {
+    await initialize();
     core.info(`bump-and-release: ${pkg.name}`);
     core.info(`running on branch: ${branch}`);
     const config = await getBranchConfig(globalConfig);

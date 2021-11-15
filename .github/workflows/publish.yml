@@ -10,12 +10,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup
-        run: |
-          git config --local user.email "bvkimball@users.noreply.github.com"
-          git config --local user.name "Bump And Release"
-          npm ci  
+        run: npm ci  
       - name: Bump And Release
         uses: ./
+        with:
+          git-user-email: 'bvkimball@users.noreply.github.com'
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_FOR_GITHUB }}
           NPM_AUTH_TOKEN: ${{ secrets.TOKEN_FOR_NPM }}
