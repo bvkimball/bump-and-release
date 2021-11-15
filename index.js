@@ -146,20 +146,21 @@ async function commitVersion(version) {
   return version;
 }
 
-async function publish(version, bundles) {
+async function publish(version, config, bundles) {
   let response;
+  let tag = config.prerelease ? `${config.prerelease}` : "latest";
+
   try {
     for (let bundle of bundles) {
       if (bundle.prepublish) {
         core.info(`Running prepublish command: ${bundle.prepublish}...`);
         await shell.exec(bundle.prepublish);
       }
-
       switch (bundle.type.toLowerCase()) {
         case "npm":
           core.info(`Publishing ${bundle.folder}...`);
           response = await shell.exec(
-            `npm publish ${bundle.folder} --access public`
+            `npm publish ${bundle.folder} --access public --tag ${tag}`
           );
           core.info(response.stdout);
           core.warning(response.stderr);
@@ -272,7 +273,7 @@ async function run() {
       await commitVersion(version, [...changedFiles]);
       core.info(`Generated Tag`);
 
-      await publish(version, globalConfig.bundles);
+      await publish(version, config, globalConfig.bundles);
       core.info(`Published Bundles`);
 
       await push();
