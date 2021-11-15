@@ -1,6 +1,15 @@
 ## 0.0.2 (2021-11-15)
 
 
+### Bug Fixes
+
+* npm release ([0132302](https://github.com/bvkimball/bump-and-release/commit/01323027204ce018e8e1cf8f7b7ffcc0a05057ab))
+
+
+
+## 0.0.2 (2021-11-15)
+
+
 
 ## 0.0.2 (2021-11-15)
 
