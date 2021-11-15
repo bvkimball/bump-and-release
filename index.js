@@ -24,6 +24,9 @@ const initialize = async () => {
   const gitUserEmail = core.getInput("git-user-email");
   await git.addConfig("user.email", gitUserEmail);
   await git.addConfig("user.name", "Bump And Release");
+  await shell.exec(
+    `npm config set //registry.npmjs.org/:_authToken ${process.env.NPM_AUTH_TOKEN}`
+  );
 };
 
 const getBranchConfig = async (config) => {
