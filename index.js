@@ -192,11 +192,10 @@ const deployGithubPages = async (version, docs) => {
     core.info("No build for docs task specified");
   }
 
-  const dir = path.join(root, docs.dir);
   return await new Promise((resolve, reject) => {
     const dest = docs.dest || ".";
     ghpages.publish(
-      dir,
+      docs.dir,
       {
         dest,
         ...docs.options,
@@ -206,7 +205,7 @@ const deployGithubPages = async (version, docs) => {
       (err) => {
         if (err) {
           core.error("Error while publishing demo.");
-          core.infor(err);
+          core.info(err);
           reject(err);
         }
         core.info("Demo published!");
