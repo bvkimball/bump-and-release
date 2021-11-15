@@ -1,0 +1,8 @@
+name: "Bump And Release"
+description: "Bump package versions, create changelog, and release to npm and/or github"
+branding:
+  icon: "git-pull-request"
+  color: "orange"
+runs:
+  using: "node12"
+  main: "dist/index.js"

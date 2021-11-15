@@ -1,0 +1,12 @@
+name: Manually Release
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    name: Build & Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: npm ci
+      - uses: ./
+          

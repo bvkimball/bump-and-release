@@ -1,0 +1,30 @@
+{
+  "branches": [
+    {
+      "name": "master",
+      "docs": {
+        "dest": ".",
+        "options": {
+          "add": true
+        }
+      }
+    },
+    {
+      "name": "next",
+      "prerelease": "rc",
+      "skipChangeLog": true,
+      "docs": {
+        "dest": "next"
+      }
+    }
+  ],
+  "docs": {
+    "dir": "docs"
+  },
+  "bundles": [
+    {
+      "type": "npm",
+      "folder": "dist"
+    }
+  ]
+}
