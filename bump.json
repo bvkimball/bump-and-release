@@ -1,7 +1,7 @@
 {
   "branches": [
     {
-      "name": "master",
+      "name": "main",
       "docs": {
         "dest": ".",
         "options": {
