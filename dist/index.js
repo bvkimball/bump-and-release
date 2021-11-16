@@ -47140,7 +47140,7 @@ const deployGithubPages = async (version, docs) => {
     if (it && it.preset) {
       switch (it.preset) {
         case "angular":
-          return `npx ng build ${docs.build.app} --base-href /${pkg.name}/${docs.dest}/ --deploy-url /${pkg.name}/${docs.dest}/`;
+          return `npx ng build ${it.app} --base-href /${pkg.name}/${docs.dest}/ --deploy-url /${pkg.name}/${docs.dest}/`;
         default:
           return false;
       }
