@@ -1,6 +1,6 @@
 {
   "name": "bump-and-release-github-action",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Version and publish projects. Only published to NPM for testing.",
   "main": "index.js",
   "scripts": {

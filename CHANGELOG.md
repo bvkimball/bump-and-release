@@ -1,3 +1,12 @@
+## [0.0.9](https://github.com/bvkimball/bump-and-release/compare/v0.0.8...v0.0.9) (2021-11-16)
+
+
+### Features
+
+* Added fetch-depth notice ([0eeced0](https://github.com/bvkimball/bump-and-release/commit/0eeced0d7938ce4e2ac377ea99652d942897099a))
+
+
+
 ## 0.0.8 (2021-11-16)
 
 
