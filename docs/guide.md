@@ -23,6 +23,8 @@ This Action will version your project, publishes a package, and then deploys the
 
 ```yaml
 - uses: bvkimball/bump-and-release@master
+  with:
+    git-user-email: 'bvkimball@users.noreply.github.com'
   env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
