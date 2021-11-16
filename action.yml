@@ -1,10 +1,18 @@
 name: "Bump And Release"
 description: "Bump package versions, create changelog, and release to npm and/or github"
 inputs:
-  git-user-email:  # id of input
+  git-user-email:
     description: 'Sets git user.email value'
     required: true
     default: 'bump-and-release@@users.noreply.github.com'
+  skip-bump:
+    description: 'Whether this build should skip bump to a new version'
+    required: true
+    default: false
+  skip-docs:
+    description: 'Whether this build should skip deploying docs'
+    required: true
+    default: false
 branding:
   icon: "git-pull-request"
   color: "orange"

@@ -1,6 +1,13 @@
 name: Manually Release
 on: 
   workflow_dispatch:
+    inputs:
+      skip-bump:
+        type: boolean
+        description: Skip Publish
+      skip-docs:
+        type: boolean
+        description: Skip Publish
 
 jobs:
   build:
@@ -17,6 +24,8 @@ jobs:
         uses: ./
         with:
           git-user-email: 'bvkimball@users.noreply.github.com'
+          skip-bump: ${{ github.event.inputs.skip-bump }}
+          skip-docs: ${{ github.event.inputs.skip-docs }}
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_FOR_GITHUB }}
           NPM_AUTH_TOKEN: ${{ secrets.TOKEN_FOR_NPM }}

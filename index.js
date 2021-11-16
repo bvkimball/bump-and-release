@@ -267,24 +267,28 @@ async function run() {
       );
       core.info(`Next Version is: ${version}`);
 
-      const changedFiles = await bump(version, globalConfig.bumpFiles);
-      core.info(`Bumped Version in ${changedFiles.length} files`);
-      if (!skipChangeLog) {
-        const changelogFile = path.join(root, "CHANGELOG.md");
-        await changelog(version, changelogFile);
-        core.info(`Change Log Generated`);
-        changedFiles.push(changelogFile);
+      if (core.getBooleanInput("skip-bump")) {
+        core.info(`Skipping Bump and Publish`);
+      } else {
+        const changedFiles = await bump(version, globalConfig.bumpFiles);
+        core.info(`Bumped Version in ${changedFiles.length} files`);
+        if (!skipChangeLog) {
+          const changelogFile = path.join(root, "CHANGELOG.md");
+          await changelog(version, changelogFile);
+          core.info(`Change Log Generated`);
+          changedFiles.push(changelogFile);
+        }
+
+        await commitVersion(version, [...changedFiles]);
+        core.info(`Generated Tag`);
+        await publish(version, config, globalConfig.bundles);
+        core.info(`Published Bundles`);
+        await push();
       }
 
-      await commitVersion(version, [...changedFiles]);
-      core.info(`Generated Tag`);
-
-      await publish(version, config, globalConfig.bundles);
-      core.info(`Published Bundles`);
-
-      await push();
-
-      if (docs) {
+      if (core.getBooleanInput("skip-docs")) {
+        core.info(`Skipping Deploy Docs/Demo`);
+      } else if (docs) {
         switch (docs.type) {
           case "ghpages":
             await deployGithubPages(version, docs);
