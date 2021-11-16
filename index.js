@@ -66,22 +66,18 @@ const getGitHash = async (latest) => {
   // rev-list -n 1 tags/v5.7.0
   if (latest.gitHead) return latest.gitHead;
   try {
-    const hashes = await git.raw([
-      "rev-list",
-      "-n",
-      "1",
-      `tags/v${latest.version}`,
-    ]);
     core.info("Getting latest git hash from tag");
-    core.info(hashes);
-    return hashes[0];
+    const hash = await git.raw(["rev-list", "-n 1", `tags/v${latest.version}`]);
+    core.info(hash);
+    return hash;
   } catch (e) {
+    core.warn(e.message);
     try {
       // Maybe inital commit
       core.info("Errored latest git hash from initial commit");
       const hash = await git.raw(["rev-list", "--max-parents=0", "HEAD"]);
       core.info(hash);
-      return hash[0];
+      return hash;
     } catch (e) {
       core.info("Can not find hash for latest version");
     }
