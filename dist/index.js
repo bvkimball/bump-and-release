@@ -46734,7 +46734,7 @@ module.exports = eval("require")("spawn-sync");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.6","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.8","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -47014,7 +47014,7 @@ const getGitHash = async (latest) => {
     core.info("Getting latest git hash from tag");
     const hash = await git.revparse([`v${latest.version}`]);
     core.info(hash);
-    return hash;
+    return hash.trim();
   } catch (e) {
     core.warning(e.message);
     try {
@@ -47022,7 +47022,7 @@ const getGitHash = async (latest) => {
       core.info("fallback, get latest git hash from previous commit");
       const hash = await git.revparse([`HEAD^1`]);
       core.info(hash);
-      return hash;
+      return hash.trim();
     } catch (e) {
       core.info("Can not find hash for latest version");
     }
@@ -47042,7 +47042,7 @@ const getReleaseType = async (config, latest) => {
     if (hash) {
       try {
         core.info(`get logs from ${hash} to ${process.env.GITHUB_SHA}`);
-        let logs = await git.getlog({
+        let logs = await git.log({
           from: hash,
           to: process.env.GITHUB_SHA,
         });

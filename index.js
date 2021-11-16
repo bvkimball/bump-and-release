@@ -97,7 +97,7 @@ const getReleaseType = async (config, latest) => {
     if (hash) {
       try {
         core.info(`get logs from ${hash} to ${process.env.GITHUB_SHA}`);
-        let logs = await git.getlog({
+        let logs = await git.log({
           from: hash,
           to: process.env.GITHUB_SHA,
         });
