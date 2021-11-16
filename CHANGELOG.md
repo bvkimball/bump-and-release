@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/bvkimball/bump-and-release/compare/v0.1.0...v0.2.0) (2021-11-16)
+
+
+### Features
+
+* Added `skip-bump` and `skip-docs` inputs ([b6f3be0](https://github.com/bvkimball/bump-and-release/commit/b6f3be09783636f571eb9e07651755bb347b79fb))
+
+
+
 # [0.1.0](https://github.com/bvkimball/bump-and-release/compare/v0.0.9...v0.1.0) (2021-11-16)
 
 
