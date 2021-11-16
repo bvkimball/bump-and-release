@@ -88,6 +88,20 @@ The rest of your configuration must be set in your `bump.json` file in the proje
 }
 ```
 
+### Common Pitfalls
+
+#### Fetch Depth
+
+Ensure that you set the fetch depth to `0` or large enough to retrieve all tags and history or the action won't find any commit logs to compare too.
+
+```yaml
+  - name: Checkout
+    uses: actions/checkout@v2
+    with:
+      fetch-depth: 0
+```
+
+
 ## Acknowlegements
 
 Inspired by https://github.com/mikeal/merge-release and https://github.com/ng-lightning/ng-lightning/blob/master/scripts/release.js

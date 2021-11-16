@@ -69,7 +69,7 @@ const getGitHash = async (latest) => {
     core.info("Getting latest git hash from tag");
     const hash = await git.revparse([`v${latest.version}`]);
     core.info(hash);
-    return hash;
+    return hash.trim();
   } catch (e) {
     core.warning(e.message);
     try {
@@ -77,7 +77,7 @@ const getGitHash = async (latest) => {
       core.info("fallback, get latest git hash from previous commit");
       const hash = await git.revparse([`HEAD^1`]);
       core.info(hash);
-      return hash;
+      return hash.trim();
     } catch (e) {
       core.info("Can not find hash for latest version");
     }
