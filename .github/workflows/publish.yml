@@ -7,7 +7,7 @@ on:
         description: Skip Publish
       skip-docs:
         type: boolean
-        description: Skip Publish
+        description: Skip Docs
 
 jobs:
   build:
