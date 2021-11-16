@@ -71,7 +71,7 @@ const getGitHash = async (latest) => {
     core.info(hash);
     return hash;
   } catch (e) {
-    core.warn(e.message);
+    core.warning(e.message);
     try {
       // Maybe inital commit
       core.info("Errored latest git hash from initial commit");
