@@ -1,223 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 29361:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"branches":[{"name":"main","docs":{"dest":".","options":{"add":true}}},{"name":"next","prerelease":"rc","skipChangeLog":true,"docs":{"dest":"next"}}],"docs":{"type":"ghpages","dir":"docs"},"bundles":[{"type":"npm","folder":"./dist","prepublish":"npx cpy \'package.json\' dist"}],"bumpFiles":["package.json"]}');
-
-/***/ }),
-
-/***/ 26981:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@actions/core@1.6.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@actions/core@1.6.0","_id":"@actions/core@1.6.0","_inBundle":false,"_integrity":"sha512-NB1UAZomZlCV/LmJqkLhNTqtKfFXJZAUPcfl/zqG7EfsQdeUJtaWO98SGbuQ3pydJ3fHl2CvI/51OKYlCYYcaw==","_location":"/@actions/core","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@actions/core@1.6.0","name":"@actions/core","escapedName":"@actions%2fcore","scope":"@actions","rawSpec":"1.6.0","saveSpec":null,"fetchSpec":"1.6.0"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/@actions/core/-/core-1.6.0.tgz","_spec":"1.6.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/actions/toolkit/issues"},"dependencies":{"@actions/http-client":"^1.0.11"},"description":"Actions core lib","devDependencies":{"@types/node":"^12.0.2"},"directories":{"lib":"lib","test":"__tests__"},"files":["lib","!.DS_Store"],"homepage":"https://github.com/actions/toolkit/tree/main/packages/core","keywords":["github","actions","core"],"license":"MIT","main":"lib/core.js","name":"@actions/core","publishConfig":{"access":"public"},"repository":{"type":"git","url":"git+https://github.com/actions/toolkit.git","directory":"packages/core"},"scripts":{"audit-moderate":"npm install && npm audit --json --audit-level=moderate > audit.json","test":"echo \\"Error: run tests from root\\" && exit 1","tsc":"tsc"},"types":"lib/core.d.ts","version":"1.6.0"}');
-
-/***/ }),
-
-/***/ 21768:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@actions/http-client@1.0.11","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@actions/http-client@1.0.11","_id":"@actions/http-client@1.0.11","_inBundle":false,"_integrity":"sha512-VRYHGQV1rqnROJqdMvGUbY/Kn8vriQe/F9HR2AlYHzmKuM/p3kjNuXhmdBfcVgsvRWTz5C5XW5xvndZrVBuAYg==","_location":"/@actions/http-client","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@actions/http-client@1.0.11","name":"@actions/http-client","escapedName":"@actions%2fhttp-client","scope":"@actions","rawSpec":"1.0.11","saveSpec":null,"fetchSpec":"1.0.11"},"_requiredBy":["/@actions/core"],"_resolved":"https://registry.npmjs.org/@actions/http-client/-/http-client-1.0.11.tgz","_spec":"1.0.11","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"GitHub, Inc."},"bugs":{"url":"https://github.com/actions/http-client/issues"},"dependencies":{"tunnel":"0.0.6"},"description":"Actions Http Client","devDependencies":{"@types/jest":"^25.1.4","@types/node":"^12.12.31","jest":"^25.1.0","prettier":"^2.0.4","proxy":"^1.0.1","ts-jest":"^25.2.1","typescript":"^3.8.3"},"homepage":"https://github.com/actions/http-client#readme","keywords":["Actions","Http"],"license":"MIT","main":"index.js","name":"@actions/http-client","repository":{"type":"git","url":"git+https://github.com/actions/http-client.git"},"scripts":{"audit-check":"npm audit --audit-level=moderate","build":"rm -Rf ./_out && tsc && cp package*.json ./_out && cp *.md ./_out && cp LICENSE ./_out && cp actions.png ./_out","format":"prettier --write *.ts && prettier --write **/*.ts","format-check":"prettier --check *.ts && prettier --check **/*.ts","test":"jest"},"version":"1.0.11"}');
-
-/***/ }),
-
-/***/ 23474:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@babel/code-frame@7.12.11","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@babel/code-frame@7.12.11","_id":"@babel/code-frame@7.12.11","_inBundle":false,"_integrity":"sha512-Zt1yodBx1UcyiePMSkWnU4hPqhwq7hGi2nFL1LeA3EUl+q2LQx16MISgJ0+z7dnmgvP9QtIleuETGOiOH1RcIw==","_location":"/@babel/code-frame","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@babel/code-frame@7.12.11","name":"@babel/code-frame","escapedName":"@babel%2fcode-frame","scope":"@babel","rawSpec":"7.12.11","saveSpec":null,"fetchSpec":"7.12.11"},"_requiredBy":["/eslint","/parse-json"],"_resolved":"https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.12.11.tgz","_spec":"7.12.11","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sebastian McKenzie","email":"sebmck@gmail.com"},"bugs":{"url":"https://github.com/babel/babel/issues"},"dependencies":{"@babel/highlight":"^7.10.4"},"description":"Generate errors that contain a code frame that point to source locations.","devDependencies":{"@types/chalk":"^2.0.0","chalk":"^2.0.0","strip-ansi":"^4.0.0"},"homepage":"https://babeljs.io/","license":"MIT","main":"lib/index.js","name":"@babel/code-frame","publishConfig":{"access":"public"},"repository":{"type":"git","url":"git+https://github.com/babel/babel.git","directory":"packages/babel-code-frame"},"version":"7.12.11"}');
-
-/***/ }),
-
-/***/ 93534:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@babel/helper-validator-identifier@7.15.7","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@babel/helper-validator-identifier@7.15.7","_id":"@babel/helper-validator-identifier@7.15.7","_inBundle":false,"_integrity":"sha512-K4JvCtQqad9OY2+yTU8w+E82ywk/fe+ELNlt1G8z3bVGlZfn/hOcQQsUhGhW/N+tb3fxK800wLtKOE/aM0m72w==","_location":"/@babel/helper-validator-identifier","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@babel/helper-validator-identifier@7.15.7","name":"@babel/helper-validator-identifier","escapedName":"@babel%2fhelper-validator-identifier","scope":"@babel","rawSpec":"7.15.7","saveSpec":null,"fetchSpec":"7.15.7"},"_requiredBy":["/@babel/highlight"],"_resolved":"https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.15.7.tgz","_spec":"7.15.7","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"The Babel Team","url":"https://babel.dev/team"},"bugs":{"url":"https://github.com/babel/babel/issues"},"description":"Validate identifier/keywords name","devDependencies":{"@unicode/unicode-14.0.0":"^1.2.1","charcodes":"^0.2.0"},"engines":{"node":">=6.9.0"},"exports":"./lib/index.js","homepage":"https://github.com/babel/babel#readme","license":"MIT","main":"./lib/index.js","name":"@babel/helper-validator-identifier","publishConfig":{"access":"public"},"repository":{"type":"git","url":"git+https://github.com/babel/babel.git","directory":"packages/babel-helper-validator-identifier"},"version":"7.15.7"}');
-
-/***/ }),
-
-/***/ 3850:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["chalk@2.4.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"chalk@2.4.2","_id":"chalk@2.4.2","_inBundle":false,"_integrity":"sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==","_location":"/@babel/highlight/chalk","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"chalk@2.4.2","name":"chalk","escapedName":"chalk","rawSpec":"2.4.2","saveSpec":null,"fetchSpec":"2.4.2"},"_requiredBy":["/@babel/highlight"],"_resolved":"https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz","_spec":"2.4.2","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/chalk/chalk/issues"},"dependencies":{"ansi-styles":"^3.2.1","escape-string-regexp":"^1.0.5","supports-color":"^5.3.0"},"description":"Terminal string styling done right","devDependencies":{"ava":"*","coveralls":"^3.0.0","execa":"^0.9.0","flow-bin":"^0.68.0","import-fresh":"^2.0.0","matcha":"^0.7.0","nyc":"^11.0.2","resolve-from":"^4.0.0","typescript":"^2.5.3","xo":"*"},"engines":{"node":">=4"},"files":["index.js","templates.js","types/index.d.ts","index.js.flow"],"homepage":"https://github.com/chalk/chalk#readme","keywords":["color","colour","colors","terminal","console","cli","string","str","ansi","style","styles","tty","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"chalk","repository":{"type":"git","url":"git+https://github.com/chalk/chalk.git"},"scripts":{"bench":"matcha benchmark.js","coveralls":"nyc report --reporter=text-lcov | coveralls","test":"xo && tsc --project types && flow --max-warnings=0 && nyc ava"},"types":"types/index.d.ts","version":"2.4.2","xo":{"envs":["node","mocha"],"ignores":["test/_flow.js"]}}');
-
-/***/ }),
-
-/***/ 98918:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@babel/highlight@7.16.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@babel/highlight@7.16.0","_id":"@babel/highlight@7.16.0","_inBundle":false,"_integrity":"sha512-t8MH41kUQylBtu2+4IQA3atqevA2lRgqA2wyVB/YiWmsDSuylZZuXOUy9ric30hfzauEFfdsuk/eXTRrGrfd0g==","_location":"/@babel/highlight","_phantomChildren":{"ansi-styles":"3.2.1","escape-string-regexp":"1.0.5","supports-color":"5.5.0"},"_requested":{"type":"version","registry":true,"raw":"@babel/highlight@7.16.0","name":"@babel/highlight","escapedName":"@babel%2fhighlight","scope":"@babel","rawSpec":"7.16.0","saveSpec":null,"fetchSpec":"7.16.0"},"_requiredBy":["/@babel/code-frame"],"_resolved":"https://registry.npmjs.org/@babel/highlight/-/highlight-7.16.0.tgz","_spec":"7.16.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"The Babel Team","url":"https://babel.dev/team"},"bugs":{"url":"https://github.com/babel/babel/issues"},"dependencies":{"@babel/helper-validator-identifier":"^7.15.7","chalk":"^2.0.0","js-tokens":"^4.0.0"},"description":"Syntax highlight JavaScript strings for output in terminals.","devDependencies":{"@types/chalk":"^2.0.0","strip-ansi":"^4.0.0"},"engines":{"node":">=6.9.0"},"homepage":"https://babel.dev/docs/en/next/babel-highlight","license":"MIT","main":"./lib/index.js","name":"@babel/highlight","publishConfig":{"access":"public"},"repository":{"type":"git","url":"git+https://github.com/babel/babel.git","directory":"packages/babel-highlight"},"version":"7.16.0"}');
-
-/***/ }),
-
-/***/ 42012:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@eslint/eslintrc@0.4.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@eslint/eslintrc@0.4.3","_id":"@eslint/eslintrc@0.4.3","_inBundle":false,"_integrity":"sha512-J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==","_location":"/@eslint/eslintrc","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@eslint/eslintrc@0.4.3","name":"@eslint/eslintrc","escapedName":"@eslint%2feslintrc","scope":"@eslint","rawSpec":"0.4.3","saveSpec":null,"fetchSpec":"0.4.3"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.4.3.tgz","_spec":"0.4.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Nicholas C. Zakas"},"bugs":{"url":"https://github.com/eslint/eslintrc/issues"},"dependencies":{"ajv":"^6.12.4","debug":"^4.1.1","espree":"^7.3.0","globals":"^13.9.0","ignore":"^4.0.6","import-fresh":"^3.2.1","js-yaml":"^3.13.1","minimatch":"^3.0.4","strip-json-comments":"^3.1.1"},"description":"The legacy ESLintRC config file format for ESLint","devDependencies":{"chai":"^4.2.0","eslint":"^7.21.0","eslint-config-eslint":"^7.0.0","eslint-plugin-jsdoc":"^32.2.0","eslint-plugin-node":"^11.1.0","eslint-release":"^3.1.2","fs-teardown":"0.1.1","mocha":"^8.1.1","shelljs":"^0.8.4","sinon":"^9.2.0","temp-dir":"^2.0.0"},"engines":{"node":"^10.12.0 || >=12.0.0"},"files":["lib","conf","LICENSE"],"homepage":"https://github.com/eslint/eslintrc#readme","keywords":["ESLint","ESLintRC","Configuration"],"license":"MIT","main":"lib/index.js","name":"@eslint/eslintrc","publishConfig":{"access":"public"},"repository":{"type":"git","url":"git+https://github.com/eslint/eslintrc.git"},"scripts":{"fix":"npm run lint -- --fix","generate-alpharelease":"eslint-generate-prerelease alpha","generate-betarelease":"eslint-generate-prerelease beta","generate-rcrelease":"eslint-generate-prerelease rc","generate-release":"eslint-generate-release","lint":"eslint . --report-unused-disable-directives","publish-release":"eslint-publish-release","test":"mocha -R progress -c \'tests/lib/**/*.js\'"},"version":"0.4.3"}');
-
-/***/ }),
-
-/***/ 12170:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@humanwhocodes/config-array@0.5.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@humanwhocodes/config-array@0.5.0","_id":"@humanwhocodes/config-array@0.5.0","_inBundle":false,"_integrity":"sha512-FagtKFz74XrTl7y6HCzQpwDfXP0yhxe9lHLD1UZxjvZIcbyRz8zTFF/yYNfSfzU414eDwZ1SrO0Qvtyf+wFMQg==","_location":"/@humanwhocodes/config-array","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@humanwhocodes/config-array@0.5.0","name":"@humanwhocodes/config-array","escapedName":"@humanwhocodes%2fconfig-array","scope":"@humanwhocodes","rawSpec":"0.5.0","saveSpec":null,"fetchSpec":"0.5.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.5.0.tgz","_spec":"0.5.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Nicholas C. Zakas"},"bugs":{"url":"https://github.com/humanwhocodes/config-array/issues"},"dependencies":{"@humanwhocodes/object-schema":"^1.2.0","debug":"^4.1.1","minimatch":"^3.0.4"},"description":"Glob-based configuration matching.","devDependencies":{"@nitpik/javascript":"^0.3.3","@nitpik/node":"0.0.5","chai":"^4.2.0","eslint":"^6.7.1","esm":"^3.2.25","lint-staged":"^10.2.8","mocha":"^6.1.4","nyc":"^14.1.1","rollup":"^1.12.3","yorkie":"^2.0.0"},"engines":{"node":">=10.10.0"},"files":["api.js"],"gitHooks":{"pre-commit":"lint-staged"},"homepage":"https://github.com/humanwhocodes/config-array#readme","keywords":["configuration","configarray","config file"],"license":"Apache-2.0","lint-staged":{"*.js":["nitpik","eslint --fix --ignore-pattern \'!.eslintrc.js\'"]},"main":"api.js","name":"@humanwhocodes/config-array","repository":{"type":"git","url":"git+https://github.com/humanwhocodes/config-array.git"},"scripts":{"build":"rollup -c","format":"nitpik","lint":"eslint *.config.js src/*.js tests/*.js","prepublish":"npm run build","test":"mocha -r esm tests/ --recursive","test:coverage":"nyc --include src/*.js npm run test"},"version":"0.5.0"}');
-
-/***/ }),
-
-/***/ 53233:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@humanwhocodes/object-schema@1.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@humanwhocodes/object-schema@1.2.1","_id":"@humanwhocodes/object-schema@1.2.1","_inBundle":false,"_integrity":"sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==","_location":"/@humanwhocodes/object-schema","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@humanwhocodes/object-schema@1.2.1","name":"@humanwhocodes/object-schema","escapedName":"@humanwhocodes%2fobject-schema","scope":"@humanwhocodes","rawSpec":"1.2.1","saveSpec":null,"fetchSpec":"1.2.1"},"_requiredBy":["/@humanwhocodes/config-array"],"_resolved":"https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz","_spec":"1.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Nicholas C. Zakas"},"bugs":{"url":"https://github.com/humanwhocodes/object-schema/issues"},"description":"An object schema merger/validator","devDependencies":{"chai":"^4.2.0","eslint":"^5.13.0","mocha":"^5.2.0"},"directories":{"test":"tests"},"homepage":"https://github.com/humanwhocodes/object-schema#readme","keywords":["object","validation","schema","merge"],"license":"BSD-3-Clause","main":"src/index.js","name":"@humanwhocodes/object-schema","repository":{"type":"git","url":"git+https://github.com/humanwhocodes/object-schema.git"},"scripts":{"test":"mocha tests/"},"version":"1.2.1"}');
-
-/***/ }),
-
-/***/ 21028:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@kwsites/file-exists@1.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@kwsites/file-exists@1.1.1","_id":"@kwsites/file-exists@1.1.1","_inBundle":false,"_integrity":"sha512-m9/5YGR18lIwxSFDwfE3oA7bWuq9kdau6ugN4H2rJeyhFQZcG9AgSHkQtSD15a8WvTgfz9aikZMrKPHvbpqFiw==","_location":"/@kwsites/file-exists","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@kwsites/file-exists@1.1.1","name":"@kwsites/file-exists","escapedName":"@kwsites%2ffile-exists","scope":"@kwsites","rawSpec":"1.1.1","saveSpec":null,"fetchSpec":"1.1.1"},"_requiredBy":["/simple-git"],"_resolved":"https://registry.npmjs.org/@kwsites/file-exists/-/file-exists-1.1.1.tgz","_spec":"1.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Steve King","email":"steve@mydev.co"},"bugs":{"url":"https://github.com/kwsites/file-exists/issues"},"contributors":[{"name":"Steve King","email":"steve@mydev.co"}],"dependencies":{"debug":"^4.1.1"},"description":"Synchronous validation of a path existing either as a file or as a directory.","devDependencies":{"@babel/core":"^7.10.1","@babel/preset-env":"^7.10.1","@babel/preset-typescript":"^7.10.1","@types/debug":"^4.1.5","@types/jest":"^26.0.0","@types/node":"^10.12.0","babel-jest":"^26.0.1","jest":"^25.3.0","rimraf":"^2.6.2","ts-node":"^8.10.2","typescript":"^3.1.3"},"files":["dist/**/*.*"],"homepage":"https://github.com/kwsites/file-exists#readme","license":"MIT","main":"./dist/index.js","name":"@kwsites/file-exists","repository":{"type":"git","url":"git+ssh://git@github.com/kwsites/file-exists.git"},"scripts":{"build":"yarn run clean && tsc","clean":"rimraf ./dist","postversion":"npm publish --access=public && git push && git push --tags","preversion":"yarn run clean && yarn run build && yarn test","test":"jest --coverage","tsc":"tsc"},"types":"./dist/index.d.ts","version":"1.1.1"}');
-
-/***/ }),
-
-/***/ 82336:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@kwsites/promise-deferred@1.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@kwsites/promise-deferred@1.1.1","_id":"@kwsites/promise-deferred@1.1.1","_inBundle":false,"_integrity":"sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==","_location":"/@kwsites/promise-deferred","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@kwsites/promise-deferred@1.1.1","name":"@kwsites/promise-deferred","escapedName":"@kwsites%2fpromise-deferred","scope":"@kwsites","rawSpec":"1.1.1","saveSpec":null,"fetchSpec":"1.1.1"},"_requiredBy":["/simple-git"],"_resolved":"https://registry.npmjs.org/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz","_spec":"1.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Steve King","email":"steve@mydev.co"},"bugs":{"url":"https://github.com/kwsites/promise-deferred/issues"},"contributors":[{"name":"Steve King","email":"steve@mydev.co"}],"description":"Minimalist creation of promise wrappers, exposing the ability to resolve or reject the inner promise","devDependencies":{"@babel/core":"^7.10.3","@babel/preset-env":"^7.10.3","@babel/preset-typescript":"^7.10.1","@types/jest":"^26.0.0","@types/node":"^14.0.13","babel-jest":"^26.1.0","babel-preset-env":"^1.7.0","jest":"^26.1.0","ts-node":"^8.10.2","typescript":"^3.9.5"},"files":["LICENSE","dist/**/*.*"],"homepage":"https://github.com/kwsites/promise-deferred#readme","license":"MIT","main":"./dist/index","name":"@kwsites/promise-deferred","private":false,"repository":{"type":"git","url":"git://github.com/kwsites/promise-deferred.git"},"scripts":{"build":"tsc --build","build:clean":"yarn run clean && tsc","clean":"git clean -fxd -e .idea -e node_modules","clean:modules":"git clean -fxd node_modules","postversion":"npm publish --access=public && git push && git push --tags","preversion":"yarn run build:clean && yarn test","test":"jest --coverage","tsc":"tsc"},"types":"./dist/index","version":"1.1.1"}');
-
-/***/ }),
-
-/***/ 30004:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@mrmlnc/readdir-enhanced@2.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@mrmlnc/readdir-enhanced@2.2.1","_id":"@mrmlnc/readdir-enhanced@2.2.1","_inBundle":false,"_integrity":"sha512-bPHp6Ji8b41szTOcaP63VlnbbO5Ny6dwAATtY6JTjh5N2OLrb5Qk/Th5cRkRQhkWCt+EJsYrNB0MiL+Gpn6e3g==","_location":"/@mrmlnc/readdir-enhanced","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@mrmlnc/readdir-enhanced@2.2.1","name":"@mrmlnc/readdir-enhanced","escapedName":"@mrmlnc%2freaddir-enhanced","scope":"@mrmlnc","rawSpec":"2.2.1","saveSpec":null,"fetchSpec":"2.2.1"},"_requiredBy":["/cpy/fast-glob"],"_resolved":"https://registry.npmjs.org/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz","_spec":"2.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"James Messinger","url":"http://bigstickcarpet.com"},"bugs":{"url":"https://github.com/bigstickcarpet/readdir-enhanced/issues"},"dependencies":{"call-me-maybe":"^1.0.1","glob-to-regexp":"^0.3.0"},"description":"fs.readdir with sync, async, and streaming APIs + filtering, recursion, absolute paths, etc.","devDependencies":{"chai":"^4.1.2","codacy-coverage":"^2.0.3","coveralls":"^3.0.0","del":"^3.0.0","eslint":"^4.15.0","eslint-config-modular":"^4.1.1","istanbul":"^0.4.5","mkdirp":"^0.5.1","mocha":"^4.1.0","npm-check":"^5.5.2","through2":"^2.0.3","version-bump-prompt":"^4.0.0"},"engines":{"node":">=4"},"files":["lib","types.d.ts"],"homepage":"https://github.com/bigstickcarpet/readdir-enhanced","keywords":["fs","readdir","stream","event","recursive","deep","filter","absolute"],"license":"MIT","main":"lib/index.js","name":"@mrmlnc/readdir-enhanced","repository":{"type":"git","url":"git+https://github.com/bigstickcarpet/readdir-enhanced.git"},"scripts":{"bump":"bump --prompt --tag --push --all","cover":"istanbul cover _mocha","lint":"eslint lib test --fix","release":"npm run upgrade && npm test && npm run bump && npm publish","test":"mocha && npm run lint","upgrade":"npm-check -u"},"typings":"types.d.ts","version":"2.2.1"}');
-
-/***/ }),
-
-/***/ 72697:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@nodelib/fs.scandir@2.1.5","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@nodelib/fs.scandir@2.1.5","_id":"@nodelib/fs.scandir@2.1.5","_inBundle":false,"_integrity":"sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==","_location":"/@nodelib/fs.scandir","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@nodelib/fs.scandir@2.1.5","name":"@nodelib/fs.scandir","escapedName":"@nodelib%2ffs.scandir","scope":"@nodelib","rawSpec":"2.1.5","saveSpec":null,"fetchSpec":"2.1.5"},"_requiredBy":["/@nodelib/fs.walk"],"_resolved":"https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz","_spec":"2.1.5","_where":"/Users/brian.kimball/Github/bump-and-release","dependencies":{"@nodelib/fs.stat":"2.0.5","run-parallel":"^1.1.9"},"description":"List files and directories inside the specified directory","devDependencies":{"@nodelib/fs.macchiato":"1.0.4","@types/run-parallel":"^1.1.0"},"engines":{"node":">= 8"},"files":["out/**","!out/**/*.map","!out/**/*.spec.*"],"gitHead":"d6a7960d5281d3dd5f8e2efba49bb552d090f562","keywords":["NodeLib","fs","FileSystem","file system","scandir","readdir","dirent"],"license":"MIT","main":"out/index.js","name":"@nodelib/fs.scandir","repository":{"type":"git","url":"https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir"},"scripts":{"build":"npm run clean && npm run compile && npm run lint && npm test","clean":"rimraf {tsconfig.tsbuildinfo,out}","compile":"tsc -b .","compile:watch":"tsc -p . --watch --sourceMap","lint":"eslint \\"src/**/*.ts\\" --cache","test":"mocha \\"out/**/*.spec.js\\" -s 0","watch":"npm run clean && npm run compile:watch"},"typings":"out/index.d.ts","version":"2.1.5"}');
-
-/***/ }),
-
-/***/ 16888:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@nodelib/fs.stat@2.0.5","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@nodelib/fs.stat@2.0.5","_id":"@nodelib/fs.stat@2.0.5","_inBundle":false,"_integrity":"sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==","_location":"/@nodelib/fs.stat","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@nodelib/fs.stat@2.0.5","name":"@nodelib/fs.stat","escapedName":"@nodelib%2ffs.stat","scope":"@nodelib","rawSpec":"2.0.5","saveSpec":null,"fetchSpec":"2.0.5"},"_requiredBy":["/@nodelib/fs.scandir","/fast-glob"],"_resolved":"https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz","_spec":"2.0.5","_where":"/Users/brian.kimball/Github/bump-and-release","description":"Get the status of a file with some features","devDependencies":{"@nodelib/fs.macchiato":"1.0.4"},"engines":{"node":">= 8"},"files":["out/**","!out/**/*.map","!out/**/*.spec.*"],"gitHead":"d6a7960d5281d3dd5f8e2efba49bb552d090f562","keywords":["NodeLib","fs","FileSystem","file system","stat"],"license":"MIT","main":"out/index.js","name":"@nodelib/fs.stat","repository":{"type":"git","url":"https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat"},"scripts":{"build":"npm run clean && npm run compile && npm run lint && npm test","clean":"rimraf {tsconfig.tsbuildinfo,out}","compile":"tsc -b .","compile:watch":"tsc -p . --watch --sourceMap","lint":"eslint \\"src/**/*.ts\\" --cache","test":"mocha \\"out/**/*.spec.js\\" -s 0","watch":"npm run clean && npm run compile:watch"},"typings":"out/index.d.ts","version":"2.0.5"}');
-
-/***/ }),
-
-/***/ 8900:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@nodelib/fs.walk@1.2.8","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@nodelib/fs.walk@1.2.8","_id":"@nodelib/fs.walk@1.2.8","_inBundle":false,"_integrity":"sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==","_location":"/@nodelib/fs.walk","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@nodelib/fs.walk@1.2.8","name":"@nodelib/fs.walk","escapedName":"@nodelib%2ffs.walk","scope":"@nodelib","rawSpec":"1.2.8","saveSpec":null,"fetchSpec":"1.2.8"},"_requiredBy":["/fast-glob"],"_resolved":"https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz","_spec":"1.2.8","_where":"/Users/brian.kimball/Github/bump-and-release","dependencies":{"@nodelib/fs.scandir":"2.1.5","fastq":"^1.6.0"},"description":"A library for efficiently walking a directory recursively","devDependencies":{"@nodelib/fs.macchiato":"1.0.4"},"engines":{"node":">= 8"},"files":["out/**","!out/**/*.map","!out/**/*.spec.*","!out/**/tests/**"],"gitHead":"1e5bad48565da2b06b8600e744324ea240bf49d8","keywords":["NodeLib","fs","FileSystem","file system","walk","scanner","crawler"],"license":"MIT","main":"out/index.js","name":"@nodelib/fs.walk","repository":{"type":"git","url":"https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"},"scripts":{"build":"npm run clean && npm run compile && npm run lint && npm test","clean":"rimraf {tsconfig.tsbuildinfo,out}","compile":"tsc -b .","compile:watch":"tsc -p . --watch --sourceMap","lint":"eslint \\"src/**/*.ts\\" --cache","test":"mocha \\"out/**/*.spec.js\\" -s 0","watch":"npm run clean && npm run compile:watch"},"typings":"out/index.d.ts","version":"1.2.8"}');
-
-/***/ }),
-
-/***/ 55683:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@sindresorhus/is@4.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@sindresorhus/is@4.2.0","_id":"@sindresorhus/is@4.2.0","_inBundle":false,"_integrity":"sha512-VkE3KLBmJwcCaVARtQpfuKcKv8gcBmUubrfHGF84dXuuW6jgsRYxPtzcIhPyK9WAPpRt2/xY6zkD9MnRaJzSyw==","_location":"/@sindresorhus/is","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@sindresorhus/is@4.2.0","name":"@sindresorhus/is","escapedName":"@sindresorhus%2fis","scope":"@sindresorhus","rawSpec":"4.2.0","saveSpec":null,"fetchSpec":"4.2.0"},"_requiredBy":["/got"],"_resolved":"https://registry.npmjs.org/@sindresorhus/is/-/is-4.2.0.tgz","_spec":"4.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"ava":{"extensions":["ts"],"require":["ts-node/register"]},"bugs":{"url":"https://github.com/sindresorhus/is/issues"},"description":"Type check values","devDependencies":{"@sindresorhus/tsconfig":"^0.7.0","@types/jsdom":"^16.1.0","@types/node":"^14.0.13","@types/zen-observable":"^0.8.0","@typescript-eslint/eslint-plugin":"^2.20.0","@typescript-eslint/parser":"^2.20.0","ava":"^3.3.0","del-cli":"^2.0.0","eslint-config-xo-typescript":"^0.26.0","jsdom":"^16.0.1","rxjs":"^6.4.0","tempy":"^0.4.0","ts-node":"^8.3.0","typescript":"~3.8.2","xo":"^0.26.1","zen-observable":"^0.8.8"},"engines":{"node":">=10"},"files":["dist"],"funding":"https://github.com/sindresorhus/is?sponsor=1","homepage":"https://github.com/sindresorhus/is#readme","keywords":["type","types","is","check","checking","validate","validation","utility","util","typeof","instanceof","object","assert","assertion","test","kind","primitive","verify","compare","typescript","typeguards","types"],"license":"MIT","main":"dist/index.js","name":"@sindresorhus/is","repository":{"type":"git","url":"git+https://github.com/sindresorhus/is.git"},"scripts":{"build":"del dist && tsc","prepare":"npm run build","test":"xo && ava"},"sideEffects":false,"types":"dist/index.d.ts","version":"4.2.0","xo":{"extends":"xo-typescript","extensions":["ts"],"parserOptions":{"project":"./tsconfig.xo.json"},"globals":["BigInt","BigInt64Array","BigUint64Array"],"rules":{"@typescript-eslint/promise-function-async":"off","@typescript-eslint/no-empty-function":"off","@typescript-eslint/explicit-function-return-type":"off"}}}');
-
-/***/ }),
-
-/***/ 3579:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@szmarczak/http-timer@4.0.6","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@szmarczak/http-timer@4.0.6","_id":"@szmarczak/http-timer@4.0.6","_inBundle":false,"_integrity":"sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==","_location":"/@szmarczak/http-timer","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@szmarczak/http-timer@4.0.6","name":"@szmarczak/http-timer","escapedName":"@szmarczak%2fhttp-timer","scope":"@szmarczak","rawSpec":"4.0.6","saveSpec":null,"fetchSpec":"4.0.6"},"_requiredBy":["/got"],"_resolved":"https://registry.npmjs.org/@szmarczak/http-timer/-/http-timer-4.0.6.tgz","_spec":"4.0.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Szymon Marczak"},"ava":{"typescript":{"compile":false,"rewritePaths":{"tests/":"dist/tests/"}}},"bugs":{"url":"https://github.com/szmarczak/http-timer/issues"},"dependencies":{"defer-to-connect":"^2.0.0"},"description":"Timings for HTTP requests","devDependencies":{"@ava/typescript":"^2.0.0","@sindresorhus/tsconfig":"^1.0.2","@types/node":"^16.3.1","ava":"^3.15.0","coveralls":"^3.1.1","del-cli":"^3.0.1","http2-wrapper":"^2.0.7","nyc":"^15.1.0","p-event":"^4.2.0","typescript":"^4.3.5","xo":"^0.39.1"},"engines":{"node":">=10"},"files":["dist/source"],"homepage":"https://github.com/szmarczak/http-timer#readme","keywords":["http","https","timer","timings"],"license":"MIT","main":"dist/source","name":"@szmarczak/http-timer","nyc":{"extension":[".ts"],"exclude":["**/tests/**"]},"repository":{"type":"git","url":"git+https://github.com/szmarczak/http-timer.git"},"scripts":{"build":"del-cli dist && tsc","coveralls":"nyc report --reporter=text-lcov | coveralls","prepare":"npm run build","test":"xo && tsc --noEmit && nyc ava"},"types":"dist/source","version":"4.0.6","xo":{"rules":{"@typescript-eslint/no-non-null-assertion":"off"}}}');
-
-/***/ }),
-
-/***/ 82770:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@types/cacheable-request@6.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@types/cacheable-request@6.0.2","_id":"@types/cacheable-request@6.0.2","_inBundle":false,"_integrity":"sha512-B3xVo+dlKM6nnKTcmm5ZtY/OL8bOAOd2Olee9M1zft65ox50OzjEHW91sDiU9j6cvW8Ejg1/Qkf4xd2kugApUA==","_location":"/@types/cacheable-request","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@types/cacheable-request@6.0.2","name":"@types/cacheable-request","escapedName":"@types%2fcacheable-request","scope":"@types","rawSpec":"6.0.2","saveSpec":null,"fetchSpec":"6.0.2"},"_requiredBy":["/got"],"_resolved":"https://registry.npmjs.org/@types/cacheable-request/-/cacheable-request-6.0.2.tgz","_spec":"6.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/DefinitelyTyped/DefinitelyTyped/issues"},"contributors":[{"name":"BendingBender","url":"https://github.com/BendingBender"},{"name":"Paul Melnikow","url":"https://github.com/paulmelnikow"}],"dependencies":{"@types/http-cache-semantics":"*","@types/keyv":"*","@types/node":"*","@types/responselike":"*"},"description":"TypeScript definitions for cacheable-request","homepage":"https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/cacheable-request","license":"MIT","main":"","name":"@types/cacheable-request","repository":{"type":"git","url":"git+https://github.com/DefinitelyTyped/DefinitelyTyped.git","directory":"types/cacheable-request"},"scripts":{},"typeScriptVersion":"3.6","types":"index.d.ts","typesPublisherContentHash":"5bc07db78df7c21a4d6250dbb806ad088df376f7ed46c63b60bb0e08488dcdc4","version":"6.0.2"}');
-
-/***/ }),
-
-/***/ 14739:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@types/glob@7.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@types/glob@7.2.0","_id":"@types/glob@7.2.0","_inBundle":false,"_integrity":"sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==","_location":"/@types/glob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@types/glob@7.2.0","name":"@types/glob","escapedName":"@types%2fglob","scope":"@types","rawSpec":"7.2.0","saveSpec":null,"fetchSpec":"7.2.0"},"_requiredBy":["/cpy/globby"],"_resolved":"https://registry.npmjs.org/@types/glob/-/glob-7.2.0.tgz","_spec":"7.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/DefinitelyTyped/DefinitelyTyped/issues"},"contributors":[{"name":"vvakame","url":"https://github.com/vvakame"},{"name":"voy","url":"https://github.com/voy"},{"name":"Klaus Meinhardt","url":"https://github.com/ajafff"},{"name":"Piotr Błażejewicz","url":"https://github.com/peterblazejewicz"}],"dependencies":{"@types/minimatch":"*","@types/node":"*"},"description":"TypeScript definitions for Glob","homepage":"https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/glob","license":"MIT","main":"","name":"@types/glob","repository":{"type":"git","url":"git+https://github.com/DefinitelyTyped/DefinitelyTyped.git","directory":"types/glob"},"scripts":{},"typeScriptVersion":"3.7","types":"index.d.ts","typesPublisherContentHash":"436848b740c6ebcf1bfea5b5542b494eb73ed390b43a18c3dffa26ce9bad0aa8","version":"7.2.0"}');
-
-/***/ }),
-
-/***/ 60527:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@types/http-cache-semantics@4.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@types/http-cache-semantics@4.0.1","_id":"@types/http-cache-semantics@4.0.1","_inBundle":false,"_integrity":"sha512-SZs7ekbP8CN0txVG2xVRH6EgKmEm31BOxA07vkFaETzZz1xh+cbt8BcI0slpymvwhx5dlFnQG2rTlPVQn+iRPQ==","_location":"/@types/http-cache-semantics","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@types/http-cache-semantics@4.0.1","name":"@types/http-cache-semantics","escapedName":"@types%2fhttp-cache-semantics","scope":"@types","rawSpec":"4.0.1","saveSpec":null,"fetchSpec":"4.0.1"},"_requiredBy":["/@types/cacheable-request"],"_resolved":"https://registry.npmjs.org/@types/http-cache-semantics/-/http-cache-semantics-4.0.1.tgz","_spec":"4.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/DefinitelyTyped/DefinitelyTyped/issues"},"contributors":[{"name":"BendingBender","url":"https://github.com/BendingBender"}],"dependencies":{},"description":"TypeScript definitions for http-cache-semantics","homepage":"https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/http-cache-semantics","license":"MIT","main":"","name":"@types/http-cache-semantics","repository":{"type":"git","url":"git+https://github.com/DefinitelyTyped/DefinitelyTyped.git","directory":"types/http-cache-semantics"},"scripts":{},"typeScriptVersion":"3.6","types":"index.d.ts","typesPublisherContentHash":"9ecb3137d8c0ede7c06f5d90c7d4759e560a26effb8846bc51a99b63f03dd2d1","version":"4.0.1"}');
-
-/***/ }),
-
-/***/ 85975:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@types/keyv@3.1.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@types/keyv@3.1.3","_id":"@types/keyv@3.1.3","_inBundle":false,"_integrity":"sha512-FXCJgyyN3ivVgRoml4h94G/p3kY+u/B86La+QptcqJaWtBWtmc6TtkNfS40n9bIvyLteHh7zXOtgbobORKPbDg==","_location":"/@types/keyv","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@types/keyv@3.1.3","name":"@types/keyv","escapedName":"@types%2fkeyv","scope":"@types","rawSpec":"3.1.3","saveSpec":null,"fetchSpec":"3.1.3"},"_requiredBy":["/@types/cacheable-request"],"_resolved":"https://registry.npmjs.org/@types/keyv/-/keyv-3.1.3.tgz","_spec":"3.1.3","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/DefinitelyTyped/DefinitelyTyped/issues"},"contributors":[{"name":"AryloYeung","url":"https://github.com/Arylo"},{"name":"BendingBender","url":"https://github.com/BendingBender"}],"dependencies":{"@types/node":"*"},"description":"TypeScript definitions for keyv","homepage":"https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/keyv","license":"MIT","main":"","name":"@types/keyv","repository":{"type":"git","url":"git+https://github.com/DefinitelyTyped/DefinitelyTyped.git","directory":"types/keyv"},"scripts":{},"typeScriptVersion":"3.7","types":"index.d.ts","typesPublisherContentHash":"f8d3aab62b87448dca0f22f85932aed615f961053f7cc2604aad6c374e62c692","version":"3.1.3"}');
-
-/***/ }),
-
-/***/ 5518:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@types/minimatch@3.0.5","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@types/minimatch@3.0.5","_id":"@types/minimatch@3.0.5","_inBundle":false,"_integrity":"sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==","_location":"/@types/minimatch","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@types/minimatch@3.0.5","name":"@types/minimatch","escapedName":"@types%2fminimatch","scope":"@types","rawSpec":"3.0.5","saveSpec":null,"fetchSpec":"3.0.5"},"_requiredBy":["/@types/glob"],"_resolved":"https://registry.npmjs.org/@types/minimatch/-/minimatch-3.0.5.tgz","_spec":"3.0.5","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/DefinitelyTyped/DefinitelyTyped/issues"},"contributors":[{"name":"vvakame","url":"https://github.com/vvakame"},{"name":"Shant Marouti","url":"https://github.com/shantmarouti"}],"dependencies":{},"description":"TypeScript definitions for Minimatch","homepage":"https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/minimatch","license":"MIT","main":"","name":"@types/minimatch","repository":{"type":"git","url":"git+https://github.com/DefinitelyTyped/DefinitelyTyped.git","directory":"types/minimatch"},"scripts":{},"typeScriptVersion":"3.6","types":"index.d.ts","typesPublisherContentHash":"ce8670ab7ddb0b32136aa0f819c3e7d791e75f04ff991f2f1baa3a9967dd61c0","version":"3.0.5"}');
-
-/***/ }),
-
-/***/ 63802:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@types/minimist@1.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@types/minimist@1.2.2","_id":"@types/minimist@1.2.2","_inBundle":false,"_integrity":"sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==","_location":"/@types/minimist","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@types/minimist@1.2.2","name":"@types/minimist","escapedName":"@types%2fminimist","scope":"@types","rawSpec":"1.2.2","saveSpec":null,"fetchSpec":"1.2.2"},"_requiredBy":["/meow"],"_resolved":"https://registry.npmjs.org/@types/minimist/-/minimist-1.2.2.tgz","_spec":"1.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/DefinitelyTyped/DefinitelyTyped/issues"},"contributors":[{"name":"Bart van der Schoor","url":"https://github.com/Bartvds"},{"name":"Necroskillz","url":"https://github.com/Necroskillz"},{"name":"kamranayub","url":"https://github.com/kamranayub"},{"name":"Piotr Błażejewicz","url":"https://github.com/peterblazejewicz"}],"dependencies":{},"description":"TypeScript definitions for minimist","homepage":"https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/minimist","license":"MIT","main":"","name":"@types/minimist","repository":{"type":"git","url":"git+https://github.com/DefinitelyTyped/DefinitelyTyped.git","directory":"types/minimist"},"scripts":{},"typeScriptVersion":"3.6","types":"index.d.ts","typesPublisherContentHash":"9032205d52417d0f537f1e52af6f7ac447acb4b87dca0ab5840b83ec7818232e","version":"1.2.2"}');
-
-/***/ }),
-
-/***/ 73685:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@types/node@16.11.7","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@types/node@16.11.7","_id":"@types/node@16.11.7","_inBundle":false,"_integrity":"sha512-QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==","_location":"/@types/node","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@types/node@16.11.7","name":"@types/node","escapedName":"@types%2fnode","scope":"@types","rawSpec":"16.11.7","saveSpec":null,"fetchSpec":"16.11.7"},"_requiredBy":["/@types/cacheable-request","/@types/glob","/@types/keyv","/@types/responselike"],"_resolved":"https://registry.npmjs.org/@types/node/-/node-16.11.7.tgz","_spec":"16.11.7","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/DefinitelyTyped/DefinitelyTyped/issues"},"contributors":[{"name":"Microsoft TypeScript","url":"https://github.com/Microsoft"},{"name":"DefinitelyTyped","url":"https://github.com/DefinitelyTyped"},{"name":"Alberto Schiabel","url":"https://github.com/jkomyno"},{"name":"Alvis HT Tang","url":"https://github.com/alvis"},{"name":"Andrew Makarov","url":"https://github.com/r3nya"},{"name":"Benjamin Toueg","url":"https://github.com/btoueg"},{"name":"Chigozirim C.","url":"https://github.com/smac89"},{"name":"David Junger","url":"https://github.com/touffy"},{"name":"Deividas Bakanas","url":"https://github.com/DeividasBakanas"},{"name":"Eugene Y. Q. Shen","url":"https://github.com/eyqs"},{"name":"Hannes Magnusson","url":"https://github.com/Hannes-Magnusson-CK"},{"name":"Huw","url":"https://github.com/hoo29"},{"name":"Kelvin Jin","url":"https://github.com/kjin"},{"name":"Klaus Meinhardt","url":"https://github.com/ajafff"},{"name":"Lishude","url":"https://github.com/islishude"},{"name":"Mariusz Wiktorczyk","url":"https://github.com/mwiktorczyk"},{"name":"Mohsen Azimi","url":"https://github.com/mohsen1"},{"name":"Nicolas Even","url":"https://github.com/n-e"},{"name":"Nikita Galkin","url":"https://github.com/galkin"},{"name":"Parambir Singh","url":"https://github.com/parambirs"},{"name":"Sebastian Silbermann","url":"https://github.com/eps1lon"},{"name":"Simon Schick","url":"https://github.com/SimonSchick"},{"name":"Thomas den Hollander","url":"https://github.com/ThomasdenH"},{"name":"Wilco Bakker","url":"https://github.com/WilcoBakker"},{"name":"wwwy3y3","url":"https://github.com/wwwy3y3"},{"name":"Samuel Ainsworth","url":"https://github.com/samuela"},{"name":"Kyle Uehlein","url":"https://github.com/kuehlein"},{"name":"Thanik Bhongbhibhat","url":"https://github.com/bhongy"},{"name":"Marcin Kopacz","url":"https://github.com/chyzwar"},{"name":"Trivikram Kamat","url":"https://github.com/trivikr"},{"name":"Junxiao Shi","url":"https://github.com/yoursunny"},{"name":"Ilia Baryshnikov","url":"https://github.com/qwelias"},{"name":"ExE Boss","url":"https://github.com/ExE-Boss"},{"name":"Surasak Chaisurin","url":"https://github.com/Ryan-Willpower"},{"name":"Piotr Błażejewicz","url":"https://github.com/peterblazejewicz"},{"name":"Anna Henningsen","url":"https://github.com/addaleax"},{"name":"Victor Perin","url":"https://github.com/victorperin"},{"name":"Yongsheng Zhang","url":"https://github.com/ZYSzys"},{"name":"NodeJS Contributors","url":"https://github.com/NodeJS"},{"name":"Linus Unnebäck","url":"https://github.com/LinusU"},{"name":"wafuwafu13","url":"https://github.com/wafuwafu13"}],"dependencies":{},"description":"TypeScript definitions for Node.js","homepage":"https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node","license":"MIT","main":"","name":"@types/node","repository":{"type":"git","url":"git+https://github.com/DefinitelyTyped/DefinitelyTyped.git","directory":"types/node"},"scripts":{},"typeScriptVersion":"3.7","types":"index.d.ts","typesPublisherContentHash":"f35526242fcaf9fa8ad50a3aadb0bb8c2e9aba5a332ca0523451167ec6a19f2e","version":"16.11.7"}');
-
-/***/ }),
-
-/***/ 24551:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@types/normalize-package-data@2.4.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@types/normalize-package-data@2.4.1","_id":"@types/normalize-package-data@2.4.1","_inBundle":false,"_integrity":"sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==","_location":"/@types/normalize-package-data","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@types/normalize-package-data@2.4.1","name":"@types/normalize-package-data","escapedName":"@types%2fnormalize-package-data","scope":"@types","rawSpec":"2.4.1","saveSpec":null,"fetchSpec":"2.4.1"},"_requiredBy":["/read-pkg"],"_resolved":"https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz","_spec":"2.4.1","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/DefinitelyTyped/DefinitelyTyped/issues"},"contributors":[{"name":"Jeff Dickey","url":"https://github.com/jdxcode"}],"dependencies":{},"description":"TypeScript definitions for normalize-package-data","homepage":"https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/normalize-package-data","license":"MIT","main":"","name":"@types/normalize-package-data","repository":{"type":"git","url":"git+https://github.com/DefinitelyTyped/DefinitelyTyped.git","directory":"types/normalize-package-data"},"scripts":{},"typeScriptVersion":"3.6","types":"index.d.ts","typesPublisherContentHash":"10653410655e204616118acfbe2900dc09227bc3a80c532a93d44b46be54db36","version":"2.4.1"}');
-
-/***/ }),
-
-/***/ 15990:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@types/responselike@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"@types/responselike@1.0.0","_id":"@types/responselike@1.0.0","_inBundle":false,"_integrity":"sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==","_location":"/@types/responselike","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@types/responselike@1.0.0","name":"@types/responselike","escapedName":"@types%2fresponselike","scope":"@types","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/@types/cacheable-request","/got"],"_resolved":"https://registry.npmjs.org/@types/responselike/-/responselike-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/DefinitelyTyped/DefinitelyTyped/issues"},"contributors":[{"name":"BendingBender","url":"https://github.com/BendingBender"}],"dependencies":{"@types/node":"*"},"description":"TypeScript definitions for responselike","homepage":"https://github.com/DefinitelyTyped/DefinitelyTyped#readme","license":"MIT","main":"","name":"@types/responselike","repository":{"type":"git","url":"git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"},"scripts":{},"typeScriptVersion":"2.0","types":"index","typesPublisherContentHash":"38ee8db1511cdb4a9133ff67b8bc16901de733aa4dc1efffdb5064b7daaa3f21","version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 87351:
+/***/ 7351:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -243,7 +27,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.issue = exports.issueCommand = void 0;
-const os = __importStar(__nccwpck_require__(12087));
+const os = __importStar(__nccwpck_require__(2087));
 const utils_1 = __nccwpck_require__(5278);
 /**
  * Commands
@@ -316,7 +100,7 @@ function escapeProperty(s) {
 
 /***/ }),
 
-/***/ 42186:
+/***/ 2186:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -351,12 +135,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getIDToken = exports.getState = exports.saveState = exports.group = exports.endGroup = exports.startGroup = exports.info = exports.notice = exports.warning = exports.error = exports.debug = exports.isDebug = exports.setFailed = exports.setCommandEcho = exports.setOutput = exports.getBooleanInput = exports.getMultilineInput = exports.getInput = exports.addPath = exports.setSecret = exports.exportVariable = exports.ExitCode = void 0;
-const command_1 = __nccwpck_require__(87351);
+const command_1 = __nccwpck_require__(7351);
 const file_command_1 = __nccwpck_require__(717);
 const utils_1 = __nccwpck_require__(5278);
-const os = __importStar(__nccwpck_require__(12087));
-const path = __importStar(__nccwpck_require__(85622));
-const oidc_utils_1 = __nccwpck_require__(98041);
+const os = __importStar(__nccwpck_require__(2087));
+const path = __importStar(__nccwpck_require__(5622));
+const oidc_utils_1 = __nccwpck_require__(8041);
 /**
  * The code to exit an action
  */
@@ -664,8 +448,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.issueCommand = void 0;
 // We use any as a valid input type
 /* eslint-disable @typescript-eslint/no-explicit-any */
-const fs = __importStar(__nccwpck_require__(35747));
-const os = __importStar(__nccwpck_require__(12087));
+const fs = __importStar(__nccwpck_require__(5747));
+const os = __importStar(__nccwpck_require__(2087));
 const utils_1 = __nccwpck_require__(5278);
 function issueCommand(command, message) {
     const filePath = process.env[`GITHUB_${command}`];
@@ -684,7 +468,7 @@ exports.issueCommand = issueCommand;
 
 /***/ }),
 
-/***/ 98041:
+/***/ 8041:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -700,9 +484,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.OidcClient = void 0;
-const http_client_1 = __nccwpck_require__(39925);
-const auth_1 = __nccwpck_require__(23702);
-const core_1 = __nccwpck_require__(42186);
+const http_client_1 = __nccwpck_require__(9925);
+const auth_1 = __nccwpck_require__(3702);
+const core_1 = __nccwpck_require__(2186);
 class OidcClient {
     static createHttpClient(allowRetry = true, maxRetry = 10) {
         const requestOptions = {
@@ -815,7 +599,7 @@ exports.toCommandProperties = toCommandProperties;
 
 /***/ }),
 
-/***/ 23702:
+/***/ 3702:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -881,15 +665,15 @@ exports.PersonalAccessTokenCredentialHandler = PersonalAccessTokenCredentialHand
 
 /***/ }),
 
-/***/ 39925:
+/***/ 9925:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const http = __nccwpck_require__(98605);
-const https = __nccwpck_require__(57211);
-const pm = __nccwpck_require__(16443);
+const http = __nccwpck_require__(8605);
+const https = __nccwpck_require__(7211);
+const pm = __nccwpck_require__(6443);
 let tunnel;
 var HttpCodes;
 (function (HttpCodes) {
@@ -1308,7 +1092,7 @@ class HttpClient {
         if (useProxy) {
             // If using proxy, need tunnel
             if (!tunnel) {
-                tunnel = __nccwpck_require__(74294);
+                tunnel = __nccwpck_require__(4294);
             }
             const agentOptions = {
                 maxSockets: maxSockets,
@@ -1426,7 +1210,7 @@ exports.HttpClient = HttpClient;
 
 /***/ }),
 
-/***/ 16443:
+/***/ 6443:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -1491,7 +1275,7 @@ exports.checkBypass = checkBypass;
 
 /***/ }),
 
-/***/ 54751:
+/***/ 4751:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -1500,12 +1284,12 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-__export(__nccwpck_require__(42825));
+__export(__nccwpck_require__(2825));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 42825:
+/***/ 2825:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -1514,8 +1298,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const fs_1 = __nccwpck_require__(35747);
-const debug_1 = __importDefault(__nccwpck_require__(38237));
+const fs_1 = __nccwpck_require__(5747);
+const debug_1 = __importDefault(__nccwpck_require__(8231));
 const log = debug_1.default('@kwsites/file-exists');
 function check(path, isFile, isDirectory) {
     log(`checking %s`, path);
@@ -1567,7 +1351,7 @@ exports.READABLE = exports.FILE + exports.FOLDER;
 
 /***/ }),
 
-/***/ 49819:
+/***/ 9819:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -1633,14 +1417,14 @@ exports.default = deferred;
 
 /***/ }),
 
-/***/ 63803:
+/***/ 3803:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.createFileSystemAdapter = exports.FILE_SYSTEM_ADAPTER = void 0;
-const fs = __nccwpck_require__(35747);
+const fs = __nccwpck_require__(5747);
 exports.FILE_SYSTEM_ADAPTER = {
     lstat: fs.lstat,
     stat: fs.stat,
@@ -1660,7 +1444,7 @@ exports.createFileSystemAdapter = createFileSystemAdapter;
 
 /***/ }),
 
-/***/ 18838:
+/***/ 8838:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -1685,16 +1469,16 @@ exports.IS_SUPPORT_READDIR_WITH_FILE_TYPES = IS_MATCHED_BY_MAJOR || IS_MATCHED_B
 
 /***/ }),
 
-/***/ 75667:
+/***/ 5667:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Settings = exports.scandirSync = exports.scandir = void 0;
-const async = __nccwpck_require__(84507);
-const sync = __nccwpck_require__(69560);
-const settings_1 = __nccwpck_require__(88662);
+const async = __nccwpck_require__(4507);
+const sync = __nccwpck_require__(9560);
+const settings_1 = __nccwpck_require__(8662);
 exports.Settings = settings_1.default;
 function scandir(path, optionsOrSettingsOrCallback, callback) {
     if (typeof optionsOrSettingsOrCallback === 'function') {
@@ -1719,17 +1503,17 @@ function getSettings(settingsOrOptions = {}) {
 
 /***/ }),
 
-/***/ 84507:
+/***/ 4507:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.readdir = exports.readdirWithFileTypes = exports.read = void 0;
-const fsStat = __nccwpck_require__(70109);
-const rpl = __nccwpck_require__(75288);
-const constants_1 = __nccwpck_require__(18838);
-const utils = __nccwpck_require__(16297);
+const fsStat = __nccwpck_require__(109);
+const rpl = __nccwpck_require__(5288);
+const constants_1 = __nccwpck_require__(8838);
+const utils = __nccwpck_require__(6297);
 const common = __nccwpck_require__(3847);
 function read(directory, settings, callback) {
     if (!settings.stats && constants_1.IS_SUPPORT_READDIR_WITH_FILE_TYPES) {
@@ -1852,16 +1636,16 @@ exports.joinPathSegments = joinPathSegments;
 
 /***/ }),
 
-/***/ 69560:
+/***/ 9560:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.readdir = exports.readdirWithFileTypes = exports.read = void 0;
-const fsStat = __nccwpck_require__(70109);
-const constants_1 = __nccwpck_require__(18838);
-const utils = __nccwpck_require__(16297);
+const fsStat = __nccwpck_require__(109);
+const constants_1 = __nccwpck_require__(8838);
+const utils = __nccwpck_require__(6297);
 const common = __nccwpck_require__(3847);
 function read(directory, settings) {
     if (!settings.stats && constants_1.IS_SUPPORT_READDIR_WITH_FILE_TYPES) {
@@ -1914,15 +1698,15 @@ exports.readdir = readdir;
 
 /***/ }),
 
-/***/ 88662:
+/***/ 8662:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const path = __nccwpck_require__(85622);
-const fsStat = __nccwpck_require__(70109);
-const fs = __nccwpck_require__(63803);
+const path = __nccwpck_require__(5622);
+const fsStat = __nccwpck_require__(109);
+const fs = __nccwpck_require__(3803);
 class Settings {
     constructor(_options = {}) {
         this._options = _options;
@@ -1946,7 +1730,7 @@ exports.default = Settings;
 
 /***/ }),
 
-/***/ 60883:
+/***/ 883:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -1973,27 +1757,27 @@ exports.createDirentFromStats = createDirentFromStats;
 
 /***/ }),
 
-/***/ 16297:
+/***/ 6297:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fs = void 0;
-const fs = __nccwpck_require__(60883);
+const fs = __nccwpck_require__(883);
 exports.fs = fs;
 
 
 /***/ }),
 
-/***/ 32987:
+/***/ 2987:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.createFileSystemAdapter = exports.FILE_SYSTEM_ADAPTER = void 0;
-const fs = __nccwpck_require__(35747);
+const fs = __nccwpck_require__(5747);
 exports.FILE_SYSTEM_ADAPTER = {
     lstat: fs.lstat,
     stat: fs.stat,
@@ -2011,16 +1795,16 @@ exports.createFileSystemAdapter = createFileSystemAdapter;
 
 /***/ }),
 
-/***/ 70109:
+/***/ 109:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.statSync = exports.stat = exports.Settings = void 0;
-const async = __nccwpck_require__(34147);
-const sync = __nccwpck_require__(34527);
-const settings_1 = __nccwpck_require__(12410);
+const async = __nccwpck_require__(4147);
+const sync = __nccwpck_require__(4527);
+const settings_1 = __nccwpck_require__(2410);
 exports.Settings = settings_1.default;
 function stat(path, optionsOrSettingsOrCallback, callback) {
     if (typeof optionsOrSettingsOrCallback === 'function') {
@@ -2045,7 +1829,7 @@ function getSettings(settingsOrOptions = {}) {
 
 /***/ }),
 
-/***/ 34147:
+/***/ 4147:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -2089,7 +1873,7 @@ function callSuccessCallback(callback, result) {
 
 /***/ }),
 
-/***/ 34527:
+/***/ 4527:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -2120,13 +1904,13 @@ exports.read = read;
 
 /***/ }),
 
-/***/ 12410:
+/***/ 2410:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const fs = __nccwpck_require__(32987);
+const fs = __nccwpck_require__(2987);
 class Settings {
     constructor(_options = {}) {
         this._options = _options;
@@ -2144,17 +1928,17 @@ exports.default = Settings;
 
 /***/ }),
 
-/***/ 26026:
+/***/ 6026:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Settings = exports.walkStream = exports.walkSync = exports.walk = void 0;
-const async_1 = __nccwpck_require__(77523);
-const stream_1 = __nccwpck_require__(96737);
-const sync_1 = __nccwpck_require__(13068);
-const settings_1 = __nccwpck_require__(50141);
+const async_1 = __nccwpck_require__(7523);
+const stream_1 = __nccwpck_require__(6737);
+const sync_1 = __nccwpck_require__(3068);
+const settings_1 = __nccwpck_require__(141);
 exports.Settings = settings_1.default;
 function walk(directory, optionsOrSettingsOrCallback, callback) {
     if (typeof optionsOrSettingsOrCallback === 'function') {
@@ -2186,13 +1970,13 @@ function getSettings(settingsOrOptions = {}) {
 
 /***/ }),
 
-/***/ 77523:
+/***/ 7523:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const async_1 = __nccwpck_require__(55732);
+const async_1 = __nccwpck_require__(5732);
 class AsyncProvider {
     constructor(_root, _settings) {
         this._root = _root;
@@ -2224,14 +2008,14 @@ function callSuccessCallback(callback, entries) {
 
 /***/ }),
 
-/***/ 96737:
+/***/ 6737:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const stream_1 = __nccwpck_require__(92413);
-const async_1 = __nccwpck_require__(55732);
+const stream_1 = __nccwpck_require__(2413);
+const async_1 = __nccwpck_require__(5732);
 class StreamProvider {
     constructor(_root, _settings) {
         this._root = _root;
@@ -2266,13 +2050,13 @@ exports.default = StreamProvider;
 
 /***/ }),
 
-/***/ 13068:
+/***/ 3068:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const sync_1 = __nccwpck_require__(13595);
+const sync_1 = __nccwpck_require__(3595);
 class SyncProvider {
     constructor(_root, _settings) {
         this._root = _root;
@@ -2288,17 +2072,17 @@ exports.default = SyncProvider;
 
 /***/ }),
 
-/***/ 55732:
+/***/ 5732:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const events_1 = __nccwpck_require__(28614);
-const fsScandir = __nccwpck_require__(75667);
+const events_1 = __nccwpck_require__(8614);
+const fsScandir = __nccwpck_require__(5667);
 const fastq = __nccwpck_require__(7340);
-const common = __nccwpck_require__(97988);
-const reader_1 = __nccwpck_require__(88311);
+const common = __nccwpck_require__(7988);
+const reader_1 = __nccwpck_require__(8311);
 class AsyncReader extends reader_1.default {
     constructor(_root, _settings) {
         super(_root, _settings);
@@ -2393,7 +2177,7 @@ exports.default = AsyncReader;
 
 /***/ }),
 
-/***/ 97988:
+/***/ 7988:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -2432,13 +2216,13 @@ exports.joinPathSegments = joinPathSegments;
 
 /***/ }),
 
-/***/ 88311:
+/***/ 8311:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const common = __nccwpck_require__(97988);
+const common = __nccwpck_require__(7988);
 class Reader {
     constructor(_root, _settings) {
         this._root = _root;
@@ -2451,15 +2235,15 @@ exports.default = Reader;
 
 /***/ }),
 
-/***/ 13595:
+/***/ 3595:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const fsScandir = __nccwpck_require__(75667);
-const common = __nccwpck_require__(97988);
-const reader_1 = __nccwpck_require__(88311);
+const fsScandir = __nccwpck_require__(5667);
+const common = __nccwpck_require__(7988);
+const reader_1 = __nccwpck_require__(8311);
 class SyncReader extends reader_1.default {
     constructor() {
         super(...arguments);
@@ -2518,14 +2302,14 @@ exports.default = SyncReader;
 
 /***/ }),
 
-/***/ 50141:
+/***/ 141:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const path = __nccwpck_require__(85622);
-const fsScandir = __nccwpck_require__(75667);
+const path = __nccwpck_require__(5622);
+const fsScandir = __nccwpck_require__(5667);
 class Settings {
     constructor(_options = {}) {
         this._options = _options;
@@ -2987,14 +2771,14 @@ module.exports.assert = exports.assert;
 
 /***/ }),
 
-/***/ 48097:
+/***/ 8097:
 /***/ ((module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const defer_to_connect_1 = __nccwpck_require__(96214);
-const util_1 = __nccwpck_require__(31669);
+const defer_to_connect_1 = __nccwpck_require__(6214);
+const util_1 = __nccwpck_require__(1669);
 const nodejsMajorVersion = Number(process.versions.node.split('.')[0]);
 const timer = (request) => {
     if (request.timings) {
@@ -3121,13 +2905,13 @@ module.exports.default = timer;
 
 /***/ }),
 
-/***/ 52068:
+/***/ 2068:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 /* module decorator */ module = __nccwpck_require__.nmd(module);
 
-const colorConvert = __nccwpck_require__(86931);
+const colorConvert = __nccwpck_require__(6931);
 
 const wrapAnsi16 = (fn, offset) => function () {
 	const code = fn.apply(colorConvert, arguments);
@@ -3295,12 +3079,12 @@ Object.defineProperty(module, 'exports', {
 
 /***/ }),
 
-/***/ 99600:
+/***/ 9600:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-var arrayUniq = __nccwpck_require__(41530);
+var arrayUniq = __nccwpck_require__(1530);
 
 module.exports = function () {
 	return arrayUniq([].concat.apply([], arguments));
@@ -3309,7 +3093,7 @@ module.exports = function () {
 
 /***/ }),
 
-/***/ 41530:
+/***/ 1530:
 /***/ ((module) => {
 
 "use strict";
@@ -3379,7 +3163,7 @@ if ('Set' in global) {
 
 /***/ }),
 
-/***/ 57888:
+/***/ 7888:
 /***/ (function(module, exports, __nccwpck_require__) {
 
 /* module decorator */ module = __nccwpck_require__.nmd(module);
@@ -9062,10 +8846,10 @@ function range(a, b, str) {
 
 /***/ }),
 
-/***/ 33717:
+/***/ 3717:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var concatMap = __nccwpck_require__(86891);
+var concatMap = __nccwpck_require__(6891);
 var balanced = __nccwpck_require__(9417);
 
 module.exports = expandTop;
@@ -9270,16 +9054,16 @@ function expand(str, isTop) {
 
 /***/ }),
 
-/***/ 50610:
+/***/ 610:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const stringify = __nccwpck_require__(38750);
-const compile = __nccwpck_require__(79434);
-const expand = __nccwpck_require__(35873);
-const parse = __nccwpck_require__(96477);
+const stringify = __nccwpck_require__(8750);
+const compile = __nccwpck_require__(9434);
+const expand = __nccwpck_require__(5873);
+const parse = __nccwpck_require__(6477);
 
 /**
  * Expand the given pattern or create a regex-compatible string.
@@ -9448,14 +9232,14 @@ module.exports = braces;
 
 /***/ }),
 
-/***/ 79434:
+/***/ 9434:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const fill = __nccwpck_require__(6330);
-const utils = __nccwpck_require__(45207);
+const utils = __nccwpck_require__(5207);
 
 const compile = (ast, options = {}) => {
   let walk = (node, parent = {}) => {
@@ -9513,7 +9297,7 @@ module.exports = compile;
 
 /***/ }),
 
-/***/ 18774:
+/***/ 8774:
 /***/ ((module) => {
 
 "use strict";
@@ -9578,15 +9362,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 35873:
+/***/ 5873:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const fill = __nccwpck_require__(6330);
-const stringify = __nccwpck_require__(38750);
-const utils = __nccwpck_require__(45207);
+const stringify = __nccwpck_require__(8750);
+const utils = __nccwpck_require__(5207);
 
 const append = (queue = '', stash = '', enclose = false) => {
   let result = [];
@@ -9699,13 +9483,13 @@ module.exports = expand;
 
 /***/ }),
 
-/***/ 96477:
+/***/ 6477:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const stringify = __nccwpck_require__(38750);
+const stringify = __nccwpck_require__(8750);
 
 /**
  * Constants
@@ -9727,7 +9511,7 @@ const {
   CHAR_SINGLE_QUOTE, /* ' */
   CHAR_NO_BREAK_SPACE,
   CHAR_ZERO_WIDTH_NOBREAK_SPACE
-} = __nccwpck_require__(18774);
+} = __nccwpck_require__(8774);
 
 /**
  * parse
@@ -10040,13 +9824,13 @@ module.exports = parse;
 
 /***/ }),
 
-/***/ 38750:
+/***/ 8750:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const utils = __nccwpck_require__(45207);
+const utils = __nccwpck_require__(5207);
 
 module.exports = (ast, options = {}) => {
   let stringify = (node, parent = {}) => {
@@ -10080,7 +9864,7 @@ module.exports = (ast, options = {}) => {
 
 /***/ }),
 
-/***/ 45207:
+/***/ 5207:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -10213,9 +9997,9 @@ const {
 		Resolver: AsyncResolver
 	},
 	lookup: dnsLookup
-} = __nccwpck_require__(40881);
-const {promisify} = __nccwpck_require__(31669);
-const os = __nccwpck_require__(12087);
+} = __nccwpck_require__(881);
+const {promisify} = __nccwpck_require__(1669);
+const os = __nccwpck_require__(2087);
 
 const kCacheableLookupCreateConnection = Symbol('cacheableLookupCreateConnection');
 const kCacheableLookupInstance = Symbol('cacheableLookupInstance');
@@ -10644,21 +10428,21 @@ module.exports.default = CacheableLookup;
 
 /***/ }),
 
-/***/ 78116:
+/***/ 8116:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const EventEmitter = __nccwpck_require__(28614);
-const urlLib = __nccwpck_require__(78835);
-const normalizeUrl = __nccwpck_require__(17952);
-const getStream = __nccwpck_require__(21766);
-const CachePolicy = __nccwpck_require__(61002);
+const EventEmitter = __nccwpck_require__(8614);
+const urlLib = __nccwpck_require__(8835);
+const normalizeUrl = __nccwpck_require__(7952);
+const getStream = __nccwpck_require__(1766);
+const CachePolicy = __nccwpck_require__(1002);
 const Response = __nccwpck_require__(9004);
 const lowercaseKeys = __nccwpck_require__(9662);
-const cloneResponse = __nccwpck_require__(81312);
-const Keyv = __nccwpck_require__(51531);
+const cloneResponse = __nccwpck_require__(1312);
+const Keyv = __nccwpck_require__(1531);
 
 class CacheableRequest {
 	constructor(request, cacheAdapter) {
@@ -10903,22 +10687,22 @@ module.exports = CacheableRequest;
 
 /***/ }),
 
-/***/ 64858:
+/***/ 4858:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-if (__nccwpck_require__(10128).major >= 4) {
+if (__nccwpck_require__(128).major >= 4) {
     module.exports = __nccwpck_require__(3467);
 } else {
-    module.exports = __nccwpck_require__(67513);
+    module.exports = __nccwpck_require__(7513);
 }
 
 
 /***/ }),
 
-/***/ 68372:
+/***/ 8372:
 /***/ ((module) => {
 
 "use strict";
@@ -10954,7 +10738,7 @@ module.exports = ChildProcessError;
 
 /***/ }),
 
-/***/ 54158:
+/***/ 4158:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -10972,11 +10756,11 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var Promise;
 
-if (__nccwpck_require__(10128).major >= 4) {
+if (__nccwpck_require__(128).major >= 4) {
     Promise = global.Promise;
 } else {
     // Don't use the native Promise in Node.js <4 since it doesn't support subclassing
-    Promise = __nccwpck_require__(90680);
+    Promise = __nccwpck_require__(680);
 }
 
 var ChildProcessPromise = function (_Promise) {
@@ -11048,16 +10832,16 @@ module.exports = ChildProcessPromise;
 
 /***/ }),
 
-/***/ 67513:
+/***/ 7513:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-var child_process = __nccwpck_require__(63129);
-var crossSpawn = __nccwpck_require__(32854);
-var ChildProcessPromise = __nccwpck_require__(54158);
-var ChildProcessError = __nccwpck_require__(68372);
+var child_process = __nccwpck_require__(3129);
+var crossSpawn = __nccwpck_require__(2854);
+var ChildProcessPromise = __nccwpck_require__(4158);
+var ChildProcessError = __nccwpck_require__(8372);
 
 var slice = Array.prototype.slice;
 
@@ -11221,7 +11005,7 @@ exports.fork = fork;
 
 /***/ }),
 
-/***/ 24548:
+/***/ 4548:
 /***/ ((module) => {
 
 "use strict";
@@ -11246,7 +11030,7 @@ module.exports = ChildProcessError;
 
 /***/ }),
 
-/***/ 46855:
+/***/ 6855:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -11254,11 +11038,11 @@ module.exports = ChildProcessError;
 
 var Promise;
 
-if (__nccwpck_require__(10128).major >= 4) {
+if (__nccwpck_require__(128).major >= 4) {
     Promise = global.Promise;
 } else {
     // Don't use the native Promise in Node.js <4 since it doesn't support subclassing
-    Promise = __nccwpck_require__(90680);
+    Promise = __nccwpck_require__(680);
 }
 
 class ChildProcessPromise extends Promise {
@@ -11321,10 +11105,10 @@ module.exports = ChildProcessPromise;
 
 "use strict";
 
-var child_process = __nccwpck_require__(63129);
-var crossSpawn = __nccwpck_require__(32854);
-var ChildProcessPromise = __nccwpck_require__(46855);
-var ChildProcessError = __nccwpck_require__(24548);
+var child_process = __nccwpck_require__(3129);
+var crossSpawn = __nccwpck_require__(2854);
+var ChildProcessPromise = __nccwpck_require__(6855);
+var ChildProcessError = __nccwpck_require__(4548);
 
 var slice = Array.prototype.slice;
 
@@ -11488,15 +11272,15 @@ exports.fork = fork;
 
 /***/ }),
 
-/***/ 32854:
+/***/ 2854:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-var cp = __nccwpck_require__(63129);
-var parse = __nccwpck_require__(73945);
-var enoent = __nccwpck_require__(87584);
+var cp = __nccwpck_require__(3129);
+var parse = __nccwpck_require__(3945);
+var enoent = __nccwpck_require__(7584);
 
 var cpSpawnSync = cp.spawnSync;
 
@@ -11555,14 +11339,14 @@ module.exports._enoent = enoent;
 
 /***/ }),
 
-/***/ 87584:
+/***/ 7584:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 var isWin = process.platform === 'win32';
-var resolveCommand = __nccwpck_require__(89383);
+var resolveCommand = __nccwpck_require__(9383);
 
 var isNode10 = process.version.indexOf('v0.10.') === 0;
 
@@ -11636,7 +11420,7 @@ module.exports.notFoundError = notFoundError;
 
 /***/ }),
 
-/***/ 27586:
+/***/ 7586:
 /***/ ((module) => {
 
 "use strict";
@@ -11655,16 +11439,16 @@ module.exports = (function () {
 
 /***/ }),
 
-/***/ 73945:
+/***/ 3945:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-var fs = __nccwpck_require__(35747);
+var fs = __nccwpck_require__(5747);
 var LRU = __nccwpck_require__(7129);
-var resolveCommand = __nccwpck_require__(89383);
-var hasBrokenSpawn = __nccwpck_require__(27586);
+var resolveCommand = __nccwpck_require__(9383);
+var hasBrokenSpawn = __nccwpck_require__(7586);
 
 var isWin = process.platform === 'win32';
 var shebangCache = new LRU({ max: 50, maxAge: 30 * 1000 });  // Cache just for 30sec
@@ -11803,14 +11587,14 @@ module.exports = parse;
 
 /***/ }),
 
-/***/ 89383:
+/***/ 9383:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-var path = __nccwpck_require__(85622);
-var which = __nccwpck_require__(57492);
+var path = __nccwpck_require__(5622);
+var which = __nccwpck_require__(7492);
 var LRU = __nccwpck_require__(7129);
 
 var commandCache = new LRU({ max: 50, maxAge: 30 * 1000 });  // Cache just for 30sec
@@ -11842,7 +11626,7 @@ module.exports = resolveCommand;
 
 /***/ }),
 
-/***/ 57492:
+/***/ 7492:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 module.exports = which
@@ -11852,9 +11636,9 @@ var isWindows = process.platform === 'win32' ||
     process.env.OSTYPE === 'cygwin' ||
     process.env.OSTYPE === 'msys'
 
-var path = __nccwpck_require__(85622)
+var path = __nccwpck_require__(5622)
 var COLON = isWindows ? ';' : ':'
-var isexe = __nccwpck_require__(97126)
+var isexe = __nccwpck_require__(7126)
 
 function getNotFoundError (cmd) {
   var er = new Error('not found: ' + cmd)
@@ -11984,14 +11768,14 @@ function whichSync (cmd, opt) {
 
 /***/ }),
 
-/***/ 81312:
+/***/ 1312:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const PassThrough = __nccwpck_require__(92413).PassThrough;
-const mimicResponse = __nccwpck_require__(42610);
+const PassThrough = __nccwpck_require__(2413).PassThrough;
+const mimicResponse = __nccwpck_require__(2610);
 
 const cloneResponse = response => {
 	if (!(response && response.pipe)) {
@@ -12009,11 +11793,11 @@ module.exports = cloneResponse;
 
 /***/ }),
 
-/***/ 97391:
+/***/ 7391:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 /* MIT license */
-var cssKeywords = __nccwpck_require__(78510);
+var cssKeywords = __nccwpck_require__(8510);
 
 // NOTE: conversions should only return primitive values (i.e. arrays, or
 //       values that give correct `typeof` results).
@@ -12884,11 +12668,11 @@ convert.rgb.gray = function (rgb) {
 
 /***/ }),
 
-/***/ 86931:
+/***/ 6931:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var conversions = __nccwpck_require__(97391);
-var route = __nccwpck_require__(30880);
+var conversions = __nccwpck_require__(7391);
+var route = __nccwpck_require__(880);
 
 var convert = {};
 
@@ -12969,10 +12753,10 @@ module.exports = convert;
 
 /***/ }),
 
-/***/ 30880:
+/***/ 880:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var conversions = __nccwpck_require__(97391);
+var conversions = __nccwpck_require__(7391);
 
 /*
 	this function routes a model to all other models.
@@ -13073,7 +12857,7 @@ module.exports = function (fromModel) {
 
 /***/ }),
 
-/***/ 78510:
+/***/ 8510:
 /***/ ((module) => {
 
 "use strict";
@@ -13233,10 +13017,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ 79930:
+/***/ 9930:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var path = __nccwpck_require__(85622);
+var path = __nccwpck_require__(5622);
 
 module.exports = function (basedir, relfiles) {
     if (relfiles) {
@@ -13269,7 +13053,7 @@ module.exports = function (basedir, relfiles) {
 
 /***/ }),
 
-/***/ 86891:
+/***/ 6891:
 /***/ ((module) => {
 
 module.exports = function (xs, fn) {
@@ -13289,7 +13073,7 @@ var isArray = Array.isArray || function (xs) {
 
 /***/ }),
 
-/***/ 28222:
+/***/ 8222:
 /***/ ((module, exports, __nccwpck_require__) => {
 
 /* eslint-env browser */
@@ -13546,7 +13330,7 @@ function localstorage() {
 	}
 }
 
-module.exports = __nccwpck_require__(46243)(exports);
+module.exports = __nccwpck_require__(6243)(exports);
 
 const {formatters} = module.exports;
 
@@ -13565,7 +13349,7 @@ formatters.j = function (v) {
 
 /***/ }),
 
-/***/ 46243:
+/***/ 6243:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 
@@ -13581,7 +13365,7 @@ function setup(env) {
 	createDebug.disable = disable;
 	createDebug.enable = enable;
 	createDebug.enabled = enabled;
-	createDebug.humanize = __nccwpck_require__(80900);
+	createDebug.humanize = __nccwpck_require__(9992);
 	createDebug.destroy = destroy;
 
 	Object.keys(env).forEach(key => {
@@ -13833,7 +13617,7 @@ module.exports = setup;
 
 /***/ }),
 
-/***/ 38237:
+/***/ 8231:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 /**
@@ -13842,23 +13626,23 @@ module.exports = setup;
  */
 
 if (typeof process === 'undefined' || process.type === 'renderer' || process.browser === true || process.__nwjs) {
-	module.exports = __nccwpck_require__(28222);
+	module.exports = __nccwpck_require__(8222);
 } else {
-	module.exports = __nccwpck_require__(35332);
+	module.exports = __nccwpck_require__(5332);
 }
 
 
 /***/ }),
 
-/***/ 35332:
+/***/ 5332:
 /***/ ((module, exports, __nccwpck_require__) => {
 
 /**
  * Module dependencies.
  */
 
-const tty = __nccwpck_require__(33867);
-const util = __nccwpck_require__(31669);
+const tty = __nccwpck_require__(3867);
+const util = __nccwpck_require__(1669);
 
 /**
  * This is the Node.js implementation of `debug()`.
@@ -13884,7 +13668,7 @@ exports.colors = [6, 2, 3, 4, 5, 1];
 try {
 	// Optional dependency (as in, doesn't need to be installed, NOT like optionalDependencies in package.json)
 	// eslint-disable-next-line import/no-extraneous-dependencies
-	const supportsColor = __nccwpck_require__(59318);
+	const supportsColor = __nccwpck_require__(9318);
 
 	if (supportsColor && (supportsColor.stderr || supportsColor).level >= 2) {
 		exports.colors = [
@@ -14092,7 +13876,7 @@ function init(debug) {
 	}
 }
 
-module.exports = __nccwpck_require__(46243)(exports);
+module.exports = __nccwpck_require__(6243)(exports);
 
 const {formatters} = module.exports;
 
@@ -14120,14 +13904,14 @@ formatters.O = function (v) {
 
 /***/ }),
 
-/***/ 82391:
+/***/ 2391:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const {Transform, PassThrough} = __nccwpck_require__(92413);
-const zlib = __nccwpck_require__(78761);
-const mimicResponse = __nccwpck_require__(23877);
+const {Transform, PassThrough} = __nccwpck_require__(2413);
+const zlib = __nccwpck_require__(8761);
+const mimicResponse = __nccwpck_require__(3877);
 
 module.exports = response => {
 	const contentEncoding = (response.headers['content-encoding'] || '').toLowerCase();
@@ -14186,7 +13970,7 @@ module.exports = response => {
 
 /***/ }),
 
-/***/ 23877:
+/***/ 3877:
 /***/ ((module) => {
 
 "use strict";
@@ -14271,7 +14055,7 @@ module.exports = (fromStream, toStream) => {
 
 /***/ }),
 
-/***/ 96214:
+/***/ 6214:
 /***/ ((module, exports) => {
 
 "use strict";
@@ -14326,7 +14110,7 @@ module.exports.default = deferToConnect;
 
 /***/ }),
 
-/***/ 81205:
+/***/ 1205:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 var once = __nccwpck_require__(1223);
@@ -14427,7 +14211,7 @@ module.exports = eos;
 
 /***/ }),
 
-/***/ 98691:
+/***/ 8691:
 /***/ ((module) => {
 
 "use strict";
@@ -14446,17 +14230,17 @@ module.exports = function (str) {
 
 /***/ }),
 
-/***/ 43664:
+/***/ 3664:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const taskManager = __nccwpck_require__(42708);
-const async_1 = __nccwpck_require__(95679);
-const stream_1 = __nccwpck_require__(94630);
-const sync_1 = __nccwpck_require__(42405);
-const settings_1 = __nccwpck_require__(10952);
-const utils = __nccwpck_require__(45444);
+const taskManager = __nccwpck_require__(2708);
+const async_1 = __nccwpck_require__(5679);
+const stream_1 = __nccwpck_require__(4630);
+const sync_1 = __nccwpck_require__(2405);
+const settings_1 = __nccwpck_require__(952);
+const utils = __nccwpck_require__(5444);
 async function FastGlob(source, options) {
     assertPatternsInput(source);
     const works = getWorks(source, async_1.default, options);
@@ -14521,14 +14305,14 @@ module.exports = FastGlob;
 
 /***/ }),
 
-/***/ 42708:
+/***/ 2708:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.convertPatternGroupToTask = exports.convertPatternGroupsToTasks = exports.groupPatternsByBaseDirectory = exports.getNegativePatternsAsPositive = exports.getPositivePatterns = exports.convertPatternsToTasks = exports.generate = void 0;
-const utils = __nccwpck_require__(45444);
+const utils = __nccwpck_require__(5444);
 function generate(patterns, settings) {
     const positivePatterns = getPositivePatterns(patterns);
     const negativePatterns = getNegativePatternsAsPositive(patterns, settings.ignore);
@@ -14609,14 +14393,14 @@ exports.convertPatternGroupToTask = convertPatternGroupToTask;
 
 /***/ }),
 
-/***/ 95679:
+/***/ 5679:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const stream_1 = __nccwpck_require__(12083);
-const provider_1 = __nccwpck_require__(60257);
+const stream_1 = __nccwpck_require__(2083);
+const provider_1 = __nccwpck_require__(257);
 class ProviderAsync extends provider_1.default {
     constructor() {
         super(...arguments);
@@ -14645,14 +14429,14 @@ exports.default = ProviderAsync;
 
 /***/ }),
 
-/***/ 36983:
+/***/ 6983:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const utils = __nccwpck_require__(45444);
-const partial_1 = __nccwpck_require__(35295);
+const utils = __nccwpck_require__(5444);
+const partial_1 = __nccwpck_require__(5295);
 class DeepFilter {
     constructor(_settings, _micromatchOptions) {
         this._settings = _settings;
@@ -14715,13 +14499,13 @@ exports.default = DeepFilter;
 
 /***/ }),
 
-/***/ 71343:
+/***/ 1343:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const utils = __nccwpck_require__(45444);
+const utils = __nccwpck_require__(5444);
 class EntryFilter {
     constructor(_settings, _micromatchOptions) {
         this._settings = _settings;
@@ -14779,13 +14563,13 @@ exports.default = EntryFilter;
 
 /***/ }),
 
-/***/ 36654:
+/***/ 6654:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const utils = __nccwpck_require__(45444);
+const utils = __nccwpck_require__(5444);
 class ErrorFilter {
     constructor(_settings) {
         this._settings = _settings;
@@ -14802,13 +14586,13 @@ exports.default = ErrorFilter;
 
 /***/ }),
 
-/***/ 32576:
+/***/ 2576:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const utils = __nccwpck_require__(45444);
+const utils = __nccwpck_require__(5444);
 class Matcher {
     constructor(_patterns, _settings, _micromatchOptions) {
         this._patterns = _patterns;
@@ -14860,13 +14644,13 @@ exports.default = Matcher;
 
 /***/ }),
 
-/***/ 35295:
+/***/ 5295:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const matcher_1 = __nccwpck_require__(32576);
+const matcher_1 = __nccwpck_require__(2576);
 class PartialMatcher extends matcher_1.default {
     match(filepath) {
         const parts = filepath.split('/');
@@ -14906,17 +14690,17 @@ exports.default = PartialMatcher;
 
 /***/ }),
 
-/***/ 60257:
+/***/ 257:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const path = __nccwpck_require__(85622);
-const deep_1 = __nccwpck_require__(36983);
-const entry_1 = __nccwpck_require__(71343);
-const error_1 = __nccwpck_require__(36654);
-const entry_2 = __nccwpck_require__(94029);
+const path = __nccwpck_require__(5622);
+const deep_1 = __nccwpck_require__(6983);
+const entry_1 = __nccwpck_require__(1343);
+const error_1 = __nccwpck_require__(6654);
+const entry_2 = __nccwpck_require__(4029);
 class Provider {
     constructor(_settings) {
         this._settings = _settings;
@@ -14962,15 +14746,15 @@ exports.default = Provider;
 
 /***/ }),
 
-/***/ 94630:
+/***/ 4630:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const stream_1 = __nccwpck_require__(92413);
-const stream_2 = __nccwpck_require__(12083);
-const provider_1 = __nccwpck_require__(60257);
+const stream_1 = __nccwpck_require__(2413);
+const stream_2 = __nccwpck_require__(2083);
+const provider_1 = __nccwpck_require__(257);
 class ProviderStream extends provider_1.default {
     constructor() {
         super(...arguments);
@@ -15001,14 +14785,14 @@ exports.default = ProviderStream;
 
 /***/ }),
 
-/***/ 42405:
+/***/ 2405:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const sync_1 = __nccwpck_require__(76234);
-const provider_1 = __nccwpck_require__(60257);
+const sync_1 = __nccwpck_require__(6234);
+const provider_1 = __nccwpck_require__(257);
 class ProviderSync extends provider_1.default {
     constructor() {
         super(...arguments);
@@ -15032,13 +14816,13 @@ exports.default = ProviderSync;
 
 /***/ }),
 
-/***/ 94029:
+/***/ 4029:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const utils = __nccwpck_require__(45444);
+const utils = __nccwpck_require__(5444);
 class EntryTransformer {
     constructor(_settings) {
         this._settings = _settings;
@@ -15066,15 +14850,15 @@ exports.default = EntryTransformer;
 
 /***/ }),
 
-/***/ 65582:
+/***/ 5582:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const path = __nccwpck_require__(85622);
-const fsStat = __nccwpck_require__(70109);
-const utils = __nccwpck_require__(45444);
+const path = __nccwpck_require__(5622);
+const fsStat = __nccwpck_require__(109);
+const utils = __nccwpck_require__(5444);
 class Reader {
     constructor(_settings) {
         this._settings = _settings;
@@ -15107,16 +14891,16 @@ exports.default = Reader;
 
 /***/ }),
 
-/***/ 12083:
+/***/ 2083:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const stream_1 = __nccwpck_require__(92413);
-const fsStat = __nccwpck_require__(70109);
-const fsWalk = __nccwpck_require__(26026);
-const reader_1 = __nccwpck_require__(65582);
+const stream_1 = __nccwpck_require__(2413);
+const fsStat = __nccwpck_require__(109);
+const fsWalk = __nccwpck_require__(6026);
+const reader_1 = __nccwpck_require__(5582);
 class ReaderStream extends reader_1.default {
     constructor() {
         super(...arguments);
@@ -15170,15 +14954,15 @@ exports.default = ReaderStream;
 
 /***/ }),
 
-/***/ 76234:
+/***/ 6234:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const fsStat = __nccwpck_require__(70109);
-const fsWalk = __nccwpck_require__(26026);
-const reader_1 = __nccwpck_require__(65582);
+const fsStat = __nccwpck_require__(109);
+const fsWalk = __nccwpck_require__(6026);
+const reader_1 = __nccwpck_require__(5582);
 class ReaderSync extends reader_1.default {
     constructor() {
         super(...arguments);
@@ -15221,15 +15005,15 @@ exports.default = ReaderSync;
 
 /***/ }),
 
-/***/ 10952:
+/***/ 952:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.DEFAULT_FILE_SYSTEM_ADAPTER = void 0;
-const fs = __nccwpck_require__(35747);
-const os = __nccwpck_require__(12087);
+const fs = __nccwpck_require__(5747);
+const os = __nccwpck_require__(2087);
 /**
  * The `os.cpus` method can return zero. We expect the number of cores to be greater than zero.
  * https://github.com/nodejs/node/blob/7faeddf23a98c53896f8b574a6e66589e8fb1eb8/lib/os.js#L106-L107
@@ -15286,7 +15070,7 @@ exports.default = Settings;
 
 /***/ }),
 
-/***/ 85325:
+/***/ 5325:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -15316,7 +15100,7 @@ exports.splitWhen = splitWhen;
 
 /***/ }),
 
-/***/ 41230:
+/***/ 1230:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -15331,7 +15115,7 @@ exports.isEnoentCodeError = isEnoentCodeError;
 
 /***/ }),
 
-/***/ 17543:
+/***/ 7543:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -15358,39 +15142,39 @@ exports.createDirentFromStats = createDirentFromStats;
 
 /***/ }),
 
-/***/ 45444:
+/***/ 5444:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.string = exports.stream = exports.pattern = exports.path = exports.fs = exports.errno = exports.array = void 0;
-const array = __nccwpck_require__(85325);
+const array = __nccwpck_require__(5325);
 exports.array = array;
-const errno = __nccwpck_require__(41230);
+const errno = __nccwpck_require__(1230);
 exports.errno = errno;
-const fs = __nccwpck_require__(17543);
+const fs = __nccwpck_require__(7543);
 exports.fs = fs;
-const path = __nccwpck_require__(63873);
+const path = __nccwpck_require__(3873);
 exports.path = path;
-const pattern = __nccwpck_require__(81221);
+const pattern = __nccwpck_require__(1221);
 exports.pattern = pattern;
-const stream = __nccwpck_require__(18382);
+const stream = __nccwpck_require__(8382);
 exports.stream = stream;
-const string = __nccwpck_require__(52203);
+const string = __nccwpck_require__(2203);
 exports.string = string;
 
 
 /***/ }),
 
-/***/ 63873:
+/***/ 3873:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.removeLeadingDotSegment = exports.escape = exports.makeAbsolute = exports.unixify = void 0;
-const path = __nccwpck_require__(85622);
+const path = __nccwpck_require__(5622);
 const LEADING_DOT_SEGMENT_CHARACTERS_COUNT = 2; // ./ or .\\
 const UNESCAPED_GLOB_SYMBOLS_RE = /(\\?)([()*?[\]{|}]|^!|[!+@](?=\())/g;
 /**
@@ -15424,16 +15208,16 @@ exports.removeLeadingDotSegment = removeLeadingDotSegment;
 
 /***/ }),
 
-/***/ 81221:
+/***/ 1221:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.matchAny = exports.convertPatternsToRe = exports.makeRe = exports.getPatternParts = exports.expandBraceExpansion = exports.expandPatternsWithBraceExpansion = exports.isAffectDepthOfReadingPattern = exports.endsWithSlashGlobStar = exports.hasGlobStar = exports.getBaseDirectory = exports.isPatternRelatedToParentDirectory = exports.getPatternsOutsideCurrentDirectory = exports.getPatternsInsideCurrentDirectory = exports.getPositivePatterns = exports.getNegativePatterns = exports.isPositivePattern = exports.isNegativePattern = exports.convertToNegativePattern = exports.convertToPositivePattern = exports.isDynamicPattern = exports.isStaticPattern = void 0;
-const path = __nccwpck_require__(85622);
-const globParent = __nccwpck_require__(54655);
-const micromatch = __nccwpck_require__(76228);
+const path = __nccwpck_require__(5622);
+const globParent = __nccwpck_require__(4655);
+const micromatch = __nccwpck_require__(6228);
 const GLOBSTAR = '**';
 const ESCAPE_SYMBOL = '\\';
 const COMMON_GLOB_SYMBOLS_RE = /[*?]|^!/;
@@ -15589,14 +15373,14 @@ exports.matchAny = matchAny;
 
 /***/ }),
 
-/***/ 18382:
+/***/ 8382:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.merge = void 0;
-const merge2 = __nccwpck_require__(82578);
+const merge2 = __nccwpck_require__(2578);
 function merge(streams) {
     const mergedStream = merge2(streams);
     streams.forEach((stream) => {
@@ -15614,7 +15398,7 @@ function propagateCloseEventToSources(streams) {
 
 /***/ }),
 
-/***/ 52203:
+/***/ 2203:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -15641,7 +15425,7 @@ exports.isEmpty = isEmpty;
 
 /* eslint-disable no-var */
 
-var reusify = __nccwpck_require__(32113)
+var reusify = __nccwpck_require__(2113)
 
 function fastqueue (context, worker, concurrency) {
   if (typeof context === 'function') {
@@ -15924,7 +15708,7 @@ module.exports.promise = queueAsPromised
 
 /***/ }),
 
-/***/ 19921:
+/***/ 9921:
 /***/ ((module) => {
 
 "use strict";
@@ -15937,13 +15721,13 @@ module.exports.windowsNames = () => (/^(con|prn|aux|nul|com[0-9]|lpt[0-9])$/i);
 
 /***/ }),
 
-/***/ 18263:
+/***/ 8263:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const path = __nccwpck_require__(85622);
-const filenamify = __nccwpck_require__(23095);
+const path = __nccwpck_require__(5622);
+const filenamify = __nccwpck_require__(3095);
 
 const filenamifyPath = (filePath, options) => {
 	filePath = path.resolve(filePath);
@@ -15955,13 +15739,13 @@ module.exports = filenamifyPath;
 
 /***/ }),
 
-/***/ 23095:
+/***/ 3095:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 const trimRepeated = __nccwpck_require__(9097);
-const filenameReservedRegex = __nccwpck_require__(19921);
+const filenameReservedRegex = __nccwpck_require__(9921);
 const stripOuter = __nccwpck_require__(449);
 
 // Doesn't make sense to have longer filenames
@@ -16003,13 +15787,13 @@ module.exports = filenamify;
 
 /***/ }),
 
-/***/ 16094:
+/***/ 6094:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const filenamify = __nccwpck_require__(23095);
-const filenamifyPath = __nccwpck_require__(18263);
+const filenamify = __nccwpck_require__(3095);
+const filenamifyPath = __nccwpck_require__(8263);
 
 const filenamifyCombined = filenamify;
 filenamifyCombined.path = filenamifyPath;
@@ -16032,7 +15816,7 @@ module.exports = filenamify;
 
 
 
-const util = __nccwpck_require__(31669);
+const util = __nccwpck_require__(1669);
 const toRegexRange = __nccwpck_require__(1861);
 
 const isObject = val => val !== null && typeof val === 'object' && !Array.isArray(val);
@@ -16281,11 +16065,11 @@ module.exports = fill;
 
 "use strict";
 
-const path = __nccwpck_require__(85622);
-const fs = __nccwpck_require__(35747);
-const commonDir = __nccwpck_require__(79930);
-const pkgDir = __nccwpck_require__(98098);
-const makeDir = __nccwpck_require__(39126);
+const path = __nccwpck_require__(5622);
+const fs = __nccwpck_require__(5747);
+const commonDir = __nccwpck_require__(9930);
+const pkgDir = __nccwpck_require__(8098);
+const makeDir = __nccwpck_require__(9126);
 
 const {env, cwd} = process;
 
@@ -16356,9 +16140,9 @@ module.exports = (options = {}) => {
 
 "use strict";
 
-const path = __nccwpck_require__(85622);
-const locatePath = __nccwpck_require__(63447);
-const pathExists = __nccwpck_require__(96978);
+const path = __nccwpck_require__(5622);
+const locatePath = __nccwpck_require__(3447);
+const pathExists = __nccwpck_require__(6978);
 
 const stop = Symbol('findUp.stop');
 
@@ -16448,17 +16232,17 @@ module.exports.stop = stop;
 
 /***/ }),
 
-/***/ 43338:
+/***/ 3338:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const mkdirpSync = __nccwpck_require__(12915).mkdirsSync
-const utimesSync = __nccwpck_require__(52548).utimesMillisSync
-const stat = __nccwpck_require__(73901)
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const mkdirpSync = __nccwpck_require__(2915).mkdirsSync
+const utimesSync = __nccwpck_require__(2548).utimesMillisSync
+const stat = __nccwpck_require__(3901)
 
 function copySync (src, dest, opts) {
   if (typeof opts === 'function') {
@@ -16531,7 +16315,7 @@ function copyFile (srcStat, src, dest, opts) {
 
 function copyFileFallback (srcStat, src, dest, opts) {
   const BUF_LENGTH = 64 * 1024
-  const _buff = __nccwpck_require__(47696)(BUF_LENGTH)
+  const _buff = __nccwpck_require__(7696)(BUF_LENGTH)
 
   const fdr = fs.openSync(src, 'r')
   const fdw = fs.openSync(dest, 'w', srcStat.mode)
@@ -16620,31 +16404,31 @@ module.exports = copySync
 
 /***/ }),
 
-/***/ 11135:
+/***/ 1135:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 module.exports = {
-  copySync: __nccwpck_require__(43338)
+  copySync: __nccwpck_require__(3338)
 }
 
 
 /***/ }),
 
-/***/ 38834:
+/***/ 8834:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const mkdirp = __nccwpck_require__(12915).mkdirs
-const pathExists = __nccwpck_require__(43835).pathExists
-const utimes = __nccwpck_require__(52548).utimesMillis
-const stat = __nccwpck_require__(73901)
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const mkdirp = __nccwpck_require__(2915).mkdirs
+const pathExists = __nccwpck_require__(3835).pathExists
+const utimes = __nccwpck_require__(2548).utimesMillis
+const stat = __nccwpck_require__(3901)
 
 function copy (src, dest, opts, cb) {
   if (typeof opts === 'function' && !cb) {
@@ -16853,7 +16637,7 @@ module.exports = copy
 
 /***/ }),
 
-/***/ 61335:
+/***/ 1335:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -16861,23 +16645,23 @@ module.exports = copy
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
 module.exports = {
-  copy: u(__nccwpck_require__(38834))
+  copy: u(__nccwpck_require__(8834))
 }
 
 
 /***/ }),
 
-/***/ 96970:
+/***/ 6970:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const mkdir = __nccwpck_require__(12915)
-const remove = __nccwpck_require__(47357)
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const mkdir = __nccwpck_require__(2915)
+const remove = __nccwpck_require__(7357)
 
 const emptyDir = u(function emptyDir (dir, callback) {
   callback = callback || function () {}
@@ -16930,10 +16714,10 @@ module.exports = {
 
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const path = __nccwpck_require__(85622)
-const fs = __nccwpck_require__(77758)
-const mkdir = __nccwpck_require__(12915)
-const pathExists = __nccwpck_require__(43835).pathExists
+const path = __nccwpck_require__(5622)
+const fs = __nccwpck_require__(7758)
+const mkdir = __nccwpck_require__(2915)
+const pathExists = __nccwpck_require__(3835).pathExists
 
 function createFile (file, callback) {
   function makeFile () {
@@ -16980,15 +16764,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 40055:
+/***/ 55:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const file = __nccwpck_require__(2164)
-const link = __nccwpck_require__(53797)
-const symlink = __nccwpck_require__(72549)
+const link = __nccwpck_require__(3797)
+const symlink = __nccwpck_require__(2549)
 
 module.exports = {
   // file
@@ -17011,17 +16795,17 @@ module.exports = {
 
 /***/ }),
 
-/***/ 53797:
+/***/ 3797:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const path = __nccwpck_require__(85622)
-const fs = __nccwpck_require__(77758)
-const mkdir = __nccwpck_require__(12915)
-const pathExists = __nccwpck_require__(43835).pathExists
+const path = __nccwpck_require__(5622)
+const fs = __nccwpck_require__(7758)
+const mkdir = __nccwpck_require__(2915)
+const pathExists = __nccwpck_require__(3835).pathExists
 
 function createLink (srcpath, dstpath, callback) {
   function makeLink (srcpath, dstpath) {
@@ -17080,15 +16864,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 53727:
+/***/ 3727:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const path = __nccwpck_require__(85622)
-const fs = __nccwpck_require__(77758)
-const pathExists = __nccwpck_require__(43835).pathExists
+const path = __nccwpck_require__(5622)
+const fs = __nccwpck_require__(7758)
+const pathExists = __nccwpck_require__(3835).pathExists
 
 /**
  * Function that returns two types of paths, one relative to symlink, and one
@@ -17187,13 +16971,13 @@ module.exports = {
 
 /***/ }),
 
-/***/ 18254:
+/***/ 8254:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
+const fs = __nccwpck_require__(7758)
 
 function symlinkType (srcpath, type, callback) {
   callback = (typeof type === 'function') ? type : callback
@@ -17226,28 +17010,28 @@ module.exports = {
 
 /***/ }),
 
-/***/ 72549:
+/***/ 2549:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const path = __nccwpck_require__(85622)
-const fs = __nccwpck_require__(77758)
-const _mkdirs = __nccwpck_require__(12915)
+const path = __nccwpck_require__(5622)
+const fs = __nccwpck_require__(7758)
+const _mkdirs = __nccwpck_require__(2915)
 const mkdirs = _mkdirs.mkdirs
 const mkdirsSync = _mkdirs.mkdirsSync
 
-const _symlinkPaths = __nccwpck_require__(53727)
+const _symlinkPaths = __nccwpck_require__(3727)
 const symlinkPaths = _symlinkPaths.symlinkPaths
 const symlinkPathsSync = _symlinkPaths.symlinkPathsSync
 
-const _symlinkType = __nccwpck_require__(18254)
+const _symlinkType = __nccwpck_require__(8254)
 const symlinkType = _symlinkType.symlinkType
 const symlinkTypeSync = _symlinkType.symlinkTypeSync
 
-const pathExists = __nccwpck_require__(43835).pathExists
+const pathExists = __nccwpck_require__(3835).pathExists
 
 function createSymlink (srcpath, dstpath, type, callback) {
   callback = (typeof type === 'function') ? type : callback
@@ -17297,7 +17081,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 61176:
+/***/ 1176:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -17305,7 +17089,7 @@ module.exports = {
 // This is adapted from https://github.com/normalize/mz
 // Copyright (c) 2014-2016 Jonathan Ong me@jongleberry.com and Contributors
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const fs = __nccwpck_require__(77758)
+const fs = __nccwpck_require__(7758)
 
 const api = [
   'access',
@@ -17423,24 +17207,24 @@ if (typeof fs.realpath.native === 'function') {
 module.exports = Object.assign(
   {},
   // Export promiseified graceful-fs:
-  __nccwpck_require__(61176),
+  __nccwpck_require__(1176),
   // Export extra methods:
-  __nccwpck_require__(11135),
-  __nccwpck_require__(61335),
-  __nccwpck_require__(96970),
-  __nccwpck_require__(40055),
-  __nccwpck_require__(40213),
-  __nccwpck_require__(12915),
-  __nccwpck_require__(69665),
-  __nccwpck_require__(41497),
-  __nccwpck_require__(16570),
-  __nccwpck_require__(43835),
-  __nccwpck_require__(47357)
+  __nccwpck_require__(1135),
+  __nccwpck_require__(1335),
+  __nccwpck_require__(6970),
+  __nccwpck_require__(55),
+  __nccwpck_require__(213),
+  __nccwpck_require__(2915),
+  __nccwpck_require__(9665),
+  __nccwpck_require__(1497),
+  __nccwpck_require__(6570),
+  __nccwpck_require__(3835),
+  __nccwpck_require__(7357)
 )
 
 // Export fs.promises as a getter property so that we don't trigger
 // ExperimentalWarning before fs.promises is actually accessed.
-const fs = __nccwpck_require__(35747)
+const fs = __nccwpck_require__(5747)
 if (Object.getOwnPropertyDescriptor(fs, 'promises')) {
   Object.defineProperty(module.exports, "promises", ({
     get () { return fs.promises }
@@ -17450,17 +17234,17 @@ if (Object.getOwnPropertyDescriptor(fs, 'promises')) {
 
 /***/ }),
 
-/***/ 40213:
+/***/ 213:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const jsonFile = __nccwpck_require__(18970)
+const jsonFile = __nccwpck_require__(8970)
 
-jsonFile.outputJson = u(__nccwpck_require__(60531))
-jsonFile.outputJsonSync = __nccwpck_require__(19421)
+jsonFile.outputJson = u(__nccwpck_require__(531))
+jsonFile.outputJsonSync = __nccwpck_require__(9421)
 // aliases
 jsonFile.outputJSON = jsonFile.outputJson
 jsonFile.outputJSONSync = jsonFile.outputJsonSync
@@ -17474,14 +17258,14 @@ module.exports = jsonFile
 
 /***/ }),
 
-/***/ 18970:
+/***/ 8970:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const jsonFile = __nccwpck_require__(26160)
+const jsonFile = __nccwpck_require__(6160)
 
 module.exports = {
   // jsonfile exports
@@ -17494,16 +17278,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 19421:
+/***/ 9421:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const mkdir = __nccwpck_require__(12915)
-const jsonFile = __nccwpck_require__(18970)
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const mkdir = __nccwpck_require__(2915)
+const jsonFile = __nccwpck_require__(8970)
 
 function outputJsonSync (file, data, options) {
   const dir = path.dirname(file)
@@ -17520,16 +17304,16 @@ module.exports = outputJsonSync
 
 /***/ }),
 
-/***/ 60531:
+/***/ 531:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const path = __nccwpck_require__(85622)
-const mkdir = __nccwpck_require__(12915)
-const pathExists = __nccwpck_require__(43835).pathExists
-const jsonFile = __nccwpck_require__(18970)
+const path = __nccwpck_require__(5622)
+const mkdir = __nccwpck_require__(2915)
+const pathExists = __nccwpck_require__(3835).pathExists
+const jsonFile = __nccwpck_require__(8970)
 
 function outputJson (file, data, options, callback) {
   if (typeof options === 'function') {
@@ -17555,14 +17339,14 @@ module.exports = outputJson
 
 /***/ }),
 
-/***/ 12915:
+/***/ 2915:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const mkdirs = u(__nccwpck_require__(59677))
-const mkdirsSync = __nccwpck_require__(30684)
+const mkdirs = u(__nccwpck_require__(9677))
+const mkdirsSync = __nccwpck_require__(684)
 
 module.exports = {
   mkdirs,
@@ -17577,15 +17361,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 30684:
+/***/ 684:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const invalidWin32Path = __nccwpck_require__(71590).invalidWin32Path
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const invalidWin32Path = __nccwpck_require__(1590).invalidWin32Path
 
 const o777 = parseInt('0777', 8)
 
@@ -17639,15 +17423,15 @@ module.exports = mkdirsSync
 
 /***/ }),
 
-/***/ 59677:
+/***/ 9677:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const invalidWin32Path = __nccwpck_require__(71590).invalidWin32Path
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const invalidWin32Path = __nccwpck_require__(1590).invalidWin32Path
 
 const o777 = parseInt('0777', 8)
 
@@ -17710,13 +17494,13 @@ module.exports = mkdirs
 
 /***/ }),
 
-/***/ 71590:
+/***/ 1590:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const path = __nccwpck_require__(85622)
+const path = __nccwpck_require__(5622)
 
 // get drive on windows
 function getRootPath (p) {
@@ -17743,31 +17527,31 @@ module.exports = {
 
 /***/ }),
 
-/***/ 69665:
+/***/ 9665:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 module.exports = {
-  moveSync: __nccwpck_require__(96445)
+  moveSync: __nccwpck_require__(6445)
 }
 
 
 /***/ }),
 
-/***/ 96445:
+/***/ 6445:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const copySync = __nccwpck_require__(11135).copySync
-const removeSync = __nccwpck_require__(47357).removeSync
-const mkdirpSync = __nccwpck_require__(12915).mkdirpSync
-const stat = __nccwpck_require__(73901)
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const copySync = __nccwpck_require__(1135).copySync
+const removeSync = __nccwpck_require__(7357).removeSync
+const mkdirpSync = __nccwpck_require__(2915).mkdirpSync
+const stat = __nccwpck_require__(3901)
 
 function moveSync (src, dest, opts) {
   opts = opts || {}
@@ -17811,7 +17595,7 @@ module.exports = moveSync
 
 /***/ }),
 
-/***/ 41497:
+/***/ 1497:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -17819,25 +17603,25 @@ module.exports = moveSync
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
 module.exports = {
-  move: u(__nccwpck_require__(72231))
+  move: u(__nccwpck_require__(2231))
 }
 
 
 /***/ }),
 
-/***/ 72231:
+/***/ 2231:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const copy = __nccwpck_require__(61335).copy
-const remove = __nccwpck_require__(47357).remove
-const mkdirp = __nccwpck_require__(12915).mkdirp
-const pathExists = __nccwpck_require__(43835).pathExists
-const stat = __nccwpck_require__(73901)
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const copy = __nccwpck_require__(1335).copy
+const remove = __nccwpck_require__(7357).remove
+const mkdirp = __nccwpck_require__(2915).mkdirp
+const pathExists = __nccwpck_require__(3835).pathExists
+const stat = __nccwpck_require__(3901)
 
 function move (src, dest, opts, cb) {
   if (typeof opts === 'function') {
@@ -17898,17 +17682,17 @@ module.exports = move
 
 /***/ }),
 
-/***/ 16570:
+/***/ 6570:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const mkdir = __nccwpck_require__(12915)
-const pathExists = __nccwpck_require__(43835).pathExists
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const mkdir = __nccwpck_require__(2915)
+const pathExists = __nccwpck_require__(3835).pathExists
 
 function outputFile (file, data, encoding, callback) {
   if (typeof encoding === 'function') {
@@ -17946,13 +17730,13 @@ module.exports = {
 
 /***/ }),
 
-/***/ 43835:
+/***/ 3835:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 const u = __nccwpck_require__(9046)/* .fromPromise */ .p
-const fs = __nccwpck_require__(61176)
+const fs = __nccwpck_require__(1176)
 
 function pathExists (path) {
   return fs.access(path).then(() => true).catch(() => false)
@@ -17966,14 +17750,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 47357:
+/***/ 7357:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 const u = __nccwpck_require__(9046)/* .fromCallback */ .E
-const rimraf = __nccwpck_require__(38761)
+const rimraf = __nccwpck_require__(7247)
 
 module.exports = {
   remove: u(rimraf),
@@ -17983,15 +17767,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 38761:
+/***/ 7247:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
-const assert = __nccwpck_require__(42357)
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
+const assert = __nccwpck_require__(2357)
 
 const isWindows = (process.platform === 'win32')
 
@@ -18305,7 +18089,7 @@ rimraf.sync = rimrafSync
 
 /***/ }),
 
-/***/ 47696:
+/***/ 7696:
 /***/ ((module) => {
 
 "use strict";
@@ -18325,14 +18109,14 @@ module.exports = function (size) {
 
 /***/ }),
 
-/***/ 73901:
+/***/ 3901:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const path = __nccwpck_require__(85622)
+const fs = __nccwpck_require__(7758)
+const path = __nccwpck_require__(5622)
 
 const NODE_VERSION_MAJOR_WITH_BIGINT = 10
 const NODE_VERSION_MINOR_WITH_BIGINT = 5
@@ -18505,15 +18289,15 @@ module.exports = {
 
 /***/ }),
 
-/***/ 52548:
+/***/ 2548:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const fs = __nccwpck_require__(77758)
-const os = __nccwpck_require__(12087)
-const path = __nccwpck_require__(85622)
+const fs = __nccwpck_require__(7758)
+const os = __nccwpck_require__(2087)
+const path = __nccwpck_require__(5622)
 
 // HFS, ext{2,3}, FAT do not, Node.js v0.10 does not
 function hasMillisResSync () {
@@ -18592,7 +18376,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 46863:
+/***/ 6863:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 module.exports = realpath
@@ -18602,13 +18386,13 @@ realpath.realpathSync = realpathSync
 realpath.monkeypatch = monkeypatch
 realpath.unmonkeypatch = unmonkeypatch
 
-var fs = __nccwpck_require__(35747)
+var fs = __nccwpck_require__(5747)
 var origRealpath = fs.realpath
 var origRealpathSync = fs.realpathSync
 
 var version = process.version
 var ok = /^v[0-5]\./.test(version)
-var old = __nccwpck_require__(71734)
+var old = __nccwpck_require__(1734)
 
 function newError (er) {
   return er && er.syscall === 'realpath' && (
@@ -18665,7 +18449,7 @@ function unmonkeypatch () {
 
 /***/ }),
 
-/***/ 71734:
+/***/ 1734:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 // Copyright Joyent, Inc. and other Node contributors.
@@ -18689,9 +18473,9 @@ function unmonkeypatch () {
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-var pathModule = __nccwpck_require__(85622);
+var pathModule = __nccwpck_require__(5622);
 var isWindows = process.platform === 'win32';
-var fs = __nccwpck_require__(35747);
+var fs = __nccwpck_require__(5747);
 
 // JavaScript implementation of realpath, ported from node pre-v6
 
@@ -18975,12 +18759,12 @@ exports.realpath = function realpath(p, cache, cb) {
 
 /***/ }),
 
-/***/ 91585:
+/***/ 1585:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const {PassThrough: PassThroughStream} = __nccwpck_require__(92413);
+const {PassThrough: PassThroughStream} = __nccwpck_require__(2413);
 
 module.exports = options => {
 	options = {...options};
@@ -19035,14 +18819,14 @@ module.exports = options => {
 
 /***/ }),
 
-/***/ 21766:
+/***/ 1766:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const {constants: BufferConstants} = __nccwpck_require__(64293);
-const pump = __nccwpck_require__(18341);
-const bufferStream = __nccwpck_require__(91585);
+const {constants: BufferConstants} = __nccwpck_require__(4293);
+const pump = __nccwpck_require__(8341);
+const bufferStream = __nccwpck_require__(1585);
 
 class MaxBufferError extends Error {
 	constructor() {
@@ -19103,13 +18887,13 @@ module.exports.MaxBufferError = MaxBufferError;
 
 /***/ }),
 
-/***/ 38337:
+/***/ 8337:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const cp = __nccwpck_require__(63129);
+const cp = __nccwpck_require__(3129);
 const fs = __nccwpck_require__(5630);
-const path = __nccwpck_require__(85622);
-const util = __nccwpck_require__(31669);
+const path = __nccwpck_require__(5622);
+const util = __nccwpck_require__(1669);
 
 /**
  * @constructor
@@ -19387,18 +19171,18 @@ module.exports = Git;
 
 /***/ }),
 
-/***/ 54290:
+/***/ 4290:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 const findCacheDir = __nccwpck_require__(7281);
-const Git = __nccwpck_require__(38337);
-const filenamify = __nccwpck_require__(16094);
+const Git = __nccwpck_require__(8337);
+const filenamify = __nccwpck_require__(6094);
 const copy = __nccwpck_require__(8197)/* .copy */ .JG;
 const getUser = __nccwpck_require__(8197)/* .getUser */ .PR;
 const fs = __nccwpck_require__(5630);
-const globby = __nccwpck_require__(43398);
-const path = __nccwpck_require__(85622);
-const util = __nccwpck_require__(31669);
+const globby = __nccwpck_require__(3398);
+const path = __nccwpck_require__(5622);
+const util = __nccwpck_require__(1669);
 
 const log = util.debuglog('gh-pages');
 
@@ -19653,9 +19437,9 @@ exports.clean = function clean() {
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 var __webpack_unused_export__;
-const path = __nccwpck_require__(85622);
-const Git = __nccwpck_require__(38337);
-const async = __nccwpck_require__(57888);
+const path = __nccwpck_require__(5622);
+const Git = __nccwpck_require__(8337);
+const async = __nccwpck_require__(7888);
 const fs = __nccwpck_require__(5630);
 
 /**
@@ -19826,15 +19610,15 @@ exports.PR = function(cwd) {
 
 /***/ }),
 
-/***/ 54655:
+/***/ 4655:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-var isGlob = __nccwpck_require__(34466);
-var pathPosixDirname = __nccwpck_require__(85622).posix.dirname;
-var isWin32 = __nccwpck_require__(12087).platform() === 'win32';
+var isGlob = __nccwpck_require__(4466);
+var pathPosixDirname = __nccwpck_require__(5622).posix.dirname;
+var isWin32 = __nccwpck_require__(2087).platform() === 'win32';
 
 var slash = '/';
 var backslash = /\\/g;
@@ -19876,7 +19660,7 @@ module.exports = function globParent(str, opts) {
 
 /***/ }),
 
-/***/ 47625:
+/***/ 7625:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 exports.alphasort = alphasort
@@ -19893,9 +19677,9 @@ function ownProp (obj, field) {
   return Object.prototype.hasOwnProperty.call(obj, field)
 }
 
-var path = __nccwpck_require__(85622)
-var minimatch = __nccwpck_require__(83973)
-var isAbsolute = __nccwpck_require__(38714)
+var path = __nccwpck_require__(5622)
+var minimatch = __nccwpck_require__(3973)
+var isAbsolute = __nccwpck_require__(8714)
 var Minimatch = minimatch.Minimatch
 
 function alphasorti (a, b) {
@@ -20123,7 +19907,7 @@ function childrenIgnored (self, path) {
 
 /***/ }),
 
-/***/ 91957:
+/***/ 1957:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 // Approach:
@@ -20168,23 +19952,23 @@ function childrenIgnored (self, path) {
 
 module.exports = glob
 
-var fs = __nccwpck_require__(35747)
-var rp = __nccwpck_require__(46863)
-var minimatch = __nccwpck_require__(83973)
+var fs = __nccwpck_require__(5747)
+var rp = __nccwpck_require__(6863)
+var minimatch = __nccwpck_require__(3973)
 var Minimatch = minimatch.Minimatch
-var inherits = __nccwpck_require__(44124)
-var EE = __nccwpck_require__(28614).EventEmitter
-var path = __nccwpck_require__(85622)
-var assert = __nccwpck_require__(42357)
-var isAbsolute = __nccwpck_require__(38714)
-var globSync = __nccwpck_require__(29010)
-var common = __nccwpck_require__(47625)
+var inherits = __nccwpck_require__(4124)
+var EE = __nccwpck_require__(8614).EventEmitter
+var path = __nccwpck_require__(5622)
+var assert = __nccwpck_require__(2357)
+var isAbsolute = __nccwpck_require__(8714)
+var globSync = __nccwpck_require__(9010)
+var common = __nccwpck_require__(7625)
 var alphasort = common.alphasort
 var alphasorti = common.alphasorti
 var setopts = common.setopts
 var ownProp = common.ownProp
-var inflight = __nccwpck_require__(52492)
-var util = __nccwpck_require__(31669)
+var inflight = __nccwpck_require__(2492)
+var util = __nccwpck_require__(1669)
 var childrenIgnored = common.childrenIgnored
 var isIgnored = common.isIgnored
 
@@ -20920,22 +20704,22 @@ Glob.prototype._stat2 = function (f, abs, er, stat, cb) {
 
 /***/ }),
 
-/***/ 29010:
+/***/ 9010:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 module.exports = globSync
 globSync.GlobSync = GlobSync
 
-var fs = __nccwpck_require__(35747)
-var rp = __nccwpck_require__(46863)
-var minimatch = __nccwpck_require__(83973)
+var fs = __nccwpck_require__(5747)
+var rp = __nccwpck_require__(6863)
+var minimatch = __nccwpck_require__(3973)
 var Minimatch = minimatch.Minimatch
-var Glob = __nccwpck_require__(91957).Glob
-var util = __nccwpck_require__(31669)
-var path = __nccwpck_require__(85622)
-var assert = __nccwpck_require__(42357)
-var isAbsolute = __nccwpck_require__(38714)
-var common = __nccwpck_require__(47625)
+var Glob = __nccwpck_require__(1957).Glob
+var util = __nccwpck_require__(1669)
+var path = __nccwpck_require__(5622)
+var assert = __nccwpck_require__(2357)
+var isAbsolute = __nccwpck_require__(8714)
+var common = __nccwpck_require__(7625)
 var alphasort = common.alphasort
 var alphasorti = common.alphasorti
 var setopts = common.setopts
@@ -21413,16 +21197,16 @@ GlobSync.prototype._makeAbs = function (f) {
 
 /***/ }),
 
-/***/ 43398:
+/***/ 3398:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-var Promise = __nccwpck_require__(15222);
-var arrayUnion = __nccwpck_require__(99600);
-var objectAssign = __nccwpck_require__(17426);
-var glob = __nccwpck_require__(91957);
-var pify = __nccwpck_require__(64810);
+var Promise = __nccwpck_require__(5222);
+var arrayUnion = __nccwpck_require__(9600);
+var objectAssign = __nccwpck_require__(7426);
+var glob = __nccwpck_require__(1957);
+var pify = __nccwpck_require__(4810);
 
 var globP = pify(glob, Promise).bind(glob);
 
@@ -21509,13 +21293,13 @@ module.exports.hasMagic = function (patterns, opts) {
 
 /***/ }),
 
-/***/ 26457:
+/***/ 6457:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const types_1 = __nccwpck_require__(64597);
+const types_1 = __nccwpck_require__(4597);
 function createRejection(error, ...beforeErrorGroups) {
     const promise = (async () => {
         if (error instanceof types_1.RequestError) {
@@ -21547,7 +21331,7 @@ exports.default = createRejection;
 
 /***/ }),
 
-/***/ 36056:
+/***/ 6056:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -21563,15 +21347,15 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const events_1 = __nccwpck_require__(28614);
+const events_1 = __nccwpck_require__(8614);
 const is_1 = __nccwpck_require__(7678);
-const PCancelable = __nccwpck_require__(19072);
-const types_1 = __nccwpck_require__(64597);
-const parse_body_1 = __nccwpck_require__(88220);
-const core_1 = __nccwpck_require__(60094);
-const proxy_events_1 = __nccwpck_require__(53021);
-const get_buffer_1 = __nccwpck_require__(34500);
-const is_response_ok_1 = __nccwpck_require__(49298);
+const PCancelable = __nccwpck_require__(9072);
+const types_1 = __nccwpck_require__(4597);
+const parse_body_1 = __nccwpck_require__(8220);
+const core_1 = __nccwpck_require__(94);
+const proxy_events_1 = __nccwpck_require__(3021);
+const get_buffer_1 = __nccwpck_require__(4500);
+const is_response_ok_1 = __nccwpck_require__(9298);
 const proxiedRequestEvents = [
     'request',
     'response',
@@ -21725,12 +21509,12 @@ function asPromise(normalizedOptions) {
     return promise;
 }
 exports.default = asPromise;
-__exportStar(__nccwpck_require__(64597), exports);
+__exportStar(__nccwpck_require__(4597), exports);
 
 
 /***/ }),
 
-/***/ 41048:
+/***/ 1048:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -21816,13 +21600,13 @@ exports.default = normalizeArguments;
 
 /***/ }),
 
-/***/ 88220:
+/***/ 8220:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const types_1 = __nccwpck_require__(64597);
+const types_1 = __nccwpck_require__(4597);
 const parseBody = (response, responseType, parseJson, encoding) => {
     const { rawBody } = response;
     try {
@@ -21849,7 +21633,7 @@ exports.default = parseBody;
 
 /***/ }),
 
-/***/ 64597:
+/***/ 4597:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -21866,7 +21650,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CancelError = exports.ParseError = void 0;
-const core_1 = __nccwpck_require__(60094);
+const core_1 = __nccwpck_require__(94);
 /**
 An error to be thrown when server response code is 2xx, and parsing body fails.
 Includes a `response` property.
@@ -21892,12 +21676,12 @@ class CancelError extends core_1.RequestError {
     }
 }
 exports.CancelError = CancelError;
-__exportStar(__nccwpck_require__(60094), exports);
+__exportStar(__nccwpck_require__(94), exports);
 
 
 /***/ }),
 
-/***/ 93462:
+/***/ 3462:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -21934,41 +21718,41 @@ exports.default = calculateRetryDelay;
 
 /***/ }),
 
-/***/ 60094:
+/***/ 94:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.UnsupportedProtocolError = exports.ReadError = exports.TimeoutError = exports.UploadError = exports.CacheError = exports.HTTPError = exports.MaxRedirectsError = exports.RequestError = exports.setNonEnumerableProperties = exports.knownHookEvents = exports.withoutBody = exports.kIsNormalizedAlready = void 0;
-const util_1 = __nccwpck_require__(31669);
-const stream_1 = __nccwpck_require__(92413);
-const fs_1 = __nccwpck_require__(35747);
-const url_1 = __nccwpck_require__(78835);
-const http = __nccwpck_require__(98605);
-const http_1 = __nccwpck_require__(98605);
-const https = __nccwpck_require__(57211);
-const http_timer_1 = __nccwpck_require__(48097);
+const util_1 = __nccwpck_require__(1669);
+const stream_1 = __nccwpck_require__(2413);
+const fs_1 = __nccwpck_require__(5747);
+const url_1 = __nccwpck_require__(8835);
+const http = __nccwpck_require__(8605);
+const http_1 = __nccwpck_require__(8605);
+const https = __nccwpck_require__(7211);
+const http_timer_1 = __nccwpck_require__(8097);
 const cacheable_lookup_1 = __nccwpck_require__(2286);
-const CacheableRequest = __nccwpck_require__(78116);
-const decompressResponse = __nccwpck_require__(82391);
+const CacheableRequest = __nccwpck_require__(8116);
+const decompressResponse = __nccwpck_require__(2391);
 // @ts-expect-error Missing types
-const http2wrapper = __nccwpck_require__(54645);
+const http2wrapper = __nccwpck_require__(4645);
 const lowercaseKeys = __nccwpck_require__(9662);
 const is_1 = __nccwpck_require__(7678);
-const get_body_size_1 = __nccwpck_require__(94564);
-const is_form_data_1 = __nccwpck_require__(90040);
-const proxy_events_1 = __nccwpck_require__(53021);
-const timed_out_1 = __nccwpck_require__(52454);
+const get_body_size_1 = __nccwpck_require__(4564);
+const is_form_data_1 = __nccwpck_require__(40);
+const proxy_events_1 = __nccwpck_require__(3021);
+const timed_out_1 = __nccwpck_require__(2454);
 const url_to_options_1 = __nccwpck_require__(8026);
 const options_to_url_1 = __nccwpck_require__(9219);
 const weakable_map_1 = __nccwpck_require__(7288);
-const get_buffer_1 = __nccwpck_require__(34500);
-const dns_ip_version_1 = __nccwpck_require__(94993);
-const is_response_ok_1 = __nccwpck_require__(49298);
+const get_buffer_1 = __nccwpck_require__(4500);
+const dns_ip_version_1 = __nccwpck_require__(4993);
+const is_response_ok_1 = __nccwpck_require__(9298);
 const deprecation_warning_1 = __nccwpck_require__(397);
-const normalize_arguments_1 = __nccwpck_require__(41048);
-const calculate_retry_delay_1 = __nccwpck_require__(93462);
+const normalize_arguments_1 = __nccwpck_require__(1048);
+const calculate_retry_delay_1 = __nccwpck_require__(3462);
 let globalDnsCache;
 const kRequest = Symbol('request');
 const kResponse = Symbol('response');
@@ -23433,7 +23217,7 @@ exports.default = Request;
 
 /***/ }),
 
-/***/ 94993:
+/***/ 4993:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -23458,16 +23242,16 @@ exports.dnsLookupIpVersionToFamily = (dnsLookupIpVersion) => {
 
 /***/ }),
 
-/***/ 94564:
+/***/ 4564:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const fs_1 = __nccwpck_require__(35747);
-const util_1 = __nccwpck_require__(31669);
+const fs_1 = __nccwpck_require__(5747);
+const util_1 = __nccwpck_require__(1669);
 const is_1 = __nccwpck_require__(7678);
-const is_form_data_1 = __nccwpck_require__(90040);
+const is_form_data_1 = __nccwpck_require__(40);
 const statAsync = util_1.promisify(fs_1.stat);
 exports.default = async (body, headers) => {
     if (headers && 'content-length' in headers) {
@@ -23498,7 +23282,7 @@ exports.default = async (body, headers) => {
 
 /***/ }),
 
-/***/ 34500:
+/***/ 4500:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -23522,7 +23306,7 @@ exports.default = getBuffer;
 
 /***/ }),
 
-/***/ 90040:
+/***/ 40:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -23534,7 +23318,7 @@ exports.default = (body) => is_1.default.nodeStream(body) && is_1.default.functi
 
 /***/ }),
 
-/***/ 49298:
+/***/ 9298:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -23557,7 +23341,7 @@ exports.isResponseOk = (response) => {
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 /* istanbul ignore file: deprecated */
-const url_1 = __nccwpck_require__(78835);
+const url_1 = __nccwpck_require__(8835);
 const keys = [
     'protocol',
     'host',
@@ -23611,7 +23395,7 @@ exports.default = (origin, options) => {
 
 /***/ }),
 
-/***/ 53021:
+/***/ 3021:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -23636,15 +23420,15 @@ exports.default = default_1;
 
 /***/ }),
 
-/***/ 52454:
+/***/ 2454:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.TimeoutError = void 0;
-const net = __nccwpck_require__(11631);
-const unhandle_1 = __nccwpck_require__(81593);
+const net = __nccwpck_require__(1631);
+const unhandle_1 = __nccwpck_require__(1593);
 const reentry = Symbol('reentry');
 const noop = () => { };
 class TimeoutError extends Error {
@@ -23765,7 +23549,7 @@ exports.default = (request, delays, options) => {
 
 /***/ }),
 
-/***/ 81593:
+/***/ 1593:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -23864,7 +23648,7 @@ exports.default = WeakableMap;
 
 /***/ }),
 
-/***/ 34337:
+/***/ 4337:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -23882,10 +23666,10 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.defaultHandler = void 0;
 const is_1 = __nccwpck_require__(7678);
-const as_promise_1 = __nccwpck_require__(36056);
-const create_rejection_1 = __nccwpck_require__(26457);
-const core_1 = __nccwpck_require__(60094);
-const deep_freeze_1 = __nccwpck_require__(70285);
+const as_promise_1 = __nccwpck_require__(6056);
+const create_rejection_1 = __nccwpck_require__(6457);
+const core_1 = __nccwpck_require__(94);
+const deep_freeze_1 = __nccwpck_require__(285);
 const errors = {
     RequestError: as_promise_1.RequestError,
     CacheError: as_promise_1.CacheError,
@@ -24107,12 +23891,12 @@ const create = (defaults) => {
     return got;
 };
 exports.default = create;
-__exportStar(__nccwpck_require__(72613), exports);
+__exportStar(__nccwpck_require__(2613), exports);
 
 
 /***/ }),
 
-/***/ 93061:
+/***/ 3061:
 /***/ (function(module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -24128,8 +23912,8 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const url_1 = __nccwpck_require__(78835);
-const create_1 = __nccwpck_require__(34337);
+const url_1 = __nccwpck_require__(8835);
+const create_1 = __nccwpck_require__(4337);
 const defaults = {
     options: {
         method: 'GET',
@@ -24246,13 +24030,13 @@ exports.default = got;
 module.exports = got;
 module.exports.default = got;
 module.exports.__esModule = true; // Workaround for TS issue: https://github.com/sindresorhus/got/pull/1267
-__exportStar(__nccwpck_require__(34337), exports);
-__exportStar(__nccwpck_require__(36056), exports);
+__exportStar(__nccwpck_require__(4337), exports);
+__exportStar(__nccwpck_require__(6056), exports);
 
 
 /***/ }),
 
-/***/ 72613:
+/***/ 2613:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -24262,7 +24046,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 70285:
+/***/ 285:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -24303,7 +24087,7 @@ exports.default = (message) => {
 
 /***/ }),
 
-/***/ 67356:
+/***/ 7356:
 /***/ ((module) => {
 
 "use strict";
@@ -24334,15 +24118,15 @@ function clone (obj) {
 
 /***/ }),
 
-/***/ 77758:
+/***/ 7758:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var fs = __nccwpck_require__(35747)
-var polyfills = __nccwpck_require__(20263)
-var legacy = __nccwpck_require__(73086)
-var clone = __nccwpck_require__(67356)
+var fs = __nccwpck_require__(5747)
+var polyfills = __nccwpck_require__(263)
+var legacy = __nccwpck_require__(3086)
+var clone = __nccwpck_require__(7356)
 
-var util = __nccwpck_require__(31669)
+var util = __nccwpck_require__(1669)
 
 /* istanbul ignore next - node 0.x polyfill */
 var gracefulQueue
@@ -24423,7 +24207,7 @@ if (!fs[gracefulQueue]) {
   if (/\bgfs4\b/i.test(process.env.NODE_DEBUG || '')) {
     process.on('exit', function() {
       debug(fs[gracefulQueue])
-      __nccwpck_require__(42357).equal(fs[gracefulQueue].length, 0)
+      __nccwpck_require__(2357).equal(fs[gracefulQueue].length, 0)
     })
   }
 }
@@ -24770,10 +24554,10 @@ function retry () {
 
 /***/ }),
 
-/***/ 73086:
+/***/ 3086:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var Stream = __nccwpck_require__(92413).Stream
+var Stream = __nccwpck_require__(2413).Stream
 
 module.exports = legacy
 
@@ -24895,10 +24679,10 @@ function legacy (fs) {
 
 /***/ }),
 
-/***/ 20263:
+/***/ 263:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var constants = __nccwpck_require__(27619)
+var constants = __nccwpck_require__(7619)
 
 var origCwd = process.cwd
 var cwd = null
@@ -25248,7 +25032,7 @@ function patch (fs) {
 
 /***/ }),
 
-/***/ 31621:
+/***/ 1621:
 /***/ ((module) => {
 
 "use strict";
@@ -25264,7 +25048,7 @@ module.exports = (flag, argv) => {
 
 /***/ }),
 
-/***/ 61002:
+/***/ 1002:
 /***/ ((module) => {
 
 "use strict";
@@ -25945,15 +25729,15 @@ module.exports = class CachePolicy {
 
 /***/ }),
 
-/***/ 79898:
+/***/ 9898:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const EventEmitter = __nccwpck_require__(28614);
+const EventEmitter = __nccwpck_require__(8614);
 const tls = __nccwpck_require__(4016);
-const http2 = __nccwpck_require__(97565);
-const QuickLRU = __nccwpck_require__(49273);
+const http2 = __nccwpck_require__(7565);
+const QuickLRU = __nccwpck_require__(9273);
 
 const kCurrentStreamsCount = Symbol('currentStreamsCount');
 const kRequest = Symbol('request');
@@ -26623,18 +26407,18 @@ module.exports = {
 
 /***/ }),
 
-/***/ 97167:
+/***/ 7167:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const http = __nccwpck_require__(98605);
-const https = __nccwpck_require__(57211);
-const resolveALPN = __nccwpck_require__(46624);
-const QuickLRU = __nccwpck_require__(49273);
-const Http2ClientRequest = __nccwpck_require__(59632);
-const calculateServerName = __nccwpck_require__(51982);
-const urlToOptions = __nccwpck_require__(92686);
+const http = __nccwpck_require__(8605);
+const https = __nccwpck_require__(7211);
+const resolveALPN = __nccwpck_require__(6624);
+const QuickLRU = __nccwpck_require__(9273);
+const Http2ClientRequest = __nccwpck_require__(9632);
+const calculateServerName = __nccwpck_require__(1982);
+const urlToOptions = __nccwpck_require__(2686);
 
 const cache = new QuickLRU({maxSize: 100});
 const queue = new Map();
@@ -26780,18 +26564,18 @@ module.exports.protocolCache = cache;
 
 /***/ }),
 
-/***/ 59632:
+/***/ 9632:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const http2 = __nccwpck_require__(97565);
-const {Writable} = __nccwpck_require__(92413);
-const {Agent, globalAgent} = __nccwpck_require__(79898);
-const IncomingMessage = __nccwpck_require__(82575);
-const urlToOptions = __nccwpck_require__(92686);
-const proxyEvents = __nccwpck_require__(81818);
-const isRequestPseudoHeader = __nccwpck_require__(11199);
+const http2 = __nccwpck_require__(7565);
+const {Writable} = __nccwpck_require__(2413);
+const {Agent, globalAgent} = __nccwpck_require__(9898);
+const IncomingMessage = __nccwpck_require__(2575);
+const urlToOptions = __nccwpck_require__(2686);
+const proxyEvents = __nccwpck_require__(1818);
+const isRequestPseudoHeader = __nccwpck_require__(1199);
 const {
 	ERR_INVALID_ARG_TYPE,
 	ERR_INVALID_PROTOCOL,
@@ -27233,12 +27017,12 @@ module.exports = ClientRequest;
 
 /***/ }),
 
-/***/ 82575:
+/***/ 2575:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const {Readable} = __nccwpck_require__(92413);
+const {Readable} = __nccwpck_require__(2413);
 
 class IncomingMessage extends Readable {
 	constructor(socket, highWaterMark) {
@@ -27299,16 +27083,16 @@ module.exports = IncomingMessage;
 
 /***/ }),
 
-/***/ 54645:
+/***/ 4645:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const http2 = __nccwpck_require__(97565);
-const agent = __nccwpck_require__(79898);
-const ClientRequest = __nccwpck_require__(59632);
-const IncomingMessage = __nccwpck_require__(82575);
-const auto = __nccwpck_require__(97167);
+const http2 = __nccwpck_require__(7565);
+const agent = __nccwpck_require__(9898);
+const ClientRequest = __nccwpck_require__(9632);
+const IncomingMessage = __nccwpck_require__(2575);
+const auto = __nccwpck_require__(7167);
 
 const request = (url, options, callback) => {
 	return new ClientRequest(url, options, callback);
@@ -27335,12 +27119,12 @@ module.exports = {
 
 /***/ }),
 
-/***/ 51982:
+/***/ 1982:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const net = __nccwpck_require__(11631);
+const net = __nccwpck_require__(1631);
 /* istanbul ignore file: https://github.com/nodejs/node/blob/v13.0.1/lib/_http_agent.js */
 
 module.exports = options => {
@@ -27423,7 +27207,7 @@ makeError(TypeError, 'ERR_INVALID_CHAR', args => {
 
 /***/ }),
 
-/***/ 11199:
+/***/ 1199:
 /***/ ((module) => {
 
 "use strict";
@@ -27444,7 +27228,7 @@ module.exports = header => {
 
 /***/ }),
 
-/***/ 81818:
+/***/ 1818:
 /***/ ((module) => {
 
 "use strict";
@@ -27459,7 +27243,7 @@ module.exports = (from, to, events) => {
 
 /***/ }),
 
-/***/ 92686:
+/***/ 2686:
 /***/ ((module) => {
 
 "use strict";
@@ -27492,10 +27276,10 @@ module.exports = url => {
 
 /***/ }),
 
-/***/ 52492:
+/***/ 2492:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var wrappy = __nccwpck_require__(62940)
+var wrappy = __nccwpck_require__(2940)
 var reqs = Object.create(null)
 var once = __nccwpck_require__(1223)
 
@@ -27553,11 +27337,11 @@ function slice (args) {
 
 /***/ }),
 
-/***/ 44124:
+/***/ 4124:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 try {
-  var util = __nccwpck_require__(31669);
+  var util = __nccwpck_require__(1669);
   /* istanbul ignore next */
   if (typeof util.inherits !== 'function') throw '';
   module.exports = util.inherits;
@@ -27603,7 +27387,7 @@ if (typeof Object.create === 'function') {
 
 /***/ }),
 
-/***/ 76435:
+/***/ 6435:
 /***/ ((module) => {
 
 /*!
@@ -27630,7 +27414,7 @@ module.exports = function isExtglob(str) {
 
 /***/ }),
 
-/***/ 34466:
+/***/ 4466:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 /*!
@@ -27640,7 +27424,7 @@ module.exports = function isExtglob(str) {
  * Released under the MIT License.
  */
 
-var isExtglob = __nccwpck_require__(76435);
+var isExtglob = __nccwpck_require__(6435);
 var chars = { '{': '}', '(': ')', '[': ']'};
 var strictRegex = /\\(.)|(^!|\*|[\].+)]\?|\[[^\\\]]+\]|\{[^\\}]+\}|\(\?[:!=][^\\)]+\)|\([^|]+\|[^\\)]+\))/;
 var relaxedRegex = /\\(.)|(^!|[*?{}()[\]]|\(\?)/;
@@ -27685,7 +27469,7 @@ module.exports = function isGlob(str, options) {
 
 /***/ }),
 
-/***/ 75680:
+/***/ 5680:
 /***/ ((module) => {
 
 "use strict";
@@ -27711,13 +27495,13 @@ module.exports = function(num) {
 
 /***/ }),
 
-/***/ 97126:
+/***/ 7126:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var fs = __nccwpck_require__(35747)
+var fs = __nccwpck_require__(5747)
 var core
 if (process.platform === 'win32' || global.TESTING_WINDOWS) {
-  core = __nccwpck_require__(42001)
+  core = __nccwpck_require__(2001)
 } else {
   core = __nccwpck_require__(9728)
 }
@@ -27781,7 +27565,7 @@ function sync (path, options) {
 module.exports = isexe
 isexe.sync = sync
 
-var fs = __nccwpck_require__(35747)
+var fs = __nccwpck_require__(5747)
 
 function isexe (path, options, cb) {
   fs.stat(path, function (er, stat) {
@@ -27823,13 +27607,13 @@ function checkMode (stat, options) {
 
 /***/ }),
 
-/***/ 42001:
+/***/ 2001:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 module.exports = isexe
 isexe.sync = sync
 
-var fs = __nccwpck_require__(35747)
+var fs = __nccwpck_require__(5747)
 
 function checkPathExt (path, options) {
   var pathext = options.pathExt !== undefined ?
@@ -27872,7 +27656,7 @@ function sync (path, options) {
 
 /***/ }),
 
-/***/ 22820:
+/***/ 2820:
 /***/ ((__unused_webpack_module, exports) => {
 
 //TODO: handle reviver/dehydrate function like normal
@@ -27937,14 +27721,14 @@ exports.parse = function (s) {
 
 /***/ }),
 
-/***/ 26160:
+/***/ 6160:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 var _fs
 try {
-  _fs = __nccwpck_require__(77758)
+  _fs = __nccwpck_require__(7758)
 } catch (_) {
-  _fs = __nccwpck_require__(35747)
+  _fs = __nccwpck_require__(5747)
 }
 
 function readFile (file, options, callback) {
@@ -28078,14 +27862,14 @@ module.exports = jsonfile
 
 /***/ }),
 
-/***/ 51531:
+/***/ 1531:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const EventEmitter = __nccwpck_require__(28614);
-const JSONB = __nccwpck_require__(22820);
+const EventEmitter = __nccwpck_require__(8614);
+const JSONB = __nccwpck_require__(2820);
 
 const loadStore = options => {
 	const adapters = {
@@ -28195,15 +27979,15 @@ module.exports = Keyv;
 
 /***/ }),
 
-/***/ 63447:
+/***/ 3447:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const path = __nccwpck_require__(85622);
-const fs = __nccwpck_require__(35747);
-const {promisify} = __nccwpck_require__(31669);
-const pLocate = __nccwpck_require__(90104);
+const path = __nccwpck_require__(5622);
+const fs = __nccwpck_require__(5747);
+const {promisify} = __nccwpck_require__(1669);
+const pLocate = __nccwpck_require__(104);
 
 const fsStat = promisify(fs.stat);
 const fsLStat = promisify(fs.lstat);
@@ -28297,10 +28081,10 @@ module.exports = LRUCache
 // This will be a proper iterable 'Map' in engines that support it,
 // or a fakey-fake PseudoMap in older versions.
 var Map = __nccwpck_require__(3541)
-var util = __nccwpck_require__(31669)
+var util = __nccwpck_require__(1669)
 
 // A linked list to keep track of recently-used-ness
-var Yallist = __nccwpck_require__(40665)
+var Yallist = __nccwpck_require__(665)
 
 // use symbols if possible, otherwise just _props
 var hasSymbol = typeof Symbol === 'function' && process.env._nodeLRUCacheForceNoSymbol !== '1'
@@ -28762,15 +28546,15 @@ function Entry (key, value, length, now, maxAge) {
 
 /***/ }),
 
-/***/ 39126:
+/***/ 9126:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const fs = __nccwpck_require__(35747);
-const path = __nccwpck_require__(85622);
-const {promisify} = __nccwpck_require__(31669);
-const semver = __nccwpck_require__(13689);
+const fs = __nccwpck_require__(5747);
+const path = __nccwpck_require__(5622);
+const {promisify} = __nccwpck_require__(1669);
+const semver = __nccwpck_require__(3689);
 
 const useNativeRecursiveOption = semver.satisfies(process.version, '>=10.12.0');
 
@@ -28926,7 +28710,7 @@ module.exports.sync = (input, options) => {
 
 /***/ }),
 
-/***/ 13689:
+/***/ 3689:
 /***/ ((module, exports) => {
 
 exports = module.exports = SemVer
@@ -30529,7 +30313,7 @@ function coerce (version, options) {
 
 /***/ }),
 
-/***/ 82578:
+/***/ 2578:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -30541,7 +30325,7 @@ function coerce (version, options) {
  * Copyright (c) 2014-2020 Teambition
  * Licensed under the MIT license.
  */
-const Stream = __nccwpck_require__(92413)
+const Stream = __nccwpck_require__(2413)
 const PassThrough = Stream.PassThrough
 const slice = Array.prototype.slice
 
@@ -30681,16 +30465,16 @@ function pauseStreams (streams, options) {
 
 /***/ }),
 
-/***/ 76228:
+/***/ 6228:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const util = __nccwpck_require__(31669);
-const braces = __nccwpck_require__(50610);
-const picomatch = __nccwpck_require__(78569);
-const utils = __nccwpck_require__(30479);
+const util = __nccwpck_require__(1669);
+const braces = __nccwpck_require__(610);
+const picomatch = __nccwpck_require__(8569);
+const utils = __nccwpck_require__(479);
 const isEmptyString = val => val === '' || val === './';
 
 /**
@@ -31156,7 +30940,7 @@ module.exports = micromatch;
 
 /***/ }),
 
-/***/ 42610:
+/***/ 2610:
 /***/ ((module) => {
 
 "use strict";
@@ -31196,7 +30980,7 @@ module.exports = (fromStream, toStream) => {
 
 /***/ }),
 
-/***/ 83973:
+/***/ 3973:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 module.exports = minimatch
@@ -31204,11 +30988,11 @@ minimatch.Minimatch = Minimatch
 
 var path = { sep: '/' }
 try {
-  path = __nccwpck_require__(85622)
+  path = __nccwpck_require__(5622)
 } catch (er) {}
 
 var GLOBSTAR = minimatch.GLOBSTAR = Minimatch.GLOBSTAR = {}
-var expand = __nccwpck_require__(33717)
+var expand = __nccwpck_require__(3717)
 
 var plTypes = {
   '!': { open: '(?:(?!(?:', close: '))[^/]*?)'},
@@ -32126,7 +31910,7 @@ function regExpEscape (s) {
 
 /***/ }),
 
-/***/ 80900:
+/***/ 9992:
 /***/ ((module) => {
 
 /**
@@ -32295,7 +32079,7 @@ function plural(ms, msAbs, n, name) {
 
 /***/ }),
 
-/***/ 10128:
+/***/ 128:
 /***/ ((module) => {
 
 /*!
@@ -32322,7 +32106,7 @@ module.exports = (function() {
 
 /***/ }),
 
-/***/ 17952:
+/***/ 7952:
 /***/ ((module) => {
 
 "use strict";
@@ -32546,7 +32330,7 @@ module.exports = normalizeUrl;
 
 /***/ }),
 
-/***/ 17426:
+/***/ 7426:
 /***/ ((module) => {
 
 "use strict";
@@ -32647,7 +32431,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /***/ 1223:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var wrappy = __nccwpck_require__(62940)
+var wrappy = __nccwpck_require__(2940)
 module.exports = wrappy(once)
 module.exports.strict = wrappy(onceStrict)
 
@@ -32693,7 +32477,7 @@ function onceStrict (fn) {
 
 /***/ }),
 
-/***/ 19072:
+/***/ 9072:
 /***/ ((module) => {
 
 "use strict";
@@ -32812,12 +32596,12 @@ module.exports.CancelError = CancelError;
 
 /***/ }),
 
-/***/ 57684:
+/***/ 2690:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const pTry = __nccwpck_require__(80746);
+const pTry = __nccwpck_require__(746);
 
 const pLimit = concurrency => {
 	if (!((Number.isInteger(concurrency) || concurrency === Infinity) && concurrency > 0)) {
@@ -32877,12 +32661,12 @@ module.exports.default = pLimit;
 
 /***/ }),
 
-/***/ 90104:
+/***/ 104:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const pLimit = __nccwpck_require__(57684);
+const pLimit = __nccwpck_require__(2690);
 
 class EndError extends Error {
 	constructor(value) {
@@ -32937,7 +32721,7 @@ module.exports.default = pLocate;
 
 /***/ }),
 
-/***/ 80746:
+/***/ 746:
 /***/ ((module) => {
 
 "use strict";
@@ -32954,13 +32738,13 @@ module.exports.default = pTry;
 
 /***/ }),
 
-/***/ 96978:
+/***/ 6978:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const fs = __nccwpck_require__(35747);
-const {promisify} = __nccwpck_require__(31669);
+const fs = __nccwpck_require__(5747);
+const {promisify} = __nccwpck_require__(1669);
 
 const pAccess = promisify(fs.access);
 
@@ -32985,7 +32769,7 @@ module.exports.sync = path => {
 
 /***/ }),
 
-/***/ 38714:
+/***/ 8714:
 /***/ ((module) => {
 
 "use strict";
@@ -33013,24 +32797,24 @@ module.exports.win32 = win32;
 
 /***/ }),
 
-/***/ 78569:
+/***/ 8569:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-module.exports = __nccwpck_require__(33322);
+module.exports = __nccwpck_require__(3322);
 
 
 /***/ }),
 
-/***/ 16099:
+/***/ 6099:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const path = __nccwpck_require__(85622);
+const path = __nccwpck_require__(5622);
 const WIN_SLASH = '\\\\/';
 const WIN_NO_SLASH = `[^${WIN_SLASH}]`;
 
@@ -33211,14 +32995,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 92139:
+/***/ 2139:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const constants = __nccwpck_require__(16099);
-const utils = __nccwpck_require__(30479);
+const constants = __nccwpck_require__(6099);
+const utils = __nccwpck_require__(479);
 
 /**
  * Constants
@@ -34303,17 +34087,17 @@ module.exports = parse;
 
 /***/ }),
 
-/***/ 33322:
+/***/ 3322:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const path = __nccwpck_require__(85622);
-const scan = __nccwpck_require__(32429);
-const parse = __nccwpck_require__(92139);
-const utils = __nccwpck_require__(30479);
-const constants = __nccwpck_require__(16099);
+const path = __nccwpck_require__(5622);
+const scan = __nccwpck_require__(2429);
+const parse = __nccwpck_require__(2139);
+const utils = __nccwpck_require__(479);
+const constants = __nccwpck_require__(6099);
 const isObject = val => val && typeof val === 'object' && !Array.isArray(val);
 
 /**
@@ -34653,13 +34437,13 @@ module.exports = picomatch;
 
 /***/ }),
 
-/***/ 32429:
+/***/ 2429:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const utils = __nccwpck_require__(30479);
+const utils = __nccwpck_require__(479);
 const {
   CHAR_ASTERISK,             /* * */
   CHAR_AT,                   /* @ */
@@ -34676,7 +34460,7 @@ const {
   CHAR_RIGHT_CURLY_BRACE,    /* } */
   CHAR_RIGHT_PARENTHESES,    /* ) */
   CHAR_RIGHT_SQUARE_BRACKET  /* ] */
-} = __nccwpck_require__(16099);
+} = __nccwpck_require__(6099);
 
 const isPathSeparator = code => {
   return code === CHAR_FORWARD_SLASH || code === CHAR_BACKWARD_SLASH;
@@ -35052,20 +34836,20 @@ module.exports = scan;
 
 /***/ }),
 
-/***/ 30479:
+/***/ 479:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-const path = __nccwpck_require__(85622);
+const path = __nccwpck_require__(5622);
 const win32 = process.platform === 'win32';
 const {
   REGEX_BACKSLASH,
   REGEX_REMOVE_BACKSLASH,
   REGEX_SPECIAL_CHARS,
   REGEX_SPECIAL_CHARS_GLOBAL
-} = __nccwpck_require__(16099);
+} = __nccwpck_require__(6099);
 
 exports.isObject = val => val !== null && typeof val === 'object' && !Array.isArray(val);
 exports.hasRegexChars = str => REGEX_SPECIAL_CHARS.test(str);
@@ -35124,7 +34908,7 @@ exports.wrapOutput = (input, state = {}, options = {}) => {
 
 /***/ }),
 
-/***/ 64810:
+/***/ 4810:
 /***/ ((module) => {
 
 "use strict";
@@ -35200,18 +34984,18 @@ pify.all = pify;
 
 /***/ }),
 
-/***/ 15222:
+/***/ 5222:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-module.exports = typeof Promise === 'function' ? Promise : __nccwpck_require__(58058);
+module.exports = typeof Promise === 'function' ? Promise : __nccwpck_require__(8058);
 
 
 /***/ }),
 
-/***/ 58058:
+/***/ 8058:
 /***/ ((module) => {
 
 "use strict";
@@ -35511,12 +35295,12 @@ module.exports = Promise;
 
 /***/ }),
 
-/***/ 98098:
+/***/ 8098:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const path = __nccwpck_require__(85622);
+const path = __nccwpck_require__(5622);
 const findUp = __nccwpck_require__(9486);
 
 const pkgDir = async cwd => {
@@ -35536,7 +35320,7 @@ module.exports.sync = cwd => {
 
 /***/ }),
 
-/***/ 90680:
+/***/ 680:
 /***/ (function(module) {
 
 (function (root) {
@@ -35786,13 +35570,13 @@ if (process.env.npm_package_name === 'pseudomap' &&
 if (typeof Map === 'function' && !process.env.TEST_PSEUDOMAP) {
   module.exports = Map
 } else {
-  module.exports = __nccwpck_require__(57967)
+  module.exports = __nccwpck_require__(7967)
 }
 
 
 /***/ }),
 
-/***/ 57967:
+/***/ 7967:
 /***/ ((module) => {
 
 var hasOwnProperty = Object.prototype.hasOwnProperty
@@ -35912,12 +35696,12 @@ function set (data, k, v) {
 
 /***/ }),
 
-/***/ 18341:
+/***/ 8341:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 var once = __nccwpck_require__(1223)
-var eos = __nccwpck_require__(81205)
-var fs = __nccwpck_require__(35747) // we only need fs to get the ReadStream and WriteStream prototypes
+var eos = __nccwpck_require__(1205)
+var fs = __nccwpck_require__(5747) // we only need fs to get the ReadStream and WriteStream prototypes
 
 var noop = function () {}
 var ancient = /^v?\.0/.test(process.version)
@@ -36001,7 +35785,7 @@ module.exports = pump
 
 /***/ }),
 
-/***/ 89795:
+/***/ 9795:
 /***/ ((module) => {
 
 /*! queue-microtask. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
@@ -36017,7 +35801,7 @@ module.exports = typeof queueMicrotask === 'function'
 
 /***/ }),
 
-/***/ 49273:
+/***/ 9273:
 /***/ ((module) => {
 
 "use strict";
@@ -36148,10 +35932,10 @@ module.exports = QuickLRU;
 
 /***/ }),
 
-/***/ 27312:
+/***/ 7312:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var path = __nccwpck_require__(85622);
+var path = __nccwpck_require__(5622);
 
 module.exports = {
     regex: {
@@ -36242,16 +36026,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ 16104:
+/***/ 6104:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const escapeStringRegexp = __nccwpck_require__(98691);
-const ansiStyles = __nccwpck_require__(52068);
-const stdoutColor = __nccwpck_require__(59318).stdout;
+const escapeStringRegexp = __nccwpck_require__(8691);
+const ansiStyles = __nccwpck_require__(2068);
+const stdoutColor = __nccwpck_require__(9318).stdout;
 
-const template = __nccwpck_require__(37684);
+const template = __nccwpck_require__(7684);
 
 const isSimpleWindowsTerm = process.platform === 'win32' && !(process.env.TERM || '').toLowerCase().startsWith('xterm');
 
@@ -36478,7 +36262,7 @@ module.exports.default = module.exports; // For TypeScript
 
 /***/ }),
 
-/***/ 37684:
+/***/ 7684:
 /***/ ((module) => {
 
 "use strict";
@@ -36614,14 +36398,14 @@ module.exports = (chalk, tmp) => {
 
 /***/ }),
 
-/***/ 82617:
+/***/ 2617:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-var fs = __nccwpck_require__(35747),
-    path = __nccwpck_require__(85622),
-    chalk = __nccwpck_require__(16104),
-    minimatch = __nccwpck_require__(83973),
-    sharedOptions = __nccwpck_require__(27312);
+var fs = __nccwpck_require__(5747),
+    path = __nccwpck_require__(5622),
+    chalk = __nccwpck_require__(6104),
+    minimatch = __nccwpck_require__(3973),
+    sharedOptions = __nccwpck_require__(7312);
 
 module.exports = function(options) {
     var matched = [];
@@ -36830,7 +36614,7 @@ module.exports = function(options) {
 
 /***/ }),
 
-/***/ 46624:
+/***/ 6624:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -36887,7 +36671,7 @@ module.exports = (options = {}, connect = tls.connect) => new Promise((resolve, 
 "use strict";
 
 
-const Readable = __nccwpck_require__(92413).Readable;
+const Readable = __nccwpck_require__(2413).Readable;
 const lowercaseKeys = __nccwpck_require__(9662);
 
 class Response extends Readable {
@@ -36923,7 +36707,7 @@ module.exports = Response;
 
 /***/ }),
 
-/***/ 32113:
+/***/ 2113:
 /***/ ((module) => {
 
 "use strict";
@@ -36964,13 +36748,13 @@ module.exports = reusify
 
 /***/ }),
 
-/***/ 75288:
+/***/ 5288:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 /*! run-parallel. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 module.exports = runParallel
 
-const queueMicrotask = __nccwpck_require__(89795)
+const queueMicrotask = __nccwpck_require__(9795)
 
 function runParallel (tasks, cb) {
   let results, pending, keys
@@ -37022,7 +36806,7 @@ function runParallel (tasks, cb) {
 
 /***/ }),
 
-/***/ 91532:
+/***/ 1532:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const ANY = Symbol('SemVer ANY')
@@ -37154,11 +36938,11 @@ class Comparator {
 
 module.exports = Comparator
 
-const parseOptions = __nccwpck_require__(40785)
+const parseOptions = __nccwpck_require__(785)
 const {re, t} = __nccwpck_require__(9523)
-const cmp = __nccwpck_require__(75098)
-const debug = __nccwpck_require__(50427)
-const SemVer = __nccwpck_require__(48088)
+const cmp = __nccwpck_require__(5098)
+const debug = __nccwpck_require__(427)
+const SemVer = __nccwpck_require__(8088)
 const Range = __nccwpck_require__(9828)
 
 
@@ -37353,13 +37137,13 @@ class Range {
 }
 module.exports = Range
 
-const LRU = __nccwpck_require__(81196)
+const LRU = __nccwpck_require__(1196)
 const cache = new LRU({ max: 1000 })
 
-const parseOptions = __nccwpck_require__(40785)
-const Comparator = __nccwpck_require__(91532)
-const debug = __nccwpck_require__(50427)
-const SemVer = __nccwpck_require__(48088)
+const parseOptions = __nccwpck_require__(785)
+const Comparator = __nccwpck_require__(1532)
+const debug = __nccwpck_require__(427)
+const SemVer = __nccwpck_require__(8088)
 const {
   re,
   t,
@@ -37681,15 +37465,15 @@ const testSet = (set, version, options) => {
 
 /***/ }),
 
-/***/ 48088:
+/***/ 8088:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const debug = __nccwpck_require__(50427)
-const { MAX_LENGTH, MAX_SAFE_INTEGER } = __nccwpck_require__(42293)
+const debug = __nccwpck_require__(427)
+const { MAX_LENGTH, MAX_SAFE_INTEGER } = __nccwpck_require__(2293)
 const { re, t } = __nccwpck_require__(9523)
 
-const parseOptions = __nccwpck_require__(40785)
-const { compareIdentifiers } = __nccwpck_require__(92463)
+const parseOptions = __nccwpck_require__(785)
+const { compareIdentifiers } = __nccwpck_require__(2463)
 class SemVer {
   constructor (version, options) {
     options = parseOptions(options)
@@ -37975,10 +37759,10 @@ module.exports = SemVer
 
 /***/ }),
 
-/***/ 48848:
+/***/ 8848:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const parse = __nccwpck_require__(75925)
+const parse = __nccwpck_require__(5925)
 const clean = (version, options) => {
   const s = parse(version.trim().replace(/^[=v]+/, ''), options)
   return s ? s.version : null
@@ -37988,15 +37772,15 @@ module.exports = clean
 
 /***/ }),
 
-/***/ 75098:
+/***/ 5098:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const eq = __nccwpck_require__(91898)
+const eq = __nccwpck_require__(1898)
 const neq = __nccwpck_require__(6017)
-const gt = __nccwpck_require__(84123)
-const gte = __nccwpck_require__(15522)
-const lt = __nccwpck_require__(80194)
-const lte = __nccwpck_require__(77520)
+const gt = __nccwpck_require__(4123)
+const gte = __nccwpck_require__(5522)
+const lt = __nccwpck_require__(194)
+const lte = __nccwpck_require__(7520)
 
 const cmp = (a, op, b, loose) => {
   switch (op) {
@@ -38043,11 +37827,11 @@ module.exports = cmp
 
 /***/ }),
 
-/***/ 13466:
+/***/ 3466:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
-const parse = __nccwpck_require__(75925)
+const SemVer = __nccwpck_require__(8088)
+const parse = __nccwpck_require__(5925)
 const {re, t} = __nccwpck_require__(9523)
 
 const coerce = (version, options) => {
@@ -38101,10 +37885,10 @@ module.exports = coerce
 
 /***/ }),
 
-/***/ 92156:
+/***/ 2156:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 const compareBuild = (a, b, loose) => {
   const versionA = new SemVer(a, loose)
   const versionB = new SemVer(b, loose)
@@ -38115,20 +37899,20 @@ module.exports = compareBuild
 
 /***/ }),
 
-/***/ 62804:
+/***/ 2804:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 const compareLoose = (a, b) => compare(a, b, true)
 module.exports = compareLoose
 
 
 /***/ }),
 
-/***/ 44309:
+/***/ 4309:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 const compare = (a, b, loose) =>
   new SemVer(a, loose).compare(new SemVer(b, loose))
 
@@ -38137,11 +37921,11 @@ module.exports = compare
 
 /***/ }),
 
-/***/ 64297:
+/***/ 4297:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const parse = __nccwpck_require__(75925)
-const eq = __nccwpck_require__(91898)
+const parse = __nccwpck_require__(5925)
+const eq = __nccwpck_require__(1898)
 
 const diff = (version1, version2) => {
   if (eq(version1, version2)) {
@@ -38167,40 +37951,40 @@ module.exports = diff
 
 /***/ }),
 
-/***/ 91898:
+/***/ 1898:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 const eq = (a, b, loose) => compare(a, b, loose) === 0
 module.exports = eq
 
 
 /***/ }),
 
-/***/ 84123:
+/***/ 4123:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 const gt = (a, b, loose) => compare(a, b, loose) > 0
 module.exports = gt
 
 
 /***/ }),
 
-/***/ 15522:
+/***/ 5522:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 const gte = (a, b, loose) => compare(a, b, loose) >= 0
 module.exports = gte
 
 
 /***/ }),
 
-/***/ 30900:
+/***/ 900:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 
 const inc = (version, release, options, identifier) => {
   if (typeof (options) === 'string') {
@@ -38219,40 +38003,40 @@ module.exports = inc
 
 /***/ }),
 
-/***/ 80194:
+/***/ 194:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 const lt = (a, b, loose) => compare(a, b, loose) < 0
 module.exports = lt
 
 
 /***/ }),
 
-/***/ 77520:
+/***/ 7520:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 const lte = (a, b, loose) => compare(a, b, loose) <= 0
 module.exports = lte
 
 
 /***/ }),
 
-/***/ 76688:
+/***/ 6688:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 const major = (a, loose) => new SemVer(a, loose).major
 module.exports = major
 
 
 /***/ }),
 
-/***/ 38447:
+/***/ 8447:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 const minor = (a, loose) => new SemVer(a, loose).minor
 module.exports = minor
 
@@ -38262,21 +38046,21 @@ module.exports = minor
 /***/ 6017:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 const neq = (a, b, loose) => compare(a, b, loose) !== 0
 module.exports = neq
 
 
 /***/ }),
 
-/***/ 75925:
+/***/ 5925:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const {MAX_LENGTH} = __nccwpck_require__(42293)
+const {MAX_LENGTH} = __nccwpck_require__(2293)
 const { re, t } = __nccwpck_require__(9523)
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 
-const parseOptions = __nccwpck_require__(40785)
+const parseOptions = __nccwpck_require__(785)
 const parse = (version, options) => {
   options = parseOptions(options)
 
@@ -38309,20 +38093,20 @@ module.exports = parse
 
 /***/ }),
 
-/***/ 42866:
+/***/ 2866:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 const patch = (a, loose) => new SemVer(a, loose).patch
 module.exports = patch
 
 
 /***/ }),
 
-/***/ 24016:
+/***/ 6014:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const parse = __nccwpck_require__(75925)
+const parse = __nccwpck_require__(5925)
 const prerelease = (version, options) => {
   const parsed = parse(version, options)
   return (parsed && parsed.prerelease.length) ? parsed.prerelease : null
@@ -38332,10 +38116,10 @@ module.exports = prerelease
 
 /***/ }),
 
-/***/ 76417:
+/***/ 6417:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 const rcompare = (a, b, loose) => compare(b, a, loose)
 module.exports = rcompare
 
@@ -38345,7 +38129,7 @@ module.exports = rcompare
 /***/ 8701:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compareBuild = __nccwpck_require__(92156)
+const compareBuild = __nccwpck_require__(2156)
 const rsort = (list, loose) => list.sort((a, b) => compareBuild(b, a, loose))
 module.exports = rsort
 
@@ -38369,20 +38153,20 @@ module.exports = satisfies
 
 /***/ }),
 
-/***/ 61426:
+/***/ 1426:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const compareBuild = __nccwpck_require__(92156)
+const compareBuild = __nccwpck_require__(2156)
 const sort = (list, loose) => list.sort((a, b) => compareBuild(a, b, loose))
 module.exports = sort
 
 
 /***/ }),
 
-/***/ 19601:
+/***/ 9601:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const parse = __nccwpck_require__(75925)
+const parse = __nccwpck_require__(5925)
 const valid = (version, options) => {
   const v = parse(version, options)
   return v ? v.version : null
@@ -38392,7 +38176,7 @@ module.exports = valid
 
 /***/ }),
 
-/***/ 11383:
+/***/ 1383:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 // just pre-load all the stuff that index.js lazily exports
@@ -38401,53 +38185,53 @@ module.exports = {
   re: internalRe.re,
   src: internalRe.src,
   tokens: internalRe.t,
-  SEMVER_SPEC_VERSION: __nccwpck_require__(42293).SEMVER_SPEC_VERSION,
-  SemVer: __nccwpck_require__(48088),
-  compareIdentifiers: __nccwpck_require__(92463).compareIdentifiers,
-  rcompareIdentifiers: __nccwpck_require__(92463).rcompareIdentifiers,
-  parse: __nccwpck_require__(75925),
-  valid: __nccwpck_require__(19601),
-  clean: __nccwpck_require__(48848),
-  inc: __nccwpck_require__(30900),
-  diff: __nccwpck_require__(64297),
-  major: __nccwpck_require__(76688),
-  minor: __nccwpck_require__(38447),
-  patch: __nccwpck_require__(42866),
-  prerelease: __nccwpck_require__(24016),
-  compare: __nccwpck_require__(44309),
-  rcompare: __nccwpck_require__(76417),
-  compareLoose: __nccwpck_require__(62804),
-  compareBuild: __nccwpck_require__(92156),
-  sort: __nccwpck_require__(61426),
+  SEMVER_SPEC_VERSION: __nccwpck_require__(2293).SEMVER_SPEC_VERSION,
+  SemVer: __nccwpck_require__(8088),
+  compareIdentifiers: __nccwpck_require__(2463).compareIdentifiers,
+  rcompareIdentifiers: __nccwpck_require__(2463).rcompareIdentifiers,
+  parse: __nccwpck_require__(5925),
+  valid: __nccwpck_require__(9601),
+  clean: __nccwpck_require__(8848),
+  inc: __nccwpck_require__(900),
+  diff: __nccwpck_require__(4297),
+  major: __nccwpck_require__(6688),
+  minor: __nccwpck_require__(8447),
+  patch: __nccwpck_require__(2866),
+  prerelease: __nccwpck_require__(6014),
+  compare: __nccwpck_require__(4309),
+  rcompare: __nccwpck_require__(6417),
+  compareLoose: __nccwpck_require__(2804),
+  compareBuild: __nccwpck_require__(2156),
+  sort: __nccwpck_require__(1426),
   rsort: __nccwpck_require__(8701),
-  gt: __nccwpck_require__(84123),
-  lt: __nccwpck_require__(80194),
-  eq: __nccwpck_require__(91898),
+  gt: __nccwpck_require__(4123),
+  lt: __nccwpck_require__(194),
+  eq: __nccwpck_require__(1898),
   neq: __nccwpck_require__(6017),
-  gte: __nccwpck_require__(15522),
-  lte: __nccwpck_require__(77520),
-  cmp: __nccwpck_require__(75098),
-  coerce: __nccwpck_require__(13466),
-  Comparator: __nccwpck_require__(91532),
+  gte: __nccwpck_require__(5522),
+  lte: __nccwpck_require__(7520),
+  cmp: __nccwpck_require__(5098),
+  coerce: __nccwpck_require__(3466),
+  Comparator: __nccwpck_require__(1532),
   Range: __nccwpck_require__(9828),
   satisfies: __nccwpck_require__(6055),
-  toComparators: __nccwpck_require__(52706),
-  maxSatisfying: __nccwpck_require__(20579),
-  minSatisfying: __nccwpck_require__(10832),
-  minVersion: __nccwpck_require__(34179),
+  toComparators: __nccwpck_require__(2706),
+  maxSatisfying: __nccwpck_require__(579),
+  minSatisfying: __nccwpck_require__(832),
+  minVersion: __nccwpck_require__(4179),
   validRange: __nccwpck_require__(2098),
-  outside: __nccwpck_require__(60420),
+  outside: __nccwpck_require__(420),
   gtr: __nccwpck_require__(9380),
-  ltr: __nccwpck_require__(33323),
-  intersects: __nccwpck_require__(27008),
-  simplifyRange: __nccwpck_require__(75297),
+  ltr: __nccwpck_require__(3323),
+  intersects: __nccwpck_require__(7008),
+  simplifyRange: __nccwpck_require__(5297),
   subset: __nccwpck_require__(7863),
 }
 
 
 /***/ }),
 
-/***/ 42293:
+/***/ 2293:
 /***/ ((module) => {
 
 // Note: this is the semver.org version of the spec that it implements
@@ -38471,7 +38255,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 50427:
+/***/ 427:
 /***/ ((module) => {
 
 const debug = (
@@ -38487,7 +38271,7 @@ module.exports = debug
 
 /***/ }),
 
-/***/ 92463:
+/***/ 2463:
 /***/ ((module) => {
 
 const numeric = /^[0-9]+$/
@@ -38517,7 +38301,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 40785:
+/***/ 785:
 /***/ ((module) => {
 
 // parse out just the options we care about so we always get a consistent
@@ -38538,8 +38322,8 @@ module.exports = parseOptions
 /***/ 9523:
 /***/ ((module, exports, __nccwpck_require__) => {
 
-const { MAX_SAFE_COMPONENT_LENGTH } = __nccwpck_require__(42293)
-const debug = __nccwpck_require__(50427)
+const { MAX_SAFE_COMPONENT_LENGTH } = __nccwpck_require__(2293)
+const debug = __nccwpck_require__(427)
 exports = module.exports = {}
 
 // The actual regexps go on exports.re
@@ -38724,14 +38508,14 @@ createToken('GTE0PRE', '^\\s*>=\\s*0\.0\.0-0\\s*$')
 
 /***/ }),
 
-/***/ 81196:
+/***/ 1196:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
 
 // A linked list to keep track of recently-used-ness
-const Yallist = __nccwpck_require__(70220)
+const Yallist = __nccwpck_require__(220)
 
 const MAX = Symbol('max')
 const LENGTH = Symbol('length')
@@ -39066,7 +38850,7 @@ module.exports = LRUCache
 
 /***/ }),
 
-/***/ 45327:
+/***/ 5327:
 /***/ ((module) => {
 
 "use strict";
@@ -39082,7 +38866,7 @@ module.exports = function (Yallist) {
 
 /***/ }),
 
-/***/ 70220:
+/***/ 220:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
@@ -39510,7 +39294,7 @@ function Node (value, prev, next, list) {
 
 try {
   // add if support for Symbol.iterator is present
-  __nccwpck_require__(45327)(Yallist)
+  __nccwpck_require__(5327)(Yallist)
 } catch (er) {}
 
 
@@ -39520,14 +39304,14 @@ try {
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 // Determine if version is greater than all the versions possible in the range.
-const outside = __nccwpck_require__(60420)
+const outside = __nccwpck_require__(420)
 const gtr = (version, range, options) => outside(version, range, '>', options)
 module.exports = gtr
 
 
 /***/ }),
 
-/***/ 27008:
+/***/ 7008:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const Range = __nccwpck_require__(9828)
@@ -39541,10 +39325,10 @@ module.exports = intersects
 
 /***/ }),
 
-/***/ 33323:
+/***/ 3323:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const outside = __nccwpck_require__(60420)
+const outside = __nccwpck_require__(420)
 // Determine if version is less than all the versions possible in the range
 const ltr = (version, range, options) => outside(version, range, '<', options)
 module.exports = ltr
@@ -39552,10 +39336,10 @@ module.exports = ltr
 
 /***/ }),
 
-/***/ 20579:
+/***/ 579:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 const Range = __nccwpck_require__(9828)
 
 const maxSatisfying = (versions, range, options) => {
@@ -39584,10 +39368,10 @@ module.exports = maxSatisfying
 
 /***/ }),
 
-/***/ 10832:
+/***/ 832:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 const Range = __nccwpck_require__(9828)
 const minSatisfying = (versions, range, options) => {
   let min = null
@@ -39615,12 +39399,12 @@ module.exports = minSatisfying
 
 /***/ }),
 
-/***/ 34179:
+/***/ 4179:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
+const SemVer = __nccwpck_require__(8088)
 const Range = __nccwpck_require__(9828)
-const gt = __nccwpck_require__(84123)
+const gt = __nccwpck_require__(4123)
 
 const minVersion = (range, loose) => {
   range = new Range(range, loose)
@@ -39682,18 +39466,18 @@ module.exports = minVersion
 
 /***/ }),
 
-/***/ 60420:
+/***/ 420:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const SemVer = __nccwpck_require__(48088)
-const Comparator = __nccwpck_require__(91532)
+const SemVer = __nccwpck_require__(8088)
+const Comparator = __nccwpck_require__(1532)
 const {ANY} = Comparator
 const Range = __nccwpck_require__(9828)
 const satisfies = __nccwpck_require__(6055)
-const gt = __nccwpck_require__(84123)
-const lt = __nccwpck_require__(80194)
-const lte = __nccwpck_require__(77520)
-const gte = __nccwpck_require__(15522)
+const gt = __nccwpck_require__(4123)
+const lt = __nccwpck_require__(194)
+const lte = __nccwpck_require__(7520)
+const gte = __nccwpck_require__(5522)
 
 const outside = (version, range, hilo, options) => {
   version = new SemVer(version, options)
@@ -39769,14 +39553,14 @@ module.exports = outside
 
 /***/ }),
 
-/***/ 75297:
+/***/ 5297:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 // given a set of versions and a range, create a "simplified" range
 // that includes the same versions that the original range does
 // If the original range is shorter than the simplified one, return that.
 const satisfies = __nccwpck_require__(6055)
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 module.exports = (versions, range, options) => {
   const set = []
   let min = null
@@ -39824,10 +39608,10 @@ module.exports = (versions, range, options) => {
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const Range = __nccwpck_require__(9828)
-const Comparator = __nccwpck_require__(91532)
+const Comparator = __nccwpck_require__(1532)
 const { ANY } = Comparator
 const satisfies = __nccwpck_require__(6055)
-const compare = __nccwpck_require__(44309)
+const compare = __nccwpck_require__(4309)
 
 // Complex range `r1 || r2 || ...` is a subset of `R1 || R2 || ...` iff:
 // - Every simple range `r1, r2, ...` is a null set, OR
@@ -40049,7 +39833,7 @@ module.exports = subset
 
 /***/ }),
 
-/***/ 52706:
+/***/ 2706:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 const Range = __nccwpck_require__(9828)
@@ -40082,7 +39866,7 @@ module.exports = validRange
 
 /***/ }),
 
-/***/ 70254:
+/***/ 254:
 /***/ ((module, exports, __nccwpck_require__) => {
 
 /* eslint-env browser */
@@ -40339,7 +40123,7 @@ function localstorage() {
 	}
 }
 
-module.exports = __nccwpck_require__(78867)(exports);
+module.exports = __nccwpck_require__(8867)(exports);
 
 const {formatters} = module.exports;
 
@@ -40358,7 +40142,7 @@ formatters.j = function (v) {
 
 /***/ }),
 
-/***/ 78867:
+/***/ 8867:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 
@@ -40374,7 +40158,7 @@ function setup(env) {
 	createDebug.disable = disable;
 	createDebug.enable = enable;
 	createDebug.enabled = enabled;
-	createDebug.humanize = __nccwpck_require__(80900);
+	createDebug.humanize = __nccwpck_require__(9992);
 	createDebug.destroy = destroy;
 
 	Object.keys(env).forEach(key => {
@@ -40639,7 +40423,7 @@ module.exports = setup;
 
 /***/ }),
 
-/***/ 42179:
+/***/ 2179:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 /**
@@ -40648,23 +40432,23 @@ module.exports = setup;
  */
 
 if (typeof process === 'undefined' || process.type === 'renderer' || process.browser === true || process.__nwjs) {
-	module.exports = __nccwpck_require__(70254);
+	module.exports = __nccwpck_require__(254);
 } else {
-	module.exports = __nccwpck_require__(80675);
+	module.exports = __nccwpck_require__(675);
 }
 
 
 /***/ }),
 
-/***/ 80675:
+/***/ 675:
 /***/ ((module, exports, __nccwpck_require__) => {
 
 /**
  * Module dependencies.
  */
 
-const tty = __nccwpck_require__(33867);
-const util = __nccwpck_require__(31669);
+const tty = __nccwpck_require__(3867);
+const util = __nccwpck_require__(1669);
 
 /**
  * This is the Node.js implementation of `debug()`.
@@ -40690,7 +40474,7 @@ exports.colors = [6, 2, 3, 4, 5, 1];
 try {
 	// Optional dependency (as in, doesn't need to be installed, NOT like optionalDependencies in package.json)
 	// eslint-disable-next-line import/no-extraneous-dependencies
-	const supportsColor = __nccwpck_require__(59318);
+	const supportsColor = __nccwpck_require__(9318);
 
 	if (supportsColor && (supportsColor.stderr || supportsColor).level >= 2) {
 		exports.colors = [
@@ -40898,7 +40682,7 @@ function init(debug) {
 	}
 }
 
-module.exports = __nccwpck_require__(78867)(exports);
+module.exports = __nccwpck_require__(8867)(exports);
 
 const {formatters} = module.exports;
 
@@ -40926,15 +40710,15 @@ formatters.O = function (v) {
 
 /***/ }),
 
-/***/ 74966:
+/***/ 4966:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const {GitExecutor} = __nccwpck_require__(94701);
-const {SimpleGitApi} = __nccwpck_require__(30999);
+const {GitExecutor} = __nccwpck_require__(4701);
+const {SimpleGitApi} = __nccwpck_require__(999);
 
 const {Scheduler} = __nccwpck_require__(3421);
-const {GitLogger} = __nccwpck_require__(57178);
-const {configurationErrorTask} = __nccwpck_require__(32815);
+const {GitLogger} = __nccwpck_require__(7178);
+const {configurationErrorTask} = __nccwpck_require__(2815);
 const {
    asArray,
    filterArray,
@@ -40945,25 +40729,25 @@ const {
    getTrailingOptions,
    trailingFunctionArgument,
    trailingOptionsArgument
-} = __nccwpck_require__(90847);
-const {applyPatchTask} = __nccwpck_require__(34931)
-const {branchTask, branchLocalTask, deleteBranchesTask, deleteBranchTask} = __nccwpck_require__(60017);
+} = __nccwpck_require__(847);
+const {applyPatchTask} = __nccwpck_require__(4931)
+const {branchTask, branchLocalTask, deleteBranchesTask, deleteBranchTask} = __nccwpck_require__(17);
 const {checkIgnoreTask} = __nccwpck_require__(3293);
-const {checkIsRepoTask} = __nccwpck_require__(20221);
+const {checkIsRepoTask} = __nccwpck_require__(221);
 const {cloneTask, cloneMirrorTask} = __nccwpck_require__(3173);
-const {cleanWithOptionsTask, isCleanOptionsArray} = __nccwpck_require__(84386);
-const {commitTask} = __nccwpck_require__(15494);
-const {diffSummaryTask} = __nccwpck_require__(79241);
-const {fetchTask} = __nccwpck_require__(28823);
-const {moveTask} = __nccwpck_require__(16520);
-const {pullTask} = __nccwpck_require__(64636);
-const {pushTagsTask} = __nccwpck_require__(51435);
-const {addRemoteTask, getRemotesTask, listRemotesTask, remoteTask, removeRemoteTask} = __nccwpck_require__(89866);
-const {getResetMode, resetTask} = __nccwpck_require__(92377);
-const {stashListTask} = __nccwpck_require__(30810);
-const {addSubModuleTask, initSubModuleTask, subModuleTask, updateSubModuleTask} = __nccwpck_require__(48772);
-const {addAnnotatedTagTask, addTagTask, tagListTask} = __nccwpck_require__(98540);
-const {straightThroughBufferTask, straightThroughStringTask} = __nccwpck_require__(32815);
+const {cleanWithOptionsTask, isCleanOptionsArray} = __nccwpck_require__(4386);
+const {commitTask} = __nccwpck_require__(5494);
+const {diffSummaryTask} = __nccwpck_require__(9241);
+const {fetchTask} = __nccwpck_require__(8823);
+const {moveTask} = __nccwpck_require__(6520);
+const {pullTask} = __nccwpck_require__(4636);
+const {pushTagsTask} = __nccwpck_require__(1435);
+const {addRemoteTask, getRemotesTask, listRemotesTask, remoteTask, removeRemoteTask} = __nccwpck_require__(9866);
+const {getResetMode, resetTask} = __nccwpck_require__(2377);
+const {stashListTask} = __nccwpck_require__(810);
+const {addSubModuleTask, initSubModuleTask, subModuleTask, updateSubModuleTask} = __nccwpck_require__(8772);
+const {addAnnotatedTagTask, addTagTask, tagListTask} = __nccwpck_require__(8540);
+const {straightThroughBufferTask, straightThroughStringTask} = __nccwpck_require__(2815);
 
 function Git (options, plugins) {
    this._executor = new GitExecutor(
@@ -41633,12 +41417,12 @@ module.exports = Git;
 
 /***/ }),
 
-/***/ 91477:
+/***/ 1477:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 
-const {gitP} = __nccwpck_require__(80941);
-const {esModuleFactory, gitInstanceFactory, gitExportFactory} = __nccwpck_require__(89846);
+const {gitP} = __nccwpck_require__(941);
+const {esModuleFactory, gitInstanceFactory, gitExportFactory} = __nccwpck_require__(9846);
 
 module.exports = esModuleFactory(
    gitExportFactory(gitInstanceFactory, {gitP})
@@ -41647,22 +41431,22 @@ module.exports = esModuleFactory(
 
 /***/ }),
 
-/***/ 74732:
+/***/ 4732:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const git_construct_error_1 = __nccwpck_require__(71876);
-const git_error_1 = __nccwpck_require__(15757);
-const git_plugin_error_1 = __nccwpck_require__(90019);
-const git_response_error_1 = __nccwpck_require__(85131);
-const task_configuration_error_1 = __nccwpck_require__(10740);
-const check_is_repo_1 = __nccwpck_require__(20221);
-const clean_1 = __nccwpck_require__(84386);
-const config_1 = __nccwpck_require__(57597);
-const grep_1 = __nccwpck_require__(55524);
-const reset_1 = __nccwpck_require__(92377);
+const git_construct_error_1 = __nccwpck_require__(1876);
+const git_error_1 = __nccwpck_require__(5757);
+const git_plugin_error_1 = __nccwpck_require__(19);
+const git_response_error_1 = __nccwpck_require__(5131);
+const task_configuration_error_1 = __nccwpck_require__(740);
+const check_is_repo_1 = __nccwpck_require__(221);
+const clean_1 = __nccwpck_require__(4386);
+const config_1 = __nccwpck_require__(7597);
+const grep_1 = __nccwpck_require__(5524);
+const reset_1 = __nccwpck_require__(2377);
 const api = {
     CheckRepoActions: check_is_repo_1.CheckRepoActions,
     CleanOptions: clean_1.CleanOptions,
@@ -41680,14 +41464,14 @@ exports.default = api;
 
 /***/ }),
 
-/***/ 71876:
+/***/ 1876:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GitConstructError = void 0;
-const git_error_1 = __nccwpck_require__(15757);
+const git_error_1 = __nccwpck_require__(5757);
 /**
  * The `GitConstructError` is thrown when an error occurs in the constructor
  * of the `simple-git` instance itself. Most commonly as a result of using
@@ -41708,7 +41492,7 @@ exports.GitConstructError = GitConstructError;
 
 /***/ }),
 
-/***/ 15757:
+/***/ 5757:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -41752,14 +41536,14 @@ exports.GitError = GitError;
 
 /***/ }),
 
-/***/ 90019:
+/***/ 19:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GitPluginError = void 0;
-const git_error_1 = __nccwpck_require__(15757);
+const git_error_1 = __nccwpck_require__(5757);
 class GitPluginError extends git_error_1.GitError {
     constructor(task, plugin, message) {
         super(task, message);
@@ -41773,14 +41557,14 @@ exports.GitPluginError = GitPluginError;
 
 /***/ }),
 
-/***/ 85131:
+/***/ 5131:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GitResponseError = void 0;
-const git_error_1 = __nccwpck_require__(15757);
+const git_error_1 = __nccwpck_require__(5757);
 /**
  * The `GitResponseError` is the wrapper for a parsed response that is treated as
  * a fatal error, for example attempting a `merge` can leave the repo in a corrupted
@@ -41816,14 +41600,14 @@ exports.GitResponseError = GitResponseError;
 
 /***/ }),
 
-/***/ 10740:
+/***/ 740:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.TaskConfigurationError = void 0;
-const git_error_1 = __nccwpck_require__(15757);
+const git_error_1 = __nccwpck_require__(5757);
 /**
  * The `TaskConfigurationError` is thrown when a command was incorrectly
  * configured. An error of this kind means that no attempt was made to
@@ -41842,17 +41626,17 @@ exports.TaskConfigurationError = TaskConfigurationError;
 
 /***/ }),
 
-/***/ 89846:
+/***/ 9846:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.gitInstanceFactory = exports.gitExportFactory = exports.esModuleFactory = void 0;
-const api_1 = __nccwpck_require__(74732);
-const plugins_1 = __nccwpck_require__(78078);
-const utils_1 = __nccwpck_require__(90847);
-const Git = __nccwpck_require__(74966);
+const api_1 = __nccwpck_require__(4732);
+const plugins_1 = __nccwpck_require__(8078);
+const utils_1 = __nccwpck_require__(847);
+const Git = __nccwpck_require__(4966);
 /**
  * Adds the necessary properties to the supplied object to enable it for use as
  * the default export of a module.
@@ -41894,15 +41678,15 @@ exports.gitInstanceFactory = gitInstanceFactory;
 
 /***/ }),
 
-/***/ 57178:
+/***/ 7178:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GitLogger = exports.createLogger = void 0;
-const debug_1 = __nccwpck_require__(42179);
-const utils_1 = __nccwpck_require__(90847);
+const debug_1 = __nccwpck_require__(2179);
+const utils_1 = __nccwpck_require__(847);
 debug_1.default.formatters.L = (value) => String(utils_1.filterHasLength(value) ? value.length : '-');
 debug_1.default.formatters.B = (value) => {
     if (Buffer.isBuffer(value)) {
@@ -42002,15 +41786,15 @@ exports.GitLogger = GitLogger;
 
 /***/ }),
 
-/***/ 66086:
+/***/ 6086:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.hasBranchDeletionError = exports.parseBranchDeletions = void 0;
-const BranchDeleteSummary_1 = __nccwpck_require__(73755);
-const utils_1 = __nccwpck_require__(90847);
+const BranchDeleteSummary_1 = __nccwpck_require__(3755);
+const utils_1 = __nccwpck_require__(847);
 const deleteSuccessRegex = /(\S+)\s+\(\S+\s([^)]+)\)/;
 const deleteErrorRegex = /^error[^']+'([^']+)'/m;
 const parsers = [
@@ -42038,15 +41822,15 @@ exports.hasBranchDeletionError = hasBranchDeletionError;
 
 /***/ }),
 
-/***/ 89264:
+/***/ 9264:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseBranchSummary = void 0;
-const BranchSummary_1 = __nccwpck_require__(34446);
-const utils_1 = __nccwpck_require__(90847);
+const BranchSummary_1 = __nccwpck_require__(4446);
+const utils_1 = __nccwpck_require__(847);
 const parsers = [
     new utils_1.LineParser(/^(\*\s)?\((?:HEAD )?detached (?:from|at) (\S+)\)\s+([a-z0-9]+)\s(.*)$/, (result, [current, name, commit, label]) => {
         result.push(!!current, true, name, commit, label);
@@ -42063,14 +41847,14 @@ exports.parseBranchSummary = parseBranchSummary;
 
 /***/ }),
 
-/***/ 83026:
+/***/ 3026:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseCommitResult = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 const parsers = [
     new utils_1.LineParser(/^\[([^\s]+)( \([^)]+\))? ([^\]]+)/, (result, [branch, root, commit]) => {
         result.branch = branch;
@@ -42130,7 +41914,7 @@ exports.parseCommitResult = parseCommitResult;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseDiffResult = void 0;
-const DiffSummary_1 = __nccwpck_require__(84781);
+const DiffSummary_1 = __nccwpck_require__(4781);
 function parseDiffResult(stdOut) {
     const lines = stdOut.trim().split('\n');
     const status = new DiffSummary_1.DiffSummary();
@@ -42204,14 +41988,14 @@ function binaryFileChange(input, { files }) {
 
 /***/ }),
 
-/***/ 56254:
+/***/ 6254:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseFetchResult = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 const parsers = [
     new utils_1.LineParser(/From (.+)$/, (result, [remote]) => {
         result.remote = remote;
@@ -42250,7 +42034,7 @@ exports.parseFetchResult = parseFetchResult;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.createListLogSummaryParser = exports.SPLITTER = exports.COMMIT_BOUNDARY = exports.START_BOUNDARY = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 const parse_diff_summary_1 = __nccwpck_require__(2024);
 exports.START_BOUNDARY = 'òòòòòò ';
 exports.COMMIT_BOUNDARY = ' òò';
@@ -42285,16 +42069,16 @@ exports.createListLogSummaryParser = createListLogSummaryParser;
 
 /***/ }),
 
-/***/ 66412:
+/***/ 6412:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseMergeDetail = exports.parseMergeResult = void 0;
-const MergeSummary_1 = __nccwpck_require__(11651);
-const utils_1 = __nccwpck_require__(90847);
-const parse_pull_1 = __nccwpck_require__(65658);
+const MergeSummary_1 = __nccwpck_require__(1651);
+const utils_1 = __nccwpck_require__(847);
+const parse_pull_1 = __nccwpck_require__(5658);
 const parsers = [
     new utils_1.LineParser(/^Auto-merging\s+(.+)$/, (summary, [autoMerge]) => {
         summary.merges.push(autoMerge);
@@ -42331,14 +42115,14 @@ exports.parseMergeDetail = parseMergeDetail;
 
 /***/ }),
 
-/***/ 47444:
+/***/ 7444:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseMoveResult = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 const parsers = [
     new utils_1.LineParser(/^Renaming (.+) to (.+)$/, (result, [from, to]) => {
         result.moves.push({ from, to });
@@ -42352,16 +42136,16 @@ exports.parseMoveResult = parseMoveResult;
 
 /***/ }),
 
-/***/ 65658:
+/***/ 5658:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parsePullResult = exports.parsePullDetail = void 0;
-const PullSummary_1 = __nccwpck_require__(93567);
-const utils_1 = __nccwpck_require__(90847);
-const parse_remote_messages_1 = __nccwpck_require__(72661);
+const PullSummary_1 = __nccwpck_require__(3567);
+const utils_1 = __nccwpck_require__(847);
+const parse_remote_messages_1 = __nccwpck_require__(2661);
 const FILE_UPDATE_REGEX = /^\s*(.+?)\s+\|\s+\d+\s*(\+*)(-*)/;
 const SUMMARY_REGEX = /(\d+)\D+((\d+)\D+\(\+\))?(\D+(\d+)\D+\(-\))?/;
 const ACTION_REGEX = /^(create|delete) mode \d+ (.+)/;
@@ -42401,15 +42185,15 @@ exports.parsePullResult = parsePullResult;
 
 /***/ }),
 
-/***/ 58530:
+/***/ 8530:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parsePushDetail = exports.parsePushResult = void 0;
-const utils_1 = __nccwpck_require__(90847);
-const parse_remote_messages_1 = __nccwpck_require__(72661);
+const utils_1 = __nccwpck_require__(847);
+const parse_remote_messages_1 = __nccwpck_require__(2661);
 function pushResultPushedItem(local, remote, status) {
     const deleted = status.includes('deleted');
     const tag = status.includes('tag') || /^refs\/tags/.test(local);
@@ -42466,15 +42250,15 @@ exports.parsePushDetail = parsePushDetail;
 
 /***/ }),
 
-/***/ 72661:
+/***/ 2661:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.RemoteMessageSummary = exports.parseRemoteMessages = void 0;
-const utils_1 = __nccwpck_require__(90847);
-const parse_remote_objects_1 = __nccwpck_require__(53565);
+const utils_1 = __nccwpck_require__(847);
+const parse_remote_objects_1 = __nccwpck_require__(3565);
 const parsers = [
     new utils_1.RemoteLineParser(/^remote:\s*(.+)$/, (result, [text]) => {
         result.remoteMessages.all.push(text.trim());
@@ -42506,14 +42290,14 @@ exports.RemoteMessageSummary = RemoteMessageSummary;
 
 /***/ }),
 
-/***/ 53565:
+/***/ 3565:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.remoteMessagesObjectParsers = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 function objectEnumerationResult(remoteMessages) {
     return (remoteMessages.objects = remoteMessages.objects || {
         compressing: 0,
@@ -42561,7 +42345,7 @@ exports.remoteMessagesObjectParsers = [
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.commandConfigPrefixingPlugin = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 function commandConfigPrefixingPlugin(configuration) {
     const prefix = utils_1.prefixedArray(configuration, '-c');
     return {
@@ -42576,7 +42360,7 @@ exports.commandConfigPrefixingPlugin = commandConfigPrefixingPlugin;
 
 /***/ }),
 
-/***/ 50179:
+/***/ 179:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -42592,8 +42376,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.completionDetectionPlugin = void 0;
-const promise_deferred_1 = __nccwpck_require__(49819);
-const utils_1 = __nccwpck_require__(90847);
+const promise_deferred_1 = __nccwpck_require__(9819);
+const utils_1 = __nccwpck_require__(847);
 const never = promise_deferred_1.default().promise;
 function completionDetectionPlugin({ onClose = true, onExit = 50 } = {}) {
     function createEvents() {
@@ -42663,14 +42447,14 @@ exports.completionDetectionPlugin = completionDetectionPlugin;
 
 /***/ }),
 
-/***/ 86713:
+/***/ 6713:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.errorDetectionPlugin = exports.errorDetectionHandler = void 0;
-const git_error_1 = __nccwpck_require__(15757);
+const git_error_1 = __nccwpck_require__(5757);
 function isTaskError(result) {
     return !!(result.exitCode && result.stdErr.length);
 }
@@ -42709,7 +42493,7 @@ exports.errorDetectionPlugin = errorDetectionPlugin;
 
 /***/ }),
 
-/***/ 78078:
+/***/ 8078:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -42726,25 +42510,25 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 __exportStar(__nccwpck_require__(2581), exports);
-__exportStar(__nccwpck_require__(50179), exports);
-__exportStar(__nccwpck_require__(86713), exports);
-__exportStar(__nccwpck_require__(95067), exports);
-__exportStar(__nccwpck_require__(51738), exports);
-__exportStar(__nccwpck_require__(68436), exports);
-__exportStar(__nccwpck_require__(39109), exports);
-__exportStar(__nccwpck_require__(39504), exports);
+__exportStar(__nccwpck_require__(179), exports);
+__exportStar(__nccwpck_require__(6713), exports);
+__exportStar(__nccwpck_require__(5067), exports);
+__exportStar(__nccwpck_require__(1738), exports);
+__exportStar(__nccwpck_require__(8436), exports);
+__exportStar(__nccwpck_require__(9109), exports);
+__exportStar(__nccwpck_require__(9504), exports);
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 95067:
+/***/ 5067:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.PluginStore = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 class PluginStore {
     constructor() {
         this.plugins = new Set();
@@ -42772,14 +42556,14 @@ exports.PluginStore = PluginStore;
 
 /***/ }),
 
-/***/ 51738:
+/***/ 1738:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.progressMonitorPlugin = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 function progressMonitorPlugin(progress) {
     const progressCommand = '--progress';
     const progressMethods = ['checkout', 'clone', 'fetch', 'pull', 'push'];
@@ -42824,7 +42608,7 @@ function progressEventStage(input) {
 
 /***/ }),
 
-/***/ 68436:
+/***/ 8436:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -42834,14 +42618,14 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 39109:
+/***/ 9109:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.spawnOptionsPlugin = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 function spawnOptionsPlugin(spawnOptions) {
     const options = utils_1.pick(spawnOptions, ['uid', 'gid']);
     return {
@@ -42856,14 +42640,14 @@ exports.spawnOptionsPlugin = spawnOptionsPlugin;
 
 /***/ }),
 
-/***/ 39504:
+/***/ 9504:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.timeoutPlugin = void 0;
-const git_plugin_error_1 = __nccwpck_require__(90019);
+const git_plugin_error_1 = __nccwpck_require__(19);
 function timeoutPlugin({ block }) {
     if (block > 0) {
         return {
@@ -42900,7 +42684,7 @@ exports.timeoutPlugin = timeoutPlugin;
 
 /***/ }),
 
-/***/ 73755:
+/***/ 3755:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -42938,7 +42722,7 @@ exports.isSingleBranchDeleteFailure = isSingleBranchDeleteFailure;
 
 /***/ }),
 
-/***/ 34446:
+/***/ 4446:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -42971,7 +42755,7 @@ exports.BranchSummaryResult = BranchSummaryResult;
 
 /***/ }),
 
-/***/ 19926:
+/***/ 9926:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -42991,14 +42775,14 @@ exports.parseCheckIgnore = parseCheckIgnore;
 
 /***/ }),
 
-/***/ 55689:
+/***/ 5689:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.cleanSummaryParser = exports.CleanResponse = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 class CleanResponse {
     constructor(dryRun) {
         this.dryRun = dryRun;
@@ -43026,14 +42810,14 @@ exports.cleanSummaryParser = cleanSummaryParser;
 
 /***/ }),
 
-/***/ 97219:
+/***/ 7219:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.configGetParser = exports.configListParser = exports.ConfigList = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 class ConfigList {
     constructor() {
         this.files = [];
@@ -43122,7 +42906,7 @@ function* configParser(text, requestedKey = null) {
 
 /***/ }),
 
-/***/ 84781:
+/***/ 4781:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -43145,7 +42929,7 @@ exports.DiffSummary = DiffSummary;
 
 /***/ }),
 
-/***/ 40860:
+/***/ 860:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -43170,14 +42954,14 @@ exports.FileStatusSummary = FileStatusSummary;
 
 /***/ }),
 
-/***/ 93421:
+/***/ 9999:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseGetRemotesVerbose = exports.parseGetRemotes = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 function parseGetRemotes(text) {
     const remotes = {};
     forEach(text, ([name]) => remotes[name] = { name });
@@ -43250,7 +43034,7 @@ exports.parseInit = parseInit;
 
 /***/ }),
 
-/***/ 11651:
+/***/ 1651:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -43292,7 +43076,7 @@ exports.MergeSummaryDetail = MergeSummaryDetail;
 
 /***/ }),
 
-/***/ 93567:
+/***/ 3567:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -43321,15 +43105,15 @@ exports.PullSummary = PullSummary;
 
 /***/ }),
 
-/***/ 16790:
+/***/ 6790:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseStatusSummary = exports.StatusSummary = void 0;
-const utils_1 = __nccwpck_require__(90847);
-const FileStatusSummary_1 = __nccwpck_require__(40860);
+const utils_1 = __nccwpck_require__(847);
+const FileStatusSummary_1 = __nccwpck_require__(860);
 /**
  * The StatusSummary is returned as a response to getting `git().status()`
  */
@@ -43476,7 +43260,7 @@ function splitLine(result, lineStr) {
 
 /***/ }),
 
-/***/ 94539:
+/***/ 4539:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -43539,7 +43323,7 @@ function toNumber(input) {
 
 /***/ }),
 
-/***/ 88543:
+/***/ 8543:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -43555,11 +43339,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GitExecutorChain = void 0;
-const child_process_1 = __nccwpck_require__(63129);
-const git_error_1 = __nccwpck_require__(15757);
-const task_1 = __nccwpck_require__(32815);
-const utils_1 = __nccwpck_require__(90847);
-const tasks_pending_queue_1 = __nccwpck_require__(96676);
+const child_process_1 = __nccwpck_require__(3129);
+const git_error_1 = __nccwpck_require__(5757);
+const task_1 = __nccwpck_require__(2815);
+const utils_1 = __nccwpck_require__(847);
+const tasks_pending_queue_1 = __nccwpck_require__(6676);
 class GitExecutorChain {
     constructor(_executor, _scheduler, _plugins) {
         this._executor = _executor;
@@ -43719,14 +43503,14 @@ function onDataReceived(target, name, logger, output) {
 
 /***/ }),
 
-/***/ 94701:
+/***/ 4701:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GitExecutor = void 0;
-const git_executor_chain_1 = __nccwpck_require__(88543);
+const git_executor_chain_1 = __nccwpck_require__(8543);
 class GitExecutor {
     constructor(binary = 'git', cwd, _scheduler, _plugins) {
         this.binary = binary;
@@ -43747,15 +43531,15 @@ exports.GitExecutor = GitExecutor;
 
 /***/ }),
 
-/***/ 80941:
+/***/ 941:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.gitP = void 0;
-const git_response_error_1 = __nccwpck_require__(85131);
-const git_factory_1 = __nccwpck_require__(89846);
+const git_response_error_1 = __nccwpck_require__(5131);
+const git_factory_1 = __nccwpck_require__(9846);
 const functionNamesBuilderApi = [
     'customBinary', 'env', 'outputHandler', 'silent',
 ];
@@ -43894,9 +43678,9 @@ function toError(error) {
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Scheduler = void 0;
-const utils_1 = __nccwpck_require__(90847);
-const promise_deferred_1 = __nccwpck_require__(49819);
-const git_logger_1 = __nccwpck_require__(57178);
+const utils_1 = __nccwpck_require__(847);
+const promise_deferred_1 = __nccwpck_require__(9819);
+const git_logger_1 = __nccwpck_require__(7178);
 const createScheduledTask = (() => {
     let id = 0;
     return () => {
@@ -43942,15 +43726,15 @@ exports.Scheduler = Scheduler;
 
 /***/ }),
 
-/***/ 96676:
+/***/ 6676:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.TasksPendingQueue = void 0;
-const git_error_1 = __nccwpck_require__(15757);
-const git_logger_1 = __nccwpck_require__(57178);
+const git_error_1 = __nccwpck_require__(5757);
+const git_logger_1 = __nccwpck_require__(7178);
 class TasksPendingQueue {
     constructor(logLabel = 'GitExecutor') {
         this.logLabel = logLabel;
@@ -44013,25 +43797,25 @@ TasksPendingQueue.counter = 0;
 
 /***/ }),
 
-/***/ 30999:
+/***/ 999:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SimpleGitApi = void 0;
-const task_callback_1 = __nccwpck_require__(28850);
+const task_callback_1 = __nccwpck_require__(8850);
 const change_working_directory_1 = __nccwpck_require__(4415);
-const config_1 = __nccwpck_require__(57597);
-const grep_1 = __nccwpck_require__(55524);
-const hash_object_1 = __nccwpck_require__(18199);
-const init_1 = __nccwpck_require__(66016);
+const config_1 = __nccwpck_require__(7597);
+const grep_1 = __nccwpck_require__(5524);
+const hash_object_1 = __nccwpck_require__(8199);
+const init_1 = __nccwpck_require__(6016);
 const log_1 = __nccwpck_require__(8627);
-const merge_1 = __nccwpck_require__(38829);
-const push_1 = __nccwpck_require__(51435);
-const status_1 = __nccwpck_require__(99197);
-const task_1 = __nccwpck_require__(32815);
-const utils_1 = __nccwpck_require__(90847);
+const merge_1 = __nccwpck_require__(8829);
+const push_1 = __nccwpck_require__(1435);
+const status_1 = __nccwpck_require__(9197);
+const task_1 = __nccwpck_require__(2815);
+const utils_1 = __nccwpck_require__(847);
 class SimpleGitApi {
     constructor(_executor) {
         this._executor = _executor;
@@ -44100,15 +43884,15 @@ Object.assign(SimpleGitApi.prototype, config_1.default(), grep_1.default(), log_
 
 /***/ }),
 
-/***/ 28850:
+/***/ 8850:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.taskCallback = void 0;
-const git_response_error_1 = __nccwpck_require__(85131);
-const utils_1 = __nccwpck_require__(90847);
+const git_response_error_1 = __nccwpck_require__(5131);
+const utils_1 = __nccwpck_require__(847);
 function taskCallback(task, response, callback = utils_1.NOOP) {
     const onSuccess = (data) => {
         callback(null, data);
@@ -44146,14 +43930,14 @@ function addDeprecationNoticeToError(err) {
 
 /***/ }),
 
-/***/ 34931:
+/***/ 4931:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.applyPatchTask = void 0;
-const task_1 = __nccwpck_require__(32815);
+const task_1 = __nccwpck_require__(2815);
 function applyPatchTask(patches, customArgs) {
     return task_1.straightThroughStringTask(['apply', ...customArgs, ...patches]);
 }
@@ -44162,17 +43946,17 @@ exports.applyPatchTask = applyPatchTask;
 
 /***/ }),
 
-/***/ 60017:
+/***/ 17:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.deleteBranchTask = exports.deleteBranchesTask = exports.branchLocalTask = exports.branchTask = exports.containsDeleteBranchCommand = void 0;
-const git_response_error_1 = __nccwpck_require__(85131);
-const parse_branch_delete_1 = __nccwpck_require__(66086);
-const parse_branch_1 = __nccwpck_require__(89264);
-const utils_1 = __nccwpck_require__(90847);
+const git_response_error_1 = __nccwpck_require__(5131);
+const parse_branch_delete_1 = __nccwpck_require__(6086);
+const parse_branch_1 = __nccwpck_require__(9264);
+const utils_1 = __nccwpck_require__(847);
 function containsDeleteBranchCommand(commands) {
     const deleteCommands = ['-d', '-D', '--delete'];
     return commands.some(command => deleteCommands.includes(command));
@@ -44252,8 +44036,8 @@ exports.deleteBranchTask = deleteBranchTask;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.changeWorkingDirectoryTask = void 0;
-const utils_1 = __nccwpck_require__(90847);
-const task_1 = __nccwpck_require__(32815);
+const utils_1 = __nccwpck_require__(847);
+const task_1 = __nccwpck_require__(2815);
 function changeWorkingDirectoryTask(directory, root) {
     return task_1.adhocExecTask((instance) => {
         if (!utils_1.folderExists(directory)) {
@@ -44274,7 +44058,7 @@ exports.changeWorkingDirectoryTask = changeWorkingDirectoryTask;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.checkIgnoreTask = void 0;
-const CheckIgnore_1 = __nccwpck_require__(19926);
+const CheckIgnore_1 = __nccwpck_require__(9926);
 function checkIgnoreTask(paths) {
     return {
         commands: ['check-ignore', ...paths],
@@ -44287,14 +44071,14 @@ exports.checkIgnoreTask = checkIgnoreTask;
 
 /***/ }),
 
-/***/ 20221:
+/***/ 221:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.checkIsBareRepoTask = exports.checkIsRepoRootTask = exports.checkIsRepoTask = exports.CheckRepoActions = void 0;
-const utils_1 = __nccwpck_require__(90847);
+const utils_1 = __nccwpck_require__(847);
 var CheckRepoActions;
 (function (CheckRepoActions) {
     CheckRepoActions["BARE"] = "bare";
@@ -44355,16 +44139,16 @@ function isNotRepoMessage(error) {
 
 /***/ }),
 
-/***/ 84386:
+/***/ 4386:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.isCleanOptionsArray = exports.cleanTask = exports.cleanWithOptionsTask = exports.CleanOptions = exports.CONFIG_ERROR_UNKNOWN_OPTION = exports.CONFIG_ERROR_MODE_REQUIRED = exports.CONFIG_ERROR_INTERACTIVE_MODE = void 0;
-const CleanSummary_1 = __nccwpck_require__(55689);
-const utils_1 = __nccwpck_require__(90847);
-const task_1 = __nccwpck_require__(32815);
+const CleanSummary_1 = __nccwpck_require__(5689);
+const utils_1 = __nccwpck_require__(847);
+const task_1 = __nccwpck_require__(2815);
 exports.CONFIG_ERROR_INTERACTIVE_MODE = 'Git clean interactive mode is not supported';
 exports.CONFIG_ERROR_MODE_REQUIRED = 'Git clean mode parameter ("n" or "f") is required';
 exports.CONFIG_ERROR_UNKNOWN_OPTION = 'Git clean unknown option found in: ';
@@ -44454,8 +44238,8 @@ function isInteractiveMode(option) {
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.cloneMirrorTask = exports.cloneTask = void 0;
-const task_1 = __nccwpck_require__(32815);
-const utils_1 = __nccwpck_require__(90847);
+const task_1 = __nccwpck_require__(2815);
+const utils_1 = __nccwpck_require__(847);
 function cloneTask(repo, directory, customArgs) {
     const commands = ['clone', ...customArgs];
     if (typeof repo === 'string') {
@@ -44476,14 +44260,14 @@ exports.cloneMirrorTask = cloneMirrorTask;
 
 /***/ }),
 
-/***/ 15494:
+/***/ 5494:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.commitTask = void 0;
-const parse_commit_1 = __nccwpck_require__(83026);
+const parse_commit_1 = __nccwpck_require__(3026);
 function commitTask(message, files, customArgs) {
     const commands = ['commit'];
     message.forEach((m) => commands.push('-m', m));
@@ -44499,15 +44283,15 @@ exports.commitTask = commitTask;
 
 /***/ }),
 
-/***/ 57597:
+/***/ 7597:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GitConfigScope = void 0;
-const ConfigList_1 = __nccwpck_require__(97219);
-const utils_1 = __nccwpck_require__(90847);
+const ConfigList_1 = __nccwpck_require__(7219);
+const utils_1 = __nccwpck_require__(847);
 var GitConfigScope;
 (function (GitConfigScope) {
     GitConfigScope["system"] = "system";
@@ -44579,7 +44363,7 @@ exports.default = default_1;
 
 /***/ }),
 
-/***/ 79241:
+/***/ 9241:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -44601,14 +44385,14 @@ exports.diffSummaryTask = diffSummaryTask;
 
 /***/ }),
 
-/***/ 28823:
+/***/ 8823:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fetchTask = void 0;
-const parse_fetch_1 = __nccwpck_require__(56254);
+const parse_fetch_1 = __nccwpck_require__(6254);
 function fetchTask(remote, branch, customArgs) {
     const commands = ['fetch', ...customArgs];
     if (remote && branch) {
@@ -44625,7 +44409,7 @@ exports.fetchTask = fetchTask;
 
 /***/ }),
 
-/***/ 55524:
+/***/ 5524:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -44633,8 +44417,8 @@ exports.fetchTask = fetchTask;
 var _a;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.grepQueryBuilder = void 0;
-const utils_1 = __nccwpck_require__(90847);
-const task_1 = __nccwpck_require__(32815);
+const utils_1 = __nccwpck_require__(847);
+const task_1 = __nccwpck_require__(2815);
 const disallowedOptions = ['-h'];
 const Query = Symbol('grepQuery');
 class GrepQuery {
@@ -44708,14 +44492,14 @@ exports.default = default_1;
 
 /***/ }),
 
-/***/ 18199:
+/***/ 8199:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.hashObjectTask = void 0;
-const task_1 = __nccwpck_require__(32815);
+const task_1 = __nccwpck_require__(2815);
 /**
  * Task used by `git.hashObject`
  */
@@ -44731,7 +44515,7 @@ exports.hashObjectTask = hashObjectTask;
 
 /***/ }),
 
-/***/ 66016:
+/***/ 6016:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -44769,8 +44553,8 @@ exports.initTask = initTask;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.logTask = exports.parseLogOptions = void 0;
 const parse_list_log_summary_1 = __nccwpck_require__(9729);
-const utils_1 = __nccwpck_require__(90847);
-const task_1 = __nccwpck_require__(32815);
+const utils_1 = __nccwpck_require__(847);
+const task_1 = __nccwpck_require__(2815);
 var excludeOptions;
 (function (excludeOptions) {
     excludeOptions[excludeOptions["--pretty"] = 0] = "--pretty";
@@ -44877,16 +44661,16 @@ exports.default = default_1;
 
 /***/ }),
 
-/***/ 38829:
+/***/ 8829:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.mergeTask = void 0;
-const git_response_error_1 = __nccwpck_require__(85131);
-const parse_merge_1 = __nccwpck_require__(66412);
-const task_1 = __nccwpck_require__(32815);
+const git_response_error_1 = __nccwpck_require__(5131);
+const parse_merge_1 = __nccwpck_require__(6412);
+const task_1 = __nccwpck_require__(2815);
 function mergeTask(customArgs) {
     if (!customArgs.length) {
         return task_1.configurationErrorTask('Git.merge requires at least one option');
@@ -44908,15 +44692,15 @@ exports.mergeTask = mergeTask;
 
 /***/ }),
 
-/***/ 16520:
+/***/ 6520:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.moveTask = void 0;
-const parse_move_1 = __nccwpck_require__(47444);
-const utils_1 = __nccwpck_require__(90847);
+const parse_move_1 = __nccwpck_require__(7444);
+const utils_1 = __nccwpck_require__(847);
 function moveTask(from, to) {
     return {
         commands: ['mv', '-v', ...utils_1.asArray(from), to],
@@ -44929,14 +44713,14 @@ exports.moveTask = moveTask;
 
 /***/ }),
 
-/***/ 64636:
+/***/ 4636:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.pullTask = void 0;
-const parse_pull_1 = __nccwpck_require__(65658);
+const parse_pull_1 = __nccwpck_require__(5658);
 function pullTask(remote, branch, customArgs) {
     const commands = ['pull', ...customArgs];
     if (remote && branch) {
@@ -44955,15 +44739,15 @@ exports.pullTask = pullTask;
 
 /***/ }),
 
-/***/ 51435:
+/***/ 1435:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.pushTask = exports.pushTagsTask = void 0;
-const parse_push_1 = __nccwpck_require__(58530);
-const utils_1 = __nccwpck_require__(90847);
+const parse_push_1 = __nccwpck_require__(8530);
+const utils_1 = __nccwpck_require__(847);
 function pushTagsTask(ref = {}, customArgs) {
     utils_1.append(customArgs, '--tags');
     return pushTask(ref, customArgs);
@@ -44991,15 +44775,15 @@ exports.pushTask = pushTask;
 
 /***/ }),
 
-/***/ 89866:
+/***/ 9866:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.removeRemoteTask = exports.remoteTask = exports.listRemotesTask = exports.getRemotesTask = exports.addRemoteTask = void 0;
-const GetRemoteSummary_1 = __nccwpck_require__(93421);
-const task_1 = __nccwpck_require__(32815);
+const GetRemoteSummary_1 = __nccwpck_require__(9999);
+const task_1 = __nccwpck_require__(2815);
 function addRemoteTask(remoteName, remoteRepo, customArgs = []) {
     return task_1.straightThroughStringTask(['remote', 'add', ...customArgs, remoteName, remoteRepo]);
 }
@@ -45040,14 +44824,14 @@ exports.removeRemoteTask = removeRemoteTask;
 
 /***/ }),
 
-/***/ 92377:
+/***/ 2377:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getResetMode = exports.resetTask = exports.ResetMode = void 0;
-const task_1 = __nccwpck_require__(32815);
+const task_1 = __nccwpck_require__(2815);
 var ResetMode;
 (function (ResetMode) {
     ResetMode["MIXED"] = "mixed";
@@ -45085,7 +44869,7 @@ function isValidResetMode(mode) {
 
 /***/ }),
 
-/***/ 30810:
+/***/ 810:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -45108,14 +44892,14 @@ exports.stashListTask = stashListTask;
 
 /***/ }),
 
-/***/ 99197:
+/***/ 9197:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.statusTask = void 0;
-const StatusSummary_1 = __nccwpck_require__(16790);
+const StatusSummary_1 = __nccwpck_require__(6790);
 function statusTask(customArgs) {
     return {
         format: 'utf-8',
@@ -45130,14 +44914,14 @@ exports.statusTask = statusTask;
 
 /***/ }),
 
-/***/ 48772:
+/***/ 8772:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.updateSubModuleTask = exports.subModuleTask = exports.initSubModuleTask = exports.addSubModuleTask = void 0;
-const task_1 = __nccwpck_require__(32815);
+const task_1 = __nccwpck_require__(2815);
 function addSubModuleTask(repo, path) {
     return subModuleTask(['add', repo, path]);
 }
@@ -45162,14 +44946,14 @@ exports.updateSubModuleTask = updateSubModuleTask;
 
 /***/ }),
 
-/***/ 98540:
+/***/ 8540:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.addAnnotatedTagTask = exports.addTagTask = exports.tagListTask = void 0;
-const TagList_1 = __nccwpck_require__(94539);
+const TagList_1 = __nccwpck_require__(4539);
 /**
  * Task used by `git.tags`
  */
@@ -45214,14 +44998,14 @@ exports.addAnnotatedTagTask = addAnnotatedTagTask;
 
 /***/ }),
 
-/***/ 32815:
+/***/ 2815:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.isEmptyTask = exports.isBufferTask = exports.straightThroughBufferTask = exports.straightThroughStringTask = exports.configurationErrorTask = exports.adhocExecTask = exports.EMPTY_COMMANDS = void 0;
-const task_configuration_error_1 = __nccwpck_require__(10740);
+const task_configuration_error_1 = __nccwpck_require__(740);
 exports.EMPTY_COMMANDS = [];
 function adhocExecTask(parser) {
     return {
@@ -45273,14 +45057,14 @@ exports.isEmptyTask = isEmptyTask;
 
 /***/ }),
 
-/***/ 77366:
+/***/ 7366:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.filterHasLength = exports.filterFunction = exports.filterPlainObject = exports.filterStringOrStringArray = exports.filterStringArray = exports.filterString = exports.filterPrimitives = exports.filterArray = exports.filterType = void 0;
-const util_1 = __nccwpck_require__(78237);
+const util_1 = __nccwpck_require__(8237);
 function filterType(input, filter, def) {
     if (filter(input)) {
         return input;
@@ -45327,7 +45111,7 @@ exports.filterHasLength = filterHasLength;
 
 /***/ }),
 
-/***/ 62185:
+/***/ 2185:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -45348,7 +45132,7 @@ var ExitCodes;
 
 /***/ }),
 
-/***/ 86578:
+/***/ 6578:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -45369,7 +45153,7 @@ exports.GitOutputStreams = GitOutputStreams;
 
 /***/ }),
 
-/***/ 90847:
+/***/ 847:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
 "use strict";
@@ -45385,19 +45169,19 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-__exportStar(__nccwpck_require__(77366), exports);
-__exportStar(__nccwpck_require__(62185), exports);
-__exportStar(__nccwpck_require__(86578), exports);
-__exportStar(__nccwpck_require__(29536), exports);
-__exportStar(__nccwpck_require__(45218), exports);
-__exportStar(__nccwpck_require__(23546), exports);
-__exportStar(__nccwpck_require__(21351), exports);
-__exportStar(__nccwpck_require__(78237), exports);
+__exportStar(__nccwpck_require__(7366), exports);
+__exportStar(__nccwpck_require__(2185), exports);
+__exportStar(__nccwpck_require__(6578), exports);
+__exportStar(__nccwpck_require__(9536), exports);
+__exportStar(__nccwpck_require__(5218), exports);
+__exportStar(__nccwpck_require__(3546), exports);
+__exportStar(__nccwpck_require__(1351), exports);
+__exportStar(__nccwpck_require__(8237), exports);
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 29536:
+/***/ 9536:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -45456,7 +45240,7 @@ exports.RemoteLineParser = RemoteLineParser;
 
 /***/ }),
 
-/***/ 45218:
+/***/ 5218:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -45479,15 +45263,15 @@ exports.createInstanceConfig = createInstanceConfig;
 
 /***/ }),
 
-/***/ 23546:
+/***/ 3546:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.trailingFunctionArgument = exports.trailingOptionsArgument = exports.getTrailingOptions = exports.appendTaskOptions = void 0;
-const argument_filters_1 = __nccwpck_require__(77366);
-const util_1 = __nccwpck_require__(78237);
+const argument_filters_1 = __nccwpck_require__(7366);
+const util_1 = __nccwpck_require__(8237);
 function appendTaskOptions(options, commands = []) {
     if (!argument_filters_1.filterPlainObject(options)) {
         return commands;
@@ -45544,14 +45328,14 @@ exports.trailingFunctionArgument = trailingFunctionArgument;
 
 /***/ }),
 
-/***/ 21351:
+/***/ 1351:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseStringResponse = exports.callTaskParser = void 0;
-const util_1 = __nccwpck_require__(78237);
+const util_1 = __nccwpck_require__(8237);
 function callTaskParser(parser, streams) {
     return parser(streams.stdOut, streams.stdErr);
 }
@@ -45575,14 +45359,14 @@ exports.parseStringResponse = parseStringResponse;
 
 /***/ }),
 
-/***/ 78237:
+/***/ 8237:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.delay = exports.pick = exports.bufferToString = exports.prefixedArray = exports.asNumber = exports.asStringArray = exports.asArray = exports.objectToString = exports.remove = exports.including = exports.append = exports.folderExists = exports.forEachLineWithContent = exports.toLinesWithContent = exports.last = exports.first = exports.splitOn = exports.isUserFunction = exports.asFunction = exports.NOOP = exports.NULL = void 0;
-const file_exists_1 = __nccwpck_require__(54751);
+const file_exists_1 = __nccwpck_require__(4751);
 exports.NULL = '\0';
 const NOOP = () => {
 };
@@ -45733,7 +45517,7 @@ exports.delay = delay;
 
 "use strict";
 
-var escapeStringRegexp = __nccwpck_require__(98691);
+var escapeStringRegexp = __nccwpck_require__(8691);
 
 module.exports = function (str, sub) {
 	if (typeof str !== 'string' || typeof sub !== 'string') {
@@ -45747,13 +45531,13 @@ module.exports = function (str, sub) {
 
 /***/ }),
 
-/***/ 59318:
+/***/ 9318:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 "use strict";
 
-const os = __nccwpck_require__(12087);
-const hasFlag = __nccwpck_require__(31621);
+const os = __nccwpck_require__(2087);
+const hasFlag = __nccwpck_require__(1621);
 
 const env = process.env;
 
@@ -45899,7 +45683,7 @@ module.exports = {
 
 
 
-const isNumber = __nccwpck_require__(75680);
+const isNumber = __nccwpck_require__(5680);
 
 const toRegexRange = (min, max, options) => {
   if (isNumber(min) === false) {
@@ -46187,7 +45971,7 @@ module.exports = toRegexRange;
 
 "use strict";
 
-var escapeStringRegexp = __nccwpck_require__(98691);
+var escapeStringRegexp = __nccwpck_require__(8691);
 
 module.exports = function (str, target) {
 	if (typeof str !== 'string' || typeof target !== 'string') {
@@ -46200,27 +45984,27 @@ module.exports = function (str, target) {
 
 /***/ }),
 
-/***/ 74294:
+/***/ 4294:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-module.exports = __nccwpck_require__(54219);
+module.exports = __nccwpck_require__(4219);
 
 
 /***/ }),
 
-/***/ 54219:
+/***/ 4219:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 
-var net = __nccwpck_require__(11631);
+var net = __nccwpck_require__(1631);
 var tls = __nccwpck_require__(4016);
-var http = __nccwpck_require__(98605);
-var https = __nccwpck_require__(57211);
-var events = __nccwpck_require__(28614);
-var assert = __nccwpck_require__(42357);
-var util = __nccwpck_require__(31669);
+var http = __nccwpck_require__(8605);
+var https = __nccwpck_require__(7211);
+var events = __nccwpck_require__(8614);
+var assert = __nccwpck_require__(2357);
+var util = __nccwpck_require__(1669);
 
 
 exports.httpOverHttp = httpOverHttp;
@@ -46513,7 +46297,7 @@ exports.p = function (fn) {
 
 /***/ }),
 
-/***/ 62940:
+/***/ 2940:
 /***/ ((module) => {
 
 // Returns a wrapper function that returns a wrapped callback
@@ -46553,7 +46337,7 @@ function wrappy (fn, cb) {
 
 /***/ }),
 
-/***/ 40665:
+/***/ 665:
 /***/ ((module) => {
 
 module.exports = Yallist
@@ -46938,3215 +46722,7 @@ module.exports = eval("require")("spawn-sync");
 
 /***/ }),
 
-/***/ 30741:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@vercel/ncc@0.31.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@vercel/ncc@0.31.1","_id":"@vercel/ncc@0.31.1","_inBundle":false,"_integrity":"sha512-g0FAxwdViI6UzsiVz5HssIHqjcPa1EHL6h+2dcJD893SoCJaGdqqgUF09xnMW6goWnnhbLvgiKlgJWrJa+7qYA==","_location":"/@vercel/ncc","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@vercel/ncc@0.31.1","name":"@vercel/ncc","escapedName":"@vercel%2fncc","scope":"@vercel","rawSpec":"0.31.1","saveSpec":null,"fetchSpec":"0.31.1"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/@vercel/ncc/-/ncc-0.31.1.tgz","_spec":"0.31.1","_where":"/Users/brian.kimball/Github/bump-and-release","bin":{"ncc":"dist/ncc/cli.js"},"bugs":{"url":"https://github.com/vercel/ncc/issues"},"description":"Simple CLI for compiling a Node.js module into a single file, together with all its dependencies, gcc-style.","devDependencies":{"@azure/cosmos":"^3.12.3","@bugsnag/js":"^7.11.0","@ffmpeg-installer/ffmpeg":"^1.0.17","@google-cloud/bigquery":"^5.7.0","@google-cloud/firestore":"^4.14.0","@sentry/node":"^6.10.0","@slack/web-api":"^6.3.0","@tensorflow/tfjs-node":"^3.8.0","@vercel/webpack-asset-relocator-loader":"1.6.0","analytics-node":"^5.0.0","apollo-server-express":"^2.2.2","arg":"^5.0.0","auth0":"^2.14.0","aws-sdk":"^2.356.0","axios":"^0.21.1","azure-storage":"^2.10.2","browserify-middleware":"^8.1.1","bytes":"^3.0.0","canvas":"^2.2.0","chromeless":"^1.5.2","codecov":"^3.8.3","consolidate":"^0.16.0","copy":"^0.3.2","core-js":"^2.5.7","cowsay":"^1.3.1","esm":"^3.2.22","express":"^4.16.4","fetch-h2":"^3.0.0","firebase":"^6.1.1","firebase-admin":"^9.11.0","fluent-ffmpeg":"^2.1.2","fontkit":"^1.7.7","get-folder-size":"^2.0.0","glob":"^7.1.3","got":"^11.8.2","graceful-fs":"^4.1.15","graphql":"^15.5.1","highlights":"^3.1.1","hot-shots":"^8.5.0","ioredis":"^4.2.0","isomorphic-unfetch":"^3.0.0","jest":"^27.0.6","jimp":"^0.16.1","jugglingdb":"2.0.1","koa":"^2.6.2","leveldown":"^6.0.0","license-webpack-plugin":"2.3.20","lighthouse":"^8.1.0","loopback":"^3.24.0","mailgun":"^0.5.0","mariadb":"^2.0.1-beta","memcached":"^2.2.2","mkdirp":"^1.0.4","mongoose":"^5.3.12","mysql":"^2.16.0","node-gyp":"^8.1.0","npm":"^6.13.4","oracledb":"^4.2.0","passport":"^0.4.0","passport-google-oauth":"^2.0.0","path-platform":"^0.11.15","pdf2json":"^1.1.8","pdfkit":"^0.12.1","pg":"^8.7.1","pug":"^3.0.1","react":"^17.0.2","react-dom":"^17.0.2","redis":"^3.1.1","request":"^2.88.0","rxjs":"^7.3.0","saslprep":"^1.0.2","sequelize":"^6.6.5","sharp":"^0.28.3","shebang-loader":"^0.0.1","socket.io":"^4.1.3","source-map-support":"^0.5.9","stripe":"^8.167.0","swig":"^1.4.2","terser":"^5.6.1","the-answer":"^1.0.0","tiny-json-http":"^7.0.2","ts-loader":"^8.3.0","tsconfig-paths":"^3.7.0","tsconfig-paths-webpack-plugin":"^3.2.0","twilio":"^3.23.2","typescript":"^4.4.2","vm2":"^3.6.6","vue":"^2.5.17","vue-server-renderer":"^2.5.17","web-vitals":"^0.2.4","webpack":"5.44.0","when":"^3.7.8"},"files":["dist"],"homepage":"https://github.com/vercel/ncc#readme","license":"MIT","main":"./dist/ncc/index.js","name":"@vercel/ncc","repository":{"type":"git","url":"git+https://github.com/vercel/ncc.git"},"resolutions":{"grpc":"1.24.6"},"scripts":{"build":"node scripts/build.js","build-test-binary":"cd test/binary && node-gyp rebuild && cp build/Release/hello.node ../integration/hello.node","codecov":"codecov","prepublishOnly":"node scripts/build.js --no-cache","test":"node --expose-gc --max_old_space_size=3072 node_modules/.bin/jest","test-coverage":"node --expose-gc --max_old_space_size=3072 node_modules/.bin/jest --coverage --globals \\"{\\\\\\"coverage\\\\\\":true}\\" && codecov"},"version":"0.31.1"}');
-
-/***/ }),
-
-/***/ 61452:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["acorn-jsx@5.3.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"acorn-jsx@5.3.2","_id":"acorn-jsx@5.3.2","_inBundle":false,"_integrity":"sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==","_location":"/acorn-jsx","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"acorn-jsx@5.3.2","name":"acorn-jsx","escapedName":"acorn-jsx","rawSpec":"5.3.2","saveSpec":null,"fetchSpec":"5.3.2"},"_requiredBy":["/espree"],"_resolved":"https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz","_spec":"5.3.2","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/acornjs/acorn-jsx/issues"},"description":"Modern, fast React.js JSX parser","devDependencies":{"acorn":"^8.0.1"},"homepage":"https://github.com/acornjs/acorn-jsx","license":"MIT","maintainers":[{"name":"Ingvar Stepanyan","email":"me@rreverser.com","url":"http://rreverser.com/"}],"name":"acorn-jsx","peerDependencies":{"acorn":"^6.0.0 || ^7.0.0 || ^8.0.0"},"repository":{"type":"git","url":"git+https://github.com/acornjs/acorn-jsx.git"},"scripts":{"test":"node test/run.js"},"version":"5.3.2"}');
-
-/***/ }),
-
-/***/ 62201:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["acorn@7.4.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"acorn@7.4.1","_id":"acorn@7.4.1","_inBundle":false,"_integrity":"sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==","_location":"/acorn","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"acorn@7.4.1","name":"acorn","escapedName":"acorn","rawSpec":"7.4.1","saveSpec":null,"fetchSpec":"7.4.1"},"_requiredBy":["/espree"],"_resolved":"https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz","_spec":"7.4.1","_where":"/Users/brian.kimball/Github/bump-and-release","bin":{"acorn":"bin/acorn"},"bugs":{"url":"https://github.com/acornjs/acorn/issues"},"description":"ECMAScript parser","engines":{"node":">=0.4.0"},"homepage":"https://github.com/acornjs/acorn","license":"MIT","main":"dist/acorn.js","maintainers":[{"name":"Marijn Haverbeke","email":"marijnh@gmail.com","url":"https://marijnhaverbeke.nl"},{"name":"Ingvar Stepanyan","email":"me@rreverser.com","url":"https://rreverser.com/"},{"name":"Adrian Heine","url":"http://adrianheine.de"}],"module":"dist/acorn.mjs","name":"acorn","repository":{"type":"git","url":"git+https://github.com/acornjs/acorn.git"},"scripts":{"prepare":"cd ..; npm run build:main && npm run build:bin"},"types":"dist/acorn.d.ts","version":"7.4.1"}');
-
-/***/ }),
-
-/***/ 99765:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["aggregate-error@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"aggregate-error@3.1.0","_id":"aggregate-error@3.1.0","_inBundle":false,"_integrity":"sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA==","_location":"/aggregate-error","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"aggregate-error@3.1.0","name":"aggregate-error","escapedName":"aggregate-error","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/p-map"],"_resolved":"https://registry.npmjs.org/aggregate-error/-/aggregate-error-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/aggregate-error/issues"},"dependencies":{"clean-stack":"^2.0.0","indent-string":"^4.0.0"},"description":"Create an error from multiple errors","devDependencies":{"ava":"^2.4.0","tsd":"^0.7.1","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/aggregate-error#readme","keywords":["aggregate","error","combine","multiple","many","collection","iterable","iterator"],"license":"MIT","name":"aggregate-error","repository":{"type":"git","url":"git+https://github.com/sindresorhus/aggregate-error.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 15802:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ajv@6.12.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ajv@6.12.6","_id":"ajv@6.12.6","_inBundle":false,"_integrity":"sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==","_location":"/ajv","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ajv@6.12.6","name":"ajv","escapedName":"ajv","rawSpec":"6.12.6","saveSpec":null,"fetchSpec":"6.12.6"},"_requiredBy":["/@eslint/eslintrc","/eslint"],"_resolved":"https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz","_spec":"6.12.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Evgeny Poberezkin"},"bugs":{"url":"https://github.com/ajv-validator/ajv/issues"},"collective":{"type":"opencollective","url":"https://opencollective.com/ajv"},"dependencies":{"fast-deep-equal":"^3.1.1","fast-json-stable-stringify":"^2.0.0","json-schema-traverse":"^0.4.1","uri-js":"^4.2.2"},"description":"Another JSON Schema Validator","devDependencies":{"ajv-async":"^1.0.0","bluebird":"^3.5.3","brfs":"^2.0.0","browserify":"^16.2.0","chai":"^4.0.1","coveralls":"^3.0.1","del-cli":"^3.0.0","dot":"^1.0.3","eslint":"^7.3.1","gh-pages-generator":"^0.2.3","glob":"^7.0.0","if-node-version":"^1.0.0","js-beautify":"^1.7.3","jshint":"^2.10.2","json-schema-test":"^2.0.0","karma":"^5.0.0","karma-chrome-launcher":"^3.0.0","karma-mocha":"^2.0.0","karma-sauce-launcher":"^4.1.3","mocha":"^8.0.1","nyc":"^15.0.0","pre-commit":"^1.1.1","require-globify":"^1.3.0","typescript":"^3.9.5","uglify-js":"^3.6.9","watch":"^1.0.0"},"files":["lib/","dist/","scripts/","LICENSE",".tonic_example.js"],"funding":{"type":"github","url":"https://github.com/sponsors/epoberezkin"},"homepage":"https://github.com/ajv-validator/ajv","keywords":["JSON","schema","validator","validation","jsonschema","json-schema","json-schema-validator","json-schema-validation"],"license":"MIT","main":"lib/ajv.js","name":"ajv","nyc":{"exclude":["**/spec/**","node_modules"],"reporter":["lcov","text-summary"]},"repository":{"type":"git","url":"git+https://github.com/ajv-validator/ajv.git"},"scripts":{"build":"del-cli lib/dotjs/*.js \\"!lib/dotjs/index.js\\" && node scripts/compile-dots.js","bundle":"del-cli dist && node ./scripts/bundle.js . Ajv pure_getters","bundle-beautify":"node ./scripts/bundle.js js-beautify","eslint":"eslint lib/{compile/,}*.js spec/{**/,}*.js scripts --ignore-pattern spec/JSON-Schema-Test-Suite","jshint":"jshint lib/{compile/,}*.js","lint":"npm run jshint && npm run eslint","prepublish":"npm run build && npm run bundle","test":"npm run lint && npm run build && npm run test-all","test-all":"npm run test-cov && if-node-version 10 npm run test-browser","test-browser":"del-cli .browser && npm run bundle && scripts/prepare-tests && npm run test-karma","test-cov":"nyc npm run test-spec","test-debug":"npm run test-spec -- --inspect-brk","test-fast":"AJV_FAST_TEST=true npm run test-spec","test-karma":"karma start","test-spec":"mocha spec/{**/,}*.spec.js -R spec","test-ts":"tsc --target ES5 --noImplicitAny --noEmit spec/typescript/index.ts","watch":"watch \\"npm run build\\" ./lib/dot"},"tonicExampleFilename":".tonic_example.js","typings":"lib/ajv.d.ts","version":"6.12.6"}');
-
-/***/ }),
-
-/***/ 7266:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ansi-colors@4.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ansi-colors@4.1.1","_id":"ansi-colors@4.1.1","_inBundle":false,"_integrity":"sha512-JoX0apGbHaUJBNl6yF+p6JAFYZ666/hhCGKN5t9QFjbJQKUU/g8MNbFDbvfrgKXvI1QpZplPOnwIo99lX/AAmA==","_location":"/ansi-colors","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ansi-colors@4.1.1","name":"ansi-colors","escapedName":"ansi-colors","rawSpec":"4.1.1","saveSpec":null,"fetchSpec":"4.1.1"},"_requiredBy":["/enquirer"],"_resolved":"https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.1.tgz","_spec":"4.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Brian Woodward","url":"https://github.com/doowb"},"bugs":{"url":"https://github.com/doowb/ansi-colors/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jason Schilling","url":"https://sourecode.de"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Jordan","url":"https://github.com/Silic0nS0ldier"}],"description":"Easily add ANSI colors to your text and symbols in the terminal. A faster drop-in replacement for chalk, kleur and turbocolor (without the dependencies and rendering bugs).","devDependencies":{"decache":"^4.5.1","gulp-format-md":"^2.0.0","justified":"^1.0.1","mocha":"^6.1.4","text-table":"^0.2.0"},"engines":{"node":">=6"},"files":["index.js","symbols.js","types/index.d.ts"],"homepage":"https://github.com/doowb/ansi-colors","keywords":["ansi","bgblack","bgBlack","bgblue","bgBlue","bgcyan","bgCyan","bggreen","bgGreen","bgmagenta","bgMagenta","bgred","bgRed","bgwhite","bgWhite","bgyellow","bgYellow","black","blue","bold","clorox","colors","cyan","dim","gray","green","grey","hidden","inverse","italic","kleur","magenta","red","reset","strikethrough","underline","white","yellow"],"license":"MIT","main":"index.js","name":"ansi-colors","repository":{"type":"git","url":"git+https://github.com/doowb/ansi-colors.git"},"scripts":{"test":"mocha"},"types":"./types/index.d.ts","verb":{"toc":false,"layout":"default","tasks":["readme"],"data":{"author":{"linkedin":"woodwardbrian","twitter":"doowb"}},"plugins":["gulp-format-md"],"lint":{"reflinks":true},"related":{"list":["ansi-wrap","strip-color"]},"reflinks":["chalk","colorette","colors","kleur"]},"version":"4.1.1"}');
-
-/***/ }),
-
-/***/ 75090:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ansi-regex@5.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"ansi-regex@5.0.0","_id":"ansi-regex@5.0.0","_inBundle":false,"_integrity":"sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==","_location":"/ansi-regex","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ansi-regex@5.0.0","name":"ansi-regex","escapedName":"ansi-regex","rawSpec":"5.0.0","saveSpec":null,"fetchSpec":"5.0.0"},"_requiredBy":["/strip-ansi"],"_resolved":"https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.0.tgz","_spec":"5.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/chalk/ansi-regex/issues"},"description":"Regular expression for matching ANSI escape codes","devDependencies":{"ava":"^2.4.0","tsd":"^0.9.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/chalk/ansi-regex#readme","keywords":["ansi","styles","color","colour","colors","terminal","console","cli","string","tty","escape","formatting","rgb","256","shell","xterm","command-line","text","regex","regexp","re","match","test","find","pattern"],"license":"MIT","name":"ansi-regex","repository":{"type":"git","url":"git+https://github.com/chalk/ansi-regex.git"},"scripts":{"test":"xo && ava && tsd","view-supported":"node fixtures/view-codes.js"},"version":"5.0.0"}');
-
-/***/ }),
-
-/***/ 43604:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ansi-styles@3.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"ansi-styles@3.2.1","_id":"ansi-styles@3.2.1","_inBundle":false,"_integrity":"sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==","_location":"/ansi-styles","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ansi-styles@3.2.1","name":"ansi-styles","escapedName":"ansi-styles","rawSpec":"3.2.1","saveSpec":null,"fetchSpec":"3.2.1"},"_requiredBy":["/@babel/highlight/chalk","/replace/chalk"],"_resolved":"https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz","_spec":"3.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"ava":{"require":"babel-polyfill"},"bugs":{"url":"https://github.com/chalk/ansi-styles/issues"},"dependencies":{"color-convert":"^1.9.0"},"description":"ANSI escape codes for styling strings in the terminal","devDependencies":{"ava":"*","babel-polyfill":"^6.23.0","svg-term-cli":"^2.1.1","xo":"*"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/chalk/ansi-styles#readme","keywords":["ansi","styles","color","colour","colors","terminal","console","cli","string","tty","escape","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"ansi-styles","repository":{"type":"git","url":"git+https://github.com/chalk/ansi-styles.git"},"scripts":{"screenshot":"svg-term --command=\'node screenshot\' --out=screenshot.svg --padding=3 --width=55 --height=3 --at=1000 --no-cursor","test":"xo && ava"},"version":"3.2.1"}');
-
-/***/ }),
-
-/***/ 61427:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["argparse@1.0.10","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"argparse@1.0.10","_id":"argparse@1.0.10","_inBundle":false,"_integrity":"sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==","_location":"/argparse","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"argparse@1.0.10","name":"argparse","escapedName":"argparse","rawSpec":"1.0.10","saveSpec":null,"fetchSpec":"1.0.10"},"_requiredBy":["/js-yaml"],"_resolved":"https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz","_spec":"1.0.10","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/nodeca/argparse/issues"},"contributors":[{"name":"Eugene Shkuropat"},{"name":"Paul Jacobson"}],"dependencies":{"sprintf-js":"~1.0.2"},"description":"Very powerful CLI arguments parser. Native port of argparse - python\'s options parsing library","devDependencies":{"eslint":"^2.13.1","istanbul":"^0.4.5","mocha":"^3.1.0","ndoc":"^5.0.1"},"files":["index.js","lib/"],"homepage":"https://github.com/nodeca/argparse#readme","keywords":["cli","parser","argparse","option","args"],"license":"MIT","name":"argparse","repository":{"type":"git","url":"git+https://github.com/nodeca/argparse.git"},"scripts":{"test":"make test"},"version":"1.0.10"}');
-
-/***/ }),
-
-/***/ 6739:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["arr-diff@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"arr-diff@4.0.0","_id":"arr-diff@4.0.0","_inBundle":false,"_integrity":"sha1-1kYQdP6/7HHn4VI1dhoyml3HxSA=","_location":"/arr-diff","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"arr-diff@4.0.0","name":"arr-diff","escapedName":"arr-diff","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/cpy/micromatch","/nanomatch"],"_resolved":"https://registry.npmjs.org/arr-diff/-/arr-diff-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/arr-diff/issues"},"contributors":[{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"},{"name":"Paul Miller","email":"paul+gh@paulmillr.com","url":"paulmillr.com"}],"dependencies":{},"description":"Returns an array with only the unique values from the first array, by excluding all values from additional arrays using strict equality for comparisons.","devDependencies":{"ansi-bold":"^0.1.1","arr-flatten":"^1.0.1","array-differ":"^1.0.0","benchmarked":"^0.2.4","gulp-format-md":"^0.1.9","minimist":"^1.2.0","mocha":"^2.4.5"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/arr-diff","keywords":["arr","array","array differ","array-differ","diff","differ","difference"],"license":"MIT","main":"index.js","name":"arr-diff","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/arr-diff.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["arr-flatten","array-filter","array-intersection"]},"reflinks":["array-differ","verb"],"lint":{"reflinks":true}},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 96585:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["arr-flatten@1.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"arr-flatten@1.1.0","_id":"arr-flatten@1.1.0","_inBundle":false,"_integrity":"sha512-L3hKV5R/p5o81R7O02IGnwpDmkp6E982XhtbuwSe3O4qOtMMMtodicASA1Cny2U+aCXcNpml+m4dPsvsJ3jatg==","_location":"/arr-flatten","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"arr-flatten@1.1.0","name":"arr-flatten","escapedName":"arr-flatten","rawSpec":"1.1.0","saveSpec":null,"fetchSpec":"1.1.0"},"_requiredBy":["/cpy/braces"],"_resolved":"https://registry.npmjs.org/arr-flatten/-/arr-flatten-1.1.0.tgz","_spec":"1.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/arr-flatten/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Luke Edwards","url":"https://lukeed.com"}],"description":"Recursively flatten an array or arrays.","devDependencies":{"ansi-bold":"^0.1.1","array-flatten":"^2.1.1","array-slice":"^1.0.0","benchmarked":"^1.0.0","compute-flatten":"^1.0.0","flatit":"^1.1.1","flatten":"^1.0.2","flatten-array":"^1.0.0","glob":"^7.1.1","gulp-format-md":"^0.1.12","just-flatten-it":"^1.1.23","lodash.flattendeep":"^4.4.0","m_flattened":"^1.0.1","mocha":"^3.2.0","utils-flatten":"^1.0.0","write":"^0.3.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/arr-flatten","keywords":["arr","array","elements","flat","flatten","nested","recurse","recursive","recursively"],"license":"MIT","main":"index.js","name":"arr-flatten","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/arr-flatten.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["arr-filter","arr-union","array-each","array-unique"]},"lint":{"reflinks":true}},"version":"1.1.0"}');
-
-/***/ }),
-
-/***/ 3754:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["arr-union@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"arr-union@3.1.0","_id":"arr-union@3.1.0","_inBundle":false,"_integrity":"sha1-45sJrqne+Gao8gbiiK9jkZuuOcQ=","_location":"/arr-union","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"arr-union@3.1.0","name":"arr-union","escapedName":"arr-union","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/class-utils","/union-value"],"_resolved":"https://registry.npmjs.org/arr-union/-/arr-union-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/arr-union/issues"},"description":"Combines a list of arrays, returning a single array with unique values, using strict equality for comparisons.","devDependencies":{"ansi-bold":"^0.1.1","array-union":"^1.0.1","array-unique":"^0.2.1","benchmarked":"^0.1.4","gulp-format-md":"^0.1.7","minimist":"^1.1.1","mocha":"*","should":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/arr-union","keywords":["add","append","array","arrays","combine","concat","extend","union","uniq","unique","util","utility","utils"],"license":"MIT","main":"index.js","name":"arr-union","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/arr-union.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["arr-diff","arr-flatten","arr-filter","arr-map","arr-pluck","arr-reduce","array-unique"]},"reflinks":["verb","array-union"],"lint":{"reflinks":true}},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 67980:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["array-union@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"array-union@1.0.2","_id":"array-union@1.0.2","_inBundle":false,"_integrity":"sha1-mjRBDk9OPaI96jdb5b5w8kd47Dk=","_location":"/array-union","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"array-union@1.0.2","name":"array-union","escapedName":"array-union","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/cpy/globby","/globby"],"_resolved":"https://registry.npmjs.org/array-union/-/array-union-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/array-union/issues"},"dependencies":{"array-uniq":"^1.0.1"},"description":"Create an array of unique values, in order, from the input arrays","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/array-union#readme","keywords":["array","arr","set","uniq","unique","duplicate","remove","union","combine","merge"],"license":"MIT","name":"array-union","repository":{"type":"git","url":"git+https://github.com/sindresorhus/array-union.git"},"scripts":{"test":"xo && ava"},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 40090:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["array-uniq@1.0.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"array-uniq@1.0.3","_id":"array-uniq@1.0.3","_inBundle":false,"_integrity":"sha1-r2rId6Jcx/dOBYiUdThY39sk/bY=","_location":"/array-uniq","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"array-uniq@1.0.3","name":"array-uniq","escapedName":"array-uniq","rawSpec":"1.0.3","saveSpec":null,"fetchSpec":"1.0.3"},"_requiredBy":["/array-union"],"_resolved":"https://registry.npmjs.org/array-uniq/-/array-uniq-1.0.3.tgz","_spec":"1.0.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/array-uniq/issues"},"description":"Create an array without duplicates","devDependencies":{"ava":"*","es6-set":"^0.1.0","require-uncached":"^1.0.2","xo":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/array-uniq#readme","keywords":["array","arr","set","uniq","unique","es6","duplicate","remove"],"license":"MIT","name":"array-uniq","repository":{"type":"git","url":"git+https://github.com/sindresorhus/array-uniq.git"},"scripts":{"test":"xo && ava"},"version":"1.0.3"}');
-
-/***/ }),
-
-/***/ 66048:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["array-unique@0.3.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"array-unique@0.3.2","_id":"array-unique@0.3.2","_inBundle":false,"_integrity":"sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=","_location":"/array-unique","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"array-unique@0.3.2","name":"array-unique","escapedName":"array-unique","rawSpec":"0.3.2","saveSpec":null,"fetchSpec":"0.3.2"},"_requiredBy":["/cpy/braces","/cpy/micromatch","/extglob","/nanomatch"],"_resolved":"https://registry.npmjs.org/array-unique/-/array-unique-0.3.2.tgz","_spec":"0.3.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/array-unique/issues"},"description":"Remove duplicate values from an array. Fastest ES5 implementation.","devDependencies":{"array-uniq":"^1.0.2","benchmarked":"^0.1.3","gulp-format-md":"^0.1.9","mocha":"^2.5.3","should":"^10.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js","LICENSE","README.md"],"homepage":"https://github.com/jonschlinkert/array-unique","keywords":["array","unique"],"license":"MIT","main":"index.js","name":"array-unique","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/array-unique.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["arr-diff","arr-union","arr-flatten","arr-reduce","arr-map","arr-pluck"]},"reflinks":["verb","verb-generate-readme"],"lint":{"reflinks":true}},"version":"0.3.2"}');
-
-/***/ }),
-
-/***/ 20552:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["arrify@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"arrify@2.0.1","_id":"arrify@2.0.1","_inBundle":false,"_integrity":"sha512-3duEwti880xqi4eAMN8AyR4a0ByT90zoYdLlevfrvU43vb0YZwZVfxOgxWrLXXXpyugL0hNZc9G6BiB5B3nUug==","_location":"/arrify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"arrify@2.0.1","name":"arrify","escapedName":"arrify","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/cpy"],"_resolved":"https://registry.npmjs.org/arrify/-/arrify-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/arrify/issues"},"description":"Convert a value to an array","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/arrify#readme","keywords":["array","arrify","arrayify","convert","value","ensure"],"license":"MIT","name":"arrify","repository":{"type":"git","url":"git+https://github.com/sindresorhus/arrify.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.0.1"}');
-
-/***/ }),
-
-/***/ 93176:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["assign-symbols@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"assign-symbols@1.0.0","_id":"assign-symbols@1.0.0","_inBundle":false,"_integrity":"sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c=","_location":"/assign-symbols","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"assign-symbols@1.0.0","name":"assign-symbols","escapedName":"assign-symbols","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/extend-shallow"],"_resolved":"https://registry.npmjs.org/assign-symbols/-/assign-symbols-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/assign-symbols/issues"},"description":"Assign the enumerable es6 Symbol properties from an object (or objects) to the first object passed on the arguments. Can be used as a supplement to other extend, assign or merge methods as a polyfill for the Symbols part of the es6 Object.assign method.","devDependencies":{"mocha":"^3.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/assign-symbols","keywords":["assign","symbols"],"license":"MIT","main":"index.js","name":"assign-symbols","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/assign-symbols.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["assign-deep","mixin-deep","merge-deep","extend-shallow","clone-deep"]}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 67573:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["astral-regex@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"astral-regex@2.0.0","_id":"astral-regex@2.0.0","_inBundle":false,"_integrity":"sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==","_location":"/astral-regex","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"astral-regex@2.0.0","name":"astral-regex","escapedName":"astral-regex","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/slice-ansi"],"_resolved":"https://registry.npmjs.org/astral-regex/-/astral-regex-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Kevin Mårtensson","email":"kevinmartensson@gmail.com","url":"github.com/kevva"},"bugs":{"url":"https://github.com/kevva/astral-regex/issues"},"description":"Regular expression for matching astral symbols","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/kevva/astral-regex#readme","keywords":["astral","emoji","regex","surrogate"],"license":"MIT","name":"astral-regex","repository":{"type":"git","url":"git+https://github.com/kevva/astral-regex.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 71744:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["async@2.6.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"async@2.6.3","_id":"async@2.6.3","_inBundle":false,"_integrity":"sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==","_location":"/async","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"async@2.6.3","name":"async","escapedName":"async","rawSpec":"2.6.3","saveSpec":null,"fetchSpec":"2.6.3"},"_requiredBy":["/gh-pages"],"_resolved":"https://registry.npmjs.org/async/-/async-2.6.3.tgz","_spec":"2.6.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Caolan McMahon"},"bugs":{"url":"https://github.com/caolan/async/issues"},"dependencies":{"lodash":"^4.17.14"},"description":"Higher-order functions and common patterns for asynchronous code","devDependencies":{"babel-cli":"^6.24.0","babel-core":"^6.26.3","babel-plugin-add-module-exports":"^0.2.1","babel-plugin-istanbul":"^2.0.1","babel-plugin-transform-es2015-modules-commonjs":"^6.26.2","babel-preset-es2015":"^6.3.13","babel-preset-es2017":"^6.22.0","babelify":"^8.0.0","benchmark":"^2.1.1","bluebird":"^3.4.6","browserify":"^16.2.2","chai":"^4.1.2","cheerio":"^0.22.0","coveralls":"^3.0.1","es6-promise":"^2.3.0","eslint":"^2.13.1","fs-extra":"^0.26.7","gh-pages-deploy":"^0.5.0","jsdoc":"^3.4.0","karma":"^2.0.2","karma-browserify":"^5.2.0","karma-firefox-launcher":"^1.1.0","karma-mocha":"^1.2.0","karma-mocha-reporter":"^2.2.0","mocha":"^5.2.0","native-promise-only":"^0.8.0-a","nyc":"^11.8.0","rimraf":"^2.5.0","rollup":"^0.36.3","rollup-plugin-node-resolve":"^2.0.0","rollup-plugin-npm":"^2.0.0","rsvp":"^3.0.18","semver":"^5.5.0","uglify-js":"~2.7.3","yargs":"^11.0.0"},"gh-pages-deploy":{"staticpath":"docs"},"homepage":"https://caolan.github.io/async/","keywords":["async","callback","module","utility"],"license":"MIT","main":"dist/async.js","name":"async","nyc":{"exclude":["mocha_test"]},"repository":{"type":"git","url":"git+https://github.com/caolan/async.git"},"scripts":{"coverage":"nyc npm run mocha-node-test -- --grep @nycinvalid --invert","coveralls":"npm run coverage && nyc report --reporter=text-lcov | coveralls","jsdoc":"jsdoc -c ./support/jsdoc/jsdoc.json && node support/jsdoc/jsdoc-fix-html.js","lint":"eslint lib/ mocha_test/ perf/memory.js perf/suites.js perf/benchmark.js support/build/ support/*.js karma.conf.js","mocha-browser-test":"karma start","mocha-node-test":"mocha mocha_test/ --compilers js:babel-core/register","mocha-test":"npm run mocha-node-test && npm run mocha-browser-test","test":"npm run lint && npm run mocha-node-test"},"version":"2.6.3"}');
-
-/***/ }),
-
-/***/ 84346:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["atob@2.1.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"atob@2.1.2","_id":"atob@2.1.2","_inBundle":false,"_integrity":"sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==","_location":"/atob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"atob@2.1.2","name":"atob","escapedName":"atob","rawSpec":"2.1.2","saveSpec":null,"fetchSpec":"2.1.2"},"_requiredBy":["/source-map-resolve"],"_resolved":"https://registry.npmjs.org/atob/-/atob-2.1.2.tgz","_spec":"2.1.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"AJ ONeal","email":"coolaj86@gmail.com","url":"https://coolaj86.com"},"bin":{"atob":"bin/atob.js"},"browser":"browser-atob.js","description":"atob for Node.JS and Linux / Mac / Windows CLI (it\'s a one-liner)","engines":{"node":">= 4.5.0"},"homepage":"https://git.coolaj86.com/coolaj86/atob.js.git","keywords":["atob","browser"],"license":"(MIT OR Apache-2.0)","main":"node-atob.js","name":"atob","repository":{"type":"git","url":"git://git.coolaj86.com/coolaj86/atob.js.git"},"version":"2.1.2"}');
-
-/***/ }),
-
-/***/ 55519:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["balanced-match@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"balanced-match@1.0.0","_id":"balanced-match@1.0.0","_inBundle":false,"_integrity":"sha1-ibTRmasr7kneFk6gK4nORi1xt2c=","_location":"/balanced-match","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"balanced-match@1.0.0","name":"balanced-match","escapedName":"balanced-match","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/brace-expansion"],"_resolved":"https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Julian Gruber","email":"mail@juliangruber.com","url":"http://juliangruber.com"},"bugs":{"url":"https://github.com/juliangruber/balanced-match/issues"},"dependencies":{},"description":"Match balanced character pairs, like \\"{\\" and \\"}\\"","devDependencies":{"matcha":"^0.7.0","tape":"^4.6.0"},"homepage":"https://github.com/juliangruber/balanced-match","keywords":["match","regexp","test","balanced","parse"],"license":"MIT","main":"index.js","name":"balanced-match","repository":{"type":"git","url":"git://github.com/juliangruber/balanced-match.git"},"scripts":{"bench":"make bench","test":"make test"},"testling":{"files":"test/*.js","browsers":["ie/8..latest","firefox/20..latest","firefox/nightly","chrome/25..latest","chrome/canary","opera/12..latest","opera/next","safari/5.1..latest","ipad/6.0..latest","iphone/6.0..latest","android-browser/4.2..latest"]},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 7566:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["define-property@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"define-property@1.0.0","_id":"define-property@1.0.0","_inBundle":false,"_integrity":"sha1-dp66rz9KY6rTr56NMEybvnm/sOY=","_location":"/base/define-property","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"define-property@1.0.0","name":"define-property","escapedName":"define-property","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/base"],"_resolved":"https://registry.npmjs.org/define-property/-/define-property-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/define-property/issues"},"dependencies":{"is-descriptor":"^1.0.0"},"description":"Define a non-enumerable property on an object.","devDependencies":{"gulp-format-md":"^0.1.12","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/define-property","keywords":["define","define-property","enumerable","key","non","non-enumerable","object","prop","property","value"],"license":"MIT","main":"index.js","name":"define-property","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/define-property.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["extend-shallow","merge-deep","assign-deep","mixin-deep"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 32039:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-accessor-descriptor@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-accessor-descriptor@1.0.0","_id":"is-accessor-descriptor@1.0.0","_inBundle":false,"_integrity":"sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==","_location":"/base/is-accessor-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-accessor-descriptor@1.0.0","name":"is-accessor-descriptor","escapedName":"is-accessor-descriptor","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/base/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-accessor-descriptor/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"dependencies":{"kind-of":"^6.0.0"},"description":"Returns true if a value has the characteristics of a valid JavaScript accessor descriptor.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-accessor-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-accessor-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-accessor-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","is-plain-object","isobject"]},"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 91480:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-data-descriptor@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-data-descriptor@1.0.0","_id":"is-data-descriptor@1.0.0","_inBundle":false,"_integrity":"sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ==","_location":"/base/is-data-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-data-descriptor@1.0.0","name":"is-data-descriptor","escapedName":"is-data-descriptor","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/base/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-data-descriptor/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"dependencies":{"kind-of":"^6.0.0"},"description":"Returns true if a value has the characteristics of a valid JavaScript data descriptor.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-data-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-data-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-data-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 18857:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-descriptor@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-descriptor@1.0.2","_id":"is-descriptor@1.0.2","_inBundle":false,"_integrity":"sha512-2eis5WqQGV7peooDyLmNEPUrps9+SXX5c9pL3xEB+4e9HnGuDa7mB7kHxHw4CbqS9k1T2hOH3miL8n8WtiYVtg==","_location":"/base/is-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-descriptor@1.0.2","name":"is-descriptor","escapedName":"is-descriptor","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/base/define-property"],"_resolved":"https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-descriptor/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"is-accessor-descriptor":"^1.0.0","is-data-descriptor":"^1.0.0","kind-of":"^6.0.2"},"description":"Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"plugins":["gulp-format-md"],"toc":false,"layout":"default","tasks":["readme"],"lint":{"reflinks":true}},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 72481:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["base@0.11.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"base@0.11.2","_id":"base@0.11.2","_inBundle":false,"_integrity":"sha512-5T6P4xPgpp0YDFvSWwEZ4NoE3aM4QBQXDzmVbraCkFj8zHM+mba8SyqB5DbZWyR7mYHo6Y7BdQo3MoA4m0TeQg==","_location":"/base","_phantomChildren":{"kind-of":"6.0.3"},"_requested":{"type":"version","registry":true,"raw":"base@0.11.2","name":"base","escapedName":"base","rawSpec":"0.11.2","saveSpec":null,"fetchSpec":"0.11.2"},"_requiredBy":["/snapdragon"],"_resolved":"https://registry.npmjs.org/base/-/base-0.11.2.tgz","_spec":"0.11.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/node-base/base/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"John O\'Donnell","url":"https://github.com/criticalmash"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"tunnckoCore","url":"https://i.am.charlike.online"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"cache-base":"^1.0.1","class-utils":"^0.3.5","component-emitter":"^1.2.1","define-property":"^1.0.0","isobject":"^3.0.1","mixin-deep":"^1.2.0","pascalcase":"^0.1.1"},"description":"base is the foundation for creating modular, unit testable and highly pluggable node.js applications, starting with a handful of common methods, like `set`, `get`, `del` and `use`.","devDependencies":{"gulp":"^3.9.1","gulp-eslint":"^4.0.0","gulp-format-md":"^1.0.0","gulp-istanbul":"^1.1.2","gulp-mocha":"^3.0.1","helper-coverage":"^0.1.3","mocha":"^3.5.0","should":"^13.0.1","through2":"^2.0.3","verb-generate-readme":"^0.6.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/node-base/base","keywords":["base","boilerplate","cache","del","get","inherit","methods","set","starter","unset","visit"],"license":"MIT","main":"index.js","maintainers":[{"name":"Brian Woodward","url":"https://github.com/doowb"},{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"}],"name":"base","repository":{"type":"git","url":"git+https://github.com/node-base/base.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"helpers":["helper-coverage"],"related":{"description":"There are a number of different plugins available for extending base. Let us know if you create your own!","hightlight":"generate","list":["base-cwd","base-data","base-fs","base-generators","base-option","base-pipeline","base-pkg","base-plugins","base-questions","base-store","base-task"]},"reflinks":["assemble","boilerplate","cache-base","class-utils","generate","scaffold","static-extend","verb"],"lint":{"reflinks":true}},"version":"0.11.2"}');
-
-/***/ }),
-
-/***/ 72289:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["brace-expansion@1.1.11","/Users/brian.kimball/Github/bump-and-release"]],"_from":"brace-expansion@1.1.11","_id":"brace-expansion@1.1.11","_inBundle":false,"_integrity":"sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==","_location":"/brace-expansion","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"brace-expansion@1.1.11","name":"brace-expansion","escapedName":"brace-expansion","rawSpec":"1.1.11","saveSpec":null,"fetchSpec":"1.1.11"},"_requiredBy":["/minimatch"],"_resolved":"https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz","_spec":"1.1.11","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Julian Gruber","email":"mail@juliangruber.com","url":"http://juliangruber.com"},"bugs":{"url":"https://github.com/juliangruber/brace-expansion/issues"},"dependencies":{"balanced-match":"^1.0.0","concat-map":"0.0.1"},"description":"Brace expansion as known from sh/bash","devDependencies":{"matcha":"^0.7.0","tape":"^4.6.0"},"homepage":"https://github.com/juliangruber/brace-expansion","keywords":[],"license":"MIT","main":"index.js","name":"brace-expansion","repository":{"type":"git","url":"git://github.com/juliangruber/brace-expansion.git"},"scripts":{"bench":"matcha test/perf/bench.js","gentest":"bash test/generate.sh","test":"tape test/*.js"},"testling":{"files":"test/*.js","browsers":["ie/8..latest","firefox/20..latest","firefox/nightly","chrome/25..latest","chrome/canary","opera/12..latest","opera/next","safari/5.1..latest","ipad/6.0..latest","iphone/6.0..latest","android-browser/4.2..latest"]},"version":"1.1.11"}');
-
-/***/ }),
-
-/***/ 48385:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["braces@3.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"braces@3.0.2","_id":"braces@3.0.2","_inBundle":false,"_integrity":"sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==","_location":"/braces","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"braces@3.0.2","name":"braces","escapedName":"braces","rawSpec":"3.0.2","saveSpec":null,"fetchSpec":"3.0.2"},"_requiredBy":["/micromatch"],"_resolved":"https://registry.npmjs.org/braces/-/braces-3.0.2.tgz","_spec":"3.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/braces/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Elan Shanker","url":"https://github.com/es128"},{"name":"Eugene Sharygin","url":"https://github.com/eush77"},{"name":"hemanth.hm","url":"http://h3manth.com"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"fill-range":"^7.0.1"},"description":"Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.","devDependencies":{"ansi-colors":"^3.2.4","bash-path":"^2.0.1","gulp-format-md":"^2.0.0","mocha":"^6.1.1"},"engines":{"node":">=8"},"files":["index.js","lib"],"homepage":"https://github.com/micromatch/braces","keywords":["alpha","alphabetical","bash","brace","braces","expand","expansion","filepath","fill","fs","glob","globbing","letter","match","matches","matching","number","numerical","path","range","ranges","sh"],"license":"MIT","main":"index.js","name":"braces","repository":{"type":"git","url":"git+https://github.com/micromatch/braces.git"},"scripts":{"benchmark":"node benchmark","test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"lint":{"reflinks":true},"plugins":["gulp-format-md"]},"version":"3.0.2"}');
-
-/***/ }),
-
-/***/ 12919:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["cache-base@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"cache-base@1.0.1","_id":"cache-base@1.0.1","_inBundle":false,"_integrity":"sha512-AKcdTnFSWATd5/GCPRxr2ChwIJ85CeyrEyjRHlKxQ56d4XJMGym0uAiKn0xbLOGOl3+yRpOTi484dVCEc5AUzQ==","_location":"/cache-base","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"cache-base@1.0.1","name":"cache-base","escapedName":"cache-base","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/base"],"_resolved":"https://registry.npmjs.org/cache-base/-/cache-base-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/cache-base/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"collection-visit":"^1.0.0","component-emitter":"^1.2.1","get-value":"^2.0.6","has-value":"^1.0.0","isobject":"^3.0.1","set-value":"^2.0.0","to-object-path":"^0.3.0","union-value":"^1.0.0","unset-value":"^1.0.0"},"description":"Basic object cache with `get`, `set`, `del`, and `has` methods for node.js/javascript projects.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.4.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/cache-base","keywords":["base","cache","config","data","get","has","hash","hasown","object","set","store"],"license":"MIT","main":"index.js","name":"cache-base","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/cache-base.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"highligh":"base","list":["base-methods","get-value","has-value","option-cache","set-value","unset-value"]},"reflinks":["verb"],"lint":{"reflinks":true}},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 95138:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["cacheable-lookup@5.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_from":"cacheable-lookup@5.0.4","_id":"cacheable-lookup@5.0.4","_inBundle":false,"_integrity":"sha512-2/kNscPhpcxrOigMZzbiWF7dz8ilhb/nIHU3EyZiXWXpeq/au8qJ8VhdftMkty3n7Gj6HIGalQG8oiBNB3AJgA==","_location":"/cacheable-lookup","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"cacheable-lookup@5.0.4","name":"cacheable-lookup","escapedName":"cacheable-lookup","rawSpec":"5.0.4","saveSpec":null,"fetchSpec":"5.0.4"},"_requiredBy":["/got"],"_resolved":"https://registry.npmjs.org/cacheable-lookup/-/cacheable-lookup-5.0.4.tgz","_spec":"5.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Szymon Marczak"},"bugs":{"url":"https://github.com/szmarczak/cacheable-lookup/issues"},"description":"A cacheable dns.lookup(…) that respects the TTL","devDependencies":{"@types/keyv":"^3.1.1","ava":"^3.8.2","benchmark":"^2.1.4","coveralls":"^3.0.9","keyv":"^4.0.0","nyc":"^15.0.0","proxyquire":"^2.1.3","quick-lru":"^5.1.0","tsd":"^0.11.0","xo":"^0.25.3"},"engines":{"node":">=10.6.0"},"files":["source","index.d.ts"],"homepage":"https://github.com/szmarczak/cacheable-lookup#readme","keywords":["dns","lookup","cacheable","ttl"],"license":"MIT","main":"source/index.js","name":"cacheable-lookup","repository":{"type":"git","url":"git+https://github.com/szmarczak/cacheable-lookup.git"},"scripts":{"test":"xo && nyc --reporter=lcovonly --reporter=text ava && tsd"},"types":"index.d.ts","version":"5.0.4"}');
-
-/***/ }),
-
-/***/ 83604:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["cacheable-request@7.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"cacheable-request@7.0.2","_id":"cacheable-request@7.0.2","_inBundle":false,"_integrity":"sha512-pouW8/FmiPQbuGpkXQ9BAPv/Mo5xDGANgSNXzTzJ8DrKGuXOssM4wIQRjfanNRh3Yu5cfYPvcorqbhg2KIJtew==","_location":"/cacheable-request","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"cacheable-request@7.0.2","name":"cacheable-request","escapedName":"cacheable-request","rawSpec":"7.0.2","saveSpec":null,"fetchSpec":"7.0.2"},"_requiredBy":["/got"],"_resolved":"https://registry.npmjs.org/cacheable-request/-/cacheable-request-7.0.2.tgz","_spec":"7.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Luke Childs","email":"lukechilds123@gmail.com","url":"http://lukechilds.co.uk"},"bugs":{"url":"https://github.com/lukechilds/cacheable-request/issues"},"dependencies":{"clone-response":"^1.0.2","get-stream":"^5.1.0","http-cache-semantics":"^4.0.0","keyv":"^4.0.0","lowercase-keys":"^2.0.0","normalize-url":"^6.0.1","responselike":"^2.0.0"},"description":"Wrap native HTTP requests with RFC compliant cache support","devDependencies":{"@keyv/sqlite":"^2.0.0","ava":"^1.1.0","coveralls":"^3.0.0","create-test-server":"3.0.0","delay":"^4.0.0","eslint-config-xo-lukechilds":"^1.0.0","nyc":"^14.1.1","pify":"^4.0.0","sqlite3":"^4.0.2","this":"^1.0.2","xo":"^0.23.0"},"engines":{"node":">=8"},"files":["src"],"homepage":"https://github.com/lukechilds/cacheable-request#readme","keywords":["HTTP","HTTPS","cache","caching","layer","cacheable","RFC 7234","RFC","7234","compliant"],"license":"MIT","main":"src/index.js","name":"cacheable-request","repository":{"type":"git","url":"git+https://github.com/lukechilds/cacheable-request.git"},"scripts":{"coverage":"nyc report --reporter=text-lcov | coveralls","test":"xo && nyc ava"},"version":"7.0.2","xo":{"extends":"xo-lukechilds"}}');
-
-/***/ }),
-
-/***/ 15621:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["call-me-maybe@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"call-me-maybe@1.0.1","_id":"call-me-maybe@1.0.1","_inBundle":false,"_integrity":"sha1-JtII6onje1y95gJQoV8DHBak1ms=","_location":"/call-me-maybe","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"call-me-maybe@1.0.1","name":"call-me-maybe","escapedName":"call-me-maybe","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/@mrmlnc/readdir-enhanced"],"_resolved":"https://registry.npmjs.org/call-me-maybe/-/call-me-maybe-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Eric McCarthy","email":"eric@limulus.net","url":"http://www.limulus.net/"},"bugs":{"url":"https://github.com/limulus/call-me-maybe/issues"},"dependencies":{},"description":"Let your JS API users either give you a callback or receive a promise","devDependencies":{"mocha":"^2.3.2","promise":"^7.0.4","zuul":"^3.4.0"},"homepage":"https://github.com/limulus/call-me-maybe#readme","keywords":["promise","callback","denodeify","promisify","carlyraejepsen"],"license":"MIT","main":"index.js","name":"call-me-maybe","repository":{"type":"git","url":"git+https://github.com/limulus/call-me-maybe.git"},"scripts":{"test":"mocha"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 28871:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["callsites@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"callsites@3.1.0","_id":"callsites@3.1.0","_inBundle":false,"_integrity":"sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==","_location":"/callsites","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"callsites@3.1.0","name":"callsites","escapedName":"callsites","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/parent-module"],"_resolved":"https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/callsites/issues"},"description":"Get callsites from the V8 stack trace API","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/callsites#readme","keywords":["stacktrace","v8","callsite","callsites","stack","trace","function","file","line","debug"],"license":"MIT","name":"callsites","repository":{"type":"git","url":"git+https://github.com/sindresorhus/callsites.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 66069:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["quick-lru@4.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"quick-lru@4.0.1","_id":"quick-lru@4.0.1","_inBundle":false,"_integrity":"sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==","_location":"/camelcase-keys/quick-lru","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"quick-lru@4.0.1","name":"quick-lru","escapedName":"quick-lru","rawSpec":"4.0.1","saveSpec":null,"fetchSpec":"4.0.1"},"_requiredBy":["/camelcase-keys"],"_resolved":"https://registry.npmjs.org/quick-lru/-/quick-lru-4.0.1.tgz","_spec":"4.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/quick-lru/issues"},"description":"Simple \\"Least Recently Used\\" (LRU) cache","devDependencies":{"ava":"^1.4.1","coveralls":"^3.0.3","nyc":"^14.1.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/quick-lru#readme","keywords":["lru","quick","cache","caching","least","recently","used","fast","map","hash","buffer"],"license":"MIT","name":"quick-lru","repository":{"type":"git","url":"git+https://github.com/sindresorhus/quick-lru.git"},"scripts":{"test":"xo && nyc ava && tsd"},"version":"4.0.1"}');
-
-/***/ }),
-
-/***/ 3718:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["camelcase-keys@6.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"camelcase-keys@6.2.2","_id":"camelcase-keys@6.2.2","_inBundle":false,"_integrity":"sha512-YrwaA0vEKazPBkn0ipTiMpSajYDSe+KjQfrjhcBMxJt/znbvlHd8Pw/Vamaz5EB4Wfhs3SUR3Z9mwRu/P3s3Yg==","_location":"/camelcase-keys","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"camelcase-keys@6.2.2","name":"camelcase-keys","escapedName":"camelcase-keys","rawSpec":"6.2.2","saveSpec":null,"fetchSpec":"6.2.2"},"_requiredBy":["/meow"],"_resolved":"https://registry.npmjs.org/camelcase-keys/-/camelcase-keys-6.2.2.tgz","_spec":"6.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/camelcase-keys/issues"},"dependencies":{"camelcase":"^5.3.1","map-obj":"^4.0.0","quick-lru":"^4.0.1"},"description":"Convert object keys to camel case","devDependencies":{"ava":"^2.1.0","matcha":"^0.7.0","tsd":"^0.11.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/camelcase-keys#readme","keywords":["map","obj","object","key","keys","value","values","val","iterate","camelcase","camel-case","camel","case","dash","hyphen","dot","underscore","separator","string","text","convert","pascalcase","pascal-case","deep","recurse","recursive"],"license":"MIT","name":"camelcase-keys","repository":{"type":"git","url":"git+https://github.com/sindresorhus/camelcase-keys.git"},"scripts":{"bench":"matcha bench/bench.js","test":"xo && ava && tsd"},"version":"6.2.2","xo":{"overrides":[{"files":"bench/bench.js","rules":{"import/no-unresolved":"off"}}]}}');
-
-/***/ }),
-
-/***/ 63466:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["camelcase@5.3.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"camelcase@5.3.1","_id":"camelcase@5.3.1","_inBundle":false,"_integrity":"sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==","_location":"/camelcase","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"camelcase@5.3.1","name":"camelcase","escapedName":"camelcase","rawSpec":"5.3.1","saveSpec":null,"fetchSpec":"5.3.1"},"_requiredBy":["/camelcase-keys","/yargs-parser"],"_resolved":"https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz","_spec":"5.3.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/camelcase/issues"},"description":"Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar` → `fooBar`","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.1","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/camelcase#readme","keywords":["camelcase","camel-case","camel","case","dash","hyphen","dot","underscore","separator","string","text","convert","pascalcase","pascal-case"],"license":"MIT","name":"camelcase","repository":{"type":"git","url":"git+https://github.com/sindresorhus/camelcase.git"},"scripts":{"test":"xo && ava && tsd"},"version":"5.3.1"}');
-
-/***/ }),
-
-/***/ 28458:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ansi-styles@4.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ansi-styles@4.3.0","_id":"ansi-styles@4.3.0","_inBundle":false,"_integrity":"sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==","_location":"/chalk/ansi-styles","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ansi-styles@4.3.0","name":"ansi-styles","escapedName":"ansi-styles","rawSpec":"4.3.0","saveSpec":null,"fetchSpec":"4.3.0"},"_requiredBy":["/chalk"],"_resolved":"https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz","_spec":"4.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/chalk/ansi-styles/issues"},"dependencies":{"color-convert":"^2.0.1"},"description":"ANSI escape codes for styling strings in the terminal","devDependencies":{"@types/color-convert":"^1.9.0","ava":"^2.3.0","svg-term-cli":"^2.1.1","tsd":"^0.11.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/chalk/ansi-styles?sponsor=1","homepage":"https://github.com/chalk/ansi-styles#readme","keywords":["ansi","styles","color","colour","colors","terminal","console","cli","string","tty","escape","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"ansi-styles","repository":{"type":"git","url":"git+https://github.com/chalk/ansi-styles.git"},"scripts":{"screenshot":"svg-term --command=\'node screenshot\' --out=screenshot.svg --padding=3 --width=55 --height=3 --at=1000 --no-cursor","test":"xo && ava && tsd"},"version":"4.3.0"}');
-
-/***/ }),
-
-/***/ 62532:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["color-convert@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"color-convert@2.0.1","_id":"color-convert@2.0.1","_inBundle":false,"_integrity":"sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==","_location":"/chalk/color-convert","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"color-convert@2.0.1","name":"color-convert","escapedName":"color-convert","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/chalk/ansi-styles"],"_resolved":"https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Heather Arthur","email":"fayearthur@gmail.com"},"bugs":{"url":"https://github.com/Qix-/color-convert/issues"},"dependencies":{"color-name":"~1.1.4"},"description":"Plain color conversion functions","devDependencies":{"chalk":"^2.4.2","xo":"^0.24.0"},"engines":{"node":">=7.0.0"},"files":["index.js","conversions.js","route.js"],"homepage":"https://github.com/Qix-/color-convert#readme","keywords":["color","colour","convert","converter","conversion","rgb","hsl","hsv","hwb","cmyk","ansi","ansi16"],"license":"MIT","name":"color-convert","repository":{"type":"git","url":"git+https://github.com/Qix-/color-convert.git"},"scripts":{"pretest":"xo","test":"node test/basic.js"},"version":"2.0.1","xo":{"rules":{"default-case":0,"no-inline-comments":0,"operator-linebreak":0}}}');
-
-/***/ }),
-
-/***/ 61170:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["color-name@1.1.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"color-name@1.1.4","_id":"color-name@1.1.4","_inBundle":false,"_integrity":"sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==","_location":"/chalk/color-name","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"color-name@1.1.4","name":"color-name","escapedName":"color-name","rawSpec":"1.1.4","saveSpec":null,"fetchSpec":"1.1.4"},"_requiredBy":["/chalk/color-convert"],"_resolved":"https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz","_spec":"1.1.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"DY","email":"dfcreative@gmail.com"},"bugs":{"url":"https://github.com/colorjs/color-name/issues"},"description":"A list of color names and its values","files":["index.js"],"homepage":"https://github.com/colorjs/color-name","keywords":["color-name","color","color-keyword","keyword"],"license":"MIT","main":"index.js","name":"color-name","repository":{"type":"git","url":"git+ssh://git@github.com/colorjs/color-name.git"},"scripts":{"test":"node test.js"},"version":"1.1.4"}');
-
-/***/ }),
-
-/***/ 97283:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["has-flag@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"has-flag@4.0.0","_id":"has-flag@4.0.0","_inBundle":false,"_integrity":"sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==","_location":"/chalk/has-flag","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"has-flag@4.0.0","name":"has-flag","escapedName":"has-flag","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/chalk/supports-color"],"_resolved":"https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/has-flag/issues"},"description":"Check if argv has a specific flag","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/has-flag#readme","keywords":["has","check","detect","contains","find","flag","cli","command-line","argv","process","arg","args","argument","arguments","getopt","minimist","optimist"],"license":"MIT","name":"has-flag","repository":{"type":"git","url":"git+https://github.com/sindresorhus/has-flag.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 22542:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["supports-color@7.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"supports-color@7.2.0","_id":"supports-color@7.2.0","_inBundle":false,"_integrity":"sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==","_location":"/chalk/supports-color","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"supports-color@7.2.0","name":"supports-color","escapedName":"supports-color","rawSpec":"7.2.0","saveSpec":null,"fetchSpec":"7.2.0"},"_requiredBy":["/chalk"],"_resolved":"https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz","_spec":"7.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"browser":"browser.js","bugs":{"url":"https://github.com/chalk/supports-color/issues"},"dependencies":{"has-flag":"^4.0.0"},"description":"Detect whether a terminal supports color","devDependencies":{"ava":"^1.4.1","import-fresh":"^3.0.0","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","browser.js"],"homepage":"https://github.com/chalk/supports-color#readme","keywords":["color","colour","colors","terminal","console","cli","ansi","styles","tty","rgb","256","shell","xterm","command-line","support","supports","capability","detect","truecolor","16m"],"license":"MIT","name":"supports-color","repository":{"type":"git","url":"git+https://github.com/chalk/supports-color.git"},"scripts":{"test":"xo && ava"},"version":"7.2.0"}');
-
-/***/ }),
-
-/***/ 9680:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["chalk@4.1.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"chalk@4.1.2","_id":"chalk@4.1.2","_inBundle":false,"_integrity":"sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==","_location":"/chalk","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"chalk@4.1.2","name":"chalk","escapedName":"chalk","rawSpec":"4.1.2","saveSpec":null,"fetchSpec":"4.1.2"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz","_spec":"4.1.2","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/chalk/chalk/issues"},"dependencies":{"ansi-styles":"^4.1.0","supports-color":"^7.1.0"},"description":"Terminal string styling done right","devDependencies":{"ava":"^2.4.0","coveralls":"^3.0.7","execa":"^4.0.0","import-fresh":"^3.1.0","matcha":"^0.7.0","nyc":"^15.0.0","resolve-from":"^5.0.0","tsd":"^0.7.4","xo":"^0.28.2"},"engines":{"node":">=10"},"files":["source","index.d.ts"],"funding":"https://github.com/chalk/chalk?sponsor=1","homepage":"https://github.com/chalk/chalk#readme","keywords":["color","colour","colors","terminal","console","cli","string","str","ansi","style","styles","tty","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","main":"source","name":"chalk","repository":{"type":"git","url":"git+https://github.com/chalk/chalk.git"},"scripts":{"bench":"matcha benchmark.js","test":"xo && nyc ava && tsd"},"version":"4.1.2","xo":{"rules":{"unicorn/prefer-string-slice":"off","unicorn/prefer-includes":"off","@typescript-eslint/member-ordering":"off","no-redeclare":"off","unicorn/string-content":"off","unicorn/better-regex":"off"}}}');
-
-/***/ }),
-
-/***/ 85158:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["cross-spawn@4.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"cross-spawn@4.0.2","_id":"cross-spawn@4.0.2","_inBundle":false,"_integrity":"sha1-e5JHYhwjrf3ThWAEqCPL45dCTUE=","_location":"/child-process-promise/cross-spawn","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"cross-spawn@4.0.2","name":"cross-spawn","escapedName":"cross-spawn","rawSpec":"4.0.2","saveSpec":null,"fetchSpec":"4.0.2"},"_requiredBy":["/child-process-promise"],"_resolved":"https://registry.npmjs.org/cross-spawn/-/cross-spawn-4.0.2.tgz","_spec":"4.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"IndigoUnited","email":"hello@indigounited.com","url":"http://indigounited.com"},"bugs":{"url":"https://github.com/IndigoUnited/node-cross-spawn/issues/"},"dependencies":{"lru-cache":"^4.0.1","which":"^1.2.9"},"description":"Cross platform child_process#spawn and child_process#spawnSync","devDependencies":{"@satazor/eslint-config":"^3.0.0","eslint":"^3.0.0","expect.js":"^0.3.0","glob":"^7.0.0","mkdirp":"^0.5.1","mocha":"^3.0.2","rimraf":"^2.5.0"},"files":["index.js","lib"],"homepage":"https://github.com/IndigoUnited/node-cross-spawn#readme","keywords":["spawn","spawnSync","windows","cross","platform","path","ext","path-ext","path_ext","shebang","hashbang","cmd","execute"],"license":"MIT","main":"index.js","name":"cross-spawn","repository":{"type":"git","url":"git://github.com/IndigoUnited/node-cross-spawn.git"},"scripts":{"lint":"eslint \'{*.js,lib/**/*.js,test/**/*.js}\'","test":"node test/prepare && mocha --bail test/test"},"version":"4.0.2"}');
-
-/***/ }),
-
-/***/ 3319:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["which@1.3.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"which@1.3.1","_id":"which@1.3.1","_inBundle":false,"_integrity":"sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==","_location":"/child-process-promise/which","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"which@1.3.1","name":"which","escapedName":"which","rawSpec":"1.3.1","saveSpec":null,"fetchSpec":"1.3.1"},"_requiredBy":["/child-process-promise/cross-spawn"],"_resolved":"https://registry.npmjs.org/which/-/which-1.3.1.tgz","_spec":"1.3.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me"},"bin":{"which":"bin/which"},"bugs":{"url":"https://github.com/isaacs/node-which/issues"},"dependencies":{"isexe":"^2.0.0"},"description":"Like which(1) unix command. Find the first instance of an executable in the PATH.","devDependencies":{"mkdirp":"^0.5.0","rimraf":"^2.6.2","tap":"^12.0.1"},"files":["which.js","bin/which"],"homepage":"https://github.com/isaacs/node-which#readme","license":"ISC","main":"which.js","name":"which","repository":{"type":"git","url":"git://github.com/isaacs/node-which.git"},"scripts":{"changelog":"bash gen-changelog.sh","postversion":"npm run changelog && git add CHANGELOG.md && git commit -m \'update changelog - \'${npm_package_version}","test":"tap test/*.js --cov"},"version":"1.3.1"}');
-
-/***/ }),
-
-/***/ 24907:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["child-process-promise@2.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"child-process-promise@2.2.1","_id":"child-process-promise@2.2.1","_inBundle":false,"_integrity":"sha1-RzChHvYQ+tRQuPIjx50x172tgHQ=","_location":"/child-process-promise","_phantomChildren":{"isexe":"2.0.0","lru-cache":"4.1.5"},"_requested":{"type":"version","registry":true,"raw":"child-process-promise@2.2.1","name":"child-process-promise","escapedName":"child-process-promise","rawSpec":"2.2.1","saveSpec":null,"fetchSpec":"2.2.1"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/child-process-promise/-/child-process-promise-2.2.1.tgz","_spec":"2.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Patrick Steele-Idem","email":"pnidem@gmail.com"},"babel":{"presets":["es2015"],"plugins":["check-es2015-constants","transform-es2015-block-scoping"]},"bugs":{"url":"https://github.com/patrick-steele-idem/child-process-promise/issues"},"dependencies":{"cross-spawn":"^4.0.2","node-version":"^1.0.0","promise-polyfill":"^6.0.1"},"description":"Simple wrapper around the \\"child_process\\" module that makes use of promises","devDependencies":{"babel-cli":"^6.11.4","babel-plugin-check-es2015-constants":"^6.8.0","babel-plugin-transform-es2015-block-scoping":"^6.10.1","babel-preset-es2015":"^6.13.2","chai":"^3.5.0","eslint":"^0.10.2","jshint":"^2.9.1","mocha":"^2.4.5"},"files":["lib","lib-es5","Readme.md"],"homepage":"https://github.com/patrick-steele-idem/child-process-promise#readme","keywords":["child","process","promises"],"license":"MIT","main":"./index.js","name":"child-process-promise","publishConfig":{"registry":"http://registry.npmjs.org/"},"repository":{"type":"git","url":"git+https://github.com/patrick-steele-idem/child-process-promise.git"},"scripts":{"lint":"eslint lib/*js test/*js","mocha":"mocha --ui bdd --reporter spec ./test/","prepublish":"babel lib --out-dir lib-es5","test":"npm run mocha"},"version":"2.2.1"}');
-
-/***/ }),
-
-/***/ 28373:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["define-property@0.2.5","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"define-property@0.2.5","_id":"define-property@0.2.5","_inBundle":false,"_integrity":"sha1-w1se+RjsPJkPmlvFe+BKrOxcgRY=","_location":"/class-utils/define-property","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"define-property@0.2.5","name":"define-property","escapedName":"define-property","rawSpec":"0.2.5","saveSpec":null,"fetchSpec":"0.2.5"},"_requiredBy":["/class-utils"],"_resolved":"https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz","_spec":"0.2.5","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/define-property/issues"},"dependencies":{"is-descriptor":"^0.1.0"},"description":"Define a non-enumerable property on an object.","devDependencies":{"mocha":"*","should":"^7.0.4"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/define-property","keywords":["define","define-property","enumerable","key","non","non-enumerable","object","prop","property","value"],"license":"MIT","main":"index.js","name":"define-property","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/define-property.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["mixin-deep","mixin-object","delegate-object","forward-object"]}},"version":"0.2.5"}');
-
-/***/ }),
-
-/***/ 14689:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["class-utils@0.3.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"class-utils@0.3.6","_id":"class-utils@0.3.6","_inBundle":false,"_integrity":"sha512-qOhPa/Fj7s6TY8H8esGu5QNpMMQxz79h+urzrNYN6mn+9BnxlDGf5QZ+XeCDsxSjPqsSR56XOZOJmpeurnLMeg==","_location":"/class-utils","_phantomChildren":{"is-descriptor":"0.1.6"},"_requested":{"type":"version","registry":true,"raw":"class-utils@0.3.6","name":"class-utils","escapedName":"class-utils","rawSpec":"0.3.6","saveSpec":null,"fetchSpec":"0.3.6"},"_requiredBy":["/base"],"_resolved":"https://registry.npmjs.org/class-utils/-/class-utils-0.3.6.tgz","_spec":"0.3.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/class-utils/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"arr-union":"^3.1.0","define-property":"^0.2.5","isobject":"^3.0.0","static-extend":"^0.1.1"},"description":"Utils for working with JavaScript classes and prototype methods.","devDependencies":{"gulp":"^3.9.1","gulp-eslint":"^2.0.0","gulp-format-md":"^0.1.7","gulp-istanbul":"^0.10.3","gulp-mocha":"^2.2.0","mocha":"^2.4.5","should":"^8.2.2","through2":"^2.0.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/class-utils","keywords":["array","assign","class","copy","ctor","define","delegate","descriptor","extend","extends","inherit","inheritance","merge","method","object","prop","properties","property","prototype","util","utils"],"license":"MIT","main":"index.js","name":"class-utils","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/class-utils.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["define-property","delegate-properties","is-descriptor"]},"reflinks":["verb"],"lint":{"reflinks":true}},"version":"0.3.6"}');
-
-/***/ }),
-
-/***/ 41984:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["clean-stack@2.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"clean-stack@2.2.0","_id":"clean-stack@2.2.0","_inBundle":false,"_integrity":"sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==","_location":"/clean-stack","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"clean-stack@2.2.0","name":"clean-stack","escapedName":"clean-stack","rawSpec":"2.2.0","saveSpec":null,"fetchSpec":"2.2.0"},"_requiredBy":["/aggregate-error"],"_resolved":"https://registry.npmjs.org/clean-stack/-/clean-stack-2.2.0.tgz","_spec":"2.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"browser":{"os":false},"bugs":{"url":"https://github.com/sindresorhus/clean-stack/issues"},"description":"Clean up error stack traces","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/clean-stack#readme","keywords":["clean","stack","trace","traces","error","err","electron"],"license":"MIT","name":"clean-stack","repository":{"type":"git","url":"git+https://github.com/sindresorhus/clean-stack.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.2.0"}');
-
-/***/ }),
-
-/***/ 51363:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["cliui@6.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"cliui@6.0.0","_id":"cliui@6.0.0","_inBundle":false,"_integrity":"sha512-t6wbgtoCXvAzst7QgXxJYqPt0usEfbgQdftEPbLL/cvv6HPE5VgvqCuAIDR0NgU52ds6rFwqrgakNLrHEjCbrQ==","_location":"/cliui","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"cliui@6.0.0","name":"cliui","escapedName":"cliui","rawSpec":"6.0.0","saveSpec":null,"fetchSpec":"6.0.0"},"_requiredBy":["/yargs"],"_resolved":"https://registry.npmjs.org/cliui/-/cliui-6.0.0.tgz","_spec":"6.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Ben Coe","email":"ben@npmjs.com"},"bugs":{"url":"https://github.com/yargs/cliui/issues"},"config":{"blanket":{"pattern":["index.js"],"data-cover-never":["node_modules","test"],"output-reporter":"spec"}},"dependencies":{"string-width":"^4.2.0","strip-ansi":"^6.0.0","wrap-ansi":"^6.2.0"},"description":"easily create complex multi-column command-line-interfaces","devDependencies":{"chai":"^4.2.0","chalk":"^3.0.0","coveralls":"^3.0.3","mocha":"^6.2.2","nyc":"^14.1.1","standard":"^12.0.1"},"engine":{"node":">=8"},"files":["index.js"],"homepage":"https://github.com/yargs/cliui#readme","keywords":["cli","command-line","layout","design","console","wrap","table"],"license":"ISC","main":"index.js","name":"cliui","repository":{"type":"git","url":"git+ssh://git@github.com/yargs/cliui.git"},"scripts":{"coverage":"nyc --reporter=text-lcov mocha | coveralls","pretest":"standard","test":"nyc mocha"},"standard":{"ignore":["**/example/**"],"globals":["it"]},"version":"6.0.0"}');
-
-/***/ }),
-
-/***/ 98719:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["clone-response@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"clone-response@1.0.2","_id":"clone-response@1.0.2","_inBundle":false,"_integrity":"sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws=","_location":"/clone-response","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"clone-response@1.0.2","name":"clone-response","escapedName":"clone-response","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/cacheable-request"],"_resolved":"https://registry.npmjs.org/clone-response/-/clone-response-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Luke Childs","email":"lukechilds123@gmail.com","url":"http://lukechilds.co.uk"},"bugs":{"url":"https://github.com/lukechilds/clone-response/issues"},"dependencies":{"mimic-response":"^1.0.0"},"description":"Clone a Node.js HTTP response stream","devDependencies":{"ava":"^0.22.0","coveralls":"^2.13.1","create-test-server":"^2.0.1","eslint-config-xo-lukechilds":"^1.0.0","get-stream":"^3.0.0","nyc":"^11.0.2","pify":"^3.0.0","xo":"^0.19.0"},"homepage":"https://github.com/lukechilds/clone-response","keywords":["clone","duplicate","copy","response","HTTP","stream"],"license":"MIT","main":"src/index.js","name":"clone-response","repository":{"type":"git","url":"git+https://github.com/lukechilds/clone-response.git"},"scripts":{"coverage":"nyc report --reporter=text-lcov | coveralls","test":"xo && nyc ava"},"version":"1.0.2","xo":{"extends":"xo-lukechilds"}}');
-
-/***/ }),
-
-/***/ 65732:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["collection-visit@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"collection-visit@1.0.0","_id":"collection-visit@1.0.0","_inBundle":false,"_integrity":"sha1-S8A3PBZLwykbTTaMgpzxqApZ3KA=","_location":"/collection-visit","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"collection-visit@1.0.0","name":"collection-visit","escapedName":"collection-visit","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/cache-base"],"_resolved":"https://registry.npmjs.org/collection-visit/-/collection-visit-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/collection-visit/issues"},"contributors":[{"name":"Brian Woodward","email":"brian.woodward@gmail.com","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"map-visit":"^1.0.0","object-visit":"^1.0.0"},"description":"Visit a method over the items in an object, or map visit over the objects in an array.","devDependencies":{"clone-deep":"^0.2.4","gulp":"^3.9.1","gulp-eslint":"^3.0.1","gulp-format-md":"^0.1.12","gulp-istanbul":"^1.1.1","gulp-mocha":"^3.0.0","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/collection-visit","keywords":["array","arrays","collection","context","function","helper","invoke","key","map","method","object","objects","value","visit","visitor"],"license":"MIT","main":"index.js","name":"collection-visit","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/collection-visit.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["base-methods","map-visit","object-visit"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 65116:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["color-convert@1.9.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"color-convert@1.9.3","_id":"color-convert@1.9.3","_inBundle":false,"_integrity":"sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==","_location":"/color-convert","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"color-convert@1.9.3","name":"color-convert","escapedName":"color-convert","rawSpec":"1.9.3","saveSpec":null,"fetchSpec":"1.9.3"},"_requiredBy":["/ansi-styles"],"_resolved":"https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz","_spec":"1.9.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Heather Arthur","email":"fayearthur@gmail.com"},"bugs":{"url":"https://github.com/Qix-/color-convert/issues"},"dependencies":{"color-name":"1.1.3"},"description":"Plain color conversion functions","devDependencies":{"chalk":"1.1.1","xo":"0.11.2"},"files":["index.js","conversions.js","css-keywords.js","route.js"],"homepage":"https://github.com/Qix-/color-convert#readme","keywords":["color","colour","convert","converter","conversion","rgb","hsl","hsv","hwb","cmyk","ansi","ansi16"],"license":"MIT","name":"color-convert","repository":{"type":"git","url":"git+https://github.com/Qix-/color-convert.git"},"scripts":{"pretest":"xo","test":"node test/basic.js"},"version":"1.9.3","xo":{"rules":{"default-case":0,"no-inline-comments":0,"operator-linebreak":0}}}');
-
-/***/ }),
-
-/***/ 19780:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["color-name@1.1.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"color-name@1.1.3","_id":"color-name@1.1.3","_inBundle":false,"_integrity":"sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=","_location":"/color-name","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"color-name@1.1.3","name":"color-name","escapedName":"color-name","rawSpec":"1.1.3","saveSpec":null,"fetchSpec":"1.1.3"},"_requiredBy":["/color-convert"],"_resolved":"https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz","_spec":"1.1.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"DY","email":"dfcreative@gmail.com"},"bugs":{"url":"https://github.com/dfcreative/color-name/issues"},"description":"A list of color names and its values","homepage":"https://github.com/dfcreative/color-name","keywords":["color-name","color","color-keyword","keyword"],"license":"MIT","main":"index.js","name":"color-name","repository":{"type":"git","url":"git+ssh://git@github.com/dfcreative/color-name.git"},"scripts":{"test":"node test.js"},"version":"1.1.3"}');
-
-/***/ }),
-
-/***/ 48786:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["commander@2.20.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"commander@2.20.3","_id":"commander@2.20.3","_inBundle":false,"_integrity":"sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==","_location":"/commander","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"commander@2.20.3","name":"commander","escapedName":"commander","rawSpec":"2.20.3","saveSpec":null,"fetchSpec":"2.20.3"},"_requiredBy":["/gh-pages"],"_resolved":"https://registry.npmjs.org/commander/-/commander-2.20.3.tgz","_spec":"2.20.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},"bugs":{"url":"https://github.com/tj/commander.js/issues"},"dependencies":{},"description":"the complete solution for node.js command-line programs","devDependencies":{"@types/node":"^12.7.8","eslint":"^6.4.0","should":"^13.2.3","sinon":"^7.5.0","standard":"^14.3.1","ts-node":"^8.4.1","typescript":"^3.6.3"},"files":["index.js","typings/index.d.ts"],"homepage":"https://github.com/tj/commander.js#readme","keywords":["commander","command","option","parser"],"license":"MIT","main":"index","name":"commander","repository":{"type":"git","url":"git+https://github.com/tj/commander.js.git"},"scripts":{"lint":"eslint index.js","test":"node test/run.js && npm run test-typings","test-typings":"tsc -p tsconfig.json"},"typings":"typings/index.d.ts","version":"2.20.3"}');
-
-/***/ }),
-
-/***/ 80980:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["commondir@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"commondir@1.0.1","_id":"commondir@1.0.1","_inBundle":false,"_integrity":"sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=","_location":"/commondir","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"commondir@1.0.1","name":"commondir","escapedName":"commondir","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/find-cache-dir"],"_resolved":"https://registry.npmjs.org/commondir/-/commondir-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"bugs":{"url":"https://github.com/substack/node-commondir/issues"},"dependencies":{},"description":"compute the closest common parent for file paths","devDependencies":{"tape":"^3.5.0"},"engine":{"node":">=0.4"},"homepage":"https://github.com/substack/node-commondir#readme","keywords":["common","path","directory","file","parent","root"],"license":"MIT","main":"index.js","name":"commondir","repository":{"type":"git","url":"git+ssh://git@github.com/substack/node-commondir.git"},"scripts":{"test":"tape test/*.js"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 74688:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["component-emitter@1.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"component-emitter@1.3.0","_id":"component-emitter@1.3.0","_inBundle":false,"_integrity":"sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==","_location":"/component-emitter","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"component-emitter@1.3.0","name":"component-emitter","escapedName":"component-emitter","rawSpec":"1.3.0","saveSpec":null,"fetchSpec":"1.3.0"},"_requiredBy":["/base","/cache-base"],"_resolved":"https://registry.npmjs.org/component-emitter/-/component-emitter-1.3.0.tgz","_spec":"1.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/component/emitter/issues"},"component":{"scripts":{"emitter/index.js":"index.js"}},"description":"Event emitter","devDependencies":{"mocha":"*","should":"*"},"files":["index.js","LICENSE"],"homepage":"https://github.com/component/emitter#readme","license":"MIT","main":"index.js","name":"component-emitter","repository":{"type":"git","url":"git+https://github.com/component/emitter.git"},"scripts":{"test":"make test"},"version":"1.3.0"}');
-
-/***/ }),
-
-/***/ 67656:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["concat-map@0.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"concat-map@0.0.1","_id":"concat-map@0.0.1","_inBundle":false,"_integrity":"sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=","_location":"/concat-map","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"concat-map@0.0.1","name":"concat-map","escapedName":"concat-map","rawSpec":"0.0.1","saveSpec":null,"fetchSpec":"0.0.1"},"_requiredBy":["/brace-expansion"],"_resolved":"https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz","_spec":"0.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"bugs":{"url":"https://github.com/substack/node-concat-map/issues"},"description":"concatenative mapdashery","devDependencies":{"tape":"~2.4.0"},"directories":{"example":"example","test":"test"},"homepage":"https://github.com/substack/node-concat-map#readme","keywords":["concat","concatMap","map","functional","higher-order"],"license":"MIT","main":"index.js","name":"concat-map","repository":{"type":"git","url":"git://github.com/substack/node-concat-map.git"},"scripts":{"test":"tape test/*.js"},"testling":{"files":"test/*.js","browsers":{"ie":[6,7,8,9],"ff":[3.5,10,15],"chrome":[10,22],"safari":[5.1],"opera":[12]}},"version":"0.0.1"}');
-
-/***/ }),
-
-/***/ 49012:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["copy-descriptor@0.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"copy-descriptor@0.1.1","_id":"copy-descriptor@0.1.1","_inBundle":false,"_integrity":"sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=","_location":"/copy-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"copy-descriptor@0.1.1","name":"copy-descriptor","escapedName":"copy-descriptor","rawSpec":"0.1.1","saveSpec":null,"fetchSpec":"0.1.1"},"_requiredBy":["/object-copy"],"_resolved":"https://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.1.1.tgz","_spec":"0.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/copy-descriptor/issues"},"description":"Copy a descriptor from object A to object B","devDependencies":{"gulp-format-md":"^0.1.9","mocha":"^2.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/copy-descriptor","keywords":["copy","descriptor"],"license":"MIT","main":"index.js","name":"copy-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/copy-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","is-plain-object","isobject"]},"lint":{"reflinks":true},"reflinks":["verb-readme-generator","verb"]},"version":"0.1.1"}');
-
-/***/ }),
-
-/***/ 28964:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["cp-file@7.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"cp-file@7.0.0","_id":"cp-file@7.0.0","_inBundle":false,"_integrity":"sha512-0Cbj7gyvFVApzpK/uhCtQ/9kE9UnYpxMzaq5nQQC/Dh4iaj5fxp7iEFIullrYwzj8nf0qnsI1Qsx34hAeAebvw==","_location":"/cp-file","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"cp-file@7.0.0","name":"cp-file","escapedName":"cp-file","rawSpec":"7.0.0","saveSpec":null,"fetchSpec":"7.0.0"},"_requiredBy":["/cpy"],"_resolved":"https://registry.npmjs.org/cp-file/-/cp-file-7.0.0.tgz","_spec":"7.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/cp-file/issues"},"dependencies":{"graceful-fs":"^4.1.2","make-dir":"^3.0.0","nested-error-stacks":"^2.0.0","p-event":"^4.1.0"},"description":"Copy a file","devDependencies":{"ava":"^1.4.1","clear-module":"^3.1.0","coveralls":"^3.0.3","del":"^4.1.0","import-fresh":"^3.0.0","nyc":"^13.3.0","sinon":"^7.3.1","tsd":"^0.7.2","uuid":"^3.3.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["cp-file-error.js","fs.js","index.js","index.d.ts","progress-emitter.js"],"homepage":"https://github.com/sindresorhus/cp-file#readme","keywords":["copy","cp","file","clone","fs","stream","file-system","ncp","fast","quick","data","content","contents"],"license":"MIT","maintainers":[{"name":"Michael Mayer","email":"michael@schnittstabil.de","url":"schnittstabil.de"}],"name":"cp-file","repository":{"type":"git","url":"git+https://github.com/sindresorhus/cp-file.git"},"scripts":{"test":"xo && nyc ava && tsd"},"version":"7.0.0"}');
-
-/***/ }),
-
-/***/ 23106:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["cpy-cli@3.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"cpy-cli@3.1.1","_id":"cpy-cli@3.1.1","_inBundle":false,"_integrity":"sha512-HCpNdBkQy3rw+uARLuIf0YurqsMXYzBa9ihhSAuxYJcNIrqrSq3BstPfr0cQN38AdMrQiO9Dp4hYy7GtGJsLPg==","_location":"/cpy-cli","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"cpy-cli@3.1.1","name":"cpy-cli","escapedName":"cpy-cli","rawSpec":"3.1.1","saveSpec":null,"fetchSpec":"3.1.1"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/cpy-cli/-/cpy-cli-3.1.1.tgz","_spec":"3.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bin":{"cpy":"cli.js"},"bugs":{"url":"https://github.com/sindresorhus/cpy-cli/issues"},"dependencies":{"cpy":"^8.0.0","meow":"^6.1.1"},"description":"Copy files","devDependencies":{"ava":"^2.4.0","execa":"^1.0.0","path-exists":"^4.0.0","tempfile":"^3.0.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["cli.js"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/cpy-cli#readme","keywords":["cli-app","cli","copy","cp","cpy","file","files","clone","fs","stream","glob","file-system","ncp","fast","quick","data","content","contents"],"license":"MIT","maintainers":[{"name":"Michael Mayer","email":"michael@schnittstabil.de","url":"schnittstabil.de"}],"name":"cpy-cli","repository":{"type":"git","url":"git+https://github.com/sindresorhus/cpy-cli.git"},"scripts":{"test":"xo && ava"},"version":"3.1.1"}');
-
-/***/ }),
-
-/***/ 34195:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["@nodelib/fs.stat@1.1.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"@nodelib/fs.stat@1.1.3","_id":"@nodelib/fs.stat@1.1.3","_inBundle":false,"_integrity":"sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==","_location":"/cpy/@nodelib/fs.stat","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@nodelib/fs.stat@1.1.3","name":"@nodelib/fs.stat","escapedName":"@nodelib%2ffs.stat","scope":"@nodelib","rawSpec":"1.1.3","saveSpec":null,"fetchSpec":"1.1.3"},"_requiredBy":["/cpy/fast-glob"],"_resolved":"https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz","_spec":"1.1.3","_where":"/Users/brian.kimball/Github/bump-and-release","description":"Get the status of a file with some features","engines":{"node":">= 6"},"keywords":["NodeLib","fs","FileSystem","file system","stat"],"license":"MIT","main":"out/index.js","name":"@nodelib/fs.stat","repository":{"type":"git","url":"https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat"},"scripts":{"build":"npm run clean && npm run lint && npm run compile && npm test","clean":"rimraf out","compile":"tsc -b .","compile:watch":"tsc -p . --watch --sourceMap","lint":"tslint \\"src/**/*.ts\\" -p . -t stylish","test":"mocha \\"out/**/*.spec.js\\" -s 0","watch":"npm run clean && npm run compile:watch"},"typings":"out/index.d.ts","version":"1.1.3"}');
-
-/***/ }),
-
-/***/ 42996:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["extend-shallow@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"extend-shallow@2.0.1","_id":"extend-shallow@2.0.1","_inBundle":false,"_integrity":"sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=","_location":"/cpy/braces/extend-shallow","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"extend-shallow@2.0.1","name":"extend-shallow","escapedName":"extend-shallow","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/cpy/braces"],"_resolved":"https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/extend-shallow/issues"},"dependencies":{"is-extendable":"^0.1.0"},"description":"Extend an object with the properties of additional objects. node.js/javascript util.","devDependencies":{"array-slice":"^0.2.3","benchmarked":"^0.1.4","chalk":"^1.0.0","for-own":"^0.1.3","glob":"^5.0.12","is-plain-object":"^2.0.1","kind-of":"^2.0.0","minimist":"^1.1.1","mocha":"^2.2.5","should":"^7.0.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/extend-shallow","keywords":["assign","extend","javascript","js","keys","merge","obj","object","prop","properties","property","props","shallow","util","utility","utils","value"],"license":"MIT","main":"index.js","name":"extend-shallow","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/extend-shallow.git"},"scripts":{"test":"mocha"},"version":"2.0.1"}');
-
-/***/ }),
-
-/***/ 31633:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["braces@2.3.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"braces@2.3.2","_id":"braces@2.3.2","_inBundle":false,"_integrity":"sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w==","_location":"/cpy/braces","_phantomChildren":{"is-extendable":"0.1.1"},"_requested":{"type":"version","registry":true,"raw":"braces@2.3.2","name":"braces","escapedName":"braces","rawSpec":"2.3.2","saveSpec":null,"fetchSpec":"2.3.2"},"_requiredBy":["/cpy/micromatch"],"_resolved":"https://registry.npmjs.org/braces/-/braces-2.3.2.tgz","_spec":"2.3.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/braces/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Elan Shanker","url":"https://github.com/es128"},{"name":"Eugene Sharygin","url":"https://github.com/eush77"},{"name":"hemanth.hm","url":"http://h3manth.com"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"arr-flatten":"^1.1.0","array-unique":"^0.3.2","extend-shallow":"^2.0.1","fill-range":"^4.0.0","isobject":"^3.0.1","repeat-element":"^1.1.2","snapdragon":"^0.8.1","snapdragon-node":"^2.0.1","split-string":"^3.0.2","to-regex":"^3.0.1"},"description":"Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.","devDependencies":{"ansi-cyan":"^0.1.1","benchmarked":"^2.0.0","brace-expansion":"^1.1.8","cross-spawn":"^5.1.0","gulp":"^3.9.1","gulp-eslint":"^4.0.0","gulp-format-md":"^1.0.0","gulp-istanbul":"^1.1.2","gulp-mocha":"^3.0.1","gulp-unused":"^0.2.1","is-windows":"^1.0.1","minimatch":"^3.0.4","mocha":"^3.2.0","noncharacters":"^1.1.0","text-table":"^0.2.0","time-diff":"^0.3.1","yargs-parser":"^8.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js","lib"],"homepage":"https://github.com/micromatch/braces","keywords":["alpha","alphabetical","bash","brace","braces","expand","expansion","filepath","fill","fs","glob","globbing","letter","match","matches","matching","number","numerical","path","range","ranges","sh"],"license":"MIT","main":"index.js","name":"braces","repository":{"type":"git","url":"git+https://github.com/micromatch/braces.git"},"scripts":{"benchmark":"node benchmark","test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"lint":{"reflinks":true},"plugins":["gulp-format-md"],"related":{"list":["expand-brackets","extglob","fill-range","micromatch","nanomatch"]}},"version":"2.3.2"}');
-
-/***/ }),
-
-/***/ 80666:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fast-glob@2.2.7","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"fast-glob@2.2.7","_id":"fast-glob@2.2.7","_inBundle":false,"_integrity":"sha512-g1KuQwHOZAmOZMuBtHdxDtju+T2RT8jgCC9aANsbpdiDDTSnjgfuVsIBNKbUeJI3oKMRExcfNDtJl4OhbffMsw==","_location":"/cpy/fast-glob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fast-glob@2.2.7","name":"fast-glob","escapedName":"fast-glob","rawSpec":"2.2.7","saveSpec":null,"fetchSpec":"2.2.7"},"_requiredBy":["/cpy/globby"],"_resolved":"https://registry.npmjs.org/fast-glob/-/fast-glob-2.2.7.tgz","_spec":"2.2.7","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Denis Malinochkin","url":"canonium.com"},"bugs":{"url":"https://github.com/mrmlnc/fast-glob/issues"},"dependencies":{"@mrmlnc/readdir-enhanced":"^2.2.1","@nodelib/fs.stat":"^1.1.2","glob-parent":"^3.1.0","is-glob":"^4.0.0","merge2":"^1.2.3","micromatch":"^3.1.10"},"description":"Is a faster `node-glob` alternative","devDependencies":{"@types/bash-glob":"^2.0.0","@types/compute-stdev":"^1.0.0","@types/easy-table":"^0.0.32","@types/execa":"^0.9.0","@types/glob":"^7.1.1","@types/glob-parent":"^3.1.0","@types/glob-stream":"^6.1.0","@types/globby":"^8.0.0","@types/is-glob":"^4.0.0","@types/merge2":"^1.1.4","@types/micromatch":"^3.1.0","@types/minimist":"^1.2.0","@types/mocha":"^5.2.5","@types/node":"^11.13.5","@types/rimraf":"^2.0.2","bash-glob":"^2.0.0","compute-stdev":"^1.0.0","easy-table":"^1.1.1","execa":"^0.9.0","fast-glob":"^2.2.0","glob":"^7.1.2","glob-stream":"^6.1.0","globby":"^8.0.1","minimist":"^1.2.0","mocha":"^5.2.0","rimraf":"^2.6.2","tiny-glob":"^0.2.3","tslint":"^5.12.0","tslint-config-mrmlnc":"^2.0.1","typescript":"^3.1.3"},"engines":{"node":">=4.0.0"},"homepage":"https://github.com/mrmlnc/fast-glob#readme","keywords":["glob","patterns","fast","implementation"],"license":"MIT","main":"index.js","name":"fast-glob","repository":{"type":"git","url":"git+https://github.com/mrmlnc/fast-glob.git"},"scripts":{"bench":"npm run build && npm run bench-async && npm run bench-sync","bench-async":"npm run bench-async-1 && npm run bench-async-5 && npm run bench-async-10 && npm run bench-async-50 && npm run bench-async-100","bench-async-1":"node ./out/benchmark --depth 1","bench-async-10":"node ./out/benchmark --depth 10","bench-async-100":"node ./out/benchmark --depth 100","bench-async-5":"node ./out/benchmark --depth 5","bench-async-50":"node ./out/benchmark --depth 50","bench-sync":"npm run bench-sync-1 && npm run bench-sync-5 && npm run bench-sync-10 && npm run bench-sync-50 && npm run bench-sync-100","bench-sync-1":"node ./out/benchmark --depth 1 --type sync","bench-sync-10":"node ./out/benchmark --depth 10 --type sync","bench-sync-100":"node ./out/benchmark --depth 100 --type sync","bench-sync-5":"node ./out/benchmark --depth 5 --type sync","bench-sync-50":"node ./out/benchmark --depth 50 --type sync","build":"npm run clean && npm run compile && npm run lint && npm test","clean":"rimraf out","compile":"tsc","lint":"tslint \\"src/**/*.ts\\" -p . -t stylish","smoke":"mocha \\"out/**/*.smoke.js\\" -s 0","test":"mocha \\"out/**/*.spec.js\\" -s 0","watch":"npm run clean && npm run compile -- --sourceMap --watch"},"typings":"index.d.ts","version":"2.2.7"}');
-
-/***/ }),
-
-/***/ 81133:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["extend-shallow@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"extend-shallow@2.0.1","_id":"extend-shallow@2.0.1","_inBundle":false,"_integrity":"sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=","_location":"/cpy/fill-range/extend-shallow","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"extend-shallow@2.0.1","name":"extend-shallow","escapedName":"extend-shallow","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/cpy/fill-range"],"_resolved":"https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/extend-shallow/issues"},"dependencies":{"is-extendable":"^0.1.0"},"description":"Extend an object with the properties of additional objects. node.js/javascript util.","devDependencies":{"array-slice":"^0.2.3","benchmarked":"^0.1.4","chalk":"^1.0.0","for-own":"^0.1.3","glob":"^5.0.12","is-plain-object":"^2.0.1","kind-of":"^2.0.0","minimist":"^1.1.1","mocha":"^2.2.5","should":"^7.0.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/extend-shallow","keywords":["assign","extend","javascript","js","keys","merge","obj","object","prop","properties","property","props","shallow","util","utility","utils","value"],"license":"MIT","main":"index.js","name":"extend-shallow","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/extend-shallow.git"},"scripts":{"test":"mocha"},"version":"2.0.1"}');
-
-/***/ }),
-
-/***/ 29875:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fill-range@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"fill-range@4.0.0","_id":"fill-range@4.0.0","_inBundle":false,"_integrity":"sha1-1USBHUKPmOsGpj3EAtJAPDKMOPc=","_location":"/cpy/fill-range","_phantomChildren":{"is-extendable":"0.1.1"},"_requested":{"type":"version","registry":true,"raw":"fill-range@4.0.0","name":"fill-range","escapedName":"fill-range","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/cpy/braces"],"_resolved":"https://registry.npmjs.org/fill-range/-/fill-range-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/fill-range/issues"},"contributors":[{"email":"wtgtybhertgeghgtwtg@gmail.com","url":"https://github.com/wtgtybhertgeghgtwtg"},{"name":"Edo Rivai","email":"edo.rivai@gmail.com","url":"edo.rivai.nl"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"},{"name":"Paul Miller","email":"paul+gh@paulmillr.com","url":"paulmillr.com"}],"dependencies":{"extend-shallow":"^2.0.1","is-number":"^3.0.0","repeat-string":"^1.6.1","to-regex-range":"^2.1.0"},"description":"Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`","devDependencies":{"ansi-cyan":"^0.1.1","benchmarked":"^1.0.0","gulp-format-md":"^0.1.12","minimist":"^1.2.0","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/fill-range","keywords":["alpha","alphabetical","array","bash","brace","expand","expansion","fill","glob","match","matches","matching","number","numerical","range","ranges","regex","sh"],"license":"MIT","main":"index.js","name":"fill-range","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/fill-range.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["braces","expand-range","micromatch","to-regex-range"]},"toc":true,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 3496:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-glob@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-glob@3.1.0","_id":"is-glob@3.1.0","_inBundle":false,"_integrity":"sha1-e6WuJCF4BKxwcHuWkiVnSGzD6Eo=","_location":"/cpy/glob-parent/is-glob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-glob@3.1.0","name":"is-glob","escapedName":"is-glob","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/cpy/glob-parent"],"_resolved":"https://registry.npmjs.org/is-glob/-/is-glob-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-glob/issues"},"contributors":[{"name":"Daniel Perez","email":"daniel@claudetech.com","url":"http://tuvistavie.com"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"is-extglob":"^2.1.0"},"description":"Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience.","devDependencies":{"gulp-format-md":"^0.1.10","mocha":"^3.0.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-glob","keywords":["bash","braces","check","exec","expression","extglob","glob","globbing","globstar","is","match","matches","pattern","regex","regular","string","test"],"license":"MIT","main":"index.js","name":"is-glob","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-glob.git"},"scripts":{"test":"mocha"},"verb":{"layout":"default","plugins":["gulp-format-md"],"related":{"list":["assemble","base","update","verb"]},"reflinks":["assemble","bach","base","composer","gulp","has-glob","is-valid-glob","micromatch","npm","scaffold","verb","vinyl"]},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 62904:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["glob-parent@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"glob-parent@3.1.0","_id":"glob-parent@3.1.0","_inBundle":false,"_integrity":"sha1-nmr2KZ2NO9K9QEMIMr0RPfkGxa4=","_location":"/cpy/glob-parent","_phantomChildren":{"is-extglob":"2.1.1"},"_requested":{"type":"version","registry":true,"raw":"glob-parent@3.1.0","name":"glob-parent","escapedName":"glob-parent","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/cpy/fast-glob"],"_resolved":"https://registry.npmjs.org/glob-parent/-/glob-parent-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Elan Shanker","url":"https://github.com/es128"},"bugs":{"url":"https://github.com/es128/glob-parent/issues"},"dependencies":{"is-glob":"^3.1.0","path-dirname":"^1.0.0"},"description":"Strips glob magic from a string to provide the parent directory path","devDependencies":{"coveralls":"^2.11.2","istanbul":"^0.3.5","mocha":"^2.1.0"},"files":["index.js"],"homepage":"https://github.com/es128/glob-parent","keywords":["glob","parent","strip","path","dirname","directory","base","wildcard"],"license":"ISC","main":"index.js","name":"glob-parent","repository":{"type":"git","url":"git+https://github.com/es128/glob-parent.git"},"scripts":{"ci-test":"istanbul cover _mocha && cat ./coverage/lcov.info | coveralls","test":"istanbul test node_modules/mocha/bin/_mocha"},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 57638:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["globby@9.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"globby@9.2.0","_id":"globby@9.2.0","_inBundle":false,"_integrity":"sha512-ollPHROa5mcxDEkwg6bPt3QbEf4pDQSNtd6JPL1YvOvAo/7/0VAm9TccUeoTmarjPw4pfUthSCqcyfNB1I3ZSg==","_location":"/cpy/globby","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"globby@9.2.0","name":"globby","escapedName":"globby","rawSpec":"9.2.0","saveSpec":null,"fetchSpec":"9.2.0"},"_requiredBy":["/cpy"],"_resolved":"https://registry.npmjs.org/globby/-/globby-9.2.0.tgz","_spec":"9.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/globby/issues"},"dependencies":{"@types/glob":"^7.1.1","array-union":"^1.0.2","dir-glob":"^2.2.2","fast-glob":"^2.2.6","glob":"^7.1.3","ignore":"^4.0.3","pify":"^4.0.1","slash":"^2.0.0"},"description":"Extends `glob` with support for multiple patterns and exposes a Promise API","devDependencies":{"ava":"^1.4.1","glob-stream":"^6.1.0","globby":"github:sindresorhus/globby#master","matcha":"^0.7.0","rimraf":"^2.6.3","tsd":"^0.7.1","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","gitignore.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/globby#readme","keywords":["all","array","directories","dirs","expand","files","filesystem","filter","find","fnmatch","folders","fs","glob","globbing","globs","gulpfriendly","match","matcher","minimatch","multi","multiple","paths","pattern","patterns","traverse","util","utility","wildcard","wildcards","promise","gitignore","git"],"license":"MIT","name":"globby","repository":{"type":"git","url":"git+https://github.com/sindresorhus/globby.git"},"scripts":{"bench":"npm update glob-stream fast-glob && matcha bench.js","test":"xo && ava && tsd"},"version":"9.2.0","xo":{"ignores":["fixtures"]}}');
-
-/***/ }),
-
-/***/ 84944:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@3.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@3.2.2","_id":"kind-of@3.2.2","_inBundle":false,"_integrity":"sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=","_location":"/cpy/is-number/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@3.2.2","name":"kind-of","escapedName":"kind-of","rawSpec":"3.2.2","saveSpec":null,"fetchSpec":"3.2.2"},"_requiredBy":["/cpy/is-number"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz","_spec":"3.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"}],"dependencies":{"is-buffer":"^1.1.5"},"description":"Get the native type of a value.","devDependencies":{"ansi-bold":"^0.1.1","benchmarked":"^1.0.0","browserify":"^14.3.0","glob":"^7.1.1","gulp-format-md":"^0.1.12","mocha":"^3.3.0","type-of":"^2.0.1","typeof":"^1.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"related":{"list":["is-glob","is-number","is-primitive"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"3.2.2"}');
-
-/***/ }),
-
-/***/ 82401:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-number@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-number@3.0.0","_id":"is-number@3.0.0","_inBundle":false,"_integrity":"sha1-JP1iAaR4LPUFYcgQJ2r8fRLXEZU=","_location":"/cpy/is-number","_phantomChildren":{"is-buffer":"1.1.6"},"_requested":{"type":"version","registry":true,"raw":"is-number@3.0.0","name":"is-number","escapedName":"is-number","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/cpy/fill-range","/cpy/to-regex-range"],"_resolved":"https://registry.npmjs.org/is-number/-/is-number-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-number/issues"},"contributors":[{"name":"Charlike Mike Reagent","url":"http://www.tunnckocore.tk"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"kind-of":"^3.0.2"},"description":"Returns true if the value is a number. comprehensive tests.","devDependencies":{"benchmarked":"^0.2.5","chalk":"^1.1.3","gulp-format-md":"^0.1.10","mocha":"^3.0.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-number","keywords":["check","coerce","coercion","integer","is","is-nan","is-num","is-number","istype","kind","math","nan","num","number","numeric","test","type","typeof","value"],"license":"MIT","main":"index.js","name":"is-number","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-number.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["even","is-even","is-odd","is-primitive","kind-of","odd"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb","verb-generate-readme"]},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 77185:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["micromatch@3.1.10","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"micromatch@3.1.10","_id":"micromatch@3.1.10","_inBundle":false,"_integrity":"sha512-MWikgl9n9M3w+bpsY3He8L+w9eF9338xRl8IAO5viDizwSzziFEyUzo2xrrloB64ADbTf8uA8vRqqttDTOmccg==","_location":"/cpy/micromatch","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"micromatch@3.1.10","name":"micromatch","escapedName":"micromatch","rawSpec":"3.1.10","saveSpec":null,"fetchSpec":"3.1.10"},"_requiredBy":["/cpy/fast-glob"],"_resolved":"https://registry.npmjs.org/micromatch/-/micromatch-3.1.10.tgz","_spec":"3.1.10","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/micromatch/issues"},"contributors":[{"name":"Amila Welihinda","url":"amilajack.com"},{"name":"Bogdan Chadkin","url":"https://github.com/TrySound"},{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Devon Govett","url":"http://badassjs.com"},{"name":"Elan Shanker","url":"https://github.com/es128"},{"name":"Fabrício Matté","url":"https://ultcombo.js.org"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Martin Kolárik","url":"https://kolarik.sk"},{"name":"Olsten Larck","url":"https://i.am.charlike.online"},{"name":"Paul Miller","url":"paulmillr.com"},{"name":"Tom Byrer","url":"https://github.com/tomByrer"},{"name":"Tyler Akins","url":"http://rumkin.com"},{"url":"https://github.com/DianeLooney"}],"dependencies":{"arr-diff":"^4.0.0","array-unique":"^0.3.2","braces":"^2.3.1","define-property":"^2.0.2","extend-shallow":"^3.0.2","extglob":"^2.0.4","fragment-cache":"^0.2.1","kind-of":"^6.0.2","nanomatch":"^1.2.9","object.pick":"^1.3.0","regex-not":"^1.0.0","snapdragon":"^0.8.1","to-regex":"^3.0.2"},"description":"Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch.","devDependencies":{"bash-match":"^1.0.2","for-own":"^1.0.0","gulp":"^3.9.1","gulp-format-md":"^1.0.0","gulp-istanbul":"^1.1.3","gulp-mocha":"^5.0.0","gulp-unused":"^0.2.1","is-windows":"^1.0.2","minimatch":"^3.0.4","minimist":"^1.2.0","mocha":"^3.5.3","multimatch":"^2.1.0"},"engines":{"node":">=0.10.0"},"files":["index.js","lib"],"homepage":"https://github.com/micromatch/micromatch","keywords":["bash","expand","expansion","expression","file","files","filter","find","glob","globbing","globs","globstar","match","matcher","matches","matching","micromatch","minimatch","multimatch","path","pattern","patterns","regex","regexp","regular","shell","wildcard"],"license":"MIT","lintDeps":{"dependencies":{"options":{"lock":{"snapdragon":"^0.8.1"}}},"devDependencies":{"files":{"options":{"ignore":["benchmark/**"]}}}},"main":"index.js","name":"micromatch","repository":{"type":"git","url":"git+https://github.com/micromatch/micromatch.git"},"scripts":{"test":"mocha"},"verb":{"toc":"collapsible","layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"helpers":["./benchmark/helper.js"],"related":{"list":["braces","expand-brackets","extglob","fill-range","nanomatch"]},"lint":{"reflinks":true},"reflinks":["expand-brackets","extglob","glob-object","minimatch","multimatch","snapdragon"]},"version":"3.1.10"}');
-
-/***/ }),
-
-/***/ 19550:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["pify@4.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"pify@4.0.1","_id":"pify@4.0.1","_inBundle":false,"_integrity":"sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==","_location":"/cpy/pify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"pify@4.0.1","name":"pify","escapedName":"pify","rawSpec":"4.0.1","saveSpec":null,"fetchSpec":"4.0.1"},"_requiredBy":["/cpy/globby"],"_resolved":"https://registry.npmjs.org/pify/-/pify-4.0.1.tgz","_spec":"4.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/pify/issues"},"description":"Promisify a callback-style function","devDependencies":{"ava":"^0.25.0","pinkie-promise":"^2.0.0","v8-natives":"^1.1.0","xo":"^0.23.0"},"engines":{"node":">=6"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/pify#readme","keywords":["promise","promises","promisify","all","denodify","denodeify","callback","cb","node","then","thenify","convert","transform","wrap","wrapper","bind","to","async","await","es2015","bluebird"],"license":"MIT","name":"pify","repository":{"type":"git","url":"git+https://github.com/sindresorhus/pify.git"},"scripts":{"optimization-test":"node --allow-natives-syntax optimization-test.js","test":"xo && ava"},"version":"4.0.1"}');
-
-/***/ }),
-
-/***/ 72322:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["to-regex-range@2.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"to-regex-range@2.1.1","_id":"to-regex-range@2.1.1","_inBundle":false,"_integrity":"sha1-fIDBe53+vlmeJzZ+DU3VWQFB2zg=","_location":"/cpy/to-regex-range","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"to-regex-range@2.1.1","name":"to-regex-range","escapedName":"to-regex-range","rawSpec":"2.1.1","saveSpec":null,"fetchSpec":"2.1.1"},"_requiredBy":["/cpy/fill-range"],"_resolved":"https://registry.npmjs.org/to-regex-range/-/to-regex-range-2.1.1.tgz","_spec":"2.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/to-regex-range/issues"},"dependencies":{"is-number":"^3.0.0","repeat-string":"^1.6.1"},"description":"Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.","devDependencies":{"fill-range":"^3.1.1","gulp-format-md":"^0.1.12","mocha":"^3.2.0","text-table":"^0.2.0","time-diff":"^0.3.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/micromatch/to-regex-range","keywords":["alpha","alphabetical","bash","brace","date","expand","expansion","glob","match","matches","matching","number","numerical","range","ranges","regex","sequence","sh","to","year"],"license":"MIT","main":"index.js","name":"to-regex-range","repository":{"type":"git","url":"git+https://github.com/micromatch/to-regex-range.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["expand-range","fill-range","micromatch","repeat-element","repeat-string"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"helpers":["./examples.js"],"reflinks":["0-5","0-9","1-5","1-9"]},"version":"2.1.1"}');
-
-/***/ }),
-
-/***/ 153:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["cpy@8.1.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"cpy@8.1.2","_id":"cpy@8.1.2","_inBundle":false,"_integrity":"sha512-dmC4mUesv0OYH2kNFEidtf/skUwv4zePmGeepjyyJ0qTo5+8KhA1o99oIAwVVLzQMAeDJml74d6wPPKb6EZUTg==","_location":"/cpy","_phantomChildren":{"@mrmlnc/readdir-enhanced":"2.2.1","@types/glob":"7.2.0","arr-diff":"4.0.0","arr-flatten":"1.1.0","array-union":"1.0.2","array-unique":"0.3.2","define-property":"2.0.2","dir-glob":"2.2.2","extend-shallow":"3.0.2","extglob":"2.0.4","fragment-cache":"0.2.1","glob":"7.1.6","ignore":"4.0.6","is-buffer":"1.1.6","is-extendable":"0.1.1","is-extglob":"2.1.1","is-glob":"4.0.1","isobject":"3.0.1","kind-of":"6.0.3","merge2":"1.4.1","nanomatch":"1.2.13","object.pick":"1.3.0","path-dirname":"1.0.2","regex-not":"1.0.2","repeat-element":"1.1.4","repeat-string":"1.6.1","slash":"2.0.0","snapdragon":"0.8.2","snapdragon-node":"2.1.1","split-string":"3.1.0","to-regex":"3.0.2"},"_requested":{"type":"version","registry":true,"raw":"cpy@8.1.2","name":"cpy","escapedName":"cpy","rawSpec":"8.1.2","saveSpec":null,"fetchSpec":"8.1.2"},"_requiredBy":["/cpy-cli"],"_resolved":"https://registry.npmjs.org/cpy/-/cpy-8.1.2.tgz","_spec":"8.1.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/cpy/issues"},"dependencies":{"arrify":"^2.0.1","cp-file":"^7.0.0","globby":"^9.2.0","has-glob":"^1.0.0","junk":"^3.1.0","nested-error-stacks":"^2.1.0","p-all":"^2.1.0","p-filter":"^2.1.0","p-map":"^3.0.0"},"description":"Copy files","devDependencies":{"ava":"^3.12.1","proxyquire":"^2.1.3","rimraf":"^3.0.0","tempy":"^0.6.0","tsd":"^0.11.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["cpy-error.js","index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/cpy#readme","keywords":["copy","cp","cpy","file","files","clone","fs","stream","glob","file-system","ncp","fast","quick","data","content","contents","cpx","directory","directories"],"license":"MIT","name":"cpy","repository":{"type":"git","url":"git+https://github.com/sindresorhus/cpy.git"},"scripts":{"test":"xo && ava && tsd"},"version":"8.1.2"}');
-
-/***/ }),
-
-/***/ 30698:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["cross-spawn@7.0.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"cross-spawn@7.0.3","_id":"cross-spawn@7.0.3","_inBundle":false,"_integrity":"sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==","_location":"/cross-spawn","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"cross-spawn@7.0.3","name":"cross-spawn","escapedName":"cross-spawn","rawSpec":"7.0.3","saveSpec":null,"fetchSpec":"7.0.3"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz","_spec":"7.0.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"André Cruz","email":"andre@moxy.studio"},"bugs":{"url":"https://github.com/moxystudio/node-cross-spawn/issues"},"commitlint":{"extends":["@commitlint/config-conventional"]},"dependencies":{"path-key":"^3.1.0","shebang-command":"^2.0.0","which":"^2.0.1"},"description":"Cross platform child_process#spawn and child_process#spawnSync","devDependencies":{"@commitlint/cli":"^8.1.0","@commitlint/config-conventional":"^8.1.0","babel-core":"^6.26.3","babel-jest":"^24.9.0","babel-preset-moxy":"^3.1.0","eslint":"^5.16.0","eslint-config-moxy":"^7.1.0","husky":"^3.0.5","jest":"^24.9.0","lint-staged":"^9.2.5","mkdirp":"^0.5.1","rimraf":"^3.0.0","standard-version":"^7.0.0"},"engines":{"node":">= 8"},"files":["lib"],"homepage":"https://github.com/moxystudio/node-cross-spawn","husky":{"hooks":{"commit-msg":"commitlint -E HUSKY_GIT_PARAMS","pre-commit":"lint-staged"}},"keywords":["spawn","spawnSync","windows","cross-platform","path-ext","shebang","cmd","execute"],"license":"MIT","lint-staged":{"*.js":["eslint --fix","git add"]},"main":"index.js","name":"cross-spawn","repository":{"type":"git","url":"git+ssh://git@github.com/moxystudio/node-cross-spawn.git"},"scripts":{"lint":"eslint .","postrelease":"git push --follow-tags origin HEAD && npm publish","prerelease":"npm t && npm run lint","release":"standard-version","test":"jest --env node --coverage"},"version":"7.0.3"}');
-
-/***/ }),
-
-/***/ 60442:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["debug@4.3.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"debug@4.3.1","_id":"debug@4.3.1","_inBundle":false,"_integrity":"sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==","_location":"/debug","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"debug@4.3.1","name":"debug","escapedName":"debug","rawSpec":"4.3.1","saveSpec":null,"fetchSpec":"4.3.1"},"_requiredBy":["/@eslint/eslintrc","/@humanwhocodes/config-array","/@kwsites/file-exists","/eslint"],"_resolved":"https://registry.npmjs.org/debug/-/debug-4.3.1.tgz","_spec":"4.3.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},"browser":"./src/browser.js","bugs":{"url":"https://github.com/visionmedia/debug/issues"},"contributors":[{"name":"Nathan Rajlich","email":"nathan@tootallnate.net","url":"http://n8.io"},{"name":"Andrew Rhyne","email":"rhyneandrew@gmail.com"},{"name":"Josh Junon","email":"josh@junon.me"}],"dependencies":{"ms":"2.1.2"},"description":"small debugging utility","devDependencies":{"brfs":"^2.0.1","browserify":"^16.2.3","coveralls":"^3.0.2","istanbul":"^0.4.5","karma":"^3.1.4","karma-browserify":"^6.0.0","karma-chrome-launcher":"^2.2.0","karma-mocha":"^1.3.0","mocha":"^5.2.0","mocha-lcov-reporter":"^1.2.0","xo":"^0.23.0"},"engines":{"node":">=6.0"},"files":["src","LICENSE","README.md"],"homepage":"https://github.com/visionmedia/debug#readme","keywords":["debug","log","debugger"],"license":"MIT","main":"./src/index.js","name":"debug","peerDependenciesMeta":{"supports-color":{"optional":true}},"repository":{"type":"git","url":"git://github.com/visionmedia/debug.git"},"scripts":{"lint":"xo","test":"npm run test:node && npm run test:browser && npm run lint","test:browser":"karma start --single-run","test:coverage":"cat ./coverage/lcov.info | coveralls","test:node":"istanbul cover _mocha -- test.js"},"version":"4.3.1"}');
-
-/***/ }),
-
-/***/ 44730:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["map-obj@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"map-obj@1.0.1","_id":"map-obj@1.0.1","_inBundle":false,"_integrity":"sha1-2TPOuSBdgr3PSIb2dCvcK03qFG0=","_location":"/decamelize-keys/map-obj","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"map-obj@1.0.1","name":"map-obj","escapedName":"map-obj","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/decamelize-keys"],"_resolved":"https://registry.npmjs.org/map-obj/-/map-obj-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/map-obj/issues"},"description":"Map object keys and values into a new object","devDependencies":{"ava":"0.0.4"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/map-obj#readme","keywords":["map","obj","object","key","keys","value","values","val","iterate","iterator"],"license":"MIT","name":"map-obj","repository":{"type":"git","url":"git+https://github.com/sindresorhus/map-obj.git"},"scripts":{"test":"node test.js"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 95017:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["decamelize-keys@1.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"decamelize-keys@1.1.0","_id":"decamelize-keys@1.1.0","_inBundle":false,"_integrity":"sha1-0XGoeTMlKAfrPLYdwcFEXQeN8tk=","_location":"/decamelize-keys","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"decamelize-keys@1.1.0","name":"decamelize-keys","escapedName":"decamelize-keys","rawSpec":"1.1.0","saveSpec":null,"fetchSpec":"1.1.0"},"_requiredBy":["/meow"],"_resolved":"https://registry.npmjs.org/decamelize-keys/-/decamelize-keys-1.1.0.tgz","_spec":"1.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"http://sindresorhus.com"},"bugs":{"url":"https://github.com/dsblv/decamelize-keys/issues"},"contributors":[{"name":"Dmirty Sobolev","email":"disobolev@icloud.com","url":"https://github.com/dsblv"}],"dependencies":{"decamelize":"^1.1.0","map-obj":"^1.0.0"},"description":"Convert object keys from camelCase to lowercase with a custom separator","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/dsblv/decamelize-keys#readme","keywords":["map","obj","object","key","keys","value","values","val","iterate","decamelize","decamelcase","lowercase","camelcase","camel-case","camel","case","dash","hyphen","dot","underscore","separator","string","text","convert"],"license":"MIT","name":"decamelize-keys","repository":{"type":"git","url":"git+https://github.com/dsblv/decamelize-keys.git"},"scripts":{"test":"xo && ava"},"version":"1.1.0"}');
-
-/***/ }),
-
-/***/ 35031:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["decamelize@1.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"decamelize@1.2.0","_id":"decamelize@1.2.0","_inBundle":false,"_integrity":"sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=","_location":"/decamelize","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"decamelize@1.2.0","name":"decamelize","escapedName":"decamelize","rawSpec":"1.2.0","saveSpec":null,"fetchSpec":"1.2.0"},"_requiredBy":["/decamelize-keys","/yargs","/yargs-parser"],"_resolved":"https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz","_spec":"1.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/decamelize/issues"},"description":"Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/decamelize#readme","keywords":["decamelize","decamelcase","camelcase","lowercase","case","dash","hyphen","string","str","text","convert"],"license":"MIT","name":"decamelize","repository":{"type":"git","url":"git+https://github.com/sindresorhus/decamelize.git"},"scripts":{"test":"xo && ava"},"version":"1.2.0"}');
-
-/***/ }),
-
-/***/ 73772:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["decode-uri-component@0.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"decode-uri-component@0.2.0","_id":"decode-uri-component@0.2.0","_inBundle":false,"_integrity":"sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=","_location":"/decode-uri-component","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"decode-uri-component@0.2.0","name":"decode-uri-component","escapedName":"decode-uri-component","rawSpec":"0.2.0","saveSpec":null,"fetchSpec":"0.2.0"},"_requiredBy":["/source-map-resolve"],"_resolved":"https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz","_spec":"0.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sam Verschueren","email":"sam.verschueren@gmail.com","url":"github.com/SamVerschueren"},"bugs":{"url":"https://github.com/SamVerschueren/decode-uri-component/issues"},"description":"A better decodeURIComponent","devDependencies":{"ava":"^0.17.0","coveralls":"^2.13.1","nyc":"^10.3.2","xo":"^0.16.0"},"engines":{"node":">=0.10"},"files":["index.js"],"homepage":"https://github.com/SamVerschueren/decode-uri-component#readme","keywords":["decode","uri","component","decodeuricomponent","components","decoder","url"],"license":"MIT","name":"decode-uri-component","repository":{"type":"git","url":"git+https://github.com/SamVerschueren/decode-uri-component.git"},"scripts":{"coveralls":"nyc report --reporter=text-lcov | coveralls","test":"xo && nyc ava"},"version":"0.2.0"}');
-
-/***/ }),
-
-/***/ 92748:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["mimic-response@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"mimic-response@3.1.0","_id":"mimic-response@3.1.0","_inBundle":false,"_integrity":"sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==","_location":"/decompress-response/mimic-response","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"mimic-response@3.1.0","name":"mimic-response","escapedName":"mimic-response","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/decompress-response"],"_resolved":"https://registry.npmjs.org/mimic-response/-/mimic-response-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/mimic-response/issues"},"description":"Mimic a Node.js HTTP response stream","devDependencies":{"@types/node":"^14.0.1","ava":"^2.4.0","create-test-server":"^2.4.0","p-event":"^4.1.0","pify":"^5.0.0","tsd":"^0.11.0","xo":"^0.30.0"},"engines":{"node":">=10"},"files":["index.d.ts","index.js"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/mimic-response#readme","keywords":["mimic","response","stream","http","https","request","get","core"],"license":"MIT","name":"mimic-response","repository":{"type":"git","url":"git+https://github.com/sindresorhus/mimic-response.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 25527:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["decompress-response@6.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"decompress-response@6.0.0","_id":"decompress-response@6.0.0","_inBundle":false,"_integrity":"sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0pji9ejCQ==","_location":"/decompress-response","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"decompress-response@6.0.0","name":"decompress-response","escapedName":"decompress-response","rawSpec":"6.0.0","saveSpec":null,"fetchSpec":"6.0.0"},"_requiredBy":["/got"],"_resolved":"https://registry.npmjs.org/decompress-response/-/decompress-response-6.0.0.tgz","_spec":"6.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/decompress-response/issues"},"dependencies":{"mimic-response":"^3.1.0"},"description":"Decompress a HTTP response if needed","devDependencies":{"@types/node":"^14.0.1","ava":"^2.2.0","get-stream":"^5.0.0","pify":"^5.0.0","tsd":"^0.11.0","xo":"^0.30.0"},"engines":{"node":">=10"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/decompress-response#readme","keywords":["decompress","response","http","https","zlib","gzip","zip","deflate","unzip","ungzip","incoming","message","stream","compressed","brotli"],"license":"MIT","name":"decompress-response","repository":{"type":"git","url":"git+https://github.com/sindresorhus/decompress-response.git"},"scripts":{"test":"xo && ava && tsd"},"version":"6.0.0","xo":{"rules":{"@typescript-eslint/prefer-readonly-parameter-types":"off"}}}');
-
-/***/ }),
-
-/***/ 40859:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["deep-is@0.1.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"deep-is@0.1.4","_id":"deep-is@0.1.4","_inBundle":false,"_integrity":"sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==","_location":"/deep-is","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"deep-is@0.1.4","name":"deep-is","escapedName":"deep-is","rawSpec":"0.1.4","saveSpec":null,"fetchSpec":"0.1.4"},"_requiredBy":["/optionator"],"_resolved":"https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz","_spec":"0.1.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Thorsten Lorenz","email":"thlorenz@gmx.de","url":"http://thlorenz.com"},"bugs":{"url":"https://github.com/thlorenz/deep-is/issues"},"description":"node\'s assert.deepEqual algorithm except for NaN being equal to NaN","devDependencies":{"tape":"~1.0.2"},"directories":{"lib":".","example":"example","test":"test"},"homepage":"https://github.com/thlorenz/deep-is#readme","keywords":["equality","equal","compare"],"license":"MIT","main":"index.js","name":"deep-is","repository":{"type":"git","url":"git+ssh://git@github.com/thlorenz/deep-is.git"},"scripts":{"test":"tape test/*.js"},"testling":{"files":"test/*.js","browsers":{"ie":[6,7,8,9],"ff":[3.5,10,15],"chrome":[10,22],"safari":[5.1],"opera":[12]}},"version":"0.1.4"}');
-
-/***/ }),
-
-/***/ 44055:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["defer-to-connect@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"defer-to-connect@2.0.1","_id":"defer-to-connect@2.0.1","_inBundle":false,"_integrity":"sha512-4tvttepXG1VaYGrRibk5EwJd1t4udunSOVMdLSAL6mId1ix438oPwPZMALY41FCijukO1L0twNcGsdzS7dHgDg==","_location":"/defer-to-connect","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"defer-to-connect@2.0.1","name":"defer-to-connect","escapedName":"defer-to-connect","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/@szmarczak/http-timer"],"_resolved":"https://registry.npmjs.org/defer-to-connect/-/defer-to-connect-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Szymon Marczak"},"ava":{"typescript":{"rewritePaths":{"tests/":"dist/tests/"}}},"bugs":{"url":"https://github.com/szmarczak/defer-to-connect/issues"},"description":"The safe way to handle the `connect` socket event","devDependencies":{"@ava/typescript":"^1.1.0","@sindresorhus/tsconfig":"^0.7.0","@types/node":"^13.5.0","@typescript-eslint/eslint-plugin":"^2.18.0","@typescript-eslint/parser":"^2.18.0","ava":"^3.2.0","coveralls":"^3.0.9","create-cert":"^1.0.6","del-cli":"^3.0.0","eslint-config-xo-typescript":"^0.24.1","nyc":"^15.0.0","p-event":"^4.1.0","typescript":"^3.7.5","xo":"^0.25.3"},"engines":{"node":">=10"},"files":["dist/source"],"homepage":"https://github.com/szmarczak/defer-to-connect#readme","keywords":["socket","connect","event"],"license":"MIT","main":"dist/source","name":"defer-to-connect","nyc":{"include":["dist/source"],"extension":[".ts"]},"repository":{"type":"git","url":"git+https://github.com/szmarczak/defer-to-connect.git"},"scripts":{"build":"del-cli dist && tsc","coveralls":"nyc report --reporter=text-lcov | coveralls","prepare":"npm run build","test":"xo && tsc --noEmit && nyc ava"},"types":"dist/source/index.d.ts","version":"2.0.1","xo":{"extends":"xo-typescript","extensions":["ts"]}}');
-
-/***/ }),
-
-/***/ 45558:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-accessor-descriptor@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-accessor-descriptor@1.0.0","_id":"is-accessor-descriptor@1.0.0","_inBundle":false,"_integrity":"sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==","_location":"/define-property/is-accessor-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-accessor-descriptor@1.0.0","name":"is-accessor-descriptor","escapedName":"is-accessor-descriptor","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/define-property/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-accessor-descriptor/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"dependencies":{"kind-of":"^6.0.0"},"description":"Returns true if a value has the characteristics of a valid JavaScript accessor descriptor.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-accessor-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-accessor-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-accessor-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","is-plain-object","isobject"]},"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 95206:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-data-descriptor@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-data-descriptor@1.0.0","_id":"is-data-descriptor@1.0.0","_inBundle":false,"_integrity":"sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ==","_location":"/define-property/is-data-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-data-descriptor@1.0.0","name":"is-data-descriptor","escapedName":"is-data-descriptor","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/define-property/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-data-descriptor/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"dependencies":{"kind-of":"^6.0.0"},"description":"Returns true if a value has the characteristics of a valid JavaScript data descriptor.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-data-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-data-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-data-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 34737:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-descriptor@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-descriptor@1.0.2","_id":"is-descriptor@1.0.2","_inBundle":false,"_integrity":"sha512-2eis5WqQGV7peooDyLmNEPUrps9+SXX5c9pL3xEB+4e9HnGuDa7mB7kHxHw4CbqS9k1T2hOH3miL8n8WtiYVtg==","_location":"/define-property/is-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-descriptor@1.0.2","name":"is-descriptor","escapedName":"is-descriptor","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/define-property"],"_resolved":"https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-descriptor/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"is-accessor-descriptor":"^1.0.0","is-data-descriptor":"^1.0.0","kind-of":"^6.0.2"},"description":"Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"plugins":["gulp-format-md"],"toc":false,"layout":"default","tasks":["readme"],"lint":{"reflinks":true}},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 74203:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["define-property@2.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"define-property@2.0.2","_id":"define-property@2.0.2","_inBundle":false,"_integrity":"sha512-jwK2UV4cnPpbcG7+VRARKTZPUWowwXA8bzH5NP6ud0oeAxyYPuGZUAC7hMugpCdz4BeSZl2Dl9k66CHJ/46ZYQ==","_location":"/define-property","_phantomChildren":{"kind-of":"6.0.3"},"_requested":{"type":"version","registry":true,"raw":"define-property@2.0.2","name":"define-property","escapedName":"define-property","rawSpec":"2.0.2","saveSpec":null,"fetchSpec":"2.0.2"},"_requiredBy":["/cpy/micromatch","/nanomatch","/to-regex"],"_resolved":"https://registry.npmjs.org/define-property/-/define-property-2.0.2.tgz","_spec":"2.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/define-property/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"is-descriptor":"^1.0.2","isobject":"^3.0.1"},"description":"Define a non-enumerable property on an object. Uses Reflect.defineProperty when available, otherwise Object.defineProperty.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/define-property","keywords":["define","define-property","enumerable","key","non","non-enumerable","object","prop","property","value"],"license":"MIT","main":"index.js","name":"define-property","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/define-property.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["assign-deep","extend-shallow","merge-deep","mixin-deep"]},"lint":{"reflinks":true}},"version":"2.0.2"}');
-
-/***/ }),
-
-/***/ 54923:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["dir-glob@2.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"dir-glob@2.2.2","_id":"dir-glob@2.2.2","_inBundle":false,"_integrity":"sha512-f9LBi5QWzIW3I6e//uxZoLBlUt9kcp66qo0sSCxL6YZKc75R1c4MFCoe/LaZiBGmgujvQdxc5Bn3QhfyvK5Hsw==","_location":"/dir-glob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"dir-glob@2.2.2","name":"dir-glob","escapedName":"dir-glob","rawSpec":"2.2.2","saveSpec":null,"fetchSpec":"2.2.2"},"_requiredBy":["/cpy/globby"],"_resolved":"https://registry.npmjs.org/dir-glob/-/dir-glob-2.2.2.tgz","_spec":"2.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Kevin Mårtensson","email":"kevinmartensson@gmail.com","url":"github.com/kevva"},"bugs":{"url":"https://github.com/kevva/dir-glob/issues"},"dependencies":{"path-type":"^3.0.0"},"description":"Convert directories to glob compatible strings","devDependencies":{"ava":"^0.25.0","del":"^3.0.0","make-dir":"^1.0.0","rimraf":"^2.5.0","xo":"^0.20.3"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/kevva/dir-glob#readme","keywords":["convert","directory","extensions","files","glob"],"license":"MIT","name":"dir-glob","repository":{"type":"git","url":"git+https://github.com/kevva/dir-glob.git"},"scripts":{"test":"xo && ava"},"version":"2.2.2"}');
-
-/***/ }),
-
-/***/ 9516:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["doctrine@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"doctrine@3.0.0","_id":"doctrine@3.0.0","_inBundle":false,"_integrity":"sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==","_location":"/doctrine","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"doctrine@3.0.0","name":"doctrine","escapedName":"doctrine","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/eslint/doctrine/issues"},"dependencies":{"esutils":"^2.0.2"},"description":"JSDoc parser","devDependencies":{"coveralls":"^3.0.1","dateformat":"^1.0.11","eslint":"^1.10.3","eslint-release":"^1.0.0","linefix":"^0.1.1","mocha":"^3.4.2","npm-license":"^0.3.1","nyc":"^10.3.2","semver":"^5.0.3","shelljs":"^0.5.3","shelljs-nodecli":"^0.1.1","should":"^5.0.1"},"directories":{"lib":"./lib"},"engines":{"node":">=6.0.0"},"files":["lib"],"homepage":"https://github.com/eslint/doctrine","license":"Apache-2.0","main":"lib/doctrine.js","maintainers":[{"name":"Nicholas C. Zakas","email":"nicholas+npm@nczconsulting.com","url":"https://www.nczonline.net"},{"name":"Yusuke Suzuki","email":"utatane.tea@gmail.com","url":"https://github.com/Constellation"}],"name":"doctrine","repository":{"type":"git","url":"git+https://github.com/eslint/doctrine.git"},"scripts":{"coveralls":"nyc report --reporter=text-lcov | coveralls","generate-alpharelease":"eslint-generate-prerelease alpha","generate-betarelease":"eslint-generate-prerelease beta","generate-rcrelease":"eslint-generate-prerelease rc","generate-release":"eslint-generate-release","lint":"eslint lib/","pretest":"npm run lint","publish-release":"eslint-publish-release","test":"nyc mocha"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 54937:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["email-addresses@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"email-addresses@3.1.0","_id":"email-addresses@3.1.0","_inBundle":false,"_integrity":"sha512-k0/r7GrWVL32kZlGwfPNgB2Y/mMXVTq/decgLczm/j34whdaspNrZO8CnXPf1laaHxI6ptUlsnAxN+UAPw+fzg==","_location":"/email-addresses","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"email-addresses@3.1.0","name":"email-addresses","escapedName":"email-addresses","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/gh-pages"],"_resolved":"https://registry.npmjs.org/email-addresses/-/email-addresses-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jack Bearheart","email":"johnrbowman@fastmail.fm"},"bugs":{"url":"https://github.com/jackbearheart/email-addresses/issues"},"description":"An email address parser based on rfc5322","devDependencies":{"libxmljs":"~0.19.7","tap":"^14.8.2"},"directories":{"lib":"./lib"},"homepage":"https://github.com/jackbearheart/email-addresses","keywords":["email address","parser","rfc5322","5322"],"license":"MIT","main":"./lib/email-addresses.js","name":"email-addresses","repository":{"type":"git","url":"git+https://github.com/jackbearheart/email-addresses.git"},"scripts":{"test":"tap ./test"},"typings":"./lib/email-addresses.d.ts","version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 59874:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["emoji-regex@8.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"emoji-regex@8.0.0","_id":"emoji-regex@8.0.0","_inBundle":false,"_integrity":"sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==","_location":"/emoji-regex","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"emoji-regex@8.0.0","name":"emoji-regex","escapedName":"emoji-regex","rawSpec":"8.0.0","saveSpec":null,"fetchSpec":"8.0.0"},"_requiredBy":["/string-width","/table/string-width"],"_resolved":"https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz","_spec":"8.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Mathias Bynens","url":"https://mathiasbynens.be/"},"bugs":{"url":"https://github.com/mathiasbynens/emoji-regex/issues"},"description":"A regular expression to match all Emoji-only symbols as per the Unicode Standard.","devDependencies":{"@babel/cli":"^7.2.3","@babel/core":"^7.3.4","@babel/plugin-proposal-unicode-property-regex":"^7.2.0","@babel/preset-env":"^7.3.4","mocha":"^6.0.2","regexgen":"^1.3.0","unicode-12.0.0":"^0.7.9"},"files":["LICENSE-MIT.txt","index.js","index.d.ts","text.js","es2015/index.js","es2015/text.js"],"homepage":"https://mths.be/emoji-regex","keywords":["unicode","regex","regexp","regular expressions","code points","symbols","characters","emoji"],"license":"MIT","main":"index.js","name":"emoji-regex","repository":{"type":"git","url":"git+https://github.com/mathiasbynens/emoji-regex.git"},"scripts":{"build":"rm -rf -- es2015; babel src -d .; NODE_ENV=es2015 babel src -d ./es2015; node script/inject-sequences.js","test":"mocha","test:watch":"npm run test -- --watch"},"types":"index.d.ts","version":"8.0.0"}');
-
-/***/ }),
-
-/***/ 39423:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["end-of-stream@1.4.4","/Users/brian.kimball/Github/bump-and-release"]],"_from":"end-of-stream@1.4.4","_id":"end-of-stream@1.4.4","_inBundle":false,"_integrity":"sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==","_location":"/end-of-stream","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"end-of-stream@1.4.4","name":"end-of-stream","escapedName":"end-of-stream","rawSpec":"1.4.4","saveSpec":null,"fetchSpec":"1.4.4"},"_requiredBy":["/pump"],"_resolved":"https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.4.tgz","_spec":"1.4.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Mathias Buus","email":"mathiasbuus@gmail.com"},"bugs":{"url":"https://github.com/mafintosh/end-of-stream/issues"},"dependencies":{"once":"^1.4.0"},"description":"Call a callback when a readable/writable/duplex stream has completed or failed.","devDependencies":{"tape":"^4.11.0"},"files":["index.js"],"homepage":"https://github.com/mafintosh/end-of-stream","keywords":["stream","streams","callback","finish","close","end","wait"],"license":"MIT","main":"index.js","name":"end-of-stream","repository":{"type":"git","url":"git://github.com/mafintosh/end-of-stream.git"},"scripts":{"test":"node test.js"},"version":"1.4.4"}');
-
-/***/ }),
-
-/***/ 27225:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["enquirer@2.3.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"enquirer@2.3.6","_id":"enquirer@2.3.6","_inBundle":false,"_integrity":"sha512-yjNnPr315/FjS4zIsUxYguYUPP2e1NK4d7E7ZOLiyYCcbFBiTMyID+2wvm2w6+pZ/odMA7cRkjhsPbltwBOrLg==","_location":"/enquirer","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"enquirer@2.3.6","name":"enquirer","escapedName":"enquirer","rawSpec":"2.3.6","saveSpec":null,"fetchSpec":"2.3.6"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/enquirer/-/enquirer-2.3.6.tgz","_spec":"2.3.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/enquirer/enquirer/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"ansi-colors":"^4.1.1"},"description":"Stylish, intuitive and user-friendly prompt system. Fast and lightweight enough for small projects, powerful and extensible enough for the most advanced use cases.","devDependencies":{"@types/node":"^8","gulp-format-md":"^2.0.0","inquirer":"^6.2.0","mocha":"^5.2.0","nyc":"^13.1.0","prompts":"^1.2.1","time-require":"github:jonschlinkert/time-require","typescript":"^3.1.6"},"engines":{"node":">=8.6"},"files":["index.js","index.d.ts","lib"],"homepage":"https://github.com/enquirer/enquirer","keywords":["answer","answers","ask","base","cli","command","command-line","confirm","enquirer","generator","generate","hyper","input","inquire","inquirer","interface","iterm","javascript","node","nodejs","prompt","prompts","promptly","question","readline","scaffold","scaffolding","scaffolder","stdin","stdout","terminal","tty","ui","yeoman","yo","zsh"],"license":"MIT","lintDeps":{"devDependencies":{"files":{"patterns":["examples/**/*.js","perf/*.js","recipes/*.js"]}}},"main":"index.js","name":"enquirer","repository":{"type":"git","url":"git+https://github.com/enquirer/enquirer.git"},"scripts":{"cover":"nyc --reporter=text --reporter=html mocha","test":"mocha && tsc -p ./test/types"},"verb":{"toc":false,"layout":false,"tasks":["readme"],"plugins":["gulp-format-md"],"helpers":["./docs/helpers.js"],"lint":{"reflinks":true},"reflinks":["inquirer","prompt-skeleton"]},"version":"2.3.6"}');
-
-/***/ }),
-
-/***/ 20802:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["error-ex@1.3.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"error-ex@1.3.2","_id":"error-ex@1.3.2","_inBundle":false,"_integrity":"sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==","_location":"/error-ex","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"error-ex@1.3.2","name":"error-ex","escapedName":"error-ex","rawSpec":"1.3.2","saveSpec":null,"fetchSpec":"1.3.2"},"_requiredBy":["/parse-json"],"_resolved":"https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz","_spec":"1.3.2","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/qix-/node-error-ex/issues"},"dependencies":{"is-arrayish":"^0.2.1"},"description":"Easy error subclassing and stack customization","devDependencies":{"coffee-script":"^1.9.3","coveralls":"^2.11.2","istanbul":"^0.3.17","mocha":"^2.2.5","should":"^7.0.1","xo":"^0.7.1"},"files":["index.js"],"homepage":"https://github.com/qix-/node-error-ex#readme","keywords":["error","errors","extend","extending","extension","subclass","stack","custom"],"license":"MIT","maintainers":[{"name":"Josh Junon","email":"i.am.qix@gmail.com","url":"github.com/qix-"},{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"}],"name":"error-ex","repository":{"type":"git","url":"git+https://github.com/qix-/node-error-ex.git"},"scripts":{"pretest":"xo","test":"mocha --compilers coffee:coffee-script/register"},"version":"1.3.2","xo":{"rules":{"operator-linebreak":[0]}}}');
-
-/***/ }),
-
-/***/ 86838:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["escape-string-regexp@1.0.5","/Users/brian.kimball/Github/bump-and-release"]],"_from":"escape-string-regexp@1.0.5","_id":"escape-string-regexp@1.0.5","_inBundle":false,"_integrity":"sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=","_location":"/escape-string-regexp","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"escape-string-regexp@1.0.5","name":"escape-string-regexp","escapedName":"escape-string-regexp","rawSpec":"1.0.5","saveSpec":null,"fetchSpec":"1.0.5"},"_requiredBy":["/@babel/highlight/chalk","/replace/chalk","/strip-outer","/trim-repeated"],"_resolved":"https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz","_spec":"1.0.5","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/escape-string-regexp/issues"},"description":"Escape RegExp special characters","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=0.8.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/escape-string-regexp#readme","keywords":["escape","regex","regexp","re","regular","expression","string","str","special","characters"],"license":"MIT","maintainers":[{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},{"name":"Joshua Boy Nicolai Appelman","email":"joshua@jbna.nl","url":"jbna.nl"}],"name":"escape-string-regexp","repository":{"type":"git","url":"git+https://github.com/sindresorhus/escape-string-regexp.git"},"scripts":{"test":"xo && ava"},"version":"1.0.5"}');
-
-/***/ }),
-
-/***/ 42245:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["eslint-scope@5.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"eslint-scope@5.1.1","_id":"eslint-scope@5.1.1","_inBundle":false,"_integrity":"sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==","_location":"/eslint-scope","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"eslint-scope@5.1.1","name":"eslint-scope","escapedName":"eslint-scope","rawSpec":"5.1.1","saveSpec":null,"fetchSpec":"5.1.1"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/eslint-scope/-/eslint-scope-5.1.1.tgz","_spec":"5.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/eslint/eslint-scope/issues"},"dependencies":{"esrecurse":"^4.3.0","estraverse":"^4.1.1"},"description":"ECMAScript scope analyzer for ESLint","devDependencies":{"@typescript-eslint/parser":"^1.11.0","chai":"^4.2.0","eslint":"^6.0.1","eslint-config-eslint":"^5.0.1","eslint-plugin-node":"^9.1.0","eslint-release":"^1.0.0","eslint-visitor-keys":"^1.2.0","espree":"^7.1.0","istanbul":"^0.4.5","mocha":"^6.1.4","npm-license":"^0.3.3","shelljs":"^0.8.3","typescript":"^3.5.2"},"engines":{"node":">=8.0.0"},"files":["LICENSE","README.md","lib"],"homepage":"http://github.com/eslint/eslint-scope","license":"BSD-2-Clause","main":"lib/index.js","name":"eslint-scope","repository":{"type":"git","url":"git+https://github.com/eslint/eslint-scope.git"},"scripts":{"generate-alpharelease":"eslint-generate-prerelease alpha","generate-betarelease":"eslint-generate-prerelease beta","generate-rcrelease":"eslint-generate-prerelease rc","generate-release":"eslint-generate-release","lint":"node Makefile.js lint","publish-release":"eslint-publish-release","test":"node Makefile.js test"},"version":"5.1.1"}');
-
-/***/ }),
-
-/***/ 22583:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["eslint-visitor-keys@1.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"eslint-visitor-keys@1.3.0","_id":"eslint-visitor-keys@1.3.0","_inBundle":false,"_integrity":"sha512-6J72N8UNa462wa/KFODt/PJ3IU60SDpC3QXC1Hjc1BXXpfL2C9R5+AU7jhe0F6GREqVMh4Juu+NY7xn+6dipUQ==","_location":"/eslint-utils/eslint-visitor-keys","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"eslint-visitor-keys@1.3.0","name":"eslint-visitor-keys","escapedName":"eslint-visitor-keys","rawSpec":"1.3.0","saveSpec":null,"fetchSpec":"1.3.0"},"_requiredBy":["/eslint-utils"],"_resolved":"https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.3.0.tgz","_spec":"1.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Toru Nagashima","url":"https://github.com/mysticatea"},"bugs":{"url":"https://github.com/eslint/eslint-visitor-keys/issues"},"dependencies":{},"description":"Constants and utilities about visitor keys to traverse AST.","devDependencies":{"eslint":"^4.7.2","eslint-config-eslint":"^4.0.0","eslint-release":"^1.0.0","mocha":"^3.5.3","nyc":"^11.2.1","opener":"^1.4.3"},"engines":{"node":">=4"},"files":["lib"],"homepage":"https://github.com/eslint/eslint-visitor-keys#readme","keywords":[],"license":"Apache-2.0","main":"lib/index.js","name":"eslint-visitor-keys","repository":{"type":"git","url":"git+https://github.com/eslint/eslint-visitor-keys.git"},"scripts":{"coverage":"nyc report --reporter lcov && opener coverage/lcov-report/index.html","generate-alpharelease":"eslint-generate-prerelease alpha","generate-betarelease":"eslint-generate-prerelease beta","generate-rcrelease":"eslint-generate-prerelease rc","generate-release":"eslint-generate-release","lint":"eslint lib tests/lib","pretest":"npm run -s lint","publish-release":"eslint-publish-release","test":"nyc mocha tests/lib"},"version":"1.3.0"}');
-
-/***/ }),
-
-/***/ 45002:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["eslint-utils@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"eslint-utils@2.1.0","_id":"eslint-utils@2.1.0","_inBundle":false,"_integrity":"sha512-w94dQYoauyvlDc43XnGB8lU3Zt713vNChgt4EWwhXAP2XkBvndfxF0AgIqKOOasjPIPzj9JqgwkwbCYD0/V3Zg==","_location":"/eslint-utils","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"eslint-utils@2.1.0","name":"eslint-utils","escapedName":"eslint-utils","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/eslint-utils/-/eslint-utils-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Toru Nagashima"},"bugs":{"url":"https://github.com/mysticatea/eslint-utils/issues"},"dependencies":{"eslint-visitor-keys":"^1.1.0"},"description":"Utilities for ESLint plugins.","devDependencies":{"@mysticatea/eslint-plugin":"^12.0.0","codecov":"^3.6.1","dot-prop":"^4.2.0","eslint":"^6.5.1","esm":"^3.2.25","espree":"^6.1.1","mocha":"^6.2.2","npm-run-all":"^4.1.5","nyc":"^14.1.1","opener":"^1.5.1","rimraf":"^3.0.0","rollup":"^1.25.0","rollup-plugin-sourcemaps":"^0.4.2","semver":"^7.3.2","vuepress":"^1.2.0","warun":"^1.0.0"},"engines":{"node":">=6"},"files":["index.*"],"funding":"https://github.com/sponsors/mysticatea","homepage":"https://github.com/mysticatea/eslint-utils#readme","keywords":["eslint"],"license":"MIT","main":"index","module":"index.mjs","name":"eslint-utils","repository":{"type":"git","url":"git+https://github.com/mysticatea/eslint-utils.git"},"scripts":{"build":"rollup -c","clean":"rimraf .nyc_output coverage index.*","codecov":"nyc report -r lcovonly && codecov","coverage":"opener ./coverage/lcov-report/index.html","docs:build":"vuepress build docs","docs:watch":"vuepress dev docs","lint":"eslint src test","postversion":"git push && git push --tags","prebuild":"npm run -s clean","preversion":"npm test && npm run -s build","prewatch":"npm run -s clean","test":"run-s lint build test:mocha","test:mocha":"nyc mocha --reporter dot \\"test/*.js\\"","watch":"warun \\"{src,test}/**/*.js\\" -- npm run -s test:mocha"},"sideEffects":false,"version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 97491:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["eslint-visitor-keys@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"eslint-visitor-keys@2.1.0","_id":"eslint-visitor-keys@2.1.0","_inBundle":false,"_integrity":"sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==","_location":"/eslint-visitor-keys","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"eslint-visitor-keys@2.1.0","name":"eslint-visitor-keys","escapedName":"eslint-visitor-keys","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Toru Nagashima","url":"https://github.com/mysticatea"},"bugs":{"url":"https://github.com/eslint/eslint-visitor-keys/issues"},"dependencies":{},"description":"Constants and utilities about visitor keys to traverse AST.","devDependencies":{"eslint":"^4.7.2","eslint-config-eslint":"^4.0.0","eslint-release":"^1.0.0","mocha":"^3.5.3","nyc":"^11.2.1","opener":"^1.4.3"},"engines":{"node":">=10"},"files":["lib"],"homepage":"https://github.com/eslint/eslint-visitor-keys#readme","keywords":[],"license":"Apache-2.0","main":"lib/index.js","name":"eslint-visitor-keys","repository":{"type":"git","url":"git+https://github.com/eslint/eslint-visitor-keys.git"},"scripts":{"coverage":"nyc report --reporter lcov && opener coverage/lcov-report/index.html","generate-alpharelease":"eslint-generate-prerelease alpha","generate-betarelease":"eslint-generate-prerelease beta","generate-rcrelease":"eslint-generate-prerelease rc","generate-release":"eslint-generate-release","lint":"eslint lib tests/lib","publish-release":"eslint-publish-release","test":"nyc mocha tests/lib"},"version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 34693:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["escape-string-regexp@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"escape-string-regexp@4.0.0","_id":"escape-string-regexp@4.0.0","_inBundle":false,"_integrity":"sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==","_location":"/eslint/escape-string-regexp","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"escape-string-regexp@4.0.0","name":"escape-string-regexp","escapedName":"escape-string-regexp","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/escape-string-regexp/issues"},"description":"Escape RegExp special characters","devDependencies":{"ava":"^1.4.1","tsd":"^0.11.0","xo":"^0.28.3"},"engines":{"node":">=10"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/escape-string-regexp#readme","keywords":["escape","regex","regexp","regular","expression","string","special","characters"],"license":"MIT","name":"escape-string-regexp","repository":{"type":"git","url":"git+https://github.com/sindresorhus/escape-string-regexp.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 53269:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["eslint@7.32.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"eslint@7.32.0","_id":"eslint@7.32.0","_inBundle":false,"_integrity":"sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==","_location":"/eslint","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"eslint@7.32.0","name":"eslint","escapedName":"eslint","rawSpec":"7.32.0","saveSpec":null,"fetchSpec":"7.32.0"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/eslint/-/eslint-7.32.0.tgz","_spec":"7.32.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Nicholas C. Zakas","email":"nicholas+npm@nczconsulting.com"},"bin":{"eslint":"bin/eslint.js"},"bugs":{"url":"https://github.com/eslint/eslint/issues/"},"dependencies":{"@babel/code-frame":"7.12.11","@eslint/eslintrc":"^0.4.3","@humanwhocodes/config-array":"^0.5.0","ajv":"^6.10.0","chalk":"^4.0.0","cross-spawn":"^7.0.2","debug":"^4.0.1","doctrine":"^3.0.0","enquirer":"^2.3.5","escape-string-regexp":"^4.0.0","eslint-scope":"^5.1.1","eslint-utils":"^2.1.0","eslint-visitor-keys":"^2.0.0","espree":"^7.3.1","esquery":"^1.4.0","esutils":"^2.0.2","fast-deep-equal":"^3.1.3","file-entry-cache":"^6.0.1","functional-red-black-tree":"^1.0.1","glob-parent":"^5.1.2","globals":"^13.6.0","ignore":"^4.0.6","import-fresh":"^3.0.0","imurmurhash":"^0.1.4","is-glob":"^4.0.0","js-yaml":"^3.13.1","json-stable-stringify-without-jsonify":"^1.0.1","levn":"^0.4.1","lodash.merge":"^4.6.2","minimatch":"^3.0.4","natural-compare":"^1.4.0","optionator":"^0.9.1","progress":"^2.0.0","regexpp":"^3.1.0","semver":"^7.2.1","strip-ansi":"^6.0.0","strip-json-comments":"^3.1.0","table":"^6.0.9","text-table":"^0.2.0","v8-compile-cache":"^2.0.3"},"description":"An AST-based pattern checker for JavaScript.","devDependencies":{"@babel/core":"^7.4.3","@babel/preset-env":"^7.4.3","babel-loader":"^8.0.5","chai":"^4.0.1","cheerio":"^0.22.0","common-tags":"^1.8.0","core-js":"^3.1.3","dateformat":"^3.0.3","ejs":"^3.0.2","eslint":"file:.","eslint-config-eslint":"file:packages/eslint-config-eslint","eslint-plugin-eslint-plugin":"^3.5.3","eslint-plugin-internal-rules":"file:tools/internal-rules","eslint-plugin-jsdoc":"^25.4.3","eslint-plugin-node":"^11.1.0","eslint-release":"^2.0.0","eslump":"^3.0.0","esprima":"^4.0.1","fs-teardown":"0.1.1","glob":"^7.1.6","jsdoc":"^3.5.5","karma":"^6.1.1","karma-chrome-launcher":"^3.1.0","karma-mocha":"^2.0.1","karma-mocha-reporter":"^2.2.5","karma-webpack":"^5.0.0","lint-staged":"^10.1.2","load-perf":"^0.2.0","markdownlint":"^0.19.0","markdownlint-cli":"^0.22.0","memfs":"^3.0.1","mocha":"^8.3.2","mocha-junit-reporter":"^2.0.0","node-polyfill-webpack-plugin":"^1.0.3","npm-license":"^0.3.3","nyc":"^15.0.1","proxyquire":"^2.0.1","puppeteer":"^7.1.0","recast":"^0.19.0","regenerator-runtime":"^0.13.2","shelljs":"^0.8.2","sinon":"^9.0.1","temp":"^0.9.0","webpack":"^5.23.0","webpack-cli":"^4.5.0","yorkie":"^2.0.0"},"engines":{"node":"^10.12.0 || >=12.0.0"},"files":["LICENSE","README.md","bin","conf","lib","messages"],"funding":"https://opencollective.com/eslint","gitHooks":{"pre-commit":"lint-staged"},"homepage":"https://eslint.org","keywords":["ast","lint","javascript","ecmascript","espree"],"license":"MIT","lint-staged":{"*.js":"eslint --fix","*.md":"markdownlint"},"main":"./lib/api.js","name":"eslint","repository":{"type":"git","url":"git+https://github.com/eslint/eslint.git"},"scripts":{"docs":"node Makefile.js docs","fix":"node Makefile.js lint -- fix","fuzz":"node Makefile.js fuzz","generate-alpharelease":"node Makefile.js generatePrerelease -- alpha","generate-betarelease":"node Makefile.js generatePrerelease -- beta","generate-rcrelease":"node Makefile.js generatePrerelease -- rc","generate-release":"node Makefile.js generateRelease","gensite":"node Makefile.js gensite","lint":"node Makefile.js lint","perf":"node Makefile.js perf","publish-release":"node Makefile.js publishRelease","test":"node Makefile.js test","test:cli":"mocha","webpack":"node Makefile.js webpack"},"version":"7.32.0"}');
-
-/***/ }),
-
-/***/ 85633:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["eslint-visitor-keys@1.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"eslint-visitor-keys@1.3.0","_id":"eslint-visitor-keys@1.3.0","_inBundle":false,"_integrity":"sha512-6J72N8UNa462wa/KFODt/PJ3IU60SDpC3QXC1Hjc1BXXpfL2C9R5+AU7jhe0F6GREqVMh4Juu+NY7xn+6dipUQ==","_location":"/espree/eslint-visitor-keys","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"eslint-visitor-keys@1.3.0","name":"eslint-visitor-keys","escapedName":"eslint-visitor-keys","rawSpec":"1.3.0","saveSpec":null,"fetchSpec":"1.3.0"},"_requiredBy":["/espree"],"_resolved":"https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.3.0.tgz","_spec":"1.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Toru Nagashima","url":"https://github.com/mysticatea"},"bugs":{"url":"https://github.com/eslint/eslint-visitor-keys/issues"},"dependencies":{},"description":"Constants and utilities about visitor keys to traverse AST.","devDependencies":{"eslint":"^4.7.2","eslint-config-eslint":"^4.0.0","eslint-release":"^1.0.0","mocha":"^3.5.3","nyc":"^11.2.1","opener":"^1.4.3"},"engines":{"node":">=4"},"files":["lib"],"homepage":"https://github.com/eslint/eslint-visitor-keys#readme","keywords":[],"license":"Apache-2.0","main":"lib/index.js","name":"eslint-visitor-keys","repository":{"type":"git","url":"git+https://github.com/eslint/eslint-visitor-keys.git"},"scripts":{"coverage":"nyc report --reporter lcov && opener coverage/lcov-report/index.html","generate-alpharelease":"eslint-generate-prerelease alpha","generate-betarelease":"eslint-generate-prerelease beta","generate-rcrelease":"eslint-generate-prerelease rc","generate-release":"eslint-generate-release","lint":"eslint lib tests/lib","pretest":"npm run -s lint","publish-release":"eslint-publish-release","test":"nyc mocha tests/lib"},"version":"1.3.0"}');
-
-/***/ }),
-
-/***/ 72598:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["espree@7.3.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"espree@7.3.1","_id":"espree@7.3.1","_inBundle":false,"_integrity":"sha512-v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==","_location":"/espree","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"espree@7.3.1","name":"espree","escapedName":"espree","rawSpec":"7.3.1","saveSpec":null,"fetchSpec":"7.3.1"},"_requiredBy":["/@eslint/eslintrc","/eslint"],"_resolved":"https://registry.npmjs.org/espree/-/espree-7.3.1.tgz","_spec":"7.3.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Nicholas C. Zakas","email":"nicholas+npm@nczconsulting.com"},"bugs":{"url":"http://github.com/eslint/espree.git"},"dependencies":{"acorn":"^7.4.0","acorn-jsx":"^5.3.1","eslint-visitor-keys":"^1.3.0"},"description":"An Esprima-compatible JavaScript parser built on Acorn","devDependencies":{"browserify":"^16.5.0","chai":"^4.2.0","eslint":"^6.0.1","eslint-config-eslint":"^5.0.1","eslint-plugin-node":"^9.1.0","eslint-release":"^1.0.0","esprima":"latest","esprima-fb":"^8001.2001.0-dev-harmony-fb","json-diff":"^0.5.4","leche":"^2.3.0","mocha":"^6.2.0","nyc":"^14.1.1","regenerate":"^1.4.0","shelljs":"^0.3.0","shelljs-nodecli":"^0.1.1","unicode-6.3.0":"^0.7.5"},"engines":{"node":"^10.12.0 || >=12.0.0"},"files":["lib","espree.js"],"homepage":"https://github.com/eslint/espree","keywords":["ast","ecmascript","javascript","parser","syntax","acorn"],"license":"BSD-2-Clause","main":"espree.js","name":"espree","repository":{"type":"git","url":"git+https://github.com/eslint/espree.git"},"scripts":{"browserify":"node Makefile.js browserify","fixlint":"node Makefile.js lint --fix","generate-alpharelease":"eslint-generate-prerelease alpha","generate-betarelease":"eslint-generate-prerelease beta","generate-rcrelease":"eslint-generate-prerelease rc","generate-regex":"node tools/generate-identifier-regex.js","generate-release":"eslint-generate-release","lint":"node Makefile.js lint","publish-release":"eslint-publish-release","sync-docs":"node Makefile.js docs","test":"npm run-script lint && node Makefile.js test"},"version":"7.3.1"}');
-
-/***/ }),
-
-/***/ 70126:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["esprima@4.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"esprima@4.0.1","_id":"esprima@4.0.1","_inBundle":false,"_integrity":"sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==","_location":"/esprima","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"esprima@4.0.1","name":"esprima","escapedName":"esprima","rawSpec":"4.0.1","saveSpec":null,"fetchSpec":"4.0.1"},"_requiredBy":["/js-yaml"],"_resolved":"https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz","_spec":"4.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Ariya Hidayat","email":"ariya.hidayat@gmail.com"},"bin":{"esparse":"bin/esparse.js","esvalidate":"bin/esvalidate.js"},"bugs":{"url":"https://github.com/jquery/esprima/issues"},"description":"ECMAScript parsing infrastructure for multipurpose analysis","devDependencies":{"codecov.io":"~0.1.6","escomplex-js":"1.2.0","everything.js":"~1.0.3","glob":"~7.1.0","istanbul":"~0.4.0","json-diff":"~0.3.1","karma":"~1.3.0","karma-chrome-launcher":"~2.0.0","karma-detect-browsers":"~2.2.3","karma-edge-launcher":"~0.2.0","karma-firefox-launcher":"~1.0.0","karma-ie-launcher":"~1.0.0","karma-mocha":"~1.3.0","karma-safari-launcher":"~1.0.0","karma-safaritechpreview-launcher":"~0.0.4","karma-sauce-launcher":"~1.1.0","lodash":"~3.10.1","mocha":"~3.2.0","node-tick-processor":"~0.0.2","regenerate":"~1.3.2","temp":"~0.8.3","tslint":"~5.1.0","typescript":"~2.3.2","typescript-formatter":"~5.1.3","unicode-8.0.0":"~0.7.0","webpack":"~1.14.0"},"engines":{"node":">=4"},"files":["bin","dist/esprima.js"],"homepage":"http://esprima.org","keywords":["ast","ecmascript","esprima","javascript","parser","syntax"],"license":"BSD-2-Clause","main":"dist/esprima.js","maintainers":[{"name":"Ariya Hidayat","email":"ariya.hidayat@gmail.com","url":"http://ariya.ofilabs.com"}],"name":"esprima","repository":{"type":"git","url":"git+https://github.com/jquery/esprima.git"},"scripts":{"all-tests":"npm run verify-line-ending && npm run generate-fixtures && npm run unit-tests && npm run api-tests && npm run grammar-tests && npm run regression-tests && npm run hostile-env-tests","analyze-coverage":"istanbul cover test/unit-tests.js","api-tests":"mocha -R dot test/api-tests.js","appveyor":"npm run compile && npm run all-tests && npm run browser-tests","benchmark":"npm run benchmark-parser && npm run benchmark-tokenizer","benchmark-parser":"node -expose_gc test/benchmark-parser.js","benchmark-tokenizer":"node --expose_gc test/benchmark-tokenizer.js","browser-tests":"npm run compile && npm run generate-fixtures && cd test && karma start --single-run","check-coverage":"istanbul check-coverage --statement 100 --branch 100 --function 100","check-version":"node test/check-version.js","circleci":"npm test && npm run codecov && npm run downstream","code-style":"tsfmt --verify src/*.ts && tsfmt --verify test/*.js","codecov":"istanbul report cobertura && codecov < ./coverage/cobertura-coverage.xml","compile":"tsc -p src/ && webpack && node tools/fixupbundle.js","complexity":"node test/check-complexity.js","downstream":"node test/downstream.js","droneio":"npm run compile && npm run all-tests && npm run saucelabs","dynamic-analysis":"npm run analyze-coverage && npm run check-coverage","format-code":"tsfmt -r src/*.ts && tsfmt -r test/*.js","generate-fixtures":"node tools/generate-fixtures.js","generate-regex":"node tools/generate-identifier-regex.js","generate-xhtml-entities":"node tools/generate-xhtml-entities.js","grammar-tests":"node test/grammar-tests.js","hostile-env-tests":"node test/hostile-environment-tests.js","prepublish":"npm run compile","profile":"node --prof test/profile.js && mv isolate*.log v8.log && node-tick-processor","regression-tests":"node test/regression-tests.js","saucelabs":"npm run saucelabs-evergreen && npm run saucelabs-ie && npm run saucelabs-safari","saucelabs-evergreen":"cd test && karma start saucelabs-evergreen.conf.js","saucelabs-ie":"cd test && karma start saucelabs-ie.conf.js","saucelabs-safari":"cd test && karma start saucelabs-safari.conf.js","static-analysis":"npm run check-version && npm run tslint && npm run code-style && npm run complexity","test":"npm run compile && npm run all-tests && npm run static-analysis && npm run dynamic-analysis","travis":"npm test","tslint":"tslint src/*.ts","unit-tests":"node test/unit-tests.js","verify-line-ending":"node test/verify-line-ending.js"},"version":"4.0.1"}');
-
-/***/ }),
-
-/***/ 96734:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["estraverse@5.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"estraverse@5.3.0","_id":"estraverse@5.3.0","_inBundle":false,"_integrity":"sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==","_location":"/esquery/estraverse","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"estraverse@5.3.0","name":"estraverse","escapedName":"estraverse","rawSpec":"5.3.0","saveSpec":null,"fetchSpec":"5.3.0"},"_requiredBy":["/esquery"],"_resolved":"https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz","_spec":"5.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/estools/estraverse/issues"},"description":"ECMAScript JS AST traversal functions","devDependencies":{"babel-preset-env":"^1.6.1","babel-register":"^6.3.13","chai":"^2.1.1","espree":"^1.11.0","gulp":"^3.8.10","gulp-bump":"^0.2.2","gulp-filter":"^2.0.0","gulp-git":"^1.0.1","gulp-tag-version":"^1.3.0","jshint":"^2.5.6","mocha":"^2.1.0"},"engines":{"node":">=4.0"},"homepage":"https://github.com/estools/estraverse","license":"BSD-2-Clause","main":"estraverse.js","maintainers":[{"name":"Yusuke Suzuki","email":"utatane.tea@gmail.com","url":"http://github.com/Constellation"}],"name":"estraverse","repository":{"type":"git","url":"git+ssh://git@github.com/estools/estraverse.git"},"scripts":{"lint":"jshint estraverse.js","test":"npm run-script lint && npm run-script unit-test","unit-test":"mocha --compilers js:babel-register"},"version":"5.3.0"}');
-
-/***/ }),
-
-/***/ 1396:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["esquery@1.4.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"esquery@1.4.0","_id":"esquery@1.4.0","_inBundle":false,"_integrity":"sha512-cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w==","_location":"/esquery","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"esquery@1.4.0","name":"esquery","escapedName":"esquery","rawSpec":"1.4.0","saveSpec":null,"fetchSpec":"1.4.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/esquery/-/esquery-1.4.0.tgz","_spec":"1.4.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Joel Feenstra","email":"jrfeenst+esquery@gmail.com"},"bugs":{"url":"https://github.com/estools/esquery/issues"},"contributors":[],"dependencies":{"estraverse":"^5.1.0"},"description":"A query library for ECMAScript AST using a CSS selector like query language.","devDependencies":{"@babel/core":"^7.9.0","@babel/preset-env":"^7.9.5","@babel/register":"^7.9.0","@rollup/plugin-commonjs":"^11.1.0","@rollup/plugin-json":"^4.0.2","@rollup/plugin-node-resolve":"^7.1.3","babel-plugin-transform-es2017-object-entries":"0.0.5","chai":"^4.2.0","eslint":"^6.8.0","esprima":"~4.0.1","mocha":"^7.1.1","nyc":"^15.0.1","pegjs":"~0.10.0","rollup":"^1.32.1","rollup-plugin-babel":"^4.4.0","rollup-plugin-terser":"^5.3.0"},"engines":{"node":">=0.10"},"files":["dist/*.js","dist/*.map","parser.js","license.txt","README.md"],"homepage":"https://github.com/estools/esquery/","keywords":["ast","ecmascript","javascript","query"],"license":"BSD-3-Clause","main":"dist/esquery.min.js","module":"dist/esquery.esm.min.js","name":"esquery","nyc":{"branches":100,"lines":100,"functions":100,"statements":100,"reporter":["html","text"],"exclude":["parser.js","dist","tests"]},"repository":{"type":"git","url":"git+https://github.com/estools/esquery.git"},"scripts":{"build":"npm run build:parser && npm run build:browser","build:browser":"rollup -c","build:parser":"rm parser.js && pegjs --cache --format umd -o \\"parser.js\\" \\"grammar.pegjs\\"","lint":"eslint .","mocha":"mocha --require chai/register-assert --require @babel/register tests","prepublishOnly":"npm run build && npm test","test":"nyc npm run mocha && npm run lint","test:ci":"npm run mocha"},"version":"1.4.0"}');
-
-/***/ }),
-
-/***/ 48376:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["estraverse@5.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"estraverse@5.3.0","_id":"estraverse@5.3.0","_inBundle":false,"_integrity":"sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==","_location":"/esrecurse/estraverse","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"estraverse@5.3.0","name":"estraverse","escapedName":"estraverse","rawSpec":"5.3.0","saveSpec":null,"fetchSpec":"5.3.0"},"_requiredBy":["/esrecurse"],"_resolved":"https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz","_spec":"5.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/estools/estraverse/issues"},"description":"ECMAScript JS AST traversal functions","devDependencies":{"babel-preset-env":"^1.6.1","babel-register":"^6.3.13","chai":"^2.1.1","espree":"^1.11.0","gulp":"^3.8.10","gulp-bump":"^0.2.2","gulp-filter":"^2.0.0","gulp-git":"^1.0.1","gulp-tag-version":"^1.3.0","jshint":"^2.5.6","mocha":"^2.1.0"},"engines":{"node":">=4.0"},"homepage":"https://github.com/estools/estraverse","license":"BSD-2-Clause","main":"estraverse.js","maintainers":[{"name":"Yusuke Suzuki","email":"utatane.tea@gmail.com","url":"http://github.com/Constellation"}],"name":"estraverse","repository":{"type":"git","url":"git+ssh://git@github.com/estools/estraverse.git"},"scripts":{"lint":"jshint estraverse.js","test":"npm run-script lint && npm run-script unit-test","unit-test":"mocha --compilers js:babel-register"},"version":"5.3.0"}');
-
-/***/ }),
-
-/***/ 18492:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["esrecurse@4.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"esrecurse@4.3.0","_id":"esrecurse@4.3.0","_inBundle":false,"_integrity":"sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==","_location":"/esrecurse","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"esrecurse@4.3.0","name":"esrecurse","escapedName":"esrecurse","rawSpec":"4.3.0","saveSpec":null,"fetchSpec":"4.3.0"},"_requiredBy":["/eslint-scope"],"_resolved":"https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz","_spec":"4.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","babel":{"presets":["es2015"]},"bugs":{"url":"https://github.com/estools/esrecurse/issues"},"dependencies":{"estraverse":"^5.2.0"},"description":"ECMAScript AST recursive visitor","devDependencies":{"babel-cli":"^6.24.1","babel-eslint":"^7.2.3","babel-preset-es2015":"^6.24.1","babel-register":"^6.24.1","chai":"^4.0.2","esprima":"^4.0.0","gulp":"^3.9.0","gulp-bump":"^2.7.0","gulp-eslint":"^4.0.0","gulp-filter":"^5.0.0","gulp-git":"^2.4.1","gulp-mocha":"^4.3.1","gulp-tag-version":"^1.2.1","jsdoc":"^3.3.0-alpha10","minimist":"^1.1.0"},"engines":{"node":">=4.0"},"homepage":"https://github.com/estools/esrecurse","license":"BSD-2-Clause","main":"esrecurse.js","maintainers":[{"name":"Yusuke Suzuki","email":"utatane.tea@gmail.com","url":"https://github.com/Constellation"}],"name":"esrecurse","repository":{"type":"git","url":"git+https://github.com/estools/esrecurse.git"},"scripts":{"lint":"gulp lint","test":"gulp travis","unit-test":"gulp test"},"version":"4.3.0"}');
-
-/***/ }),
-
-/***/ 82788:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["estraverse@4.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"estraverse@4.3.0","_id":"estraverse@4.3.0","_inBundle":false,"_integrity":"sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==","_location":"/estraverse","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"estraverse@4.3.0","name":"estraverse","escapedName":"estraverse","rawSpec":"4.3.0","saveSpec":null,"fetchSpec":"4.3.0"},"_requiredBy":["/eslint-scope"],"_resolved":"https://registry.npmjs.org/estraverse/-/estraverse-4.3.0.tgz","_spec":"4.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/estools/estraverse/issues"},"description":"ECMAScript JS AST traversal functions","devDependencies":{"babel-preset-env":"^1.6.1","babel-register":"^6.3.13","chai":"^2.1.1","espree":"^1.11.0","gulp":"^3.8.10","gulp-bump":"^0.2.2","gulp-filter":"^2.0.0","gulp-git":"^1.0.1","gulp-tag-version":"^1.3.0","jshint":"^2.5.6","mocha":"^2.1.0"},"engines":{"node":">=4.0"},"homepage":"https://github.com/estools/estraverse","license":"BSD-2-Clause","main":"estraverse.js","maintainers":[{"name":"Yusuke Suzuki","email":"utatane.tea@gmail.com","url":"http://github.com/Constellation"}],"name":"estraverse","repository":{"type":"git","url":"git+ssh://git@github.com/estools/estraverse.git"},"scripts":{"lint":"jshint estraverse.js","test":"npm run-script lint && npm run-script unit-test","unit-test":"mocha --compilers js:babel-register"},"version":"4.3.0"}');
-
-/***/ }),
-
-/***/ 43744:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["esutils@2.0.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"esutils@2.0.3","_id":"esutils@2.0.3","_inBundle":false,"_integrity":"sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==","_location":"/esutils","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"esutils@2.0.3","name":"esutils","escapedName":"esutils","rawSpec":"2.0.3","saveSpec":null,"fetchSpec":"2.0.3"},"_requiredBy":["/doctrine","/eslint"],"_resolved":"https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz","_spec":"2.0.3","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/estools/esutils/issues"},"description":"utility box for ECMAScript language tools","devDependencies":{"chai":"~1.7.2","coffee-script":"~1.6.3","jshint":"2.6.3","mocha":"~2.2.1","regenerate":"~1.3.1","unicode-9.0.0":"~0.7.0"},"directories":{"lib":"./lib"},"engines":{"node":">=0.10.0"},"files":["LICENSE.BSD","README.md","lib"],"homepage":"https://github.com/estools/esutils","license":"BSD-2-Clause","main":"lib/utils.js","maintainers":[{"name":"Yusuke Suzuki","email":"utatane.tea@gmail.com","url":"http://github.com/Constellation"}],"name":"esutils","repository":{"type":"git","url":"git+ssh://git@github.com/estools/esutils.git"},"scripts":{"generate-regex":"node tools/generate-identifier-regex.js","lint":"jshint lib/*.js","test":"npm run-script lint && npm run-script unit-test","unit-test":"mocha --compilers coffee:coffee-script -R spec"},"version":"2.0.3"}');
-
-/***/ }),
-
-/***/ 17330:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["debug@2.6.9","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"debug@2.6.9","_id":"debug@2.6.9","_inBundle":false,"_integrity":"sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==","_location":"/expand-brackets/debug","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"debug@2.6.9","name":"debug","escapedName":"debug","rawSpec":"2.6.9","saveSpec":null,"fetchSpec":"2.6.9"},"_requiredBy":["/expand-brackets"],"_resolved":"https://registry.npmjs.org/debug/-/debug-2.6.9.tgz","_spec":"2.6.9","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},"browser":"./src/browser.js","bugs":{"url":"https://github.com/visionmedia/debug/issues"},"component":{"scripts":{"debug/index.js":"browser.js","debug/debug.js":"debug.js"}},"contributors":[{"name":"Nathan Rajlich","email":"nathan@tootallnate.net","url":"http://n8.io"},{"name":"Andrew Rhyne","email":"rhyneandrew@gmail.com"}],"dependencies":{"ms":"2.0.0"},"description":"small debugging utility","devDependencies":{"browserify":"9.0.3","chai":"^3.5.0","concurrently":"^3.1.0","coveralls":"^2.11.15","eslint":"^3.12.1","istanbul":"^0.4.5","karma":"^1.3.0","karma-chai":"^0.1.0","karma-mocha":"^1.3.0","karma-phantomjs-launcher":"^1.0.2","karma-sinon":"^1.0.5","mocha":"^3.2.0","mocha-lcov-reporter":"^1.2.0","rimraf":"^2.5.4","sinon":"^1.17.6","sinon-chai":"^2.8.0"},"homepage":"https://github.com/visionmedia/debug#readme","keywords":["debug","log","debugger"],"license":"MIT","main":"./src/index.js","name":"debug","repository":{"type":"git","url":"git://github.com/visionmedia/debug.git"},"version":"2.6.9"}');
-
-/***/ }),
-
-/***/ 33606:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["define-property@0.2.5","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"define-property@0.2.5","_id":"define-property@0.2.5","_inBundle":false,"_integrity":"sha1-w1se+RjsPJkPmlvFe+BKrOxcgRY=","_location":"/expand-brackets/define-property","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"define-property@0.2.5","name":"define-property","escapedName":"define-property","rawSpec":"0.2.5","saveSpec":null,"fetchSpec":"0.2.5"},"_requiredBy":["/expand-brackets"],"_resolved":"https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz","_spec":"0.2.5","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/define-property/issues"},"dependencies":{"is-descriptor":"^0.1.0"},"description":"Define a non-enumerable property on an object.","devDependencies":{"mocha":"*","should":"^7.0.4"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/define-property","keywords":["define","define-property","enumerable","key","non","non-enumerable","object","prop","property","value"],"license":"MIT","main":"index.js","name":"define-property","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/define-property.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["mixin-deep","mixin-object","delegate-object","forward-object"]}},"version":"0.2.5"}');
-
-/***/ }),
-
-/***/ 43868:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["extend-shallow@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"extend-shallow@2.0.1","_id":"extend-shallow@2.0.1","_inBundle":false,"_integrity":"sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=","_location":"/expand-brackets/extend-shallow","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"extend-shallow@2.0.1","name":"extend-shallow","escapedName":"extend-shallow","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/expand-brackets"],"_resolved":"https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/extend-shallow/issues"},"dependencies":{"is-extendable":"^0.1.0"},"description":"Extend an object with the properties of additional objects. node.js/javascript util.","devDependencies":{"array-slice":"^0.2.3","benchmarked":"^0.1.4","chalk":"^1.0.0","for-own":"^0.1.3","glob":"^5.0.12","is-plain-object":"^2.0.1","kind-of":"^2.0.0","minimist":"^1.1.1","mocha":"^2.2.5","should":"^7.0.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/extend-shallow","keywords":["assign","extend","javascript","js","keys","merge","obj","object","prop","properties","property","props","shallow","util","utility","utils","value"],"license":"MIT","main":"index.js","name":"extend-shallow","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/extend-shallow.git"},"scripts":{"test":"mocha"},"version":"2.0.1"}');
-
-/***/ }),
-
-/***/ 99078:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ms@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ms@2.0.0","_id":"ms@2.0.0","_inBundle":false,"_integrity":"sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=","_location":"/expand-brackets/ms","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ms@2.0.0","name":"ms","escapedName":"ms","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/expand-brackets/debug"],"_resolved":"https://registry.npmjs.org/ms/-/ms-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/zeit/ms/issues"},"description":"Tiny milisecond conversion utility","devDependencies":{"eslint":"3.19.0","expect.js":"0.3.1","husky":"0.13.3","lint-staged":"3.4.1","mocha":"3.4.1"},"eslintConfig":{"extends":"eslint:recommended","env":{"node":true,"es6":true}},"files":["index.js"],"homepage":"https://github.com/zeit/ms#readme","license":"MIT","lint-staged":{"*.js":["npm run lint","prettier --single-quote --write","git add"]},"main":"./index","name":"ms","repository":{"type":"git","url":"git+https://github.com/zeit/ms.git"},"scripts":{"lint":"eslint lib/* bin/*","precommit":"lint-staged","test":"mocha tests.js"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 33046:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["expand-brackets@2.1.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"expand-brackets@2.1.4","_id":"expand-brackets@2.1.4","_inBundle":false,"_integrity":"sha1-t3c14xXOMPa27/D4OwQVGiJEliI=","_location":"/expand-brackets","_phantomChildren":{"is-descriptor":"0.1.6","is-extendable":"0.1.1"},"_requested":{"type":"version","registry":true,"raw":"expand-brackets@2.1.4","name":"expand-brackets","escapedName":"expand-brackets","rawSpec":"2.1.4","saveSpec":null,"fetchSpec":"2.1.4"},"_requiredBy":["/extglob"],"_resolved":"https://registry.npmjs.org/expand-brackets/-/expand-brackets-2.1.4.tgz","_spec":"2.1.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/expand-brackets/issues"},"contributors":[{"name":"Elan Shanker","url":"https://github.com/es128"},{"name":"Eugene Sharygin","url":"https://github.com/eush77"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"},{"name":"Martin Kolárik","email":"martin@kolarik.sk","url":"http://kolarik.sk"}],"dependencies":{"debug":"^2.3.3","define-property":"^0.2.5","extend-shallow":"^2.0.1","posix-character-classes":"^0.1.0","regex-not":"^1.0.0","snapdragon":"^0.8.1","to-regex":"^3.0.1"},"description":"Expand POSIX bracket expressions (character classes) in glob patterns.","devDependencies":{"bash-match":"^0.1.1","gulp-format-md":"^0.1.10","helper-changelog":"^0.3.0","minimatch":"^3.0.3","mocha":"^3.0.2","multimatch":"^2.1.0","yargs-parser":"^4.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js","lib"],"homepage":"https://github.com/jonschlinkert/expand-brackets","keywords":["bracket","brackets","character class","expand","expression","posix"],"license":"MIT","main":"index.js","name":"expand-brackets","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/expand-brackets.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"helpers":["helper-changelog"],"related":{"list":["braces","extglob","micromatch","nanomatch"]},"reflinks":["micromatch","verb","verb-generate-readme"],"lint":{"reflinks":true}},"version":"2.1.4"}');
-
-/***/ }),
-
-/***/ 85527:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-extendable@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-extendable@1.0.1","_id":"is-extendable@1.0.1","_inBundle":false,"_integrity":"sha512-arnXMxT1hhoKo9k1LZdmlNyJdDDfy2v0fXjFlmok4+i8ul/6WlbVge9bhM74OpNPQPMGUToDtz+KXa1PneJxOA==","_location":"/extend-shallow/is-extendable","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-extendable@1.0.1","name":"is-extendable","escapedName":"is-extendable","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/extend-shallow"],"_resolved":"https://registry.npmjs.org/is-extendable/-/is-extendable-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-extendable/issues"},"dependencies":{"is-plain-object":"^2.0.4"},"description":"Returns true if a value is a plain object, array or function.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.4.2"},"engines":{"node":">=0.10.0"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/jonschlinkert/is-extendable","keywords":["array","assign","check","date","extend","extendable","extensible","function","is","object","regex","test"],"license":"MIT","main":"index.js","name":"is-extendable","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-extendable.git"},"scripts":{"test":"mocha"},"types":"index.d.ts","verb":{"related":{"list":["assign-deep","is-equal-shallow","is-plain-object","isobject","kind-of"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 32790:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["extend-shallow@3.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"extend-shallow@3.0.2","_id":"extend-shallow@3.0.2","_inBundle":false,"_integrity":"sha1-Jqcarwc7OfshJxcnRhMcJwQCjbg=","_location":"/extend-shallow","_phantomChildren":{"is-plain-object":"2.0.4"},"_requested":{"type":"version","registry":true,"raw":"extend-shallow@3.0.2","name":"extend-shallow","escapedName":"extend-shallow","rawSpec":"3.0.2","saveSpec":null,"fetchSpec":"3.0.2"},"_requiredBy":["/cpy/micromatch","/nanomatch","/regex-not","/split-string","/to-regex"],"_resolved":"https://registry.npmjs.org/extend-shallow/-/extend-shallow-3.0.2.tgz","_spec":"3.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/extend-shallow/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"}],"dependencies":{"assign-symbols":"^1.0.0","is-extendable":"^1.0.1"},"description":"Extend an object with the properties of additional objects. node.js/javascript util.","devDependencies":{"array-slice":"^1.0.0","benchmarked":"^2.0.0","for-own":"^1.0.0","gulp-format-md":"^1.0.0","is-plain-object":"^2.0.4","kind-of":"^6.0.1","minimist":"^1.2.0","mocha":"^3.5.3","object-assign":"^4.1.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/extend-shallow","keywords":["assign","clone","extend","merge","obj","object","object-assign","object.assign","prop","properties","property","props","shallow","util","utility","utils","value"],"license":"MIT","main":"index.js","name":"extend-shallow","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/extend-shallow.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"related":{"list":["extend-shallow","for-in","for-own","is-plain-object","isobject","kind-of"]},"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"3.0.2"}');
-
-/***/ }),
-
-/***/ 86430:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["define-property@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"define-property@1.0.0","_id":"define-property@1.0.0","_inBundle":false,"_integrity":"sha1-dp66rz9KY6rTr56NMEybvnm/sOY=","_location":"/extglob/define-property","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"define-property@1.0.0","name":"define-property","escapedName":"define-property","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/extglob"],"_resolved":"https://registry.npmjs.org/define-property/-/define-property-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/define-property/issues"},"dependencies":{"is-descriptor":"^1.0.0"},"description":"Define a non-enumerable property on an object.","devDependencies":{"gulp-format-md":"^0.1.12","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/define-property","keywords":["define","define-property","enumerable","key","non","non-enumerable","object","prop","property","value"],"license":"MIT","main":"index.js","name":"define-property","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/define-property.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["extend-shallow","merge-deep","assign-deep","mixin-deep"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 71107:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["extend-shallow@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"extend-shallow@2.0.1","_id":"extend-shallow@2.0.1","_inBundle":false,"_integrity":"sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=","_location":"/extglob/extend-shallow","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"extend-shallow@2.0.1","name":"extend-shallow","escapedName":"extend-shallow","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/extglob"],"_resolved":"https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/extend-shallow/issues"},"dependencies":{"is-extendable":"^0.1.0"},"description":"Extend an object with the properties of additional objects. node.js/javascript util.","devDependencies":{"array-slice":"^0.2.3","benchmarked":"^0.1.4","chalk":"^1.0.0","for-own":"^0.1.3","glob":"^5.0.12","is-plain-object":"^2.0.1","kind-of":"^2.0.0","minimist":"^1.1.1","mocha":"^2.2.5","should":"^7.0.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/extend-shallow","keywords":["assign","extend","javascript","js","keys","merge","obj","object","prop","properties","property","props","shallow","util","utility","utils","value"],"license":"MIT","main":"index.js","name":"extend-shallow","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/extend-shallow.git"},"scripts":{"test":"mocha"},"version":"2.0.1"}');
-
-/***/ }),
-
-/***/ 64090:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-accessor-descriptor@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-accessor-descriptor@1.0.0","_id":"is-accessor-descriptor@1.0.0","_inBundle":false,"_integrity":"sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==","_location":"/extglob/is-accessor-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-accessor-descriptor@1.0.0","name":"is-accessor-descriptor","escapedName":"is-accessor-descriptor","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/extglob/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-accessor-descriptor/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"dependencies":{"kind-of":"^6.0.0"},"description":"Returns true if a value has the characteristics of a valid JavaScript accessor descriptor.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-accessor-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-accessor-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-accessor-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","is-plain-object","isobject"]},"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 60142:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-data-descriptor@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-data-descriptor@1.0.0","_id":"is-data-descriptor@1.0.0","_inBundle":false,"_integrity":"sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ==","_location":"/extglob/is-data-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-data-descriptor@1.0.0","name":"is-data-descriptor","escapedName":"is-data-descriptor","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/extglob/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-data-descriptor/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"dependencies":{"kind-of":"^6.0.0"},"description":"Returns true if a value has the characteristics of a valid JavaScript data descriptor.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-data-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-data-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-data-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 99220:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-descriptor@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-descriptor@1.0.2","_id":"is-descriptor@1.0.2","_inBundle":false,"_integrity":"sha512-2eis5WqQGV7peooDyLmNEPUrps9+SXX5c9pL3xEB+4e9HnGuDa7mB7kHxHw4CbqS9k1T2hOH3miL8n8WtiYVtg==","_location":"/extglob/is-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-descriptor@1.0.2","name":"is-descriptor","escapedName":"is-descriptor","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/extglob/define-property"],"_resolved":"https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-descriptor/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"is-accessor-descriptor":"^1.0.0","is-data-descriptor":"^1.0.0","kind-of":"^6.0.2"},"description":"Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"plugins":["gulp-format-md"],"toc":false,"layout":"default","tasks":["readme"],"lint":{"reflinks":true}},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 19959:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["extglob@2.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"extglob@2.0.4","_id":"extglob@2.0.4","_inBundle":false,"_integrity":"sha512-Nmb6QXkELsuBr24CJSkilo6UHHgbekK5UiZgfE6UHD3Eb27YC6oD+bhcT+tJ6cl8dmsgdQxnWlcry8ksBIBLpw==","_location":"/extglob","_phantomChildren":{"is-extendable":"0.1.1","kind-of":"6.0.3"},"_requested":{"type":"version","registry":true,"raw":"extglob@2.0.4","name":"extglob","escapedName":"extglob","rawSpec":"2.0.4","saveSpec":null,"fetchSpec":"2.0.4"},"_requiredBy":["/cpy/micromatch"],"_resolved":"https://registry.npmjs.org/extglob/-/extglob-2.0.4.tgz","_spec":"2.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/extglob/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Devon Govett","url":"http://badassjs.com"},{"name":"Isiah Meadows","url":"https://www.isiahmeadows.com"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Matt Bierner","url":"http://mattbierner.com"},{"name":"Shinnosuke Watanabe","url":"https://shinnn.github.io"}],"dependencies":{"array-unique":"^0.3.2","define-property":"^1.0.0","expand-brackets":"^2.1.4","extend-shallow":"^2.0.1","fragment-cache":"^0.2.1","regex-not":"^1.0.0","snapdragon":"^0.8.1","to-regex":"^3.0.1"},"description":"Extended glob support for JavaScript. Adds (almost) the expressive power of regular expressions to glob patterns.","devDependencies":{"bash-match":"^1.0.2","for-own":"^1.0.0","gulp":"^3.9.1","gulp-eslint":"^4.0.0","gulp-format-md":"^1.0.0","gulp-istanbul":"^1.1.2","gulp-mocha":"^3.0.1","gulp-unused":"^0.2.1","helper-changelog":"^0.3.0","is-windows":"^1.0.1","micromatch":"^3.0.4","minimatch":"^3.0.4","minimist":"^1.2.0","mocha":"^3.5.0","multimatch":"^2.1.0"},"engines":{"node":">=0.10.0"},"files":["index.js","lib"],"homepage":"https://github.com/micromatch/extglob","keywords":["bash","extended","extglob","glob","globbing","ksh","match","pattern","patterns","regex","test","wildcard"],"license":"MIT","lintDeps":{"devDependencies":{"files":{"options":{"ignore":["benchmark/**/*.js"]}}}},"main":"index.js","name":"extglob","repository":{"type":"git","url":"git+https://github.com/micromatch/extglob.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"related":{"list":["braces","expand-brackets","expand-range","fill-range","micromatch"]},"helpers":["helper-changelog"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"2.0.4"}');
-
-/***/ }),
-
-/***/ 61470:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fast-deep-equal@3.1.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"fast-deep-equal@3.1.3","_id":"fast-deep-equal@3.1.3","_inBundle":false,"_integrity":"sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==","_location":"/fast-deep-equal","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fast-deep-equal@3.1.3","name":"fast-deep-equal","escapedName":"fast-deep-equal","rawSpec":"3.1.3","saveSpec":null,"fetchSpec":"3.1.3"},"_requiredBy":["/ajv","/eslint","/table/ajv"],"_resolved":"https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz","_spec":"3.1.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Evgeny Poberezkin"},"bugs":{"url":"https://github.com/epoberezkin/fast-deep-equal/issues"},"description":"Fast deep equal","devDependencies":{"coveralls":"^3.1.0","dot":"^1.1.2","eslint":"^7.2.0","mocha":"^7.2.0","nyc":"^15.1.0","pre-commit":"^1.2.2","react":"^16.12.0","react-test-renderer":"^16.12.0","sinon":"^9.0.2","typescript":"^3.9.5"},"files":["index.js","index.d.ts","react.js","react.d.ts","es6/"],"homepage":"https://github.com/epoberezkin/fast-deep-equal#readme","keywords":["fast","equal","deep-equal"],"license":"MIT","main":"index.js","name":"fast-deep-equal","nyc":{"exclude":["**/spec/**","node_modules"],"reporter":["lcov","text-summary"]},"repository":{"type":"git","url":"git+https://github.com/epoberezkin/fast-deep-equal.git"},"scripts":{"benchmark":"npm i && npm run build && cd ./benchmark && npm i && node ./","build":"node build","eslint":"eslint *.js benchmark/*.js spec/*.js","prepublish":"npm run build","test":"npm run build && npm run eslint && npm run test-ts && npm run test-cov","test-cov":"nyc npm run test-spec","test-spec":"mocha spec/*.spec.js -R spec","test-ts":"tsc --target ES5 --noImplicitAny index.d.ts"},"types":"index.d.ts","version":"3.1.3"}');
-
-/***/ }),
-
-/***/ 36071:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fast-glob@3.2.7","/Users/brian.kimball/Github/bump-and-release"]],"_from":"fast-glob@3.2.7","_id":"fast-glob@3.2.7","_inBundle":false,"_integrity":"sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==","_location":"/fast-glob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fast-glob@3.2.7","name":"fast-glob","escapedName":"fast-glob","rawSpec":"3.2.7","saveSpec":null,"fetchSpec":"3.2.7"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.7.tgz","_spec":"3.2.7","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Denis Malinochkin","url":"https://mrmlnc.com"},"bugs":{"url":"https://github.com/mrmlnc/fast-glob/issues"},"dependencies":{"@nodelib/fs.stat":"^2.0.2","@nodelib/fs.walk":"^1.2.3","glob-parent":"^5.1.2","merge2":"^1.3.0","micromatch":"^4.0.4"},"description":"It\'s a very fast and efficient glob library for Node.js","devDependencies":{"@nodelib/fs.macchiato":"^1.0.1","@types/compute-stdev":"^1.0.0","@types/easy-table":"^0.0.32","@types/glob":"^7.1.1","@types/glob-parent":"^5.1.0","@types/is-ci":"^2.0.0","@types/merge2":"^1.1.4","@types/micromatch":"^4.0.0","@types/minimist":"^1.2.0","@types/mocha":"^5.2.7","@types/node":"^12.7.8","@types/rimraf":"^2.0.2","@types/sinon":"^7.5.0","compute-stdev":"^1.0.0","easy-table":"^1.1.1","eslint":"^6.5.1","eslint-config-mrmlnc":"^1.1.0","execa":"^2.0.4","fast-glob":"^3.0.4","fdir":"^5.1.0","glob":"^7.1.4","is-ci":"^2.0.0","log-update":"^4.0.0","minimist":"^1.2.0","mocha":"^6.2.1","rimraf":"^3.0.0","sinon":"^7.5.0","tiny-glob":"^0.2.6","typescript":"^3.6.3"},"engines":{"node":">=8"},"files":["out","!out/{benchmark,tests}","!out/**/*.map","!out/**/*.spec.*"],"homepage":"https://github.com/mrmlnc/fast-glob#readme","keywords":["glob","patterns","fast","implementation"],"license":"MIT","main":"out/index.js","name":"fast-glob","repository":{"type":"git","url":"git+https://github.com/mrmlnc/fast-glob.git"},"scripts":{"bench":"npm run bench-async && npm run bench-stream && npm run bench-sync","bench-async":"npm run bench-async-flatten && npm run bench-async-deep && npm run bench-async-partial-flatten && npm run bench-async-partial-deep","bench-async-deep":"node ./out/benchmark --mode async --pattern \\"**\\"","bench-async-flatten":"node ./out/benchmark --mode async --pattern \\"*\\"","bench-async-partial-deep":"node ./out/benchmark --mode async --pattern \\"{fixtures,out}/**\\"","bench-async-partial-flatten":"node ./out/benchmark --mode async --pattern \\"{fixtures,out}/{first,second}/*\\"","bench-stream":"npm run bench-stream-flatten && npm run bench-stream-deep && npm run bench-stream-partial-flatten && npm run bench-stream-partial-deep","bench-stream-deep":"node ./out/benchmark --mode stream --pattern \\"**\\"","bench-stream-flatten":"node ./out/benchmark --mode stream --pattern \\"*\\"","bench-stream-partial-deep":"node ./out/benchmark --mode stream --pattern \\"{fixtures,out}/**\\"","bench-stream-partial-flatten":"node ./out/benchmark --mode stream --pattern \\"{fixtures,out}/{first,second}/*\\"","bench-sync":"npm run bench-sync-flatten && npm run bench-sync-deep && npm run bench-sync-partial-flatten && npm run bench-sync-partial-deep","bench-sync-deep":"node ./out/benchmark --mode sync --pattern \\"**\\"","bench-sync-flatten":"node ./out/benchmark --mode sync --pattern \\"*\\"","bench-sync-partial-deep":"node ./out/benchmark --mode sync --pattern \\"{fixtures,out}/**\\"","bench-sync-partial-flatten":"node ./out/benchmark --mode sync --pattern \\"{fixtures,out}/{first,second}/*\\"","build":"npm run clean && npm run compile && npm run lint && npm test","clean":"rimraf out","compile":"tsc","lint":"eslint \\"src/**/*.ts\\" --cache","smoke":"mocha \\"out/**/*.smoke.js\\" -s 0","smoke:async":"mocha \\"out/**/*.smoke.js\\" -s 0 --grep \\"\\\\(async\\\\)\\"","smoke:stream":"mocha \\"out/**/*.smoke.js\\" -s 0 --grep \\"\\\\(stream\\\\)\\"","smoke:sync":"mocha \\"out/**/*.smoke.js\\" -s 0 --grep \\"\\\\(sync\\\\)\\"","test":"mocha \\"out/**/*.spec.js\\" -s 0","watch":"npm run clean && npm run compile -- --sourceMap --watch"},"typings":"out/index.d.ts","version":"3.2.7"}');
-
-/***/ }),
-
-/***/ 57373:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fast-json-stable-stringify@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"fast-json-stable-stringify@2.1.0","_id":"fast-json-stable-stringify@2.1.0","_inBundle":false,"_integrity":"sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==","_location":"/fast-json-stable-stringify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fast-json-stable-stringify@2.1.0","name":"fast-json-stable-stringify","escapedName":"fast-json-stable-stringify","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/ajv"],"_resolved":"https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"bugs":{"url":"https://github.com/epoberezkin/fast-json-stable-stringify/issues"},"dependencies":{},"description":"deterministic `JSON.stringify()` - a faster version of substack\'s json-stable-strigify without jsonify","devDependencies":{"benchmark":"^2.1.4","coveralls":"^3.0.0","eslint":"^6.7.0","fast-stable-stringify":"latest","faster-stable-stringify":"latest","json-stable-stringify":"latest","nyc":"^14.1.0","pre-commit":"^1.2.2","tape":"^4.11.0"},"homepage":"https://github.com/epoberezkin/fast-json-stable-stringify","keywords":["json","stringify","deterministic","hash","stable"],"license":"MIT","main":"index.js","name":"fast-json-stable-stringify","nyc":{"exclude":["test","node_modules"],"reporter":["lcov","text-summary"]},"repository":{"type":"git","url":"git://github.com/epoberezkin/fast-json-stable-stringify.git"},"scripts":{"eslint":"eslint index.js test","test":"npm run eslint && nyc npm run test-spec","test-spec":"tape test/*.js"},"types":"index.d.ts","version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 87749:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fast-levenshtein@2.0.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"fast-levenshtein@2.0.6","_id":"fast-levenshtein@2.0.6","_inBundle":false,"_integrity":"sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=","_location":"/fast-levenshtein","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fast-levenshtein@2.0.6","name":"fast-levenshtein","escapedName":"fast-levenshtein","rawSpec":"2.0.6","saveSpec":null,"fetchSpec":"2.0.6"},"_requiredBy":["/optionator"],"_resolved":"https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz","_spec":"2.0.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Ramesh Nair","email":"ram@hiddentao.com","url":"http://www.hiddentao.com/"},"bugs":{"url":"https://github.com/hiddentao/fast-levenshtein/issues"},"description":"Efficient implementation of Levenshtein algorithm  with locale-specific collator support.","devDependencies":{"chai":"~1.5.0","grunt":"~0.4.1","grunt-benchmark":"~0.2.0","grunt-cli":"^1.2.0","grunt-contrib-jshint":"~0.4.3","grunt-contrib-uglify":"~0.2.0","grunt-mocha-test":"~0.2.2","grunt-npm-install":"~0.1.0","load-grunt-tasks":"~0.6.0","lodash":"^4.0.1","mocha":"~1.9.0"},"files":["levenshtein.js"],"homepage":"https://github.com/hiddentao/fast-levenshtein#readme","keywords":["levenshtein","distance","string"],"license":"MIT","main":"levenshtein.js","name":"fast-levenshtein","repository":{"type":"git","url":"git+https://github.com/hiddentao/fast-levenshtein.git"},"scripts":{"benchmark":"grunt benchmark","build":"grunt build","prepublish":"npm run build","test":"mocha"},"version":"2.0.6"}');
-
-/***/ }),
-
-/***/ 14528:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fastq@1.13.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"fastq@1.13.0","_id":"fastq@1.13.0","_inBundle":false,"_integrity":"sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==","_location":"/fastq","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fastq@1.13.0","name":"fastq","escapedName":"fastq","rawSpec":"1.13.0","saveSpec":null,"fetchSpec":"1.13.0"},"_requiredBy":["/@nodelib/fs.walk"],"_resolved":"https://registry.npmjs.org/fastq/-/fastq-1.13.0.tgz","_spec":"1.13.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Matteo Collina","email":"hello@matteocollina.com"},"bugs":{"url":"https://github.com/mcollina/fastq/issues"},"dependencies":{"reusify":"^1.0.4"},"description":"Fast, in memory work queue","devDependencies":{"async":"^3.1.0","neo-async":"^2.6.1","nyc":"^15.0.0","pre-commit":"^1.2.2","snazzy":"^9.0.0","standard":"^16.0.0","tape":"^5.0.0","typescript":"^4.0.2"},"homepage":"https://github.com/mcollina/fastq#readme","keywords":["fast","queue","async","worker"],"license":"ISC","main":"queue.js","name":"fastq","pre-commit":["test"],"repository":{"type":"git","url":"git+https://github.com/mcollina/fastq.git"},"scripts":{"coverage":"nyc --reporter=html --reporter=cobertura --reporter=text tape test/test.js test/promise.js","legacy":"tape test/test.js","lint":"standard --verbose | snazzy","test":"npm run lint && npm run unit && npm run typescript","test:report":"npm run lint && npm run unit:report","typescript":"tsc --project ./test/tsconfig.json","unit":"nyc --lines 100 --branches 100 --functions 100 --check-coverage --reporter=text tape test/test.js test/promise.js"},"standard":{"ignore":["example.mjs"]},"version":"1.13.0"}');
-
-/***/ }),
-
-/***/ 46438:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["file-entry-cache@6.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"file-entry-cache@6.0.1","_id":"file-entry-cache@6.0.1","_inBundle":false,"_integrity":"sha512-7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg==","_location":"/file-entry-cache","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"file-entry-cache@6.0.1","name":"file-entry-cache","escapedName":"file-entry-cache","rawSpec":"6.0.1","saveSpec":null,"fetchSpec":"6.0.1"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz","_spec":"6.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Roy Riojas","url":"http://royriojas.com"},"bugs":{"url":"https://github.com/royriojas/file-entry-cache/issues"},"changelogx":{"ignoreRegExp":["BLD: Release","DOC: Generate Changelog","Generated Changelog"],"issueIDRegExp":"#(\\\\d+)","commitURL":"https://github.com/royriojas/file-entry-cache/commit/{0}","authorURL":"https://github.com/{0}","issueIDURL":"https://github.com/royriojas/file-entry-cache/issues/{0}","projectName":"file-entry-cache"},"dependencies":{"flat-cache":"^3.0.4"},"description":"Super simple cache for file metadata, useful for process that work o a given series of files and that only need to repeat the job on the changed ones since the previous run of the process","devDependencies":{"chai":"^4.2.0","changelogx":"^5.0.6","del":"^6.0.0","eslint":"^7.13.0","eslint-config-prettier":"^6.15.0","eslint-plugin-mocha":"^8.0.0","eslint-plugin-prettier":"^3.1.4","glob-expand":"^0.2.1","istanbul":"^0.4.5","mocha":"^8.2.1","precommit":"^1.2.2","prepush":"^3.1.11","prettier":"^2.1.2","watch-run":"^1.2.5","write":"^2.0.0"},"engines":{"node":"^10.12.0 || >=12.0.0"},"files":["cache.js"],"homepage":"https://github.com/royriojas/file-entry-cache#readme","keywords":["file cache","task cache files","file cache","key par","key value","cache"],"license":"MIT","main":"cache.js","name":"file-entry-cache","precommit":["npm run eslint --silent"],"prepush":["npm run eslint --silent"],"repository":{"type":"git","url":"git+https://github.com/royriojas/file-entry-cache.git"},"scripts":{"autofix":"npm run eslint -- --fix","bump-major":"npm run pre-v && npm version major -m \'BLD: Release v%s\' && npm run post-v","bump-minor":"npm run pre-v && npm version minor -m \'BLD: Release v%s\' && npm run post-v","bump-patch":"npm run pre-v && npm version patch -m \'BLD: Release v%s\' && npm run post-v","changelog":"changelogx -f markdown -o ./changelog.md","cover":"istanbul cover test/runner.js html text-summary","do-changelog":"npm run changelog && git add ./changelog.md && git commit -m \'DOC: Generate changelog\' --no-verify","eslint":"eslint --cache --cache-location=node_modules/.cache/ \'cache.js\' \'test/**/*.js\' \'perf.js\'","install-hooks":"prepush install && changelogx install-hook && precommit install","perf":"node perf.js","post-v":"npm run do-changelog && git push --no-verify && git push --tags --no-verify","pre-v":"npm run test","test":"npm run eslint --silent && mocha -R spec test/specs","watch":"watch-run -i -p \'test/specs/**/*.js\' istanbul cover test/runner.js html text-summary"},"version":"6.0.1"}');
-
-/***/ }),
-
-/***/ 15671:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["filename-reserved-regex@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"filename-reserved-regex@2.0.0","_id":"filename-reserved-regex@2.0.0","_inBundle":false,"_integrity":"sha1-q/c9+rc10EVECr/qLZHzieu/oik=","_location":"/filename-reserved-regex","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"filename-reserved-regex@2.0.0","name":"filename-reserved-regex","escapedName":"filename-reserved-regex","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/filenamify"],"_resolved":"https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/filename-reserved-regex/issues"},"description":"Regular expression for matching reserved filename characters","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/filename-reserved-regex#readme","keywords":["re","regex","regexp","filename","reserved","illegal"],"license":"MIT","name":"filename-reserved-regex","repository":{"type":"git","url":"git+https://github.com/sindresorhus/filename-reserved-regex.git"},"scripts":{"test":"xo && ava"},"version":"2.0.0","xo":{"esnext":true}}');
-
-/***/ }),
-
-/***/ 43375:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["filenamify@4.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"filenamify@4.3.0","_id":"filenamify@4.3.0","_inBundle":false,"_integrity":"sha512-hcFKyUG57yWGAzu1CMt/dPzYZuv+jAJUT85bL8mrXvNe6hWj6yEHEc4EdcgiA6Z3oi1/9wXJdZPXF2dZNgwgOg==","_location":"/filenamify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"filenamify@4.3.0","name":"filenamify","escapedName":"filenamify","rawSpec":"4.3.0","saveSpec":null,"fetchSpec":"4.3.0"},"_requiredBy":["/gh-pages"],"_resolved":"https://registry.npmjs.org/filenamify/-/filenamify-4.3.0.tgz","_spec":"4.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/filenamify/issues"},"dependencies":{"filename-reserved-regex":"^2.0.0","strip-outer":"^1.0.1","trim-repeated":"^1.0.0"},"description":"Convert a string to a valid safe filename","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.1","xo":"^0.24.0"},"engines":{"node":">=8"},"exports":{".":"./index.js","./browser":"./filenamify.js"},"files":["filenamify-path.d.ts","filenamify-path.js","filenamify.d.ts","filenamify.js","index.d.ts","index.js"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/filenamify#readme","keywords":["filename","safe","sanitize","file","name","string","path","filepath","convert","valid","dirname"],"license":"MIT","name":"filenamify","repository":{"type":"git","url":"git+https://github.com/sindresorhus/filenamify.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.3.0"}');
-
-/***/ }),
-
-/***/ 50226:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fill-range@7.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"fill-range@7.0.1","_id":"fill-range@7.0.1","_inBundle":false,"_integrity":"sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==","_location":"/fill-range","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fill-range@7.0.1","name":"fill-range","escapedName":"fill-range","rawSpec":"7.0.1","saveSpec":null,"fetchSpec":"7.0.1"},"_requiredBy":["/braces"],"_resolved":"https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz","_spec":"7.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/fill-range/issues"},"contributors":[{"name":"Edo Rivai","url":"edo.rivai.nl"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Paul Miller","url":"paulmillr.com"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"to-regex-range":"^5.0.1"},"description":"Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`","devDependencies":{"gulp-format-md":"^2.0.0","mocha":"^6.1.1"},"engines":{"node":">=8"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/fill-range","keywords":["alpha","alphabetical","array","bash","brace","expand","expansion","fill","glob","match","matches","matching","number","numerical","range","ranges","regex","sh"],"license":"MIT","main":"index.js","name":"fill-range","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/fill-range.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"7.0.1"}');
-
-/***/ }),
-
-/***/ 98611:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["find-cache-dir@3.3.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"find-cache-dir@3.3.2","_id":"find-cache-dir@3.3.2","_inBundle":false,"_integrity":"sha512-wXZV5emFEjrridIgED11OoUKLxiYjAcqot/NJdAkOhlJ+vGzwhOAfcG5OX1jP+S0PcjEn8bdMJv+g2jwQ3Onig==","_location":"/find-cache-dir","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"find-cache-dir@3.3.2","name":"find-cache-dir","escapedName":"find-cache-dir","rawSpec":"3.3.2","saveSpec":null,"fetchSpec":"3.3.2"},"_requiredBy":["/gh-pages"],"_resolved":"https://registry.npmjs.org/find-cache-dir/-/find-cache-dir-3.3.2.tgz","_spec":"3.3.2","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/avajs/find-cache-dir/issues"},"dependencies":{"commondir":"^1.0.1","make-dir":"^3.0.2","pkg-dir":"^4.1.0"},"description":"Finds the common standard cache directory","devDependencies":{"ava":"^2.4.0","coveralls":"^3.0.9","del":"^4.0.0","nyc":"^15.0.0","tempy":"^0.4.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js"],"funding":"https://github.com/avajs/find-cache-dir?sponsor=1","homepage":"https://github.com/avajs/find-cache-dir#readme","keywords":["cache","directory","dir","caching","find","search"],"license":"MIT","name":"find-cache-dir","nyc":{"reporter":["lcov","text"]},"repository":{"type":"git","url":"git+https://github.com/avajs/find-cache-dir.git"},"scripts":{"test":"xo && nyc ava"},"version":"3.3.2"}');
-
-/***/ }),
-
-/***/ 43682:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["find-up@4.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"find-up@4.1.0","_id":"find-up@4.1.0","_inBundle":false,"_integrity":"sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==","_location":"/find-up","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"find-up@4.1.0","name":"find-up","escapedName":"find-up","rawSpec":"4.1.0","saveSpec":null,"fetchSpec":"4.1.0"},"_requiredBy":["/pkg-dir","/read-pkg-up","/yargs"],"_resolved":"https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz","_spec":"4.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/find-up/issues"},"dependencies":{"locate-path":"^5.0.0","path-exists":"^4.0.0"},"description":"Find a file or directory by walking up parent directories","devDependencies":{"ava":"^2.1.0","is-path-inside":"^2.1.0","tempy":"^0.3.0","tsd":"^0.7.3","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/find-up#readme","keywords":["find","up","find-up","findup","look-up","look","file","search","match","package","resolve","parent","parents","folder","directory","walk","walking","path"],"license":"MIT","name":"find-up","repository":{"type":"git","url":"git+https://github.com/sindresorhus/find-up.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.1.0"}');
-
-/***/ }),
-
-/***/ 50824:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["flat-cache@3.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"flat-cache@3.0.4","_id":"flat-cache@3.0.4","_inBundle":false,"_integrity":"sha512-dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8XciblUXOKfW6SiuJ0e13eDYZoZV5wdrev7P3Nwg==","_location":"/flat-cache","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"flat-cache@3.0.4","name":"flat-cache","escapedName":"flat-cache","rawSpec":"3.0.4","saveSpec":null,"fetchSpec":"3.0.4"},"_requiredBy":["/file-entry-cache"],"_resolved":"https://registry.npmjs.org/flat-cache/-/flat-cache-3.0.4.tgz","_spec":"3.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Roy Riojas","url":"http://royriojas.com"},"bugs":{"url":"https://github.com/royriojas/flat-cache/issues"},"changelogx":{"ignoreRegExp":["BLD: Release","DOC: Generate Changelog","Generated Changelog"],"issueIDRegExp":"#(\\\\d+)","commitURL":"https://github.com/royriojas/flat-cache/commit/{0}","authorURL":"https://github.com/{0}","issueIDURL":"https://github.com/royriojas/flat-cache/issues/{0}","projectName":"flat-cache"},"dependencies":{"flatted":"^3.1.0","rimraf":"^3.0.2"},"description":"A stupidly simple key/value storage using files to persist some data","devDependencies":{"chai":"^4.2.0","changelogx":"^5.0.6","eslint":"^7.13.0","eslint-config-prettier":"^6.15.0","eslint-plugin-mocha":"^8.0.0","eslint-plugin-prettier":"^3.1.4","glob-expand":"^0.2.1","istanbul":"^0.4.5","mocha":"^8.2.1","precommit":"^1.2.2","prepush":"^3.1.11","prettier":"^2.1.2","watch-run":"^1.2.5"},"engines":{"node":"^10.12.0 || >=12.0.0"},"files":["src/cache.js","src/del.js","src/utils.js"],"homepage":"https://github.com/royriojas/flat-cache#readme","keywords":["json cache","simple cache","file cache","key par","key value","cache"],"license":"MIT","main":"src/cache.js","name":"flat-cache","precommit":["npm run verify --silent"],"prepush":["npm run verify --silent"],"repository":{"type":"git","url":"git+https://github.com/royriojas/flat-cache.git"},"scripts":{"autofix":"npm run eslint-fix","bump-major":"npm run pre-v && npm version major -m \'BLD: Release v%s\' && npm run post-v","bump-minor":"npm run pre-v && npm version minor -m \'BLD: Release v%s\' && npm run post-v","bump-patch":"npm run pre-v && npm version patch -m \'BLD: Release v%s\' && npm run post-v","changelog":"changelogx -f markdown -o ./changelog.md","check":"npm run eslint","cover":"istanbul cover test/runner.js html text-summary","do-changelog":"npm run changelog && git add ./changelog.md && git commit -m \'DOC: Generate changelog\' --no-verify","eslint":"eslint --cache --cache-location=node_modules/.cache/ ./src/**/*.js ./test/**/*.js","eslint-fix":"npm run eslint -- --fix","install-hooks":"prepush install && changelogx install-hook && precommit install","post-v":"npm run do-changelog && git push --no-verify && git push --tags --no-verify","pre-v":"npm run verify","test":"npm run verify --silent","test:cache":"mocha -R spec test/specs","verify":"npm run eslint && npm run test:cache","watch":"watch-run -i -p \'test/specs/**/*.js\' istanbul cover test/runner.js html text-summary"},"version":"3.0.4"}');
-
-/***/ }),
-
-/***/ 21508:
-/***/ ((module) => {
-
-"use strict";
-module.exports = {"type":"commonjs"};
-
-/***/ }),
-
-/***/ 12737:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["flatted@3.2.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"flatted@3.2.4","_id":"flatted@3.2.4","_inBundle":false,"_integrity":"sha512-8/sOawo8tJ4QOBX8YlQBMxL8+RLZfxMQOif9o0KUKTNTjMYElWPE0r/m5VNFxTRd0NSw8qSy8dajrwX4RYI1Hw==","_location":"/flatted","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"flatted@3.2.4","name":"flatted","escapedName":"flatted","rawSpec":"3.2.4","saveSpec":null,"fetchSpec":"3.2.4"},"_requiredBy":["/flat-cache"],"_resolved":"https://registry.npmjs.org/flatted/-/flatted-3.2.4.tgz","_spec":"3.2.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Andrea Giammarchi"},"bugs":{"url":"https://github.com/WebReflection/flatted/issues"},"description":"A super light and fast circular JSON parser.","devDependencies":{"@babel/core":"^7.16.0","@babel/preset-env":"^7.16.0","@ungap/structured-clone":"^0.3.4","ascjs":"^5.0.1","c8":"^7.10.0","circular-json":"^0.5.9","circular-json-es6":"^2.0.2","drop-babel-typeof":"^1.0.3","jsan":"^3.1.13","rollup":"^2.59.0","rollup-plugin-babel":"^4.4.0","rollup-plugin-node-resolve":"^5.2.0","rollup-plugin-terser":"^7.0.2","terser":"^5.9.0"},"exports":{"import":"./esm/index.js","default":"./cjs/index.js"},"homepage":"https://github.com/WebReflection/flatted#readme","keywords":["circular","JSON","fast","parser","minimal"],"license":"ISC","main":"./cjs/index.js","module":"./esm/index.js","name":"flatted","repository":{"type":"git","url":"git+https://github.com/WebReflection/flatted.git"},"scripts":{"build":"npm run cjs && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size","cjs":"ascjs esm cjs","coverage":"mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info","min":"terser index.js -c -m -o min.js","rollup:babel":"rollup --config rollup/babel.config.js && sed -i.bck \'s/^var /self./\' index.js && rm -rf index.js.bck && drop-babel-typeof index.js","rollup:es":"rollup --config rollup/es.config.js && sed -i.bck \'s/^var /self./\' es.js && rm -rf es.js.bck","size":"cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c","test":"c8 node test/index.js","test:php":"php php/test.php"},"type":"module","types":"types.d.ts","unpkg":"min.js","version":"3.2.4"}');
-
-/***/ }),
-
-/***/ 93685:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["for-in@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"for-in@1.0.2","_id":"for-in@1.0.2","_inBundle":false,"_integrity":"sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=","_location":"/for-in","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"for-in@1.0.2","name":"for-in","escapedName":"for-in","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/mixin-deep"],"_resolved":"https://registry.npmjs.org/for-in/-/for-in-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/for-in/issues"},"contributors":[{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"},{"name":"Paul Irish","url":"http://paulirish.com"}],"description":"Iterate over the own and inherited enumerable properties of an object, and return an object with properties that evaluate to true from the callback. Exit early by returning `false`. JavaScript/Node.js","devDependencies":{"gulp-format-md":"^0.1.11","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/for-in","keywords":["for","for-in","for-own","has","has-own","hasOwn","in","key","keys","object","own","value"],"license":"MIT","main":"index.js","name":"for-in","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/for-in.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["arr-flatten","collection-map","for-own"]},"reflinks":["verb"],"lint":{"reflinks":true}},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 23624:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fragment-cache@0.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"fragment-cache@0.2.1","_id":"fragment-cache@0.2.1","_inBundle":false,"_integrity":"sha1-QpD60n8T6Jvn8zeZxrxaCr//DRk=","_location":"/fragment-cache","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fragment-cache@0.2.1","name":"fragment-cache","escapedName":"fragment-cache","rawSpec":"0.2.1","saveSpec":null,"fetchSpec":"0.2.1"},"_requiredBy":["/cpy/micromatch","/extglob","/nanomatch"],"_resolved":"https://registry.npmjs.org/fragment-cache/-/fragment-cache-0.2.1.tgz","_spec":"0.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/fragment-cache/issues"},"dependencies":{"map-cache":"^0.2.2"},"description":"A cache for managing namespaced sub-caches","devDependencies":{"gulp":"^3.9.1","gulp-eslint":"^3.0.1","gulp-format-md":"^0.1.11","gulp-istanbul":"^1.1.1","gulp-mocha":"^3.0.1","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/fragment-cache","keywords":["cache","fragment"],"license":"MIT","main":"index.js","name":"fragment-cache","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/fragment-cache.git"},"scripts":{"test":"mocha"},"verb":{"plugins":["gulp-format-md"],"reflinks":["map-cache","verb"],"related":{"list":["base","map-cache"]},"layout":"default","toc":false,"tasks":["readme"],"lint":{"reflinks":true}},"version":"0.2.1"}');
-
-/***/ }),
-
-/***/ 66287:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fs-extra@8.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"fs-extra@8.1.0","_id":"fs-extra@8.1.0","_inBundle":false,"_integrity":"sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==","_location":"/fs-extra","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fs-extra@8.1.0","name":"fs-extra","escapedName":"fs-extra","rawSpec":"8.1.0","saveSpec":null,"fetchSpec":"8.1.0"},"_requiredBy":["/gh-pages"],"_resolved":"https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz","_spec":"8.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"JP Richardson","email":"jprichardson@gmail.com"},"bugs":{"url":"https://github.com/jprichardson/node-fs-extra/issues"},"dependencies":{"graceful-fs":"^4.2.0","jsonfile":"^4.0.0","universalify":"^0.1.0"},"description":"fs-extra contains methods that aren\'t included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.","devDependencies":{"coveralls":"^3.0.0","istanbul":"^0.4.5","klaw":"^2.1.1","klaw-sync":"^3.0.2","minimist":"^1.1.1","mocha":"^5.0.5","proxyquire":"^2.0.1","read-dir-files":"^0.1.1","semver":"^5.3.0","standard":"^12.0.1"},"engines":{"node":">=6 <7 || >=8"},"files":["lib/","!lib/**/__tests__/"],"homepage":"https://github.com/jprichardson/node-fs-extra","keywords":["fs","file","file system","copy","directory","extra","mkdirp","mkdir","mkdirs","recursive","json","read","write","extra","delete","remove","touch","create","text","output","move"],"license":"MIT","main":"./lib/index.js","name":"fs-extra","repository":{"type":"git","url":"git+https://github.com/jprichardson/node-fs-extra.git"},"scripts":{"coverage":"istanbul cover -i \'lib/**\' -x \'**/__tests__/**\' test.js","coveralls":"coveralls < coverage/lcov.info","full-ci":"npm run lint && npm run coverage","lint":"standard","test":"npm run lint && npm run unit","test-find":"find ./lib/**/__tests__ -name *.test.js | xargs mocha","unit":"node test.js"},"version":"8.1.0"}');
-
-/***/ }),
-
-/***/ 23342:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["fs.realpath@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"fs.realpath@1.0.0","_id":"fs.realpath@1.0.0","_inBundle":false,"_integrity":"sha1-FQStJSMVjKpA20onh8sBQRmU6k8=","_location":"/fs.realpath","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"fs.realpath@1.0.0","name":"fs.realpath","escapedName":"fs.realpath","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/glob"],"_resolved":"https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bugs":{"url":"https://github.com/isaacs/fs.realpath/issues"},"dependencies":{},"description":"Use node\'s fs.realpath, but fall back to the JS implementation if the native one fails","devDependencies":{},"files":["old.js","index.js"],"homepage":"https://github.com/isaacs/fs.realpath#readme","keywords":["realpath","fs","polyfill"],"license":"ISC","main":"index.js","name":"fs.realpath","repository":{"type":"git","url":"git+https://github.com/isaacs/fs.realpath.git"},"scripts":{"test":"tap test/*.js --cov"},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 80694:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["function-bind@1.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"function-bind@1.1.1","_id":"function-bind@1.1.1","_inBundle":false,"_integrity":"sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==","_location":"/function-bind","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"function-bind@1.1.1","name":"function-bind","escapedName":"function-bind","rawSpec":"1.1.1","saveSpec":null,"fetchSpec":"1.1.1"},"_requiredBy":["/has"],"_resolved":"https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz","_spec":"1.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Raynos","email":"raynos2@gmail.com"},"bugs":{"url":"https://github.com/Raynos/function-bind/issues","email":"raynos2@gmail.com"},"contributors":[{"name":"Raynos"},{"name":"Jordan Harband","url":"https://github.com/ljharb"}],"dependencies":{},"description":"Implementation of Function.prototype.bind","devDependencies":{"@ljharb/eslint-config":"^12.2.1","covert":"^1.1.0","eslint":"^4.5.0","jscs":"^3.0.7","tape":"^4.8.0"},"homepage":"https://github.com/Raynos/function-bind","keywords":["function","bind","shim","es5"],"license":"MIT","main":"index","name":"function-bind","repository":{"type":"git","url":"git://github.com/Raynos/function-bind.git"},"scripts":{"coverage":"covert test/*.js","eslint":"eslint *.js */*.js","jscs":"jscs *.js */*.js","lint":"npm run jscs && npm run eslint","posttest":"npm run coverage -- --quiet","pretest":"npm run lint","test":"npm run tests-only","tests-only":"node test"},"testling":{"files":"test/index.js","browsers":["ie/8..latest","firefox/16..latest","firefox/nightly","chrome/22..latest","chrome/canary","opera/12..latest","opera/next","safari/5.1..latest","ipad/6.0..latest","iphone/6.0..latest","android-browser/4.2..latest"]},"version":"1.1.1"}');
-
-/***/ }),
-
-/***/ 16638:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["functional-red-black-tree@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"functional-red-black-tree@1.0.1","_id":"functional-red-black-tree@1.0.1","_inBundle":false,"_integrity":"sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=","_location":"/functional-red-black-tree","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"functional-red-black-tree@1.0.1","name":"functional-red-black-tree","escapedName":"functional-red-black-tree","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Mikola Lysenko"},"bugs":{"url":"https://github.com/mikolalysenko/functional-red-black-tree/issues"},"dependencies":{},"description":"A fully persistent balanced binary search tree","devDependencies":{"iota-array":"^0.0.1","tape":"^2.12.0"},"directories":{"test":"test"},"homepage":"https://github.com/mikolalysenko/functional-red-black-tree#readme","keywords":["functional","red","black","tree","binary","search","balance","persistent","fully","dynamic","data","structure"],"license":"MIT","main":"rbtree.js","name":"functional-red-black-tree","repository":{"type":"git","url":"git://github.com/mikolalysenko/functional-red-black-tree.git"},"scripts":{"test":"tape test/*.js"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 68834:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["get-caller-file@2.0.5","/Users/brian.kimball/Github/bump-and-release"]],"_from":"get-caller-file@2.0.5","_id":"get-caller-file@2.0.5","_inBundle":false,"_integrity":"sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==","_location":"/get-caller-file","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"get-caller-file@2.0.5","name":"get-caller-file","escapedName":"get-caller-file","rawSpec":"2.0.5","saveSpec":null,"fetchSpec":"2.0.5"},"_requiredBy":["/yargs"],"_resolved":"https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz","_spec":"2.0.5","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Stefan Penner"},"bugs":{"url":"https://github.com/stefanpenner/get-caller-file/issues"},"description":"[![Build Status](https://travis-ci.org/stefanpenner/get-caller-file.svg?branch=master)](https://travis-ci.org/stefanpenner/get-caller-file) [![Build status](https://ci.appveyor.com/api/projects/status/ol2q94g1932cy14a/branch/master?svg=true)](https://ci.appveyor.com/project/embercli/get-caller-file/branch/master)","devDependencies":{"@types/chai":"^4.1.7","@types/ensure-posix-path":"^1.0.0","@types/mocha":"^5.2.6","@types/node":"^11.10.5","chai":"^4.1.2","ensure-posix-path":"^1.0.1","mocha":"^5.2.0","typescript":"^3.3.3333"},"directories":{"test":"tests"},"engines":{"node":"6.* || 8.* || >= 10.*"},"files":["index.js","index.js.map","index.d.ts"],"homepage":"https://github.com/stefanpenner/get-caller-file#readme","license":"ISC","main":"index.js","name":"get-caller-file","repository":{"type":"git","url":"git+https://github.com/stefanpenner/get-caller-file.git"},"scripts":{"prepare":"tsc","test":"mocha test","test:debug":"mocha test"},"version":"2.0.5"}');
-
-/***/ }),
-
-/***/ 66418:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["get-stream@5.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"get-stream@5.2.0","_id":"get-stream@5.2.0","_inBundle":false,"_integrity":"sha512-nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA==","_location":"/get-stream","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"get-stream@5.2.0","name":"get-stream","escapedName":"get-stream","rawSpec":"5.2.0","saveSpec":null,"fetchSpec":"5.2.0"},"_requiredBy":["/cacheable-request"],"_resolved":"https://registry.npmjs.org/get-stream/-/get-stream-5.2.0.tgz","_spec":"5.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/get-stream/issues"},"dependencies":{"pump":"^3.0.0"},"description":"Get a stream as a string, buffer, or array","devDependencies":{"@types/node":"^12.0.7","ava":"^2.0.0","into-stream":"^5.0.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts","buffer-stream.js"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/get-stream#readme","keywords":["get","stream","promise","concat","string","text","buffer","read","data","consume","readable","readablestream","array","object"],"license":"MIT","name":"get-stream","repository":{"type":"git","url":"git+https://github.com/sindresorhus/get-stream.git"},"scripts":{"test":"xo && ava && tsd"},"version":"5.2.0"}');
-
-/***/ }),
-
-/***/ 50348:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["get-value@2.0.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"get-value@2.0.6","_id":"get-value@2.0.6","_inBundle":false,"_integrity":"sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=","_location":"/get-value","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"get-value@2.0.6","name":"get-value","escapedName":"get-value","rawSpec":"2.0.6","saveSpec":null,"fetchSpec":"2.0.6"},"_requiredBy":["/cache-base","/has-value","/union-value","/unset-value/has-value"],"_resolved":"https://registry.npmjs.org/get-value/-/get-value-2.0.6.tgz","_spec":"2.0.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/get-value/issues"},"description":"Use property paths (`a.b.c`) to get a nested value from an object.","devDependencies":{"ansi-bold":"^0.1.1","arr-reduce":"^1.0.1","benchmarked":"^0.1.4","dot-prop":"^2.2.0","getobject":"^0.1.0","gulp":"^3.9.0","gulp-eslint":"^1.1.1","gulp-format-md":"^0.1.5","gulp-istanbul":"^0.10.2","gulp-mocha":"^2.1.3","isobject":"^2.0.0","matched":"^0.3.2","minimist":"^1.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/get-value","keywords":["get","key","nested","object","path","paths","prop","properties","property","props","segment","value","values"],"license":"MIT","main":"index.js","name":"get-value","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/get-value.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["has-any","has-any-deep","has-value","set-value","unset-value"]},"reflinks":["verb","verb-readme-generator"],"lint":{"reflinks":true}},"version":"2.0.6"}');
-
-/***/ }),
-
-/***/ 90601:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["gh-pages@3.2.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"gh-pages@3.2.3","_id":"gh-pages@3.2.3","_inBundle":false,"_integrity":"sha512-jA1PbapQ1jqzacECfjUaO9gV8uBgU6XNMV0oXLtfCX3haGLe5Atq8BxlrADhbD6/UdG9j6tZLWAkAybndOXTJg==","_location":"/gh-pages","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"gh-pages@3.2.3","name":"gh-pages","escapedName":"gh-pages","rawSpec":"3.2.3","saveSpec":null,"fetchSpec":"3.2.3"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/gh-pages/-/gh-pages-3.2.3.tgz","_spec":"3.2.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Tim Schaub","url":"http://tschaub.net/"},"bin":{"gh-pages":"bin/gh-pages.js","gh-pages-clean":"bin/gh-pages-clean.js"},"bugs":{"url":"https://github.com/tschaub/gh-pages/issues"},"dependencies":{"async":"^2.6.1","commander":"^2.18.0","email-addresses":"^3.0.1","filenamify":"^4.3.0","find-cache-dir":"^3.3.1","fs-extra":"^8.1.0","globby":"^6.1.0"},"description":"Publish to a gh-pages branch on GitHub (or any other branch on any other remote)","devDependencies":{"chai":"^4.3.4","dir-compare":"^1.8.0","eslint":"^7.27.0","eslint-config-tschaub":"^13.1.0","mocha":"^8.4.0","sinon":"^10.0.0","tmp":"^0.2.1"},"engines":{"node":">=10"},"eslintConfig":{"extends":"tschaub"},"files":["lib","bin"],"homepage":"https://github.com/tschaub/gh-pages","keywords":["git","gh-pages","github"],"license":"MIT","main":"lib/index.js","name":"gh-pages","repository":{"type":"git","url":"git://github.com/tschaub/gh-pages.git"},"scripts":{"lint":"eslint lib test bin plugin.js","pretest":"npm run lint","test":"mocha --recursive test"},"version":"3.2.3"}');
-
-/***/ }),
-
-/***/ 7770:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["glob-parent@5.1.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"glob-parent@5.1.2","_id":"glob-parent@5.1.2","_inBundle":false,"_integrity":"sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==","_location":"/glob-parent","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"glob-parent@5.1.2","name":"glob-parent","escapedName":"glob-parent","rawSpec":"5.1.2","saveSpec":null,"fetchSpec":"5.1.2"},"_requiredBy":["/eslint","/fast-glob"],"_resolved":"https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz","_spec":"5.1.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Gulp Team","email":"team@gulpjs.com","url":"https://gulpjs.com/"},"bugs":{"url":"https://github.com/gulpjs/glob-parent/issues"},"contributors":[{"name":"Elan Shanker","url":"https://github.com/es128"},{"name":"Blaine Bublitz","email":"blaine.bublitz@gmail.com"}],"dependencies":{"is-glob":"^4.0.1"},"description":"Extract the non-magic parent path from a glob string.","devDependencies":{"coveralls":"^3.0.11","eslint":"^2.13.1","eslint-config-gulp":"^3.0.1","expect":"^1.20.2","mocha":"^6.0.2","nyc":"^13.3.0"},"engines":{"node":">= 6"},"files":["LICENSE","index.js"],"homepage":"https://github.com/gulpjs/glob-parent#readme","keywords":["glob","parent","strip","path","dirname","directory","base","wildcard"],"license":"ISC","main":"index.js","name":"glob-parent","repository":{"type":"git","url":"git+https://github.com/gulpjs/glob-parent.git"},"scripts":{"azure-pipelines":"nyc mocha --async-only --reporter xunit -O output=test.xunit","coveralls":"nyc report --reporter=text-lcov | coveralls","lint":"eslint .","pretest":"npm run lint","test":"nyc mocha --async-only"},"version":"5.1.2"}');
-
-/***/ }),
-
-/***/ 48893:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["glob-to-regexp@0.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"glob-to-regexp@0.3.0","_id":"glob-to-regexp@0.3.0","_inBundle":false,"_integrity":"sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=","_location":"/glob-to-regexp","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"glob-to-regexp@0.3.0","name":"glob-to-regexp","escapedName":"glob-to-regexp","rawSpec":"0.3.0","saveSpec":null,"fetchSpec":"0.3.0"},"_requiredBy":["/@mrmlnc/readdir-enhanced"],"_resolved":"https://registry.npmjs.org/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz","_spec":"0.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Nick Fitzgerald","email":"fitzgen@gmail.com"},"bugs":{"url":"https://github.com/fitzgen/glob-to-regexp/issues"},"description":"Convert globs to regular expressions","homepage":"https://github.com/fitzgen/glob-to-regexp#readme","keywords":["regexp","glob","regexps","regular expressions","regular expression","wildcard"],"license":"BSD","main":"index.js","name":"glob-to-regexp","repository":{"type":"git","url":"git+https://github.com/fitzgen/glob-to-regexp.git"},"scripts":{"test":"node test.js"},"version":"0.3.0"}');
-
-/***/ }),
-
-/***/ 90388:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["glob@7.1.6","/Users/brian.kimball/Github/bump-and-release"]],"_from":"glob@7.1.6","_id":"glob@7.1.6","_inBundle":false,"_integrity":"sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==","_location":"/glob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"glob@7.1.6","name":"glob","escapedName":"glob","rawSpec":"7.1.6","saveSpec":null,"fetchSpec":"7.1.6"},"_requiredBy":["/cpy/globby","/globby","/rimraf"],"_resolved":"https://registry.npmjs.org/glob/-/glob-7.1.6.tgz","_spec":"7.1.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bugs":{"url":"https://github.com/isaacs/node-glob/issues"},"dependencies":{"fs.realpath":"^1.0.0","inflight":"^1.0.4","inherits":"2","minimatch":"^3.0.4","once":"^1.3.0","path-is-absolute":"^1.0.0"},"description":"a little globber","devDependencies":{"mkdirp":"0","rimraf":"^2.2.8","tap":"^12.0.1","tick":"0.0.6"},"engines":{"node":"*"},"files":["glob.js","sync.js","common.js"],"funding":{"url":"https://github.com/sponsors/isaacs"},"homepage":"https://github.com/isaacs/node-glob#readme","license":"ISC","main":"glob.js","name":"glob","repository":{"type":"git","url":"git://github.com/isaacs/node-glob.git"},"scripts":{"bench":"bash benchmark.sh","benchclean":"node benchclean.js","prepublish":"npm run benchclean","prof":"bash prof.sh && cat profile.txt","profclean":"rm -f v8.log profile.txt","test":"tap test/*.js --cov","test-regen":"npm run profclean && TEST_REGEN=1 node test/00-setup.js"},"version":"7.1.6"}');
-
-/***/ }),
-
-/***/ 24709:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["globals@13.12.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"globals@13.12.0","_id":"globals@13.12.0","_inBundle":false,"_integrity":"sha512-uS8X6lSKN2JumVoXrbUz+uG4BYG+eiawqm3qFcT7ammfbUHeCBoJMlHcec/S3krSk73/AE/f0szYFmgAA3kYZg==","_location":"/globals","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"globals@13.12.0","name":"globals","escapedName":"globals","rawSpec":"13.12.0","saveSpec":null,"fetchSpec":"13.12.0"},"_requiredBy":["/@eslint/eslintrc","/eslint"],"_resolved":"https://registry.npmjs.org/globals/-/globals-13.12.0.tgz","_spec":"13.12.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/globals/issues"},"dependencies":{"type-fest":"^0.20.2"},"description":"Global identifiers from different JavaScript environments","devDependencies":{"ava":"^2.4.0","tsd":"^0.14.0","xo":"^0.36.1"},"engines":{"node":">=8"},"files":["index.js","index.d.ts","globals.json"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/globals#readme","keywords":["globals","global","identifiers","variables","vars","jshint","eslint","environments"],"license":"MIT","name":"globals","repository":{"type":"git","url":"git+https://github.com/sindresorhus/globals.git"},"scripts":{"test":"xo && ava"},"tsd":{"compilerOptions":{"resolveJsonModule":true}},"version":"13.12.0","xo":{"ignores":["get-browser-globals.js"],"rules":{"node/no-unsupported-features/es-syntax":"off"}}}');
-
-/***/ }),
-
-/***/ 7180:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["globby@6.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"globby@6.1.0","_id":"globby@6.1.0","_inBundle":false,"_integrity":"sha1-9abXDoOV4hyFj7BInWTfAkJNUGw=","_location":"/globby","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"globby@6.1.0","name":"globby","escapedName":"globby","rawSpec":"6.1.0","saveSpec":null,"fetchSpec":"6.1.0"},"_requiredBy":["/gh-pages"],"_resolved":"https://registry.npmjs.org/globby/-/globby-6.1.0.tgz","_spec":"6.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/globby/issues"},"dependencies":{"array-union":"^1.0.1","glob":"^7.0.3","object-assign":"^4.0.1","pify":"^2.0.0","pinkie-promise":"^2.0.0"},"description":"Extends `glob` with support for multiple patterns and exposes a Promise API","devDependencies":{"ava":"*","glob-stream":"github:gulpjs/glob-stream#master","globby":"github:sindresorhus/globby#master","matcha":"^0.7.0","rimraf":"^2.2.8","xo":"^0.16.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/globby#readme","keywords":["all","array","directories","dirs","expand","files","filesystem","filter","find","fnmatch","folders","fs","glob","globbing","globs","gulpfriendly","match","matcher","minimatch","multi","multiple","paths","pattern","patterns","traverse","util","utility","wildcard","wildcards","promise"],"license":"MIT","name":"globby","repository":{"type":"git","url":"git+https://github.com/sindresorhus/globby.git"},"scripts":{"bench":"npm update glob-stream && matcha bench.js","test":"xo && ava"},"version":"6.1.0"}');
-
-/***/ }),
-
-/***/ 9248:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["got@11.8.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"got@11.8.2","_id":"got@11.8.2","_inBundle":false,"_integrity":"sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==","_location":"/got","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"got@11.8.2","name":"got","escapedName":"got","rawSpec":"11.8.2","saveSpec":null,"fetchSpec":"11.8.2"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/got/-/got-11.8.2.tgz","_spec":"11.8.2","_where":"/Users/brian.kimball/Github/bump-and-release","ava":{"files":["test/*"],"timeout":"1m","typescript":{"rewritePaths":{"test/":"dist/test/"}}},"bugs":{"url":"https://github.com/sindresorhus/got/issues"},"dependencies":{"@sindresorhus/is":"^4.0.0","@szmarczak/http-timer":"^4.0.5","@types/cacheable-request":"^6.0.1","@types/responselike":"^1.0.0","cacheable-lookup":"^5.0.3","cacheable-request":"^7.0.1","decompress-response":"^6.0.0","http2-wrapper":"^1.0.0-beta.5.2","lowercase-keys":"^2.0.0","p-cancelable":"^2.0.0","responselike":"^2.0.0"},"description":"Human-friendly and powerful HTTP request library for Node.js","devDependencies":{"@ava/typescript":"^1.1.1","@sindresorhus/tsconfig":"^0.7.0","@sinonjs/fake-timers":"^6.0.1","@types/benchmark":"^1.0.33","@types/express":"^4.17.7","@types/node":"^14.14.0","@types/node-fetch":"^2.5.7","@types/pem":"^1.9.5","@types/pify":"^3.0.2","@types/request":"^2.48.5","@types/sinon":"^9.0.5","@types/tough-cookie":"^4.0.0","ava":"^3.11.1","axios":"^0.20.0","benchmark":"^2.1.4","coveralls":"^3.1.0","create-test-server":"^3.0.1","del-cli":"^3.0.1","delay":"^4.4.0","express":"^4.17.1","form-data":"^3.0.0","get-stream":"^6.0.0","nock":"^13.0.4","node-fetch":"^2.6.0","np":"^6.4.0","nyc":"^15.1.0","p-event":"^4.2.0","pem":"^1.14.4","pify":"^5.0.0","sinon":"^9.0.3","slow-stream":"0.0.4","tempy":"^1.0.0","to-readable-stream":"^2.1.0","tough-cookie":"^4.0.0","typescript":"4.0.3","xo":"^0.34.1"},"engines":{"node":">=10.19.0"},"files":["dist/source"],"funding":"https://github.com/sindresorhus/got?sponsor=1","homepage":"https://github.com/sindresorhus/got#readme","keywords":["http","https","http2","get","got","url","uri","request","simple","curl","wget","fetch","net","network","gzip","brotli","requests","human-friendly","axios","superagent","node-fetch","ky"],"license":"MIT","main":"dist/source","name":"got","nyc":{"extension":[".ts"],"exclude":["**/test/**"]},"repository":{"type":"git","url":"git+https://github.com/sindresorhus/got.git"},"runkitExampleFilename":"./documentation/examples/runkit-example.js","scripts":{"build":"del-cli dist && tsc","prepare":"npm run build","release":"np","test":"xo && npm run build && nyc --reporter=html --reporter=text ava"},"sideEffects":false,"types":"dist/source","version":"11.8.2","xo":{"ignores":["documentation/examples/*"],"rules":{"@typescript-eslint/no-empty-function":"off","node/prefer-global/url":"off","node/prefer-global/url-search-params":"off","import/no-anonymous-default-export":"off","@typescript-eslint/no-implicit-any-catch":"off"}}}');
-
-/***/ }),
-
-/***/ 84952:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["graceful-fs@4.2.8","/Users/brian.kimball/Github/bump-and-release"]],"_from":"graceful-fs@4.2.8","_id":"graceful-fs@4.2.8","_inBundle":false,"_integrity":"sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==","_location":"/graceful-fs","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"graceful-fs@4.2.8","name":"graceful-fs","escapedName":"graceful-fs","rawSpec":"4.2.8","saveSpec":null,"fetchSpec":"4.2.8"},"_requiredBy":["/cp-file","/fs-extra","/jsonfile"],"_resolved":"https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.8.tgz","_spec":"4.2.8","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/isaacs/node-graceful-fs/issues"},"description":"A drop-in replacement for fs, making various improvements.","devDependencies":{"import-fresh":"^2.0.0","mkdirp":"^0.5.0","rimraf":"^2.2.8","tap":"^12.7.0"},"directories":{"test":"test"},"files":["fs.js","graceful-fs.js","legacy-streams.js","polyfills.js","clone.js"],"homepage":"https://github.com/isaacs/node-graceful-fs#readme","keywords":["fs","module","reading","retry","retries","queue","error","errors","handling","EMFILE","EAGAIN","EINVAL","EPERM","EACCESS"],"license":"ISC","main":"graceful-fs.js","name":"graceful-fs","repository":{"type":"git","url":"git+https://github.com/isaacs/node-graceful-fs.git"},"scripts":{"postpublish":"git push origin --follow-tags","posttest":"nyc report","postversion":"npm publish","preversion":"npm test","test":"nyc --silent node test.js | tap -c -"},"version":"4.2.8"}');
-
-/***/ }),
-
-/***/ 91413:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["hard-rejection@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"hard-rejection@2.1.0","_id":"hard-rejection@2.1.0","_inBundle":false,"_integrity":"sha512-VIZB+ibDhx7ObhAe7OVtoEbuP4h/MuOTHJ+J8h/eBXotJYl0fBgR72xDFCKgIh22OJZIOVNxBMWuhAr10r8HdA==","_location":"/hard-rejection","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"hard-rejection@2.1.0","name":"hard-rejection","escapedName":"hard-rejection","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/meow"],"_resolved":"https://registry.npmjs.org/hard-rejection/-/hard-rejection-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/hard-rejection/issues"},"description":"Make unhandled promise rejections fail hard right away instead of the default silent fail","devDependencies":{"ava":"^1.4.1","execa":"^1.0.0","tsd":"^0.7.1","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts","register.js"],"homepage":"https://github.com/sindresorhus/hard-rejection#readme","keywords":["promise","promises","unhandled","uncaught","rejection","hard","fail","catch","throw","handler","exit","debug","debugging","verbose","immediate","immediately"],"license":"MIT","name":"hard-rejection","repository":{"type":"git","url":"git+https://github.com/sindresorhus/hard-rejection.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 99317:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["has-flag@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"has-flag@3.0.0","_id":"has-flag@3.0.0","_inBundle":false,"_integrity":"sha1-tdRU3CGZriJWmfNGfloH87lVuv0=","_location":"/has-flag","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"has-flag@3.0.0","name":"has-flag","escapedName":"has-flag","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/supports-color"],"_resolved":"https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/has-flag/issues"},"description":"Check if argv has a specific flag","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/has-flag#readme","keywords":["has","check","detect","contains","find","flag","cli","command-line","argv","process","arg","args","argument","arguments","getopt","minimist","optimist"],"license":"MIT","name":"has-flag","repository":{"type":"git","url":"git+https://github.com/sindresorhus/has-flag.git"},"scripts":{"test":"xo && ava"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 366:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-glob@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-glob@3.1.0","_id":"is-glob@3.1.0","_inBundle":false,"_integrity":"sha1-e6WuJCF4BKxwcHuWkiVnSGzD6Eo=","_location":"/has-glob/is-glob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-glob@3.1.0","name":"is-glob","escapedName":"is-glob","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/has-glob"],"_resolved":"https://registry.npmjs.org/is-glob/-/is-glob-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-glob/issues"},"contributors":[{"name":"Daniel Perez","email":"daniel@claudetech.com","url":"http://tuvistavie.com"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"is-extglob":"^2.1.0"},"description":"Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience.","devDependencies":{"gulp-format-md":"^0.1.10","mocha":"^3.0.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-glob","keywords":["bash","braces","check","exec","expression","extglob","glob","globbing","globstar","is","match","matches","pattern","regex","regular","string","test"],"license":"MIT","main":"index.js","name":"is-glob","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-glob.git"},"scripts":{"test":"mocha"},"verb":{"layout":"default","plugins":["gulp-format-md"],"related":{"list":["assemble","base","update","verb"]},"reflinks":["assemble","bach","base","composer","gulp","has-glob","is-valid-glob","micromatch","npm","scaffold","verb","vinyl"]},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 30840:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["has-glob@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"has-glob@1.0.0","_id":"has-glob@1.0.0","_inBundle":false,"_integrity":"sha1-mqqe7b/7G6OZCnsAEPtnjuAIEgc=","_location":"/has-glob","_phantomChildren":{"is-extglob":"2.1.1"},"_requested":{"type":"version","registry":true,"raw":"has-glob@1.0.0","name":"has-glob","escapedName":"has-glob","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/cpy"],"_resolved":"https://registry.npmjs.org/has-glob/-/has-glob-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/has-glob/issues"},"dependencies":{"is-glob":"^3.0.0"},"description":"Returns `true` if an array has a glob pattern.","devDependencies":{"gulp-format-md":"^0.1.10","mocha":"^3.0.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/has-glob","keywords":["bash","braces","check","exec","expression","extglob","glob","globbing","globstar","has","match","matches","pattern","regex","regular","string","test"],"license":"MIT","main":"index.js","name":"has-glob","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/has-glob.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["has-glob","is-glob","is-negated-glob","is-valid-glob","micromatch"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb","verb-generate-readme"]},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 75754:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["has-value@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"has-value@1.0.0","_id":"has-value@1.0.0","_inBundle":false,"_integrity":"sha1-GLKB2lhbHFxR3vJMkw7SmgvmsXc=","_location":"/has-value","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"has-value@1.0.0","name":"has-value","escapedName":"has-value","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/cache-base"],"_resolved":"https://registry.npmjs.org/has-value/-/has-value-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/has-value/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ryan M Harrison","url":"https://linkedin.com/in/harrisonrm"}],"dependencies":{"get-value":"^2.0.6","has-values":"^1.0.0","isobject":"^3.0.0"},"description":"Returns true if a value exists, false if empty. Works with deeply nested values using object paths.","devDependencies":{"gulp-format-md":"^0.1.12","mocha":"^3.4.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/has-value","keywords":["array","boolean","empty","find","function","has","hasOwn","javascript","js","key","keys","node.js","null","number","object","properties","property","string","type","util","utilities","utility","value"],"license":"MIT","main":"index.js","name":"has-value","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/has-value.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["define-property","get-value","set-value","unset-value"]},"reflinks":[],"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 43461:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@3.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@3.2.2","_id":"kind-of@3.2.2","_inBundle":false,"_integrity":"sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=","_location":"/has-values/is-number/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@3.2.2","name":"kind-of","escapedName":"kind-of","rawSpec":"3.2.2","saveSpec":null,"fetchSpec":"3.2.2"},"_requiredBy":["/has-values/is-number"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz","_spec":"3.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"}],"dependencies":{"is-buffer":"^1.1.5"},"description":"Get the native type of a value.","devDependencies":{"ansi-bold":"^0.1.1","benchmarked":"^1.0.0","browserify":"^14.3.0","glob":"^7.1.1","gulp-format-md":"^0.1.12","mocha":"^3.3.0","type-of":"^2.0.1","typeof":"^1.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"related":{"list":["is-glob","is-number","is-primitive"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"3.2.2"}');
-
-/***/ }),
-
-/***/ 81752:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-number@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-number@3.0.0","_id":"is-number@3.0.0","_inBundle":false,"_integrity":"sha1-JP1iAaR4LPUFYcgQJ2r8fRLXEZU=","_location":"/has-values/is-number","_phantomChildren":{"is-buffer":"1.1.6"},"_requested":{"type":"version","registry":true,"raw":"is-number@3.0.0","name":"is-number","escapedName":"is-number","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/has-values"],"_resolved":"https://registry.npmjs.org/is-number/-/is-number-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-number/issues"},"contributors":[{"name":"Charlike Mike Reagent","url":"http://www.tunnckocore.tk"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"kind-of":"^3.0.2"},"description":"Returns true if the value is a number. comprehensive tests.","devDependencies":{"benchmarked":"^0.2.5","chalk":"^1.1.3","gulp-format-md":"^0.1.10","mocha":"^3.0.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-number","keywords":["check","coerce","coercion","integer","is","is-nan","is-num","is-number","istype","kind","math","nan","num","number","numeric","test","type","typeof","value"],"license":"MIT","main":"index.js","name":"is-number","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-number.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["even","is-even","is-odd","is-primitive","kind-of","odd"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb","verb-generate-readme"]},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 56457:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@4.0.0","_id":"kind-of@4.0.0","_inBundle":false,"_integrity":"sha1-IIE989cSkosgc3hpGkUGb65y3Vc=","_location":"/has-values/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@4.0.0","name":"kind-of","escapedName":"kind-of","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/has-values"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"}],"dependencies":{"is-buffer":"^1.1.5"},"description":"Get the native type of a value.","devDependencies":{"ansi-bold":"^0.1.1","benchmarked":"^1.1.1","browserify":"^14.3.0","glob":"^7.1.1","gulp-format-md":"^0.1.12","mocha":"^3.4.1","type-of":"^2.0.1","typeof":"^1.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"related":{"list":["is-glob","is-number","is-primitive"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 63352:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["has-values@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"has-values@1.0.0","_id":"has-values@1.0.0","_inBundle":false,"_integrity":"sha1-lbC2P+whRmGab+V/51Yo1aOe/k8=","_location":"/has-values","_phantomChildren":{"is-buffer":"1.1.6"},"_requested":{"type":"version","registry":true,"raw":"has-values@1.0.0","name":"has-values","escapedName":"has-values","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/has-value"],"_resolved":"https://registry.npmjs.org/has-values/-/has-values-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/has-values/issues"},"dependencies":{"is-number":"^3.0.0","kind-of":"^4.0.0"},"description":"Returns true if any values exist, false if empty. Works for booleans, functions, numbers, strings, nulls, objects and arrays. ","devDependencies":{"gulp-format-md":"^0.1.12","mocha":"^3.4.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/has-values","keywords":["array","boolean","empty","find","function","has","hasOwn","javascript","js","key","keys","node.js","null","number","object","properties","property","string","type","util","utilities","utility","value","values"],"license":"MIT","main":"index.js","name":"has-values","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/has-values.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["has-value","kind-of","is-number","is-plain-object","isobject"]},"reflinks":["verb"],"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 60936:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["has@1.0.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"has@1.0.3","_id":"has@1.0.3","_inBundle":false,"_integrity":"sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==","_location":"/has","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"has@1.0.3","name":"has","escapedName":"has","rawSpec":"1.0.3","saveSpec":null,"fetchSpec":"1.0.3"},"_requiredBy":["/is-core-module"],"_resolved":"https://registry.npmjs.org/has/-/has-1.0.3.tgz","_spec":"1.0.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Thiago de Arruda","email":"tpadilha84@gmail.com"},"bugs":{"url":"https://github.com/tarruda/has/issues"},"contributors":[{"name":"Jordan Harband","email":"ljharb@gmail.com","url":"http://ljharb.codes"}],"dependencies":{"function-bind":"^1.1.1"},"description":"Object.prototype.hasOwnProperty.call shortcut","devDependencies":{"@ljharb/eslint-config":"^12.2.1","eslint":"^4.19.1","tape":"^4.9.0"},"engines":{"node":">= 0.4.0"},"homepage":"https://github.com/tarruda/has","license":"MIT","licenses":[{"type":"MIT","url":"https://github.com/tarruda/has/blob/master/LICENSE-MIT"}],"main":"./src","name":"has","repository":{"type":"git","url":"git://github.com/tarruda/has.git"},"scripts":{"lint":"eslint .","pretest":"npm run lint","test":"tape test"},"version":"1.0.3"}');
-
-/***/ }),
-
-/***/ 57972:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["hosted-git-info@2.8.9","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"hosted-git-info@2.8.9","_id":"hosted-git-info@2.8.9","_inBundle":false,"_integrity":"sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==","_location":"/hosted-git-info","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"hosted-git-info@2.8.9","name":"hosted-git-info","escapedName":"hosted-git-info","rawSpec":"2.8.9","saveSpec":null,"fetchSpec":"2.8.9"},"_requiredBy":["/normalize-package-data"],"_resolved":"https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz","_spec":"2.8.9","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Rebecca Turner","email":"me@re-becca.org","url":"http://re-becca.org"},"bugs":{"url":"https://github.com/npm/hosted-git-info/issues"},"description":"Provides metadata and conversions from repository urls for Github, Bitbucket and Gitlab","devDependencies":{"standard":"^11.0.1","standard-version":"^4.4.0","tap":"^12.7.0"},"files":["index.js","git-host.js","git-host-info.js"],"homepage":"https://github.com/npm/hosted-git-info","keywords":["git","github","bitbucket","gitlab"],"license":"ISC","main":"index.js","name":"hosted-git-info","repository":{"type":"git","url":"git+https://github.com/npm/hosted-git-info.git"},"scripts":{"postrelease":"npm publish --tag=ancient-legacy-fixes && git push --follow-tags","posttest":"standard","prerelease":"npm t","release":"standard-version -s","test":"tap -J --coverage=90 --no-esm test/*.js","test:coverage":"tap --coverage-report=html -J --coverage=90 --no-esm test/*.js"},"version":"2.8.9"}');
-
-/***/ }),
-
-/***/ 17666:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["http-cache-semantics@4.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"http-cache-semantics@4.1.0","_id":"http-cache-semantics@4.1.0","_inBundle":false,"_integrity":"sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==","_location":"/http-cache-semantics","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"http-cache-semantics@4.1.0","name":"http-cache-semantics","escapedName":"http-cache-semantics","rawSpec":"4.1.0","saveSpec":null,"fetchSpec":"4.1.0"},"_requiredBy":["/cacheable-request"],"_resolved":"https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz","_spec":"4.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Kornel Lesiński","email":"kornel@geekhood.net","url":"https://kornel.ski/"},"bugs":{"url":"https://github.com/kornelski/http-cache-semantics/issues"},"description":"Parses Cache-Control and other headers. Helps building correct HTTP caches and proxies","devDependencies":{"eslint":"^5.13.0","eslint-plugin-prettier":"^3.0.1","husky":"^0.14.3","lint-staged":"^8.1.3","mocha":"^5.1.0","prettier":"^1.14.3","prettier-eslint-cli":"^4.7.1"},"files":["index.js"],"homepage":"https://github.com/kornelski/http-cache-semantics#readme","license":"BSD-2-Clause","main":"index.js","name":"http-cache-semantics","repository":{"type":"git","url":"git+https://github.com/kornelski/http-cache-semantics.git"},"scripts":{"test":"mocha"},"version":"4.1.0"}');
-
-/***/ }),
-
-/***/ 30375:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["http2-wrapper@1.0.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"http2-wrapper@1.0.3","_id":"http2-wrapper@1.0.3","_inBundle":false,"_integrity":"sha512-V+23sDMr12Wnz7iTcDeJr3O6AIxlnvT/bmaAAAP/Xda35C90p9599p0F1eHR/N1KILWSoWVAiOMFjBBXaXSMxg==","_location":"/http2-wrapper","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"http2-wrapper@1.0.3","name":"http2-wrapper","escapedName":"http2-wrapper","rawSpec":"1.0.3","saveSpec":null,"fetchSpec":"1.0.3"},"_requiredBy":["/got"],"_resolved":"https://registry.npmjs.org/http2-wrapper/-/http2-wrapper-1.0.3.tgz","_spec":"1.0.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Szymon Marczak"},"ava":{"timeout":"2m"},"bugs":{"url":"https://github.com/szmarczak/http2-wrapper/issues"},"dependencies":{"quick-lru":"^5.1.1","resolve-alpn":"^1.0.0"},"description":"HTTP2 client, just with the familiar `https` API","devDependencies":{"@sindresorhus/is":"^3.0.0","ava":"^3.10.1","benchmark":"^2.1.4","get-stream":"^5.1.0","got":"^11.5.0","http2-proxy":"^5.0.51","lolex":"^6.0.0","many-keys-map":"^1.0.2","nyc":"^15.1.0","p-event":"^4.2.0","tempy":"^0.5.0","to-readable-stream":"^2.1.0","tsd":"^0.13.1","xo":"^0.32.1"},"engines":{"node":">=10.19.0"},"files":["source"],"homepage":"https://github.com/szmarczak/http2-wrapper#readme","keywords":["http2","https","http","request"],"license":"MIT","main":"source","name":"http2-wrapper","repository":{"type":"git","url":"git+https://github.com/szmarczak/http2-wrapper.git"},"scripts":{"test":"xo && nyc --reporter=lcovonly --reporter=text --reporter=html ava"},"version":"1.0.3"}');
-
-/***/ }),
-
-/***/ 73548:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ignore@4.0.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ignore@4.0.6","_id":"ignore@4.0.6","_inBundle":false,"_integrity":"sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==","_location":"/ignore","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ignore@4.0.6","name":"ignore","escapedName":"ignore","rawSpec":"4.0.6","saveSpec":null,"fetchSpec":"4.0.6"},"_requiredBy":["/@eslint/eslintrc","/cpy/globby","/eslint"],"_resolved":"https://registry.npmjs.org/ignore/-/ignore-4.0.6.tgz","_spec":"4.0.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"kael"},"bugs":{"url":"https://github.com/kaelzhang/node-ignore/issues"},"description":"Ignore is a manager and filter for .gitignore rules.","devDependencies":{"babel-cli":"^6.26.0","babel-preset-env":"^1.7.0","codecov":"^3.0.4","eslint":"^5.3.0","eslint-config-ostai":"^1.3.2","eslint-plugin-import":"^2.13.0","mkdirp":"^0.5.1","pre-suf":"^1.1.0","rimraf":"^2.6.2","spawn-sync":"^2.0.0","tap":"^12.0.1","tmp":"0.0.33","typescript":"^3.0.1"},"engines":{"node":">= 4"},"files":["legacy.js","index.js","index.d.ts","LICENSE-MIT"],"homepage":"https://github.com/kaelzhang/node-ignore#readme","keywords":["ignore",".gitignore","gitignore","npmignore","rules","manager","filter","regexp","regex","fnmatch","glob","asterisks","regular-expression"],"license":"MIT","name":"ignore","repository":{"type":"git","url":"git+ssh://git@github.com/kaelzhang/node-ignore.git"},"scripts":{"build":"babel -o legacy.js index.js","posttest":"tap --coverage-report=html && codecov","prepublish":"npm run build","test":"npm run test-no-cov","test-no-cov":"npm run test:lint && npm run test:tsc && tap test/*.js --coverage","test:git":"tap test/git-check-ignore.js","test:ignore":"tap test/ignore.js --coverage","test:lint":"eslint .","test:tsc":"tsc ./test/ts/simple.ts"},"version":"4.0.6"}');
-
-/***/ }),
-
-/***/ 50886:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["import-fresh@3.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"import-fresh@3.3.0","_id":"import-fresh@3.3.0","_inBundle":false,"_integrity":"sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==","_location":"/import-fresh","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"import-fresh@3.3.0","name":"import-fresh","escapedName":"import-fresh","rawSpec":"3.3.0","saveSpec":null,"fetchSpec":"3.3.0"},"_requiredBy":["/@eslint/eslintrc","/eslint"],"_resolved":"https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz","_spec":"3.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/import-fresh/issues"},"dependencies":{"parent-module":"^1.0.0","resolve-from":"^4.0.0"},"description":"Import a module while bypassing the cache","devDependencies":{"ava":"^1.0.1","heapdump":"^0.3.12","tsd":"^0.7.3","xo":"^0.23.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/import-fresh#readme","keywords":["require","cache","uncache","uncached","module","fresh","bypass"],"license":"MIT","name":"import-fresh","repository":{"type":"git","url":"git+https://github.com/sindresorhus/import-fresh.git"},"scripts":{"heapdump":"node heapdump.js","test":"xo && ava && tsd"},"version":"3.3.0"}');
-
-/***/ }),
-
-/***/ 48528:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["imurmurhash@0.1.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"imurmurhash@0.1.4","_id":"imurmurhash@0.1.4","_inBundle":false,"_integrity":"sha1-khi5srkoojixPcT7a21XbyMUU+o=","_location":"/imurmurhash","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"imurmurhash@0.1.4","name":"imurmurhash","escapedName":"imurmurhash","rawSpec":"0.1.4","saveSpec":null,"fetchSpec":"0.1.4"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz","_spec":"0.1.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jens Taylor","email":"jensyt@gmail.com","url":"https://github.com/homebrewing"},"bugs":{"url":"https://github.com/jensyt/imurmurhash-js/issues"},"dependencies":{},"description":"An incremental implementation of MurmurHash3","devDependencies":{},"engines":{"node":">=0.8.19"},"files":["imurmurhash.js","imurmurhash.min.js","package.json","README.md"],"homepage":"https://github.com/jensyt/imurmurhash-js","keywords":["murmur","murmurhash","murmurhash3","hash","incremental"],"license":"MIT","main":"imurmurhash.js","name":"imurmurhash","repository":{"type":"git","url":"git+https://github.com/jensyt/imurmurhash-js.git"},"version":"0.1.4"}');
-
-/***/ }),
-
-/***/ 41925:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["indent-string@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"indent-string@4.0.0","_id":"indent-string@4.0.0","_inBundle":false,"_integrity":"sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==","_location":"/indent-string","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"indent-string@4.0.0","name":"indent-string","escapedName":"indent-string","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/aggregate-error","/redent"],"_resolved":"https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/indent-string/issues"},"description":"Indent each line in a string","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/indent-string#readme","keywords":["indent","string","pad","align","line","text","each","every"],"license":"MIT","name":"indent-string","repository":{"type":"git","url":"git+https://github.com/sindresorhus/indent-string.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 8755:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["inflight@1.0.6","/Users/brian.kimball/Github/bump-and-release"]],"_from":"inflight@1.0.6","_id":"inflight@1.0.6","_inBundle":false,"_integrity":"sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=","_location":"/inflight","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"inflight@1.0.6","name":"inflight","escapedName":"inflight","rawSpec":"1.0.6","saveSpec":null,"fetchSpec":"1.0.6"},"_requiredBy":["/glob"],"_resolved":"https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz","_spec":"1.0.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bugs":{"url":"https://github.com/isaacs/inflight/issues"},"dependencies":{"once":"^1.3.0","wrappy":"1"},"description":"Add callbacks to requests in flight to avoid async duplication","devDependencies":{"tap":"^7.1.2"},"files":["inflight.js"],"homepage":"https://github.com/isaacs/inflight","license":"ISC","main":"inflight.js","name":"inflight","repository":{"type":"git","url":"git+https://github.com/npm/inflight.git"},"scripts":{"test":"tap test.js --100"},"version":"1.0.6"}');
-
-/***/ }),
-
-/***/ 79394:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["inherits@2.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_from":"inherits@2.0.4","_id":"inherits@2.0.4","_inBundle":false,"_integrity":"sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==","_location":"/inherits","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"inherits@2.0.4","name":"inherits","escapedName":"inherits","rawSpec":"2.0.4","saveSpec":null,"fetchSpec":"2.0.4"},"_requiredBy":["/glob"],"_resolved":"https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz","_spec":"2.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","browser":"./inherits_browser.js","bugs":{"url":"https://github.com/isaacs/inherits/issues"},"description":"Browser-friendly inheritance fully compatible with standard node.js inherits()","devDependencies":{"tap":"^14.2.4"},"files":["inherits.js","inherits_browser.js"],"homepage":"https://github.com/isaacs/inherits#readme","keywords":["inheritance","class","klass","oop","object-oriented","inherits","browser","browserify"],"license":"ISC","main":"./inherits.js","name":"inherits","repository":{"type":"git","url":"git://github.com/isaacs/inherits.git"},"scripts":{"test":"tap"},"version":"2.0.4"}');
-
-/***/ }),
-
-/***/ 56637:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@3.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@3.2.2","_id":"kind-of@3.2.2","_inBundle":false,"_integrity":"sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=","_location":"/is-accessor-descriptor/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@3.2.2","name":"kind-of","escapedName":"kind-of","rawSpec":"3.2.2","saveSpec":null,"fetchSpec":"3.2.2"},"_requiredBy":["/is-accessor-descriptor"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz","_spec":"3.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"}],"dependencies":{"is-buffer":"^1.1.5"},"description":"Get the native type of a value.","devDependencies":{"ansi-bold":"^0.1.1","benchmarked":"^1.0.0","browserify":"^14.3.0","glob":"^7.1.1","gulp-format-md":"^0.1.12","mocha":"^3.3.0","type-of":"^2.0.1","typeof":"^1.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"related":{"list":["is-glob","is-number","is-primitive"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"3.2.2"}');
-
-/***/ }),
-
-/***/ 48246:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-accessor-descriptor@0.1.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-accessor-descriptor@0.1.6","_id":"is-accessor-descriptor@0.1.6","_inBundle":false,"_integrity":"sha1-qeEss66Nh2cn7u84Q/igiXtcmNY=","_location":"/is-accessor-descriptor","_phantomChildren":{"is-buffer":"1.1.6"},"_requested":{"type":"version","registry":true,"raw":"is-accessor-descriptor@0.1.6","name":"is-accessor-descriptor","escapedName":"is-accessor-descriptor","rawSpec":"0.1.6","saveSpec":null,"fetchSpec":"0.1.6"},"_requiredBy":["/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-0.1.6.tgz","_spec":"0.1.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-accessor-descriptor/issues"},"dependencies":{"kind-of":"^3.0.2"},"description":"Returns true if a value has the characteristics of a valid JavaScript accessor descriptor.","devDependencies":{"mocha":"*","should":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-accessor-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-accessor-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-accessor-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"plugins":["gulp-format-md"],"layout":"default"},"version":"0.1.6"}');
-
-/***/ }),
-
-/***/ 4266:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-arrayish@0.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-arrayish@0.2.1","_id":"is-arrayish@0.2.1","_inBundle":false,"_integrity":"sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=","_location":"/is-arrayish","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-arrayish@0.2.1","name":"is-arrayish","escapedName":"is-arrayish","rawSpec":"0.2.1","saveSpec":null,"fetchSpec":"0.2.1"},"_requiredBy":["/error-ex"],"_resolved":"https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz","_spec":"0.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Qix","url":"http://github.com/qix-"},"bugs":{"url":"https://github.com/qix-/node-is-arrayish/issues"},"description":"Determines if an object can be used as an array","devDependencies":{"coffee-script":"^1.9.3","coveralls":"^2.11.2","istanbul":"^0.3.17","mocha":"^2.2.5","should":"^7.0.1","xo":"^0.6.1"},"homepage":"https://github.com/qix-/node-is-arrayish#readme","keywords":["is","array","duck","type","arrayish","similar","proto","prototype","type"],"license":"MIT","name":"is-arrayish","repository":{"type":"git","url":"git+https://github.com/qix-/node-is-arrayish.git"},"scripts":{"pretest":"xo","test":"mocha --compilers coffee:coffee-script/register"},"version":"0.2.1"}');
-
-/***/ }),
-
-/***/ 97281:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-buffer@1.1.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-buffer@1.1.6","_id":"is-buffer@1.1.6","_inBundle":false,"_integrity":"sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==","_location":"/is-buffer","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-buffer@1.1.6","name":"is-buffer","escapedName":"is-buffer","rawSpec":"1.1.6","saveSpec":null,"fetchSpec":"1.1.6"},"_requiredBy":["/cpy/is-number/kind-of","/has-values/is-number/kind-of","/has-values/kind-of","/is-accessor-descriptor/kind-of","/is-data-descriptor/kind-of","/object-copy/kind-of","/snapdragon-util/kind-of","/to-object-path/kind-of"],"_resolved":"https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz","_spec":"1.1.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Feross Aboukhadijeh","email":"feross@feross.org","url":"http://feross.org/"},"bugs":{"url":"https://github.com/feross/is-buffer/issues"},"dependencies":{},"description":"Determine if an object is a Buffer","devDependencies":{"standard":"*","tape":"^4.0.0","zuul":"^3.0.0"},"homepage":"https://github.com/feross/is-buffer#readme","keywords":["buffer","buffers","type","core buffer","browser buffer","browserify","typed array","uint32array","int16array","int32array","float32array","float64array","browser","arraybuffer","dataview"],"license":"MIT","main":"index.js","name":"is-buffer","repository":{"type":"git","url":"git://github.com/feross/is-buffer.git"},"scripts":{"test":"standard && npm run test-node && npm run test-browser","test-browser":"zuul -- test/*.js","test-browser-local":"zuul --local -- test/*.js","test-node":"tape test/*.js"},"testling":{"files":"test/*.js"},"version":"1.1.6"}');
-
-/***/ }),
-
-/***/ 35419:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-core-module@2.8.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-core-module@2.8.0","_id":"is-core-module@2.8.0","_inBundle":false,"_integrity":"sha512-vd15qHsaqrRL7dtH6QNuy0ndJmRDrS9HAM1CAiSifNUFv4x1a0CCVsj18hJ1mShxIG6T2i1sO78MkP56r0nYRw==","_location":"/is-core-module","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-core-module@2.8.0","name":"is-core-module","escapedName":"is-core-module","rawSpec":"2.8.0","saveSpec":null,"fetchSpec":"2.8.0"},"_requiredBy":["/resolve"],"_resolved":"https://registry.npmjs.org/is-core-module/-/is-core-module-2.8.0.tgz","_spec":"2.8.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jordan Harband","email":"ljharb@gmail.com"},"auto-changelog":{"output":"CHANGELOG.md","template":"keepachangelog","unreleased":false,"commitLimit":false,"backfillLimit":false,"hideCredit":true},"bugs":{"url":"https://github.com/inspect-js/is-core-module/issues"},"dependencies":{"has":"^1.0.3"},"description":"Is this specifier a node.js core module?","devDependencies":{"@ljharb/eslint-config":"^18.0.0","aud":"^1.1.5","auto-changelog":"^2.3.0","eslint":"^7.32.0","nyc":"^10.3.2","safe-publish-latest":"^1.1.4","semver":"^6.3.0","tape":"^5.3.1"},"exports":{".":[{"default":"./index.js"},"./index.js"],"./package.json":"./package.json"},"funding":{"url":"https://github.com/sponsors/ljharb"},"homepage":"https://github.com/inspect-js/is-core-module","keywords":["core","modules","module","npm","node","dependencies"],"license":"MIT","main":"index.js","name":"is-core-module","repository":{"type":"git","url":"git+https://github.com/inspect-js/is-core-module.git"},"scripts":{"lint":"eslint .","posttest":"aud --production","postversion":"auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \\"v$(node -e \\"console.log(require(\'./package.json\').version)\\")\\"","prepublish":"not-in-publish || npm run prepublishOnly","prepublishOnly":"safe-publish-latest","pretest":"npm run lint","test":"nyc npm run tests-only","tests-only":"tape \'test/**/*.js\'","version":"auto-changelog && git add CHANGELOG.md"},"sideEffects":false,"version":"2.8.0"}');
-
-/***/ }),
-
-/***/ 81043:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@3.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@3.2.2","_id":"kind-of@3.2.2","_inBundle":false,"_integrity":"sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=","_location":"/is-data-descriptor/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@3.2.2","name":"kind-of","escapedName":"kind-of","rawSpec":"3.2.2","saveSpec":null,"fetchSpec":"3.2.2"},"_requiredBy":["/is-data-descriptor"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz","_spec":"3.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"}],"dependencies":{"is-buffer":"^1.1.5"},"description":"Get the native type of a value.","devDependencies":{"ansi-bold":"^0.1.1","benchmarked":"^1.0.0","browserify":"^14.3.0","glob":"^7.1.1","gulp-format-md":"^0.1.12","mocha":"^3.3.0","type-of":"^2.0.1","typeof":"^1.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"related":{"list":["is-glob","is-number","is-primitive"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"3.2.2"}');
-
-/***/ }),
-
-/***/ 52757:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-data-descriptor@0.1.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-data-descriptor@0.1.4","_id":"is-data-descriptor@0.1.4","_inBundle":false,"_integrity":"sha1-C17mSDiOLIYCgueT8YVv7D8wG1Y=","_location":"/is-data-descriptor","_phantomChildren":{"is-buffer":"1.1.6"},"_requested":{"type":"version","registry":true,"raw":"is-data-descriptor@0.1.4","name":"is-data-descriptor","escapedName":"is-data-descriptor","rawSpec":"0.1.4","saveSpec":null,"fetchSpec":"0.1.4"},"_requiredBy":["/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-0.1.4.tgz","_spec":"0.1.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-data-descriptor/issues"},"dependencies":{"kind-of":"^3.0.2"},"description":"Returns true if a value has the characteristics of a valid JavaScript data descriptor.","devDependencies":{"mocha":"*","should":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-data-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-data-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-data-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"plugins":["gulp-format-md"]},"version":"0.1.4"}');
-
-/***/ }),
-
-/***/ 53222:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@5.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@5.1.0","_id":"kind-of@5.1.0","_inBundle":false,"_integrity":"sha512-NGEErnH6F2vUuXDh+OlbcKW7/wOcfdRHaZ7VWtqCztfHri/++YKmP51OdWeGPuqCOba6kk2OTe5d02VmTB80Pw==","_location":"/is-descriptor/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@5.1.0","name":"kind-of","escapedName":"kind-of","rawSpec":"5.1.0","saveSpec":null,"fetchSpec":"5.1.0"},"_requiredBy":["/is-descriptor"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-5.1.0.tgz","_spec":"5.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"James","url":"https://twitter.com/aretecode"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"},{"name":"tunnckoCore","url":"https://i.am.charlike.online"}],"description":"Get the native type of a value.","devDependencies":{"ansi-bold":"^0.1.1","benchmarked":"^1.1.1","browserify":"^14.4.0","gulp-format-md":"^0.1.12","matched":"^0.4.4","mocha":"^3.4.2","type-of":"^2.0.1","typeof":"^1.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"related":{"list":["is-glob","is-number","is-primitive"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["type-of","typeof","verb"]},"version":"5.1.0"}');
-
-/***/ }),
-
-/***/ 95896:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-descriptor@0.1.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-descriptor@0.1.6","_id":"is-descriptor@0.1.6","_inBundle":false,"_integrity":"sha512-avDYr0SB3DwO9zsMov0gKCESFYqCnE4hq/4z3TdUlukEy5t9C0YRq7HLrsN52NAcqXKaepeCD0n+B0arnVG3Hg==","_location":"/is-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-descriptor@0.1.6","name":"is-descriptor","escapedName":"is-descriptor","rawSpec":"0.1.6","saveSpec":null,"fetchSpec":"0.1.6"},"_requiredBy":["/class-utils/define-property","/expand-brackets/define-property","/object-copy/define-property","/snapdragon/define-property","/static-extend/define-property"],"_resolved":"https://registry.npmjs.org/is-descriptor/-/is-descriptor-0.1.6.tgz","_spec":"0.1.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-descriptor/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"is-accessor-descriptor":"^0.1.6","is-data-descriptor":"^0.1.4","kind-of":"^5.0.0"},"description":"Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.4.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"plugins":["gulp-format-md"],"toc":false,"layout":"default","tasks":["readme"],"lint":{"reflinks":true}},"version":"0.1.6"}');
-
-/***/ }),
-
-/***/ 8331:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-extendable@0.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-extendable@0.1.1","_id":"is-extendable@0.1.1","_inBundle":false,"_integrity":"sha1-YrEQ4omkcUGOPsNqYX1HLjAd/Ik=","_location":"/is-extendable","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-extendable@0.1.1","name":"is-extendable","escapedName":"is-extendable","rawSpec":"0.1.1","saveSpec":null,"fetchSpec":"0.1.1"},"_requiredBy":["/cpy/braces/extend-shallow","/cpy/fill-range/extend-shallow","/expand-brackets/extend-shallow","/extglob/extend-shallow","/set-value","/set-value/extend-shallow","/snapdragon/extend-shallow","/union-value"],"_resolved":"https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz","_spec":"0.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-extendable/issues"},"description":"Returns true if a value is any of the object types: array, regexp, plain object, function or date. This is useful for determining if a value can be extended, e.g. \\"can the value have keys?\\"","devDependencies":{"mocha":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-extendable","keywords":["array","assign","check","date","extend","extensible","function","is","object","regex","test"],"license":"MIT","main":"index.js","name":"is-extendable","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-extendable.git"},"scripts":{"test":"mocha"},"verbiage":{"related":{"list":["isobject","is-plain-object","kind-of","is-extendable","is-equal-shallow","extend-shallow","assign-deep"]}},"version":"0.1.1"}');
-
-/***/ }),
-
-/***/ 48434:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-extglob@2.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"is-extglob@2.1.1","_id":"is-extglob@2.1.1","_inBundle":false,"_integrity":"sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=","_location":"/is-extglob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-extglob@2.1.1","name":"is-extglob","escapedName":"is-extglob","rawSpec":"2.1.1","saveSpec":null,"fetchSpec":"2.1.1"},"_requiredBy":["/cpy/glob-parent/is-glob","/has-glob/is-glob","/is-glob"],"_resolved":"https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz","_spec":"2.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-extglob/issues"},"description":"Returns true if a string has an extglob.","devDependencies":{"gulp-format-md":"^0.1.10","mocha":"^3.0.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-extglob","keywords":["bash","braces","check","exec","expression","extglob","glob","globbing","globstar","is","match","matches","pattern","regex","regular","string","test"],"license":"MIT","main":"index.js","name":"is-extglob","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-extglob.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["has-glob","is-glob","micromatch"]},"reflinks":["verb","verb-generate-readme"],"lint":{"reflinks":true}},"version":"2.1.1"}');
-
-/***/ }),
-
-/***/ 69458:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-fullwidth-code-point@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"is-fullwidth-code-point@3.0.0","_id":"is-fullwidth-code-point@3.0.0","_inBundle":false,"_integrity":"sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==","_location":"/is-fullwidth-code-point","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-fullwidth-code-point@3.0.0","name":"is-fullwidth-code-point","escapedName":"is-fullwidth-code-point","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/slice-ansi","/string-width","/table/string-width"],"_resolved":"https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/is-fullwidth-code-point/issues"},"description":"Check if the character represented by a given Unicode code point is fullwidth","devDependencies":{"ava":"^1.3.1","tsd-check":"^0.5.0","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/is-fullwidth-code-point#readme","keywords":["fullwidth","full-width","full","width","unicode","character","string","codepoint","code","point","is","detect","check"],"license":"MIT","name":"is-fullwidth-code-point","repository":{"type":"git","url":"git+https://github.com/sindresorhus/is-fullwidth-code-point.git"},"scripts":{"test":"xo && ava && tsd-check"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 65646:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-glob@4.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"is-glob@4.0.1","_id":"is-glob@4.0.1","_inBundle":false,"_integrity":"sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==","_location":"/is-glob","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-glob@4.0.1","name":"is-glob","escapedName":"is-glob","rawSpec":"4.0.1","saveSpec":null,"fetchSpec":"4.0.1"},"_requiredBy":["/cpy/fast-glob","/eslint","/glob-parent"],"_resolved":"https://registry.npmjs.org/is-glob/-/is-glob-4.0.1.tgz","_spec":"4.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/is-glob/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Daniel Perez","url":"https://tuvistavie.com"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"is-extglob":"^2.1.1"},"description":"Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience.","devDependencies":{"gulp-format-md":"^0.1.10","mocha":"^3.0.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/micromatch/is-glob","keywords":["bash","braces","check","exec","expression","extglob","glob","globbing","globstar","is","match","matches","pattern","regex","regular","string","test"],"license":"MIT","main":"index.js","name":"is-glob","repository":{"type":"git","url":"git+https://github.com/micromatch/is-glob.git"},"scripts":{"test":"mocha"},"verb":{"layout":"default","plugins":["gulp-format-md"],"related":{"list":["assemble","base","update","verb"]},"reflinks":["assemble","bach","base","composer","gulp","has-glob","is-valid-glob","micromatch","npm","scaffold","verb","vinyl"]},"version":"4.0.1"}');
-
-/***/ }),
-
-/***/ 34278:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-number@7.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"is-number@7.0.0","_id":"is-number@7.0.0","_inBundle":false,"_integrity":"sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==","_location":"/is-number","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-number@7.0.0","name":"is-number","escapedName":"is-number","rawSpec":"7.0.0","saveSpec":null,"fetchSpec":"7.0.0"},"_requiredBy":["/to-regex-range"],"_resolved":"https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz","_spec":"7.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-number/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Olsten Larck","url":"https://i.am.charlike.online"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"description":"Returns true if a number or string value is a finite number. Useful for regex matches, parsing, user input, etc.","devDependencies":{"ansi":"^0.3.1","benchmark":"^2.1.4","gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.12.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-number","keywords":["cast","check","coerce","coercion","finite","integer","is","isnan","is-nan","is-num","is-number","isnumber","isfinite","istype","kind","math","nan","num","number","numeric","parseFloat","parseInt","test","type","typeof","value"],"license":"MIT","main":"index.js","name":"is-number","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-number.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"related":{"list":["is-plain-object","is-primitive","isobject","kind-of"]},"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"7.0.0"}');
-
-/***/ }),
-
-/***/ 7309:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-plain-obj@1.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-plain-obj@1.1.0","_id":"is-plain-obj@1.1.0","_inBundle":false,"_integrity":"sha1-caUMhCnfync8kqOQpKA7OfzVHT4=","_location":"/is-plain-obj","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-plain-obj@1.1.0","name":"is-plain-obj","escapedName":"is-plain-obj","rawSpec":"1.1.0","saveSpec":null,"fetchSpec":"1.1.0"},"_requiredBy":["/minimist-options"],"_resolved":"https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz","_spec":"1.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/is-plain-obj/issues"},"description":"Check if a value is a plain object","devDependencies":{"ava":"0.0.4"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/is-plain-obj#readme","keywords":["obj","object","is","check","test","type","plain","vanilla","pure","simple"],"license":"MIT","name":"is-plain-obj","repository":{"type":"git","url":"git+https://github.com/sindresorhus/is-plain-obj.git"},"scripts":{"test":"node test.js"},"version":"1.1.0"}');
-
-/***/ }),
-
-/***/ 69991:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-plain-object@2.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-plain-object@2.0.4","_id":"is-plain-object@2.0.4","_inBundle":false,"_integrity":"sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==","_location":"/is-plain-object","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-plain-object@2.0.4","name":"is-plain-object","escapedName":"is-plain-object","rawSpec":"2.0.4","saveSpec":null,"fetchSpec":"2.0.4"},"_requiredBy":["/extend-shallow/is-extendable","/mixin-deep/is-extendable","/set-value"],"_resolved":"https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz","_spec":"2.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-plain-object/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Osman Nuri Okumuş","url":"http://onokumus.com"},{"name":"Steven Vachon","url":"https://svachon.com"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"isobject":"^3.0.1"},"description":"Returns true if an object was created by the `Object` constructor.","devDependencies":{"browserify":"^14.4.0","chai":"^4.0.2","gulp-format-md":"^1.0.0","mocha":"^3.4.2","mocha-phantomjs":"^4.1.0","phantomjs":"^2.1.7","uglify-js":"^3.0.24"},"engines":{"node":">=0.10.0"},"files":["index.d.ts","index.js"],"homepage":"https://github.com/jonschlinkert/is-plain-object","keywords":["check","is","is-object","isobject","javascript","kind","kind-of","object","plain","type","typeof","value"],"license":"MIT","main":"index.js","name":"is-plain-object","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-plain-object.git"},"scripts":{"browserify":"browserify index.js --standalone isPlainObject | uglifyjs --compress --mangle -o browser/is-plain-object.js","test":"npm run test_node && npm run browserify && npm run test_browser","test_browser":"mocha-phantomjs test/browser.html","test_node":"mocha"},"types":"index.d.ts","verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-number","isobject","kind-of"]},"lint":{"reflinks":true}},"version":"2.0.4"}');
-
-/***/ }),
-
-/***/ 81150:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-windows@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-windows@1.0.2","_id":"is-windows@1.0.2","_inBundle":false,"_integrity":"sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA==","_location":"/is-windows","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-windows@1.0.2","name":"is-windows","escapedName":"is-windows","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/nanomatch"],"_resolved":"https://registry.npmjs.org/is-windows/-/is-windows-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-windows/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Simen Bekkhus","url":"https://github.com/SimenB"},{"name":"刘祺","url":"gucong.co.cc"}],"description":"Returns true if the platform is windows. UMD module, works with node.js, commonjs, browser, AMD, electron, etc.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-windows","keywords":["check","cywin","is","is-windows","nix","operating system","os","platform","process","unix","win","win32","windows"],"license":"MIT","main":"index.js","name":"is-windows","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-windows.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-absolute","is-glob","is-relative","isobject","window-size"]},"lint":{"reflinks":true},"reflinks":["verb"]},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 86962:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["isarray@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"isarray@1.0.0","_id":"isarray@1.0.0","_inBundle":false,"_integrity":"sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=","_location":"/isarray","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"isarray@1.0.0","name":"isarray","escapedName":"isarray","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/unset-value/has-value/isobject"],"_resolved":"https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Julian Gruber","email":"mail@juliangruber.com","url":"http://juliangruber.com"},"bugs":{"url":"https://github.com/juliangruber/isarray/issues"},"dependencies":{},"description":"Array#isArray for older browsers","devDependencies":{"tape":"~2.13.4"},"homepage":"https://github.com/juliangruber/isarray","keywords":["browser","isarray","array"],"license":"MIT","main":"index.js","name":"isarray","repository":{"type":"git","url":"git://github.com/juliangruber/isarray.git"},"scripts":{"test":"tape test.js"},"testling":{"files":"test.js","browsers":["ie/8..latest","firefox/17..latest","firefox/nightly","chrome/22..latest","chrome/canary","opera/12..latest","opera/next","safari/5.1..latest","ipad/6.0..latest","iphone/6.0..latest","android-browser/4.2..latest"]},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 17938:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["isexe@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"isexe@2.0.0","_id":"isexe@2.0.0","_inBundle":false,"_integrity":"sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=","_location":"/isexe","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"isexe@2.0.0","name":"isexe","escapedName":"isexe","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/child-process-promise/which","/which"],"_resolved":"https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bugs":{"url":"https://github.com/isaacs/isexe/issues"},"description":"Minimal module to check if a file is executable.","devDependencies":{"mkdirp":"^0.5.1","rimraf":"^2.5.0","tap":"^10.3.0"},"directories":{"test":"test"},"homepage":"https://github.com/isaacs/isexe#readme","keywords":[],"license":"ISC","main":"index.js","name":"isexe","repository":{"type":"git","url":"git+https://github.com/isaacs/isexe.git"},"scripts":{"postpublish":"git push origin --all; git push origin --tags","postversion":"npm publish","preversion":"npm test","test":"tap test/*.js --100"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 89921:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["isobject@3.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"isobject@3.0.1","_id":"isobject@3.0.1","_inBundle":false,"_integrity":"sha1-TkMekrEalzFjaqH5yNHMvP2reN8=","_location":"/isobject","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"isobject@3.0.1","name":"isobject","escapedName":"isobject","rawSpec":"3.0.1","saveSpec":null,"fetchSpec":"3.0.1"},"_requiredBy":["/base","/cache-base","/class-utils","/cpy/braces","/define-property","/has-value","/is-plain-object","/object-visit","/object.pick","/snapdragon-node","/unset-value"],"_resolved":"https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz","_spec":"3.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/isobject/issues"},"contributors":[{"url":"https://github.com/LeSuisse"},{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Magnús Dæhlen","url":"https://github.com/magnudae"},{"name":"Tom MacWright","url":"https://macwright.org"}],"dependencies":{},"description":"Returns true if the value is an object and not an array or null.","devDependencies":{"gulp-format-md":"^0.1.9","mocha":"^2.4.5"},"engines":{"node":">=0.10.0"},"files":["index.d.ts","index.js"],"homepage":"https://github.com/jonschlinkert/isobject","keywords":["check","is","is-object","isobject","kind","kind-of","kindof","native","object","type","typeof","value"],"license":"MIT","main":"index.js","name":"isobject","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/isobject.git"},"scripts":{"test":"mocha"},"types":"index.d.ts","verb":{"related":{"list":["extend-shallow","is-plain-object","kind-of","merge-deep"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"3.0.1"}');
-
-/***/ }),
-
-/***/ 96399:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["js-tokens@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"js-tokens@4.0.0","_id":"js-tokens@4.0.0","_inBundle":false,"_integrity":"sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==","_location":"/js-tokens","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"js-tokens@4.0.0","name":"js-tokens","escapedName":"js-tokens","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/@babel/highlight"],"_resolved":"https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Simon Lydell"},"bugs":{"url":"https://github.com/lydell/js-tokens/issues"},"description":"A regex that tokenizes JavaScript.","devDependencies":{"coffeescript":"2.1.1","esprima":"4.0.0","everything.js":"1.0.3","mocha":"5.0.0"},"files":["index.js"],"homepage":"https://github.com/lydell/js-tokens#readme","keywords":["JavaScript","js","token","tokenize","regex"],"license":"MIT","name":"js-tokens","repository":{"type":"git","url":"git+https://github.com/lydell/js-tokens.git"},"scripts":{"build":"node generate-index.js","dev":"npm run build && npm test","esprima-compare":"node esprima-compare ./index.js everything.js/es5.js","test":"mocha --ui tdd"},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 11080:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["js-yaml@3.14.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"js-yaml@3.14.1","_id":"js-yaml@3.14.1","_inBundle":false,"_integrity":"sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==","_location":"/js-yaml","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"js-yaml@3.14.1","name":"js-yaml","escapedName":"js-yaml","rawSpec":"3.14.1","saveSpec":null,"fetchSpec":"3.14.1"},"_requiredBy":["/@eslint/eslintrc","/eslint"],"_resolved":"https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz","_spec":"3.14.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Vladimir Zapparov","email":"dervus.grim@gmail.com"},"bin":{"js-yaml":"bin/js-yaml.js"},"bugs":{"url":"https://github.com/nodeca/js-yaml/issues"},"contributors":[{"name":"Aleksey V Zapparov","email":"ixti@member.fsf.org","url":"http://www.ixti.net/"},{"name":"Vitaly Puzrin","email":"vitaly@rcdesign.ru","url":"https://github.com/puzrin"},{"name":"Martin Grenfell","email":"martin.grenfell@gmail.com","url":"http://got-ravings.blogspot.com"}],"dependencies":{"argparse":"^1.0.7","esprima":"^4.0.0"},"description":"YAML 1.2 parser and serializer","devDependencies":{"ansi":"^0.3.1","benchmark":"^2.1.4","browserify":"^16.2.2","codemirror":"^5.13.4","eslint":"^7.0.0","fast-check":"^1.24.2","istanbul":"^0.4.5","mocha":"^7.1.2","uglify-js":"^3.0.1"},"files":["index.js","lib/","bin/","dist/"],"homepage":"https://github.com/nodeca/js-yaml","jsdelivr":"dist/js-yaml.min.js","keywords":["yaml","parser","serializer","pyyaml"],"license":"MIT","name":"js-yaml","repository":{"type":"git","url":"git+https://github.com/nodeca/js-yaml.git"},"scripts":{"test":"make test"},"unpkg":"dist/js-yaml.min.js","version":"3.14.1"}');
-
-/***/ }),
-
-/***/ 31158:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["json-buffer@3.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"json-buffer@3.0.1","_id":"json-buffer@3.0.1","_inBundle":false,"_integrity":"sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==","_location":"/json-buffer","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"json-buffer@3.0.1","name":"json-buffer","escapedName":"json-buffer","rawSpec":"3.0.1","saveSpec":null,"fetchSpec":"3.0.1"},"_requiredBy":["/keyv"],"_resolved":"https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz","_spec":"3.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Dominic Tarr","email":"dominic.tarr@gmail.com","url":"http://dominictarr.com"},"bugs":{"url":"https://github.com/dominictarr/json-buffer/issues"},"description":"JSON parse & stringify that supports binary via bops & base64","devDependencies":{"tape":"^4.6.3"},"homepage":"https://github.com/dominictarr/json-buffer","license":"MIT","name":"json-buffer","repository":{"type":"git","url":"git://github.com/dominictarr/json-buffer.git"},"scripts":{"test":"set -e; for t in test/*.js; do node $t; done"},"testling":{"files":"test/*.js","browsers":["ie/8..latest","firefox/17..latest","firefox/nightly","chrome/22..latest","chrome/canary","opera/12..latest","opera/next","safari/5.1..latest","ipad/6.0..latest","iphone/6.0..latest","android-browser/4.2..latest"]},"version":"3.0.1"}');
-
-/***/ }),
-
-/***/ 81784:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["json-parse-even-better-errors@2.3.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"json-parse-even-better-errors@2.3.1","_id":"json-parse-even-better-errors@2.3.1","_inBundle":false,"_integrity":"sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==","_location":"/json-parse-even-better-errors","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"json-parse-even-better-errors@2.3.1","name":"json-parse-even-better-errors","escapedName":"json-parse-even-better-errors","rawSpec":"2.3.1","saveSpec":null,"fetchSpec":"2.3.1"},"_requiredBy":["/parse-json"],"_resolved":"https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz","_spec":"2.3.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Kat Marchán","email":"kzm@zkat.tech"},"bugs":{"url":"https://github.com/npm/json-parse-even-better-errors/issues"},"description":"JSON.parse with context information on error","devDependencies":{"tap":"^14.6.5"},"files":["*.js"],"homepage":"https://github.com/npm/json-parse-even-better-errors#readme","keywords":["JSON","parser"],"license":"MIT","main":"index.js","name":"json-parse-even-better-errors","repository":{"type":"git","url":"git+https://github.com/npm/json-parse-even-better-errors.git"},"scripts":{"postversion":"npm publish","prepublishOnly":"git push --follow-tags","preversion":"npm t","snap":"tap","test":"tap"},"tap":{"check-coverage":true},"version":"2.3.1"}');
-
-/***/ }),
-
-/***/ 12371:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["json-schema-traverse@0.4.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"json-schema-traverse@0.4.1","_id":"json-schema-traverse@0.4.1","_inBundle":false,"_integrity":"sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==","_location":"/json-schema-traverse","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"json-schema-traverse@0.4.1","name":"json-schema-traverse","escapedName":"json-schema-traverse","rawSpec":"0.4.1","saveSpec":null,"fetchSpec":"0.4.1"},"_requiredBy":["/ajv"],"_resolved":"https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz","_spec":"0.4.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Evgeny Poberezkin"},"bugs":{"url":"https://github.com/epoberezkin/json-schema-traverse/issues"},"description":"Traverse JSON Schema passing each schema object to callback","devDependencies":{"coveralls":"^2.13.1","eslint":"^3.19.0","mocha":"^3.4.2","nyc":"^11.0.2","pre-commit":"^1.2.2"},"homepage":"https://github.com/epoberezkin/json-schema-traverse#readme","keywords":["JSON-Schema","traverse","iterate"],"license":"MIT","main":"index.js","name":"json-schema-traverse","nyc":{"exclude":["**/spec/**","node_modules"],"reporter":["lcov","text-summary"]},"repository":{"type":"git","url":"git+https://github.com/epoberezkin/json-schema-traverse.git"},"scripts":{"eslint":"eslint index.js spec","test":"npm run eslint && nyc npm run test-spec","test-spec":"mocha spec -R spec"},"version":"0.4.1"}');
-
-/***/ }),
-
-/***/ 72709:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["json-stable-stringify-without-jsonify@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"json-stable-stringify-without-jsonify@1.0.1","_id":"json-stable-stringify-without-jsonify@1.0.1","_inBundle":false,"_integrity":"sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=","_location":"/json-stable-stringify-without-jsonify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"json-stable-stringify-without-jsonify@1.0.1","name":"json-stable-stringify-without-jsonify","escapedName":"json-stable-stringify-without-jsonify","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"bugs":{"url":"https://github.com/samn/json-stable-stringify/issues"},"dependencies":{},"description":"deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results, with no public domain dependencies","devDependencies":{"tape":"~1.0.4"},"homepage":"https://github.com/samn/json-stable-stringify","keywords":["json","stringify","deterministic","hash","sort","stable"],"license":"MIT","main":"index.js","name":"json-stable-stringify-without-jsonify","repository":{"type":"git","url":"git://github.com/samn/json-stable-stringify.git"},"scripts":{"test":"tape test/*.js"},"testling":{"files":"test/*.js","browsers":["ie/8..latest","ff/5","ff/latest","chrome/15","chrome/latest","safari/latest","opera/latest"]},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 19419:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["jsonfile@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"jsonfile@4.0.0","_id":"jsonfile@4.0.0","_inBundle":false,"_integrity":"sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=","_location":"/jsonfile","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"jsonfile@4.0.0","name":"jsonfile","escapedName":"jsonfile","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/fs-extra"],"_resolved":"https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"JP Richardson","email":"jprichardson@gmail.com"},"bugs":{"url":"https://github.com/jprichardson/node-jsonfile/issues"},"dependencies":{"graceful-fs":"^4.1.6"},"description":"Easily read/write JSON files.","devDependencies":{"mocha":"2.x","rimraf":"^2.4.0","standard":"^10.0.3"},"files":["index.js"],"homepage":"https://github.com/jprichardson/node-jsonfile#readme","keywords":["read","write","file","json","fs","fs-extra"],"license":"MIT","main":"index.js","name":"jsonfile","optionalDependencies":{"graceful-fs":"^4.1.6"},"repository":{"type":"git","url":"git+ssh://git@github.com/jprichardson/node-jsonfile.git"},"scripts":{"lint":"standard","test":"npm run lint && npm run unit","unit":"mocha"},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 64952:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["junk@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"junk@3.1.0","_id":"junk@3.1.0","_inBundle":false,"_integrity":"sha512-pBxcB3LFc8QVgdggvZWyeys+hnrNWg4OcZIU/1X59k5jQdLBlCsYGRQaz234SqoRLTCgMH00fY0xRJH+F9METQ==","_location":"/junk","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"junk@3.1.0","name":"junk","escapedName":"junk","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/cpy"],"_resolved":"https://registry.npmjs.org/junk/-/junk-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/junk/issues"},"description":"Filter out system junk files like .DS_Store and Thumbs.db","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.1","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/junk#readme","keywords":["junk","trash","garbage","files","os","ignore","exclude","filter","temp","tmp","system","clean","cleanup"],"license":"MIT","name":"junk","repository":{"type":"git","url":"git+https://github.com/sindresorhus/junk.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 42440:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["keyv@4.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_from":"keyv@4.0.4","_id":"keyv@4.0.4","_inBundle":false,"_integrity":"sha512-vqNHbAc8BBsxk+7QBYLW0Y219rWcClspR6WSeoHYKG5mnsSoOH+BL1pWq02DDCVdvvuUny5rkBlzMRzoqc+GIg==","_location":"/keyv","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"keyv@4.0.4","name":"keyv","escapedName":"keyv","rawSpec":"4.0.4","saveSpec":null,"fetchSpec":"4.0.4"},"_requiredBy":["/cacheable-request"],"_resolved":"https://registry.npmjs.org/keyv/-/keyv-4.0.4.tgz","_spec":"4.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jared Wray","email":"me@jaredwray.com","url":"http://jaredwray.com"},"bugs":{"url":"https://github.com/jaredwray/keyv/issues"},"dependencies":{"json-buffer":"3.0.1"},"description":"Simple key-value storage with support for multiple backends","devDependencies":{"@keyv/mongo":"*","@keyv/mysql":"*","@keyv/postgres":"*","@keyv/redis":"*","@keyv/sqlite":"*","@keyv/test-suite":"*","ava":"^3.15.0","codecov":"^3.8.3","eslint-config-xo-lukechilds":"^1.0.0","nyc":"^15.1.0","this":"^1.0.2","timekeeper":"^2.0.0","xo":"^0.46.3"},"homepage":"https://github.com/jaredwray/keyv","keywords":["key","value","store","cache","ttl"],"license":"MIT","main":"src/index.js","name":"keyv","repository":{"type":"git","url":"git+https://github.com/jaredwray/keyv.git"},"scripts":{"coverage":"nyc report --reporter=text-lcov > coverage.lcov","test":"xo && nyc ava test/keyv.js","test:full":"xo && nyc ava --serial","test:services:start":"docker-compose -f ./test/storage-adapters/services-compose.yaml up -d","test:services:stop":"docker-compose -f ./test/storage-adapters/services-compose.yaml down -v"},"version":"4.0.4","xo":{"extends":"xo-lukechilds","rules":{"unicorn/prefer-module":0}}}');
-
-/***/ }),
-
-/***/ 20589:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@6.0.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@6.0.3","_id":"kind-of@6.0.3","_inBundle":false,"_integrity":"sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==","_location":"/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@6.0.3","name":"kind-of","escapedName":"kind-of","rawSpec":"6.0.3","saveSpec":null,"fetchSpec":"6.0.3"},"_requiredBy":["/base/is-accessor-descriptor","/base/is-data-descriptor","/base/is-descriptor","/cpy/micromatch","/define-property/is-accessor-descriptor","/define-property/is-data-descriptor","/define-property/is-descriptor","/extglob/is-accessor-descriptor","/extglob/is-data-descriptor","/extglob/is-descriptor","/minimist-options","/nanomatch","/snapdragon-node/is-accessor-descriptor","/snapdragon-node/is-data-descriptor","/snapdragon-node/is-descriptor"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz","_spec":"6.0.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"James","url":"https://twitter.com/aretecode"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"},{"name":"tunnckoCore","url":"https://i.am.charlike.online"}],"description":"Get the native type of a value.","devDependencies":{"benchmarked":"^2.0.0","browserify":"^14.4.0","gulp-format-md":"^1.0.0","mocha":"^4.0.1","write":"^1.0.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"related":{"list":["is-glob","is-number","is-primitive"]},"reflinks":["type-of","typeof","verb"]},"version":"6.0.3"}');
-
-/***/ }),
-
-/***/ 57265:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["levn@0.4.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"levn@0.4.1","_id":"levn@0.4.1","_inBundle":false,"_integrity":"sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==","_location":"/levn","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"levn@0.4.1","name":"levn","escapedName":"levn","rawSpec":"0.4.1","saveSpec":null,"fetchSpec":"0.4.1"},"_requiredBy":["/eslint","/optionator"],"_resolved":"https://registry.npmjs.org/levn/-/levn-0.4.1.tgz","_spec":"0.4.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"George Zahariev","email":"z@georgezahariev.com"},"bugs":{"url":"https://github.com/gkz/levn/issues"},"dependencies":{"prelude-ls":"^1.2.1","type-check":"~0.4.0"},"description":"Light ECMAScript (JavaScript) Value Notation - human written, concise, typed, flexible","devDependencies":{"livescript":"^1.6.0","mocha":"^7.1.1"},"engines":{"node":">= 0.8.0"},"files":["lib","README.md","LICENSE"],"homepage":"https://github.com/gkz/levn","keywords":["levn","light","ecmascript","value","notation","json","typed","human","concise","typed","flexible"],"license":"MIT","main":"./lib/","name":"levn","repository":{"type":"git","url":"git://github.com/gkz/levn.git"},"scripts":{"test":"make test"},"version":"0.4.1"}');
-
-/***/ }),
-
-/***/ 95492:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["lines-and-columns@1.1.6","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"lines-and-columns@1.1.6","_id":"lines-and-columns@1.1.6","_inBundle":false,"_integrity":"sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=","_location":"/lines-and-columns","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"lines-and-columns@1.1.6","name":"lines-and-columns","escapedName":"lines-and-columns","rawSpec":"1.1.6","saveSpec":null,"fetchSpec":"1.1.6"},"_requiredBy":["/parse-json"],"_resolved":"https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz","_spec":"1.1.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Brian Donovan","email":"me@brian-donovan.com"},"bugs":{"url":"https://github.com/eventualbuddha/lines-and-columns/issues"},"description":"Maps lines and columns to character offsets and back.","devDependencies":{"@types/mocha":"^2.2.34","@types/node":"^6.0.52","mocha":"^3.2.0","semantic-release":"^6.3.2","ts-node":"^1.7.2","tslint":"^4.1.1","typescript":"^2.1.4"},"files":["dist"],"homepage":"https://github.com/eventualbuddha/lines-and-columns#readme","keywords":["lines","columns","parser"],"license":"MIT","main":"dist/index.js","module":"dist/index.mjs","name":"lines-and-columns","repository":{"type":"git","url":"git+https://github.com/eventualbuddha/lines-and-columns.git"},"scripts":{"build":"./script/build","lint":"tslint --config tslint.json --project tsconfig.json --type-check","lint-fix":"tslint --config tslint.json --project tsconfig.json --type-check --fix","prebuild":"rm -rf dist","prepublish":"npm run lint && npm run build","pretest":"npm run build","semantic-release":"semantic-release pre && npm publish && semantic-release post","test":"mocha"},"types":"dist/index.d.ts","version":"1.1.6"}');
-
-/***/ }),
-
-/***/ 70555:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["locate-path@5.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"locate-path@5.0.0","_id":"locate-path@5.0.0","_inBundle":false,"_integrity":"sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==","_location":"/locate-path","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"locate-path@5.0.0","name":"locate-path","escapedName":"locate-path","rawSpec":"5.0.0","saveSpec":null,"fetchSpec":"5.0.0"},"_requiredBy":["/find-up"],"_resolved":"https://registry.npmjs.org/locate-path/-/locate-path-5.0.0.tgz","_spec":"5.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/locate-path/issues"},"dependencies":{"p-locate":"^4.1.0"},"description":"Get the first path that exists on disk of multiple paths","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/locate-path#readme","keywords":["locate","path","paths","file","files","exists","find","finder","search","searcher","array","iterable","iterator"],"license":"MIT","name":"locate-path","repository":{"type":"git","url":"git+https://github.com/sindresorhus/locate-path.git"},"scripts":{"test":"xo && ava && tsd"},"version":"5.0.0"}');
-
-/***/ }),
-
-/***/ 26421:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["lodash.merge@4.6.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"lodash.merge@4.6.2","_id":"lodash.merge@4.6.2","_inBundle":false,"_integrity":"sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==","_location":"/lodash.merge","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"lodash.merge@4.6.2","name":"lodash.merge","escapedName":"lodash.merge","rawSpec":"4.6.2","saveSpec":null,"fetchSpec":"4.6.2"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz","_spec":"4.6.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"John-David Dalton","email":"john.david.dalton@gmail.com"},"bugs":{"url":"https://github.com/lodash/lodash/issues"},"contributors":[{"name":"John-David Dalton","email":"john.david.dalton@gmail.com"},{"name":"Mathias Bynens","email":"mathias@qiwi.be"}],"description":"The Lodash method `_.merge` exported as a module.","homepage":"https://lodash.com/","icon":"https://lodash.com/icon.svg","keywords":["lodash-modularized","merge"],"license":"MIT","name":"lodash.merge","repository":{"type":"git","url":"git+https://github.com/lodash/lodash.git"},"scripts":{"test":"echo \\"See https://travis-ci.org/lodash/lodash-cli for testing details.\\""},"version":"4.6.2"}');
-
-/***/ }),
-
-/***/ 78889:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["lodash.truncate@4.4.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"lodash.truncate@4.4.2","_id":"lodash.truncate@4.4.2","_inBundle":false,"_integrity":"sha1-WjUNoLERO4N+z//VgSy+WNbq4ZM=","_location":"/lodash.truncate","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"lodash.truncate@4.4.2","name":"lodash.truncate","escapedName":"lodash.truncate","rawSpec":"4.4.2","saveSpec":null,"fetchSpec":"4.4.2"},"_requiredBy":["/table"],"_resolved":"https://registry.npmjs.org/lodash.truncate/-/lodash.truncate-4.4.2.tgz","_spec":"4.4.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"John-David Dalton","email":"john.david.dalton@gmail.com","url":"http://allyoucanleet.com/"},"bugs":{"url":"https://github.com/lodash/lodash/issues"},"contributors":[{"name":"John-David Dalton","email":"john.david.dalton@gmail.com","url":"http://allyoucanleet.com/"},{"name":"Blaine Bublitz","email":"blaine.bublitz@gmail.com","url":"https://github.com/phated"},{"name":"Mathias Bynens","email":"mathias@qiwi.be","url":"https://mathiasbynens.be/"}],"description":"The lodash method `_.truncate` exported as a module.","homepage":"https://lodash.com/","icon":"https://lodash.com/icon.svg","keywords":["lodash-modularized","truncate"],"license":"MIT","name":"lodash.truncate","repository":{"type":"git","url":"git+https://github.com/lodash/lodash.git"},"scripts":{"test":"echo \\"See https://travis-ci.org/lodash/lodash-cli for testing details.\\""},"version":"4.4.2"}');
-
-/***/ }),
-
-/***/ 23235:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["lodash@4.17.21","/Users/brian.kimball/Github/bump-and-release"]],"_from":"lodash@4.17.21","_id":"lodash@4.17.21","_inBundle":false,"_integrity":"sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==","_location":"/lodash","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"lodash@4.17.21","name":"lodash","escapedName":"lodash","rawSpec":"4.17.21","saveSpec":null,"fetchSpec":"4.17.21"},"_requiredBy":["/async"],"_resolved":"https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz","_spec":"4.17.21","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"John-David Dalton","email":"john.david.dalton@gmail.com"},"bugs":{"url":"https://github.com/lodash/lodash/issues"},"contributors":[{"name":"John-David Dalton","email":"john.david.dalton@gmail.com"},{"name":"Mathias Bynens","email":"mathias@qiwi.be"}],"description":"Lodash modular utilities.","homepage":"https://lodash.com/","icon":"https://lodash.com/icon.svg","keywords":["modules","stdlib","util"],"license":"MIT","main":"lodash.js","name":"lodash","repository":{"type":"git","url":"git+https://github.com/lodash/lodash.git"},"scripts":{"test":"echo \\"See https://travis-ci.org/lodash-archive/lodash-cli for testing details.\\""},"version":"4.17.21"}');
-
-/***/ }),
-
-/***/ 24666:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["lowercase-keys@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"lowercase-keys@2.0.0","_id":"lowercase-keys@2.0.0","_inBundle":false,"_integrity":"sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==","_location":"/lowercase-keys","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"lowercase-keys@2.0.0","name":"lowercase-keys","escapedName":"lowercase-keys","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/cacheable-request","/got","/responselike"],"_resolved":"https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/lowercase-keys/issues"},"description":"Lowercase the keys of an object","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/lowercase-keys#readme","keywords":["object","assign","extend","properties","lowercase","lower-case","case","keys","key"],"license":"MIT","name":"lowercase-keys","repository":{"type":"git","url":"git+https://github.com/sindresorhus/lowercase-keys.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 91410:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["lru-cache@4.1.5","/Users/brian.kimball/Github/bump-and-release"]],"_from":"lru-cache@4.1.5","_id":"lru-cache@4.1.5","_inBundle":false,"_integrity":"sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==","_location":"/lru-cache","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"lru-cache@4.1.5","name":"lru-cache","escapedName":"lru-cache","rawSpec":"4.1.5","saveSpec":null,"fetchSpec":"4.1.5"},"_requiredBy":["/child-process-promise/cross-spawn"],"_resolved":"https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz","_spec":"4.1.5","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me"},"bugs":{"url":"https://github.com/isaacs/node-lru-cache/issues"},"dependencies":{"pseudomap":"^1.0.2","yallist":"^2.1.2"},"description":"A cache object that deletes the least-recently-used items.","devDependencies":{"benchmark":"^2.1.4","standard":"^12.0.1","tap":"^12.1.0"},"files":["index.js"],"homepage":"https://github.com/isaacs/node-lru-cache#readme","keywords":["mru","lru","cache"],"license":"ISC","main":"index.js","name":"lru-cache","repository":{"type":"git","url":"git://github.com/isaacs/node-lru-cache.git"},"scripts":{"coveragerport":"tap --coverage-report=html","lintfix":"standard --fix test/*.js index.js","postpublish":"git push origin --all; git push origin --tags","posttest":"standard test/*.js index.js","postversion":"npm publish --tag=legacy","preversion":"npm test","snap":"TAP_SNAPSHOT=1 tap test/*.js -J","test":"tap test/*.js --100 -J"},"version":"4.1.5"}');
-
-/***/ }),
-
-/***/ 60801:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["semver@6.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"semver@6.3.0","_id":"semver@6.3.0","_inBundle":false,"_integrity":"sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==","_location":"/make-dir/semver","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"semver@6.3.0","name":"semver","escapedName":"semver","rawSpec":"6.3.0","saveSpec":null,"fetchSpec":"6.3.0"},"_requiredBy":["/make-dir"],"_resolved":"https://registry.npmjs.org/semver/-/semver-6.3.0.tgz","_spec":"6.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","bin":{"semver":"bin/semver.js"},"bugs":{"url":"https://github.com/npm/node-semver/issues"},"description":"The semantic version parser used by npm.","devDependencies":{"tap":"^14.3.1"},"files":["bin","range.bnf","semver.js"],"homepage":"https://github.com/npm/node-semver#readme","license":"ISC","main":"semver.js","name":"semver","repository":{"type":"git","url":"git+https://github.com/npm/node-semver.git"},"scripts":{"postpublish":"git push origin --follow-tags","postversion":"npm publish","preversion":"npm test","test":"tap"},"tap":{"check-coverage":true},"version":"6.3.0"}');
-
-/***/ }),
-
-/***/ 66736:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["make-dir@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"make-dir@3.1.0","_id":"make-dir@3.1.0","_inBundle":false,"_integrity":"sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==","_location":"/make-dir","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"make-dir@3.1.0","name":"make-dir","escapedName":"make-dir","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/cp-file","/find-cache-dir"],"_resolved":"https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/make-dir/issues"},"dependencies":{"semver":"^6.0.0"},"description":"Make a directory and its parents if needed - Think `mkdir -p`","devDependencies":{"@types/graceful-fs":"^4.1.3","@types/node":"^13.7.1","ava":"^1.4.0","codecov":"^3.2.0","graceful-fs":"^4.1.15","nyc":"^15.0.0","path-type":"^4.0.0","tempy":"^0.2.1","tsd":"^0.11.0","xo":"^0.25.4"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/make-dir#readme","keywords":["mkdir","mkdirp","make","directories","dir","dirs","folders","directory","folder","path","parent","parents","intermediate","recursively","recursive","create","fs","filesystem","file-system"],"license":"MIT","name":"make-dir","repository":{"type":"git","url":"git+https://github.com/sindresorhus/make-dir.git"},"scripts":{"test":"xo && nyc ava && tsd"},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 24510:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["map-cache@0.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"map-cache@0.2.2","_id":"map-cache@0.2.2","_inBundle":false,"_integrity":"sha1-wyq9C9ZSXZsFFkW7TyasXcmKDb8=","_location":"/map-cache","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"map-cache@0.2.2","name":"map-cache","escapedName":"map-cache","rawSpec":"0.2.2","saveSpec":null,"fetchSpec":"0.2.2"},"_requiredBy":["/fragment-cache","/snapdragon"],"_resolved":"https://registry.npmjs.org/map-cache/-/map-cache-0.2.2.tgz","_spec":"0.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/map-cache/issues"},"description":"Basic cache object for storing key-value pairs.","devDependencies":{"gulp-format-md":"^0.1.9","should":"^8.3.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/map-cache","keywords":["cache","get","has","object","set","storage","store"],"license":"MIT","main":"index.js","name":"map-cache","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/map-cache.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["config-cache","option-cache","cache-base"]},"reflinks":["verb"],"lint":{"reflinks":true}},"version":"0.2.2"}');
-
-/***/ }),
-
-/***/ 44649:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["map-obj@4.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"map-obj@4.3.0","_id":"map-obj@4.3.0","_inBundle":false,"_integrity":"sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==","_location":"/map-obj","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"map-obj@4.3.0","name":"map-obj","escapedName":"map-obj","rawSpec":"4.3.0","saveSpec":null,"fetchSpec":"4.3.0"},"_requiredBy":["/camelcase-keys"],"_resolved":"https://registry.npmjs.org/map-obj/-/map-obj-4.3.0.tgz","_spec":"4.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/map-obj/issues"},"description":"Map object keys and values into a new object","devDependencies":{"ava":"^2.0.0","tsd":"^0.14.0","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/map-obj#readme","keywords":["map","object","key","keys","value","values","iterate","iterator","rename","modify","deep","recurse","recursive"],"license":"MIT","name":"map-obj","repository":{"type":"git","url":"git+https://github.com/sindresorhus/map-obj.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.3.0"}');
-
-/***/ }),
-
-/***/ 43574:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["map-visit@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"map-visit@1.0.0","_id":"map-visit@1.0.0","_inBundle":false,"_integrity":"sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=","_location":"/map-visit","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"map-visit@1.0.0","name":"map-visit","escapedName":"map-visit","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/collection-visit"],"_resolved":"https://registry.npmjs.org/map-visit/-/map-visit-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/map-visit/issues"},"contributors":[{"name":"Brian Woodward","email":"brian.woodward@gmail.com","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"object-visit":"^1.0.0"},"description":"Map `visit` over an array of objects.","devDependencies":{"clone-deep":"^0.2.4","extend-shallow":"^2.0.1","gulp-format-md":"^0.1.12","lodash":"^4.17.4","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/map-visit","keywords":["array","arrays","function","helper","invoke","key","map","method","object","objects","value","visit","visitor"],"license":"MIT","main":"index.js","name":"map-visit","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/map-visit.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"related":{"list":["collection-visit","object-visit"]},"reflinks":["verb","verb-generate-readme"]},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 14982:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["type-fest@0.13.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"type-fest@0.13.1","_id":"type-fest@0.13.1","_inBundle":false,"_integrity":"sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==","_location":"/meow/type-fest","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"type-fest@0.13.1","name":"type-fest","escapedName":"type-fest","rawSpec":"0.13.1","saveSpec":null,"fetchSpec":"0.13.1"},"_requiredBy":["/meow"],"_resolved":"https://registry.npmjs.org/type-fest/-/type-fest-0.13.1.tgz","_spec":"0.13.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/type-fest/issues"},"description":"A collection of essential TypeScript types","devDependencies":{"tsd":"^0.11.0","xo":"^0.28.2"},"engines":{"node":">=10"},"files":["index.d.ts","source"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/type-fest#readme","keywords":["typescript","ts","types","utility","util","utilities","omit","merge","json"],"license":"(MIT OR CC0-1.0)","name":"type-fest","repository":{"type":"git","url":"git+https://github.com/sindresorhus/type-fest.git"},"scripts":{"test":"xo && tsd"},"types":"index.d.ts","version":"0.13.1","xo":{"rules":{"@typescript-eslint/indent":"off","func-call-spacing":"off"}}}');
-
-/***/ }),
-
-/***/ 32067:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["meow@6.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"meow@6.1.1","_id":"meow@6.1.1","_inBundle":false,"_integrity":"sha512-3YffViIt2QWgTy6Pale5QpopX/IvU3LPL03jOTqp6pGj3VjesdO/U8CuHMKpnQr4shCNCM5fd5XFFvIIl6JBHg==","_location":"/meow","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"meow@6.1.1","name":"meow","escapedName":"meow","rawSpec":"6.1.1","saveSpec":null,"fetchSpec":"6.1.1"},"_requiredBy":["/cpy-cli"],"_resolved":"https://registry.npmjs.org/meow/-/meow-6.1.1.tgz","_spec":"6.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/meow/issues"},"dependencies":{"@types/minimist":"^1.2.0","camelcase-keys":"^6.2.2","decamelize-keys":"^1.1.0","hard-rejection":"^2.1.0","minimist-options":"^4.0.2","normalize-package-data":"^2.5.0","read-pkg-up":"^7.0.1","redent":"^3.0.0","trim-newlines":"^3.0.0","type-fest":"^0.13.1","yargs-parser":"^18.1.3"},"description":"CLI app helper","devDependencies":{"ava":"^2.4.0","execa":"^4.0.0","indent-string":"^4.0.0","tsd":"^0.11.0","xo":"^0.30.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/meow#readme","keywords":["cli","bin","util","utility","helper","argv","command","line","meow","cat","kitten","parser","option","flags","input","cmd","console"],"license":"MIT","name":"meow","repository":{"type":"git","url":"git+https://github.com/sindresorhus/meow.git"},"scripts":{"test":"xo && ava && tsd"},"version":"6.1.1","xo":{"rules":{"unicorn/no-process-exit":"off","node/no-unsupported-features/es-syntax":"off"}}}');
-
-/***/ }),
-
-/***/ 93121:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["merge2@1.4.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"merge2@1.4.1","_id":"merge2@1.4.1","_inBundle":false,"_integrity":"sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==","_location":"/merge2","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"merge2@1.4.1","name":"merge2","escapedName":"merge2","rawSpec":"1.4.1","saveSpec":null,"fetchSpec":"1.4.1"},"_requiredBy":["/cpy/fast-glob","/fast-glob"],"_resolved":"https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz","_spec":"1.4.1","_where":"/Users/brian.kimball/Github/bump-and-release","authors":["Yan Qing <admin@zensh.com>"],"bugs":{"url":"https://github.com/teambition/merge2/issues"},"dependencies":{},"description":"Merge multiple streams into one stream in sequence or parallel.","devDependencies":{"standard":"^14.3.4","through2":"^3.0.1","thunks":"^4.9.6","tman":"^1.10.0","to-through":"^2.0.0"},"engines":{"node":">= 8"},"files":["README.md","index.js"],"homepage":"https://github.com/teambition/merge2","keywords":["merge2","multiple","sequence","parallel","merge","stream","merge stream","sync"],"license":"MIT","main":"./index.js","name":"merge2","repository":{"type":"git","url":"git+ssh://git@github.com/teambition/merge2.git"},"scripts":{"test":"standard && tman"},"version":"1.4.1"}');
-
-/***/ }),
-
-/***/ 34266:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["micromatch@4.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_from":"micromatch@4.0.4","_id":"micromatch@4.0.4","_inBundle":false,"_integrity":"sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==","_location":"/micromatch","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"micromatch@4.0.4","name":"micromatch","escapedName":"micromatch","rawSpec":"4.0.4","saveSpec":null,"fetchSpec":"4.0.4"},"_requiredBy":["/fast-glob"],"_resolved":"https://registry.npmjs.org/micromatch/-/micromatch-4.0.4.tgz","_spec":"4.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/micromatch/issues"},"contributors":[{"url":"https://github.com/DianeLooney"},{"name":"Amila Welihinda","url":"amilajack.com"},{"name":"Bogdan Chadkin","url":"https://github.com/TrySound"},{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Devon Govett","url":"http://badassjs.com"},{"name":"Elan Shanker","url":"https://github.com/es128"},{"name":"Fabrício Matté","url":"https://ultcombo.js.org"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Martin Kolárik","url":"https://kolarik.sk"},{"name":"Olsten Larck","url":"https://i.am.charlike.online"},{"name":"Paul Miller","url":"paulmillr.com"},{"name":"Tom Byrer","url":"https://github.com/tomByrer"},{"name":"Tyler Akins","url":"http://rumkin.com"},{"name":"Peter Bright","email":"drpizza@quiscalusmexicanus.org","url":"https://github.com/drpizza"},{"name":"Kuba Juszczyk","url":"https://github.com/ku8ar"}],"dependencies":{"braces":"^3.0.1","picomatch":"^2.2.3"},"description":"Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.","devDependencies":{"fill-range":"^7.0.1","gulp-format-md":"^2.0.0","minimatch":"^3.0.4","mocha":"^7.2.0","time-require":"github:jonschlinkert/time-require"},"engines":{"node":">=8.6"},"files":["index.js"],"homepage":"https://github.com/micromatch/micromatch","keywords":["bash","bracket","character-class","expand","expansion","expression","extglob","extglobs","file","files","filter","find","glob","globbing","globs","globstar","lookahead","lookaround","lookbehind","match","matcher","matches","matching","micromatch","minimatch","multimatch","negate","negation","path","pattern","patterns","posix","regex","regexp","regular","shell","star","wildcard"],"license":"MIT","main":"index.js","name":"micromatch","repository":{"type":"git","url":"git+https://github.com/micromatch/micromatch.git"},"scripts":{"test":"mocha"},"verb":{"toc":"collapsible","layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"related":{"list":["braces","expand-brackets","extglob","fill-range","nanomatch"]},"reflinks":["extglob","fill-range","glob-object","minimatch","multimatch"]},"version":"4.0.4"}');
-
-/***/ }),
-
-/***/ 59404:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["mimic-response@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"mimic-response@1.0.1","_id":"mimic-response@1.0.1","_inBundle":false,"_integrity":"sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==","_location":"/mimic-response","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"mimic-response@1.0.1","name":"mimic-response","escapedName":"mimic-response","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/clone-response"],"_resolved":"https://registry.npmjs.org/mimic-response/-/mimic-response-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/mimic-response/issues"},"description":"Mimic a Node.js HTTP response stream","devDependencies":{"ava":"*","create-test-server":"^0.1.0","pify":"^3.0.0","xo":"*"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/mimic-response#readme","keywords":["mimic","response","stream","http","https","request","get","core"],"license":"MIT","name":"mimic-response","repository":{"type":"git","url":"git+https://github.com/sindresorhus/mimic-response.git"},"scripts":{"test":"xo && ava"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 88283:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["min-indent@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"min-indent@1.0.1","_id":"min-indent@1.0.1","_inBundle":false,"_integrity":"sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==","_location":"/min-indent","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"min-indent@1.0.1","name":"min-indent","escapedName":"min-indent","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/strip-indent"],"_resolved":"https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"James Kyle","email":"me@thejameskyle.com","url":"thejameskyle.com"},"bugs":{"url":"https://github.com/thejameskyle/min-indent/issues"},"description":"Get the shortest leading whitespace from lines in a string","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/thejameskyle/min-indent#readme","keywords":["indent","indentation","normalize","whitespace","space","tab","string","str","min","minimum"],"license":"MIT","main":"index.js","name":"min-indent","repository":{"type":"git","url":"git+https://github.com/thejameskyle/min-indent.git"},"scripts":{"test":"xo && ava"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 68442:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["minimatch@3.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_from":"minimatch@3.0.4","_id":"minimatch@3.0.4","_inBundle":false,"_integrity":"sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==","_location":"/minimatch","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"minimatch@3.0.4","name":"minimatch","escapedName":"minimatch","rawSpec":"3.0.4","saveSpec":null,"fetchSpec":"3.0.4"},"_requiredBy":["/@eslint/eslintrc","/@humanwhocodes/config-array","/eslint","/glob","/replace"],"_resolved":"https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz","_spec":"3.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me"},"bugs":{"url":"https://github.com/isaacs/minimatch/issues"},"dependencies":{"brace-expansion":"^1.1.7"},"description":"a glob matcher in javascript","devDependencies":{"tap":"^10.3.2"},"engines":{"node":"*"},"files":["minimatch.js"],"homepage":"https://github.com/isaacs/minimatch#readme","license":"ISC","main":"minimatch.js","name":"minimatch","repository":{"type":"git","url":"git://github.com/isaacs/minimatch.git"},"scripts":{"postpublish":"git push origin --all; git push origin --tags","postversion":"npm publish","preversion":"npm test","test":"tap test/*.js --cov"},"version":"3.0.4"}');
-
-/***/ }),
-
-/***/ 58559:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["arrify@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"arrify@1.0.1","_id":"arrify@1.0.1","_inBundle":false,"_integrity":"sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=","_location":"/minimist-options/arrify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"arrify@1.0.1","name":"arrify","escapedName":"arrify","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/minimist-options"],"_resolved":"https://registry.npmjs.org/arrify/-/arrify-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/arrify/issues"},"description":"Convert a value to an array","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/arrify#readme","keywords":["array","arr","arrify","arrayify","convert","value"],"license":"MIT","name":"arrify","repository":{"type":"git","url":"git+https://github.com/sindresorhus/arrify.git"},"scripts":{"test":"xo && ava"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 28556:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["minimist-options@4.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"minimist-options@4.1.0","_id":"minimist-options@4.1.0","_inBundle":false,"_integrity":"sha512-Q4r8ghd80yhO/0j1O3B2BjweX3fiHg9cdOwjJd2J76Q135c+NDxGCqdYKQ1SKBuFfgWbAUzBfvYjPUEeNgqN1A==","_location":"/minimist-options","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"minimist-options@4.1.0","name":"minimist-options","escapedName":"minimist-options","rawSpec":"4.1.0","saveSpec":null,"fetchSpec":"4.1.0"},"_requiredBy":["/meow"],"_resolved":"https://registry.npmjs.org/minimist-options/-/minimist-options-4.1.0.tgz","_spec":"4.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Vadim Demedes","email":"vdemedes@gmail.com"},"bugs":{"url":"https://github.com/vadimdemedes/minimist-options/issues"},"dependencies":{"arrify":"^1.0.1","is-plain-obj":"^1.1.0","kind-of":"^6.0.3"},"description":"Pretty options for minimist","devDependencies":{"@types/minimist":"^1.2.0","ava":"^1.0.1","tsd-check":"^0.3.0","xo":"^0.24.0"},"engines":{"node":">= 6"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/vadimdemedes/minimist-options#readme","keywords":["minimist","argv","args"],"license":"MIT","name":"minimist-options","repository":{"type":"git","url":"git+https://github.com/vadimdemedes/minimist-options.git"},"scripts":{"test":"xo && ava && tsd-check"},"version":"4.1.0"}');
-
-/***/ }),
-
-/***/ 72535:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-extendable@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-extendable@1.0.1","_id":"is-extendable@1.0.1","_inBundle":false,"_integrity":"sha512-arnXMxT1hhoKo9k1LZdmlNyJdDDfy2v0fXjFlmok4+i8ul/6WlbVge9bhM74OpNPQPMGUToDtz+KXa1PneJxOA==","_location":"/mixin-deep/is-extendable","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-extendable@1.0.1","name":"is-extendable","escapedName":"is-extendable","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/mixin-deep"],"_resolved":"https://registry.npmjs.org/is-extendable/-/is-extendable-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-extendable/issues"},"dependencies":{"is-plain-object":"^2.0.4"},"description":"Returns true if a value is a plain object, array or function.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.4.2"},"engines":{"node":">=0.10.0"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/jonschlinkert/is-extendable","keywords":["array","assign","check","date","extend","extendable","extensible","function","is","object","regex","test"],"license":"MIT","main":"index.js","name":"is-extendable","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-extendable.git"},"scripts":{"test":"mocha"},"types":"index.d.ts","verb":{"related":{"list":["assign-deep","is-equal-shallow","is-plain-object","isobject","kind-of"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 7897:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["mixin-deep@1.3.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"mixin-deep@1.3.2","_id":"mixin-deep@1.3.2","_inBundle":false,"_integrity":"sha512-WRoDn//mXBiJ1H40rqa3vH0toePwSsGb45iInWlTySa+Uu4k3tYUSxa2v1KqAiLtvlrSzaExqS1gtk96A9zvEA==","_location":"/mixin-deep","_phantomChildren":{"is-plain-object":"2.0.4"},"_requested":{"type":"version","registry":true,"raw":"mixin-deep@1.3.2","name":"mixin-deep","escapedName":"mixin-deep","rawSpec":"1.3.2","saveSpec":null,"fetchSpec":"1.3.2"},"_requiredBy":["/base"],"_resolved":"https://registry.npmjs.org/mixin-deep/-/mixin-deep-1.3.2.tgz","_spec":"1.3.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/mixin-deep/issues"},"dependencies":{"for-in":"^1.0.2","is-extendable":"^1.0.1"},"description":"Deeply mix the properties of objects into the first object. Like merge-deep, but doesn\'t clone.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3","should":"^13.1.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/mixin-deep","keywords":["deep","extend","key","keys","merge","mixin","object","prop","properties","util","values"],"license":"MIT","main":"index.js","name":"mixin-deep","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/mixin-deep.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["defaults-deep","extend-shallow","merge-deep","mixin-object"]},"lint":{"reflinks":true}},"version":"1.3.2"}');
-
-/***/ }),
-
-/***/ 10317:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ms@2.1.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"ms@2.1.2","_id":"ms@2.1.2","_inBundle":false,"_integrity":"sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==","_location":"/ms","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ms@2.1.2","name":"ms","escapedName":"ms","rawSpec":"2.1.2","saveSpec":null,"fetchSpec":"2.1.2"},"_requiredBy":["/debug","/simple-git/debug"],"_resolved":"https://registry.npmjs.org/ms/-/ms-2.1.2.tgz","_spec":"2.1.2","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/zeit/ms/issues"},"description":"Tiny millisecond conversion utility","devDependencies":{"eslint":"4.12.1","expect.js":"0.3.1","husky":"0.14.3","lint-staged":"5.0.0","mocha":"4.0.1"},"eslintConfig":{"extends":"eslint:recommended","env":{"node":true,"es6":true}},"files":["index.js"],"homepage":"https://github.com/zeit/ms#readme","license":"MIT","lint-staged":{"*.js":["npm run lint","prettier --single-quote --write","git add"]},"main":"./index","name":"ms","repository":{"type":"git","url":"git+https://github.com/zeit/ms.git"},"scripts":{"lint":"eslint lib/* bin/*","precommit":"lint-staged","test":"mocha tests.js"},"version":"2.1.2"}');
-
-/***/ }),
-
-/***/ 31522:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["nanomatch@1.2.13","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"nanomatch@1.2.13","_id":"nanomatch@1.2.13","_inBundle":false,"_integrity":"sha512-fpoe2T0RbHwBTBUOftAfBPaDEi06ufaUai0mE6Yn1kacc3SnTErfb/h+X94VXzI64rKFHYImXSvdwGGCmwOqCA==","_location":"/nanomatch","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"nanomatch@1.2.13","name":"nanomatch","escapedName":"nanomatch","rawSpec":"1.2.13","saveSpec":null,"fetchSpec":"1.2.13"},"_requiredBy":["/cpy/micromatch"],"_resolved":"https://registry.npmjs.org/nanomatch/-/nanomatch-1.2.13.tgz","_spec":"1.2.13","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/nanomatch/issues"},"contributors":[{"name":"Devon Govett","url":"http://badassjs.com"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"arr-diff":"^4.0.0","array-unique":"^0.3.2","define-property":"^2.0.2","extend-shallow":"^3.0.2","fragment-cache":"^0.2.1","is-windows":"^1.0.2","kind-of":"^6.0.2","object.pick":"^1.3.0","regex-not":"^1.0.0","snapdragon":"^0.8.1","to-regex":"^3.0.1"},"description":"Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)","devDependencies":{"bash-match":"^1.0.2","for-own":"^1.0.0","gulp":"^3.9.1","gulp-format-md":"^1.0.0","gulp-istanbul":"^1.1.3","gulp-mocha":"^5.0.0","helper-changelog":"^0.3.0","minimatch":"^3.0.4","minimist":"^1.2.0","mocha":"^3.5.3","multimatch":"^2.1.0"},"engines":{"node":">=0.10.0"},"files":["index.js","lib"],"homepage":"https://github.com/micromatch/nanomatch","keywords":["bash","expand","expansion","expression","file","files","filter","find","glob","globbing","globs","globstar","match","matcher","matches","matching","micromatch","minimatch","multimatch","nanomatch","path","pattern","patterns","regex","regexp","regular","shell","wildcard"],"license":"MIT","lintDeps":{"dependencies":{"options":{"lock":{"snapdragon":"^0.8.1"}}},"devDependencies":{"files":{"options":{"ignore":["benchmark/**"]}}}},"main":"index.js","name":"nanomatch","repository":{"type":"git","url":"git+https://github.com/micromatch/nanomatch.git"},"scripts":{"test":"mocha"},"verb":{"toc":"collapsible","layout":"default","tasks":["readme"],"helpers":["helper-changelog"],"plugins":["gulp-format-md"],"related":{"list":["extglob","is-extglob","is-glob","micromatch"]},"reflinks":["expand-brackets","expand-tilde","glob-object","micromatch","minimatch","options","snapdragon"],"lint":{"reflinks":true}},"version":"1.2.13"}');
-
-/***/ }),
-
-/***/ 17503:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["natural-compare@1.4.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"natural-compare@1.4.0","_id":"natural-compare@1.4.0","_inBundle":false,"_integrity":"sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=","_location":"/natural-compare","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"natural-compare@1.4.0","name":"natural-compare","escapedName":"natural-compare","rawSpec":"1.4.0","saveSpec":null,"fetchSpec":"1.4.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz","_spec":"1.4.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Lauri Rooden","url":"https://github.com/litejs/natural-compare-lite"},"bugs":{"url":"https://github.com/litejs/natural-compare-lite/issues"},"buildman":{"dist/index-min.js":{"banner":"/*! litejs.com/MIT-LICENSE.txt */","input":"index.js"}},"description":"Compare strings containing a mix of letters and numbers in the way a human being would in sort order.","devDependencies":{"buildman":"*","testman":"*"},"files":["index.js"],"homepage":"https://github.com/litejs/natural-compare-lite#readme","keywords":["string","natural","order","sort","natsort","natcmp","compare","alphanum","litejs"],"license":"MIT","main":"index.js","name":"natural-compare","repository":{"type":"git","url":"git://github.com/litejs/natural-compare-lite.git"},"scripts":{"build":"node node_modules/buildman/index.js --all","test":"node tests/index.js"},"stability":3,"version":"1.4.0"}');
-
-/***/ }),
-
-/***/ 97256:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["nested-error-stacks@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"nested-error-stacks@2.1.0","_id":"nested-error-stacks@2.1.0","_inBundle":false,"_integrity":"sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==","_location":"/nested-error-stacks","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"nested-error-stacks@2.1.0","name":"nested-error-stacks","escapedName":"nested-error-stacks","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/cp-file","/cpy"],"_resolved":"https://registry.npmjs.org/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Matt Lavin","email":"matt.lavin@gmail.com"},"bugs":{"url":"https://github.com/mdlavin/nested-error-stacks/issues"},"description":"An Error subclass that will chain nested Errors and dump nested stacktraces","devDependencies":{"chai":"^3.5.0","eslint":"^3.9.1","mocha":"^3.1.2","uuid":"^2.0.3"},"files":["index.js","LICENSE"],"homepage":"https://github.com/mdlavin/nested-error-stacks#readme","keywords":["error","nested","stack"],"license":"MIT","main":"index.js","name":"nested-error-stacks","repository":{"type":"git","url":"git+https://github.com/mdlavin/nested-error-stacks.git"},"scripts":{"test":"if node --version | grep -vE \'v(0|3)\' > /dev/null 2>&1; then eslint . || exit -1; fi; if [ \\"$RUN_ZUUL\\" != \\"true\\" ]; then node_modules/.bin/mocha; else npm install zuul && node_modules/.bin/zuul -- test.js; fi"},"version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 18044:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["node-version@1.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"node-version@1.2.0","_id":"node-version@1.2.0","_inBundle":false,"_integrity":"sha512-ma6oU4Sk0qOoKEAymVoTvk8EdXEobdS7m/mAGhDJ8Rouugho48crHBORAmy5BoOcv8wraPM6xumapQp5hl4iIQ==","_location":"/node-version","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"node-version@1.2.0","name":"node-version","escapedName":"node-version","rawSpec":"1.2.0","saveSpec":null,"fetchSpec":"1.2.0"},"_requiredBy":["/child-process-promise"],"_resolved":"https://registry.npmjs.org/node-version/-/node-version-1.2.0.tgz","_spec":"1.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Rodolphe Stoclin","email":"rodolphe@2clics.net","url":"http://2clics.net"},"bugs":{"url":"https://github.com/srod/node-version/issues"},"dependencies":{},"description":"Get Node current version","devDependencies":{"codecov":"3.0.2","eslint":"4.19.1","jest":"23.1.0"},"engines":{"node":">=6.0.0"},"homepage":"https://github.com/srod/node-version","jest":{"notify":true,"verbose":true,"testEnvironment":"node","coverageDirectory":"./coverage/","collectCoverage":true,"testPathIgnorePatterns":["/node_modules/",".history"]},"keywords":["node","version"],"license":"MIT","main":"./index.js","name":"node-version","repository":{"type":"git","url":"git+https://github.com/srod/node-version.git"},"scripts":{"eslint":"eslint index.js || true","pretest":"npm run eslint","publish-beta":"npm publish --tag beta","publish-latest":"npm publish","release-major":"npm version major -m \'Bump %s\' && git push --tags origin HEAD:master","release-minor":"npm version minor -m \'Bump %s\' && git push --tags origin HEAD:master","release-patch":"npm version patch -m \'Bump %s\' && git push --tags origin HEAD:master","test":"jest"},"version":"1.2.0"}');
-
-/***/ }),
-
-/***/ 678:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["semver@5.7.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"semver@5.7.1","_id":"semver@5.7.1","_inBundle":false,"_integrity":"sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==","_location":"/normalize-package-data/semver","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"semver@5.7.1","name":"semver","escapedName":"semver","rawSpec":"5.7.1","saveSpec":null,"fetchSpec":"5.7.1"},"_requiredBy":["/normalize-package-data"],"_resolved":"https://registry.npmjs.org/semver/-/semver-5.7.1.tgz","_spec":"5.7.1","_where":"/Users/brian.kimball/Github/bump-and-release","bin":{"semver":"bin/semver"},"bugs":{"url":"https://github.com/npm/node-semver/issues"},"description":"The semantic version parser used by npm.","devDependencies":{"tap":"^13.0.0-rc.18"},"files":["bin","range.bnf","semver.js"],"homepage":"https://github.com/npm/node-semver#readme","license":"ISC","main":"semver.js","name":"semver","repository":{"type":"git","url":"git+https://github.com/npm/node-semver.git"},"scripts":{"postpublish":"git push origin --all; git push origin --tags","postversion":"npm publish","preversion":"npm test","test":"tap"},"tap":{"check-coverage":true},"version":"5.7.1"}');
-
-/***/ }),
-
-/***/ 19472:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["normalize-package-data@2.5.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"normalize-package-data@2.5.0","_id":"normalize-package-data@2.5.0","_inBundle":false,"_integrity":"sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==","_location":"/normalize-package-data","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"normalize-package-data@2.5.0","name":"normalize-package-data","escapedName":"normalize-package-data","rawSpec":"2.5.0","saveSpec":null,"fetchSpec":"2.5.0"},"_requiredBy":["/meow","/read-pkg"],"_resolved":"https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.5.0.tgz","_spec":"2.5.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Meryn Stol","email":"merynstol@gmail.com"},"bugs":{"url":"https://github.com/npm/normalize-package-data/issues"},"contributors":[{"name":"Isaac Z. Schlueter","email":"i@izs.me"},{"name":"Meryn Stol","email":"merynstol@gmail.com"},{"name":"Robert Kowalski","email":"rok@kowalski.gd"}],"dependencies":{"hosted-git-info":"^2.1.4","resolve":"^1.10.0","semver":"2 || 3 || 4 || 5","validate-npm-package-license":"^3.0.1"},"description":"Normalizes data that can be found in package.json files.","devDependencies":{"async":"^2.6.1","tap":"^12.4.0","underscore":"^1.8.3"},"files":["lib/*.js","lib/*.json","AUTHORS"],"homepage":"https://github.com/npm/normalize-package-data#readme","license":"BSD-2-Clause","main":"lib/normalize.js","name":"normalize-package-data","repository":{"type":"git","url":"git://github.com/npm/normalize-package-data.git"},"scripts":{"test":"tap test/*.js"},"version":"2.5.0"}');
-
-/***/ }),
-
-/***/ 53969:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["normalize-url@6.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"normalize-url@6.1.0","_id":"normalize-url@6.1.0","_inBundle":false,"_integrity":"sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==","_location":"/normalize-url","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"normalize-url@6.1.0","name":"normalize-url","escapedName":"normalize-url","rawSpec":"6.1.0","saveSpec":null,"fetchSpec":"6.1.0"},"_requiredBy":["/cacheable-request"],"_resolved":"https://registry.npmjs.org/normalize-url/-/normalize-url-6.1.0.tgz","_spec":"6.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/normalize-url/issues"},"description":"Normalize a URL","devDependencies":{"ava":"^2.4.0","nyc":"^15.0.0","tsd":"^0.11.0","xo":"^0.25.3"},"engines":{"node":">=10"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/normalize-url#readme","keywords":["normalize","url","uri","address","string","normalization","normalisation","query","querystring","simplify","strip","trim","canonical"],"license":"MIT","name":"normalize-url","nyc":{"reporter":["text","lcov"]},"repository":{"type":"git","url":"git+https://github.com/sindresorhus/normalize-url.git"},"scripts":{"test":"xo && nyc ava && tsd"},"version":"6.1.0"}');
-
-/***/ }),
-
-/***/ 41516:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["object-assign@4.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"object-assign@4.1.1","_id":"object-assign@4.1.1","_inBundle":false,"_integrity":"sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=","_location":"/object-assign","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"object-assign@4.1.1","name":"object-assign","escapedName":"object-assign","rawSpec":"4.1.1","saveSpec":null,"fetchSpec":"4.1.1"},"_requiredBy":["/globby"],"_resolved":"https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz","_spec":"4.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/object-assign/issues"},"description":"ES2015 `Object.assign()` ponyfill","devDependencies":{"ava":"^0.16.0","lodash":"^4.16.4","matcha":"^0.7.0","xo":"^0.16.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/object-assign#readme","keywords":["object","assign","extend","properties","es2015","ecmascript","harmony","ponyfill","prollyfill","polyfill","shim","browser"],"license":"MIT","name":"object-assign","repository":{"type":"git","url":"git+https://github.com/sindresorhus/object-assign.git"},"scripts":{"bench":"matcha bench.js","test":"xo && ava"},"version":"4.1.1"}');
-
-/***/ }),
-
-/***/ 95185:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["define-property@0.2.5","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"define-property@0.2.5","_id":"define-property@0.2.5","_inBundle":false,"_integrity":"sha1-w1se+RjsPJkPmlvFe+BKrOxcgRY=","_location":"/object-copy/define-property","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"define-property@0.2.5","name":"define-property","escapedName":"define-property","rawSpec":"0.2.5","saveSpec":null,"fetchSpec":"0.2.5"},"_requiredBy":["/object-copy"],"_resolved":"https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz","_spec":"0.2.5","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/define-property/issues"},"dependencies":{"is-descriptor":"^0.1.0"},"description":"Define a non-enumerable property on an object.","devDependencies":{"mocha":"*","should":"^7.0.4"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/define-property","keywords":["define","define-property","enumerable","key","non","non-enumerable","object","prop","property","value"],"license":"MIT","main":"index.js","name":"define-property","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/define-property.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["mixin-deep","mixin-object","delegate-object","forward-object"]}},"version":"0.2.5"}');
-
-/***/ }),
-
-/***/ 17079:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@3.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@3.2.2","_id":"kind-of@3.2.2","_inBundle":false,"_integrity":"sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=","_location":"/object-copy/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@3.2.2","name":"kind-of","escapedName":"kind-of","rawSpec":"3.2.2","saveSpec":null,"fetchSpec":"3.2.2"},"_requiredBy":["/object-copy"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz","_spec":"3.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"}],"dependencies":{"is-buffer":"^1.1.5"},"description":"Get the native type of a value.","devDependencies":{"ansi-bold":"^0.1.1","benchmarked":"^1.0.0","browserify":"^14.3.0","glob":"^7.1.1","gulp-format-md":"^0.1.12","mocha":"^3.3.0","type-of":"^2.0.1","typeof":"^1.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"related":{"list":["is-glob","is-number","is-primitive"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"3.2.2"}');
-
-/***/ }),
-
-/***/ 64504:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["object-copy@0.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"object-copy@0.1.0","_id":"object-copy@0.1.0","_inBundle":false,"_integrity":"sha1-fn2Fi3gb18mRpBupde04EnVOmYw=","_location":"/object-copy","_phantomChildren":{"is-buffer":"1.1.6","is-descriptor":"0.1.6"},"_requested":{"type":"version","registry":true,"raw":"object-copy@0.1.0","name":"object-copy","escapedName":"object-copy","rawSpec":"0.1.0","saveSpec":null,"fetchSpec":"0.1.0"},"_requiredBy":["/static-extend"],"_resolved":"https://registry.npmjs.org/object-copy/-/object-copy-0.1.0.tgz","_spec":"0.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/object-copy/issues"},"dependencies":{"copy-descriptor":"^0.1.0","define-property":"^0.2.5","kind-of":"^3.0.3"},"description":"Copy static properties, prototype properties, and descriptors from one object to another.","devDependencies":{"gulp-format-md":"*","mocha":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/object-copy","keywords":["copy","object"],"license":"MIT","main":"index.js","name":"object-copy","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/object-copy.git"},"scripts":{"test":"mocha"},"verb":{"layout":"default","plugins":["gulp-format-md"],"related":{"list":[]},"reflinks":["verb"]},"version":"0.1.0"}');
-
-/***/ }),
-
-/***/ 80250:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["object-visit@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"object-visit@1.0.1","_id":"object-visit@1.0.1","_inBundle":false,"_integrity":"sha1-95xEk68MU3e1n+OdOV5BBC3QRbs=","_location":"/object-visit","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"object-visit@1.0.1","name":"object-visit","escapedName":"object-visit","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/collection-visit","/map-visit"],"_resolved":"https://registry.npmjs.org/object-visit/-/object-visit-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/object-visit/issues"},"dependencies":{"isobject":"^3.0.0"},"description":"Call a specified method on each value in the given object.","devDependencies":{"gulp":"^3.9.1","gulp-eslint":"^3.0.1","gulp-format-md":"^0.1.12","gulp-istanbul":"^1.1.1","gulp-mocha":"^3.0.0","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/object-visit","keywords":["context","function","helper","key","method","object","value","visit","visitor"],"license":"MIT","main":"index.js","name":"object-visit","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/object-visit.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["base-methods","collection-visit","define-property","map-visit"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 3083:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["object.pick@1.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"object.pick@1.3.0","_id":"object.pick@1.3.0","_inBundle":false,"_integrity":"sha1-h6EKxMFpS9Lhy/U1kaZhQftd10c=","_location":"/object.pick","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"object.pick@1.3.0","name":"object.pick","escapedName":"object.pick","rawSpec":"1.3.0","saveSpec":null,"fetchSpec":"1.3.0"},"_requiredBy":["/cpy/micromatch","/nanomatch"],"_resolved":"https://registry.npmjs.org/object.pick/-/object.pick-1.3.0.tgz","_spec":"1.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/object.pick/issues"},"dependencies":{"isobject":"^3.0.1"},"description":"Returns a filtered copy of an object with only the specified keys, similar to `_.pick` from lodash / underscore.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.1.2","vinyl":"^2.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/object.pick","keywords":["object","pick"],"license":"MIT","main":"index.js","name":"object.pick","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/object.pick.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["extend-shallow","get-value","mixin-deep","set-value"],"highlight":"object.omit"},"reflinks":["verb"],"lint":{"reflinks":true}},"version":"1.3.0"}');
-
-/***/ }),
-
-/***/ 67376:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["once@1.4.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"once@1.4.0","_id":"once@1.4.0","_inBundle":false,"_integrity":"sha1-WDsap3WWHUsROsF9nFC6753Xa9E=","_location":"/once","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"once@1.4.0","name":"once","escapedName":"once","rawSpec":"1.4.0","saveSpec":null,"fetchSpec":"1.4.0"},"_requiredBy":["/end-of-stream","/glob","/inflight","/pump"],"_resolved":"https://registry.npmjs.org/once/-/once-1.4.0.tgz","_spec":"1.4.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bugs":{"url":"https://github.com/isaacs/once/issues"},"dependencies":{"wrappy":"1"},"description":"Run a function exactly one time","devDependencies":{"tap":"^7.0.1"},"directories":{"test":"test"},"files":["once.js"],"homepage":"https://github.com/isaacs/once#readme","keywords":["once","function","one","single"],"license":"ISC","main":"once.js","name":"once","repository":{"type":"git","url":"git://github.com/isaacs/once.git"},"scripts":{"test":"tap test/*.js"},"version":"1.4.0"}');
-
-/***/ }),
-
-/***/ 79026:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["optionator@0.9.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"optionator@0.9.1","_id":"optionator@0.9.1","_inBundle":false,"_integrity":"sha512-74RlY5FCnhq4jRxVUPKDaRwrVNXMqsGsiW6AJw4XK8hmtm10wC0ypZBLw5IIp85NZMr91+qd1RvvENwg7jjRFw==","_location":"/optionator","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"optionator@0.9.1","name":"optionator","escapedName":"optionator","rawSpec":"0.9.1","saveSpec":null,"fetchSpec":"0.9.1"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/optionator/-/optionator-0.9.1.tgz","_spec":"0.9.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"George Zahariev","email":"z@georgezahariev.com"},"bugs":{"url":"https://github.com/gkz/optionator/issues"},"dependencies":{"deep-is":"^0.1.3","fast-levenshtein":"^2.0.6","levn":"^0.4.1","prelude-ls":"^1.2.1","type-check":"^0.4.0","word-wrap":"^1.2.3"},"description":"option parsing and help generation","devDependencies":{"livescript":"^1.6.0","mocha":"^7.1.1"},"engines":{"node":">= 0.8.0"},"files":["lib","README.md","LICENSE"],"homepage":"https://github.com/gkz/optionator","keywords":["options","flags","option parsing","cli"],"license":"MIT","main":"./lib/","name":"optionator","repository":{"type":"git","url":"git://github.com/gkz/optionator.git"},"scripts":{"test":"make test"},"version":"0.9.1"}');
-
-/***/ }),
-
-/***/ 36304:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-map@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"p-map@2.1.0","_id":"p-map@2.1.0","_inBundle":false,"_integrity":"sha512-y3b8Kpd8OAN444hxfBbFfj1FY/RjtTd8tzYwhUqNYXx0fXx2iX4maP4Qr6qhIKbQXI02wTLAda4fYUbDagTUFw==","_location":"/p-all/p-map","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-map@2.1.0","name":"p-map","escapedName":"p-map","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/p-all"],"_resolved":"https://registry.npmjs.org/p-map/-/p-map-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-map/issues"},"description":"Map over promises concurrently","devDependencies":{"ava":"^1.4.1","delay":"^4.1.0","in-range":"^1.0.0","random-int":"^1.0.0","time-span":"^3.1.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/p-map#readme","keywords":["promise","map","resolved","wait","collection","iterable","iterator","race","fulfilled","async","await","promises","concurrently","concurrency","parallel","bluebird"],"license":"MIT","name":"p-map","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-map.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 50523:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-all@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"p-all@2.1.0","_id":"p-all@2.1.0","_inBundle":false,"_integrity":"sha512-HbZxz5FONzz/z2gJfk6bFca0BCiSRF8jU3yCsWOen/vR6lZjfPOu/e7L3uFzTW1i0H8TlC3vqQstEJPQL4/uLA==","_location":"/p-all","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-all@2.1.0","name":"p-all","escapedName":"p-all","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/cpy"],"_resolved":"https://registry.npmjs.org/p-all/-/p-all-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-all/issues"},"dependencies":{"p-map":"^2.0.0"},"description":"Run promise-returning & async functions concurrently with optional limited concurrency","devDependencies":{"ava":"^1.4.1","delay":"^4.1.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/p-all#readme","keywords":["promise","all","function","func","fn","limited","limit","control","rate","collection","iterable","iterator","fulfilled","async","await","promises","concurrent","concurrently","concurrency","parallel","bluebird"],"license":"MIT","name":"p-all","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-all.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 20650:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-cancelable@2.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"p-cancelable@2.1.1","_id":"p-cancelable@2.1.1","_inBundle":false,"_integrity":"sha512-BZOr3nRQHOntUjTrH8+Lh54smKHoHyur8We1V8DSMVrl5A2malOOwuJRnKRDjSnkoeBh4at6BwEnb5I7Jl31wg==","_location":"/p-cancelable","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-cancelable@2.1.1","name":"p-cancelable","escapedName":"p-cancelable","rawSpec":"2.1.1","saveSpec":null,"fetchSpec":"2.1.1"},"_requiredBy":["/got"],"_resolved":"https://registry.npmjs.org/p-cancelable/-/p-cancelable-2.1.1.tgz","_spec":"2.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-cancelable/issues"},"description":"Create a promise that can be canceled","devDependencies":{"ava":"^1.4.1","delay":"^4.1.0","promise.prototype.finally":"^3.1.0","tsd":"^0.7.1","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/p-cancelable#readme","keywords":["promise","cancelable","cancel","canceled","canceling","cancellable","cancellation","abort","abortable","aborting","cleanup","task","token","async","function","await","promises","bluebird"],"license":"MIT","name":"p-cancelable","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-cancelable.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.1.1"}');
-
-/***/ }),
-
-/***/ 18719:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-event@4.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"p-event@4.2.0","_id":"p-event@4.2.0","_inBundle":false,"_integrity":"sha512-KXatOjCRXXkSePPb1Nbi0p0m+gQAwdlbhi4wQKJPI1HsMQS9g+Sqp2o+QHziPr7eYJyOZet836KoHEVM1mwOrQ==","_location":"/p-event","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-event@4.2.0","name":"p-event","escapedName":"p-event","rawSpec":"4.2.0","saveSpec":null,"fetchSpec":"4.2.0"},"_requiredBy":["/cp-file"],"_resolved":"https://registry.npmjs.org/p-event/-/p-event-4.2.0.tgz","_spec":"4.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-event/issues"},"dependencies":{"p-timeout":"^3.1.0"},"description":"Promisify an event by waiting for it to be emitted","devDependencies":{"@types/node":"^12.0.2","ava":"^1.4.1","delay":"^4.1.0","tsd":"^0.11.0","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/p-event#readme","keywords":["promise","events","event","emitter","eventemitter","event-emitter","emit","emits","listener","promisify","addlistener","addeventlistener","wait","waits","on","browser","dom","async","await","promises","bluebird"],"license":"MIT","name":"p-event","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-event.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.2.0"}');
-
-/***/ }),
-
-/***/ 42198:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-map@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"p-map@2.1.0","_id":"p-map@2.1.0","_inBundle":false,"_integrity":"sha512-y3b8Kpd8OAN444hxfBbFfj1FY/RjtTd8tzYwhUqNYXx0fXx2iX4maP4Qr6qhIKbQXI02wTLAda4fYUbDagTUFw==","_location":"/p-filter/p-map","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-map@2.1.0","name":"p-map","escapedName":"p-map","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/p-filter"],"_resolved":"https://registry.npmjs.org/p-map/-/p-map-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-map/issues"},"description":"Map over promises concurrently","devDependencies":{"ava":"^1.4.1","delay":"^4.1.0","in-range":"^1.0.0","random-int":"^1.0.0","time-span":"^3.1.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/p-map#readme","keywords":["promise","map","resolved","wait","collection","iterable","iterator","race","fulfilled","async","await","promises","concurrently","concurrency","parallel","bluebird"],"license":"MIT","name":"p-map","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-map.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 71523:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-filter@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"p-filter@2.1.0","_id":"p-filter@2.1.0","_inBundle":false,"_integrity":"sha512-ZBxxZ5sL2HghephhpGAQdoskxplTwr7ICaehZwLIlfL6acuVgZPm8yBNuRAFBGEqtD/hmUeq9eqLg2ys9Xr/yw==","_location":"/p-filter","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-filter@2.1.0","name":"p-filter","escapedName":"p-filter","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/cpy"],"_resolved":"https://registry.npmjs.org/p-filter/-/p-filter-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-filter/issues"},"dependencies":{"p-map":"^2.0.0"},"description":"Filter promises concurrently","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/p-filter#readme","keywords":["promise","filter","collection","iterable","iterator","fulfilled","async","await","promises","concurrently","concurrency","parallel","bluebird"],"license":"MIT","name":"p-filter","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-filter.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 66128:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-finally@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"p-finally@1.0.0","_id":"p-finally@1.0.0","_inBundle":false,"_integrity":"sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=","_location":"/p-finally","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-finally@1.0.0","name":"p-finally","escapedName":"p-finally","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/p-timeout"],"_resolved":"https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-finally/issues"},"description":"`Promise#finally()` ponyfill - Invoked when the promise is settled regardless of outcome","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/p-finally#readme","keywords":["promise","finally","handler","function","async","await","promises","settled","ponyfill","polyfill","shim","bluebird"],"license":"MIT","name":"p-finally","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-finally.git"},"scripts":{"test":"xo && ava"},"version":"1.0.0","xo":{"esnext":true}}');
-
-/***/ }),
-
-/***/ 19446:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-limit@2.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"p-limit@2.3.0","_id":"p-limit@2.3.0","_inBundle":false,"_integrity":"sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==","_location":"/p-limit","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-limit@2.3.0","name":"p-limit","escapedName":"p-limit","rawSpec":"2.3.0","saveSpec":null,"fetchSpec":"2.3.0"},"_requiredBy":["/p-locate"],"_resolved":"https://registry.npmjs.org/p-limit/-/p-limit-2.3.0.tgz","_spec":"2.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-limit/issues"},"dependencies":{"p-try":"^2.0.0"},"description":"Run multiple promise-returning & async functions with limited concurrency","devDependencies":{"ava":"^1.2.1","delay":"^4.1.0","in-range":"^1.0.0","random-int":"^1.0.0","time-span":"^2.0.0","tsd-check":"^0.3.0","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/p-limit#readme","keywords":["promise","limit","limited","concurrency","throttle","throat","rate","batch","ratelimit","task","queue","async","await","promises","bluebird"],"license":"MIT","name":"p-limit","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-limit.git"},"scripts":{"test":"xo && ava && tsd-check"},"version":"2.3.0"}');
-
-/***/ }),
-
-/***/ 25593:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-locate@4.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"p-locate@4.1.0","_id":"p-locate@4.1.0","_inBundle":false,"_integrity":"sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==","_location":"/p-locate","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-locate@4.1.0","name":"p-locate","escapedName":"p-locate","rawSpec":"4.1.0","saveSpec":null,"fetchSpec":"4.1.0"},"_requiredBy":["/locate-path"],"_resolved":"https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz","_spec":"4.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-locate/issues"},"dependencies":{"p-limit":"^2.2.0"},"description":"Get the first fulfilled promise that satisfies the provided testing function","devDependencies":{"ava":"^1.4.1","delay":"^4.1.0","in-range":"^1.0.0","time-span":"^3.0.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/p-locate#readme","keywords":["promise","locate","find","finder","search","searcher","test","array","collection","iterable","iterator","race","fulfilled","fastest","async","await","promises","bluebird"],"license":"MIT","name":"p-locate","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-locate.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.1.0"}');
-
-/***/ }),
-
-/***/ 87341:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-map@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"p-map@3.0.0","_id":"p-map@3.0.0","_inBundle":false,"_integrity":"sha512-d3qXVTF/s+W+CdJ5A29wywV2n8CQQYahlgz2bFiA+4eVNJbHJodPZ+/gXwPGh0bOqA+j8S+6+ckmvLGPk1QpxQ==","_location":"/p-map","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-map@3.0.0","name":"p-map","escapedName":"p-map","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/cpy"],"_resolved":"https://registry.npmjs.org/p-map/-/p-map-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-map/issues"},"dependencies":{"aggregate-error":"^3.0.0"},"description":"Map over promises concurrently","devDependencies":{"ava":"^2.2.0","delay":"^4.1.0","in-range":"^2.0.0","random-int":"^2.0.0","time-span":"^3.1.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/p-map#readme","keywords":["promise","map","resolved","wait","collection","iterable","iterator","race","fulfilled","async","await","promises","concurrently","concurrency","parallel","bluebird"],"license":"MIT","name":"p-map","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-map.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 87620:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-timeout@3.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"p-timeout@3.2.0","_id":"p-timeout@3.2.0","_inBundle":false,"_integrity":"sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==","_location":"/p-timeout","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-timeout@3.2.0","name":"p-timeout","escapedName":"p-timeout","rawSpec":"3.2.0","saveSpec":null,"fetchSpec":"3.2.0"},"_requiredBy":["/p-event"],"_resolved":"https://registry.npmjs.org/p-timeout/-/p-timeout-3.2.0.tgz","_spec":"3.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-timeout/issues"},"dependencies":{"p-finally":"^1.0.0"},"description":"Timeout a promise after a specified amount of time","devDependencies":{"ava":"^1.4.1","delay":"^4.1.0","p-cancelable":"^2.0.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/p-timeout#readme","keywords":["promise","timeout","error","invalidate","async","await","promises","time","out","cancel","bluebird"],"license":"MIT","name":"p-timeout","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-timeout.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.2.0"}');
-
-/***/ }),
-
-/***/ 3794:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["p-try@2.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"p-try@2.2.0","_id":"p-try@2.2.0","_inBundle":false,"_integrity":"sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==","_location":"/p-try","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"p-try@2.2.0","name":"p-try","escapedName":"p-try","rawSpec":"2.2.0","saveSpec":null,"fetchSpec":"2.2.0"},"_requiredBy":["/p-limit"],"_resolved":"https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz","_spec":"2.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/p-try/issues"},"description":"`Start a promise chain","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.1","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/p-try#readme","keywords":["promise","try","resolve","function","catch","async","await","promises","settled","ponyfill","polyfill","shim","bluebird"],"license":"MIT","name":"p-try","repository":{"type":"git","url":"git+https://github.com/sindresorhus/p-try.git"},"scripts":{"test":"xo && ava && tsd"},"version":"2.2.0"}');
-
-/***/ }),
-
-/***/ 82802:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["parent-module@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"parent-module@1.0.1","_id":"parent-module@1.0.1","_inBundle":false,"_integrity":"sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==","_location":"/parent-module","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"parent-module@1.0.1","name":"parent-module","escapedName":"parent-module","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/import-fresh"],"_resolved":"https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/parent-module/issues"},"dependencies":{"callsites":"^3.0.0"},"description":"Get the path of the parent module","devDependencies":{"ava":"^1.4.1","execa":"^1.0.0","xo":"^0.24.0"},"engines":{"node":">=6"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/parent-module#readme","keywords":["parent","module","package","pkg","caller","calling","module","path","callsites","callsite","stacktrace","stack","trace","function","file"],"license":"MIT","name":"parent-module","repository":{"type":"git","url":"git+https://github.com/sindresorhus/parent-module.git"},"scripts":{"test":"xo && ava"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 93570:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["parse-json@5.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"parse-json@5.2.0","_id":"parse-json@5.2.0","_inBundle":false,"_integrity":"sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==","_location":"/parse-json","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"parse-json@5.2.0","name":"parse-json","escapedName":"parse-json","rawSpec":"5.2.0","saveSpec":null,"fetchSpec":"5.2.0"},"_requiredBy":["/read-pkg"],"_resolved":"https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz","_spec":"5.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/parse-json/issues"},"dependencies":{"@babel/code-frame":"^7.0.0","error-ex":"^1.3.1","json-parse-even-better-errors":"^2.3.0","lines-and-columns":"^1.1.6"},"description":"Parse JSON with more helpful errors","devDependencies":{"ava":"^1.4.1","nyc":"^14.1.1","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","vendor"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/parse-json#readme","keywords":["parse","json","graceful","error","message","humanize","friendly","helpful","string"],"license":"MIT","name":"parse-json","repository":{"type":"git","url":"git+https://github.com/sindresorhus/parse-json.git"},"scripts":{"test":"xo && nyc ava"},"version":"5.2.0"}');
-
-/***/ }),
-
-/***/ 41430:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["pascalcase@0.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"pascalcase@0.1.1","_id":"pascalcase@0.1.1","_inBundle":false,"_integrity":"sha1-s2PlXoAGym/iF4TS2yK9FdeRfxQ=","_location":"/pascalcase","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"pascalcase@0.1.1","name":"pascalcase","escapedName":"pascalcase","rawSpec":"0.1.1","saveSpec":null,"fetchSpec":"0.1.1"},"_requiredBy":["/base"],"_resolved":"https://registry.npmjs.org/pascalcase/-/pascalcase-0.1.1.tgz","_spec":"0.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/pascalcase/issues"},"description":"Convert a string to pascal-case.","devDependencies":{"mocha":"*","should":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/pascalcase","keywords":["camelcase","case","casing","pascal","pascal-case","pascalcase","string"],"license":"MIT","main":"index.js","name":"pascalcase","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/pascalcase.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["pad-left","pad-right","word-wrap","repeat-string","justified"]}},"version":"0.1.1"}');
-
-/***/ }),
-
-/***/ 62581:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["path-dirname@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"path-dirname@1.0.2","_id":"path-dirname@1.0.2","_inBundle":false,"_integrity":"sha1-zDPSTVJeCZpTiMAzbG4yuRYGCeA=","_location":"/path-dirname","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"path-dirname@1.0.2","name":"path-dirname","escapedName":"path-dirname","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/cpy/glob-parent"],"_resolved":"https://registry.npmjs.org/path-dirname/-/path-dirname-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Elan Shanker"},"bugs":{"url":"https://github.com/es128/path-dirname/issues"},"description":"Node.js path.dirname() ponyfill","files":["index.js"],"homepage":"https://github.com/es128/path-dirname#readme","keywords":["dirname","dir","path","paths","file","built-in","util","utils","core","stdlib","ponyfill","polyfill","shim"],"license":"MIT","name":"path-dirname","repository":{"type":"git","url":"git+https://github.com/es128/path-dirname.git"},"scripts":{"test":"node test.js"},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 84799:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["path-exists@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"path-exists@4.0.0","_id":"path-exists@4.0.0","_inBundle":false,"_integrity":"sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==","_location":"/path-exists","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"path-exists@4.0.0","name":"path-exists","escapedName":"path-exists","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/find-up"],"_resolved":"https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/path-exists/issues"},"description":"Check if a path exists","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/path-exists#readme","keywords":["path","exists","exist","file","filepath","fs","filesystem","file-system","access","stat"],"license":"MIT","name":"path-exists","repository":{"type":"git","url":"git+https://github.com/sindresorhus/path-exists.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 95418:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["path-is-absolute@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"path-is-absolute@1.0.1","_id":"path-is-absolute@1.0.1","_inBundle":false,"_integrity":"sha1-F0uSaHNVNP+8es5r9TpanhtcX18=","_location":"/path-is-absolute","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"path-is-absolute@1.0.1","name":"path-is-absolute","escapedName":"path-is-absolute","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/glob"],"_resolved":"https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/path-is-absolute/issues"},"description":"Node.js 0.12 path.isAbsolute() ponyfill","devDependencies":{"xo":"^0.16.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/path-is-absolute#readme","keywords":["path","paths","file","dir","absolute","isabsolute","is-absolute","built-in","util","utils","core","ponyfill","polyfill","shim","is","detect","check"],"license":"MIT","name":"path-is-absolute","repository":{"type":"git","url":"git+https://github.com/sindresorhus/path-is-absolute.git"},"scripts":{"test":"xo && node test.js"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 78664:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["path-key@3.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"path-key@3.1.1","_id":"path-key@3.1.1","_inBundle":false,"_integrity":"sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==","_location":"/path-key","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"path-key@3.1.1","name":"path-key","escapedName":"path-key","rawSpec":"3.1.1","saveSpec":null,"fetchSpec":"3.1.1"},"_requiredBy":["/cross-spawn"],"_resolved":"https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz","_spec":"3.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/path-key/issues"},"description":"Get the PATH environment variable key cross-platform","devDependencies":{"@types/node":"^11.13.0","ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/path-key#readme","keywords":["path","key","environment","env","variable","var","get","cross-platform","windows"],"license":"MIT","name":"path-key","repository":{"type":"git","url":"git+https://github.com/sindresorhus/path-key.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.1.1"}');
-
-/***/ }),
-
-/***/ 5992:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["path-parse@1.0.7","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"path-parse@1.0.7","_id":"path-parse@1.0.7","_inBundle":false,"_integrity":"sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==","_location":"/path-parse","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"path-parse@1.0.7","name":"path-parse","escapedName":"path-parse","rawSpec":"1.0.7","saveSpec":null,"fetchSpec":"1.0.7"},"_requiredBy":["/resolve"],"_resolved":"https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz","_spec":"1.0.7","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Javier Blanco","email":"http://jbgutierrez.info"},"bugs":{"url":"https://github.com/jbgutierrez/path-parse/issues"},"description":"Node.js path.parse() ponyfill","homepage":"https://github.com/jbgutierrez/path-parse#readme","keywords":["path","paths","file","dir","parse","built-in","util","utils","core","ponyfill","polyfill","shim"],"license":"MIT","main":"index.js","name":"path-parse","repository":{"type":"git","url":"git+https://github.com/jbgutierrez/path-parse.git"},"scripts":{"test":"node test.js"},"version":"1.0.7"}');
-
-/***/ }),
-
-/***/ 12624:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["pify@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"pify@3.0.0","_id":"pify@3.0.0","_inBundle":false,"_integrity":"sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=","_location":"/path-type/pify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"pify@3.0.0","name":"pify","escapedName":"pify","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/path-type"],"_resolved":"https://registry.npmjs.org/pify/-/pify-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/pify/issues"},"description":"Promisify a callback-style function","devDependencies":{"ava":"*","pinkie-promise":"^2.0.0","v8-natives":"^1.0.0","xo":"*"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/pify#readme","keywords":["promise","promises","promisify","all","denodify","denodeify","callback","cb","node","then","thenify","convert","transform","wrap","wrapper","bind","to","async","await","es2015","bluebird"],"license":"MIT","name":"pify","repository":{"type":"git","url":"git+https://github.com/sindresorhus/pify.git"},"scripts":{"optimization-test":"node --allow-natives-syntax optimization-test.js","test":"xo && ava && npm run optimization-test"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 18042:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["path-type@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"path-type@3.0.0","_id":"path-type@3.0.0","_inBundle":false,"_integrity":"sha512-T2ZUsdZFHgA3u4e5PfPbjd7HDDpxPnQb5jN0SrDsjNSuVXHJqtwTnWqG0B1jZrgmJ/7lj1EmVIByWt1gxGkWvg==","_location":"/path-type","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"path-type@3.0.0","name":"path-type","escapedName":"path-type","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/dir-glob"],"_resolved":"https://registry.npmjs.org/path-type/-/path-type-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/path-type/issues"},"dependencies":{"pify":"^3.0.0"},"description":"Check if a path is a file, directory, or symlink","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/path-type#readme","keywords":["path","fs","type","is","check","directory","dir","file","filepath","symlink","symbolic","link","stat","stats","filesystem"],"license":"MIT","name":"path-type","repository":{"type":"git","url":"git+https://github.com/sindresorhus/path-type.git"},"scripts":{"test":"xo && ava"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 45202:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["picomatch@2.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"picomatch@2.3.0","_id":"picomatch@2.3.0","_inBundle":false,"_integrity":"sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==","_location":"/picomatch","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"picomatch@2.3.0","name":"picomatch","escapedName":"picomatch","rawSpec":"2.3.0","saveSpec":null,"fetchSpec":"2.3.0"},"_requiredBy":["/micromatch"],"_resolved":"https://registry.npmjs.org/picomatch/-/picomatch-2.3.0.tgz","_spec":"2.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/picomatch/issues"},"description":"Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions.","devDependencies":{"eslint":"^6.8.0","fill-range":"^7.0.1","gulp-format-md":"^2.0.0","mocha":"^6.2.2","nyc":"^15.0.0","time-require":"github:jonschlinkert/time-require"},"engines":{"node":">=8.6"},"files":["index.js","lib"],"funding":"https://github.com/sponsors/jonschlinkert","homepage":"https://github.com/micromatch/picomatch","keywords":["glob","match","picomatch"],"license":"MIT","main":"index.js","name":"picomatch","nyc":{"reporter":["html","lcov","text-summary"]},"repository":{"type":"git","url":"git+https://github.com/micromatch/picomatch.git"},"scripts":{"lint":"eslint --cache --cache-location node_modules/.cache/.eslintcache --report-unused-disable-directives --ignore-path .gitignore .","mocha":"mocha --reporter dot","test":"npm run lint && npm run mocha","test:ci":"npm run test:cover","test:cover":"nyc npm run mocha"},"verb":{"toc":{"render":true,"method":"preWrite","maxdepth":3},"layout":"empty","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"related":{"list":["braces","micromatch"]},"reflinks":["braces","expand-brackets","extglob","fill-range","micromatch","minimatch","nanomatch","picomatch"]},"version":"2.3.0"}');
-
-/***/ }),
-
-/***/ 61499:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["pify@2.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"pify@2.3.0","_id":"pify@2.3.0","_inBundle":false,"_integrity":"sha1-7RQaasBDqEnqWISY59yosVMw6Qw=","_location":"/pify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"pify@2.3.0","name":"pify","escapedName":"pify","rawSpec":"2.3.0","saveSpec":null,"fetchSpec":"2.3.0"},"_requiredBy":["/globby"],"_resolved":"https://registry.npmjs.org/pify/-/pify-2.3.0.tgz","_spec":"2.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/pify/issues"},"description":"Promisify a callback-style function","devDependencies":{"ava":"*","pinkie-promise":"^1.0.0","v8-natives":"0.0.2","xo":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/pify#readme","keywords":["promise","promises","promisify","denodify","denodeify","callback","cb","node","then","thenify","convert","transform","wrap","wrapper","bind","to","async","es2015"],"license":"MIT","name":"pify","repository":{"type":"git","url":"git+https://github.com/sindresorhus/pify.git"},"scripts":{"optimization-test":"node --allow-natives-syntax optimization-test.js","test":"xo && ava && npm run optimization-test"},"version":"2.3.0"}');
-
-/***/ }),
-
-/***/ 37271:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["pinkie-promise@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"pinkie-promise@2.0.1","_id":"pinkie-promise@2.0.1","_inBundle":false,"_integrity":"sha1-ITXW36ejWMBprJsXh3YogihFD/o=","_location":"/pinkie-promise","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"pinkie-promise@2.0.1","name":"pinkie-promise","escapedName":"pinkie-promise","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/globby"],"_resolved":"https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Vsevolod Strukchinsky","email":"floatdrop@gmail.com","url":"github.com/floatdrop"},"bugs":{"url":"https://github.com/floatdrop/pinkie-promise/issues"},"dependencies":{"pinkie":"^2.0.0"},"description":"ES2015 Promise ponyfill","devDependencies":{"mocha":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/floatdrop/pinkie-promise#readme","keywords":["promise","promises","es2015","es6","polyfill","ponyfill"],"license":"MIT","name":"pinkie-promise","repository":{"type":"git","url":"git+https://github.com/floatdrop/pinkie-promise.git"},"scripts":{"test":"mocha"},"version":"2.0.1"}');
-
-/***/ }),
-
-/***/ 14538:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["pinkie@2.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_from":"pinkie@2.0.4","_id":"pinkie@2.0.4","_inBundle":false,"_integrity":"sha1-clVrgM+g1IqXToDnckjoDtT3+HA=","_location":"/pinkie","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"pinkie@2.0.4","name":"pinkie","escapedName":"pinkie","rawSpec":"2.0.4","saveSpec":null,"fetchSpec":"2.0.4"},"_requiredBy":["/pinkie-promise"],"_resolved":"https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz","_spec":"2.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Vsevolod Strukchinsky","email":"floatdrop@gmail.com","url":"github.com/floatdrop"},"bugs":{"url":"https://github.com/floatdrop/pinkie/issues"},"description":"Itty bitty little widdle twinkie pinkie ES2015 Promise implementation","devDependencies":{"core-assert":"^0.1.1","coveralls":"^2.11.4","mocha":"*","nyc":"^3.2.2","promises-aplus-tests":"*","xo":"^0.10.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/floatdrop/pinkie#readme","keywords":["promise","promises","es2015","es6"],"license":"MIT","name":"pinkie","repository":{"type":"git","url":"git+https://github.com/floatdrop/pinkie.git"},"scripts":{"coverage":"nyc report --reporter=text-lcov | coveralls","test":"xo && nyc mocha"},"version":"2.0.4"}');
-
-/***/ }),
-
-/***/ 62098:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["pkg-dir@4.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"pkg-dir@4.2.0","_id":"pkg-dir@4.2.0","_inBundle":false,"_integrity":"sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==","_location":"/pkg-dir","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"pkg-dir@4.2.0","name":"pkg-dir","escapedName":"pkg-dir","rawSpec":"4.2.0","saveSpec":null,"fetchSpec":"4.2.0"},"_requiredBy":["/find-cache-dir"],"_resolved":"https://registry.npmjs.org/pkg-dir/-/pkg-dir-4.2.0.tgz","_spec":"4.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/pkg-dir/issues"},"dependencies":{"find-up":"^4.0.0"},"description":"Find the root directory of a Node.js project or npm package","devDependencies":{"ava":"^1.4.1","tempy":"^0.3.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/pkg-dir#readme","keywords":["package","json","root","npm","entry","find","up","find-up","findup","look-up","look","file","search","match","resolve","parent","parents","folder","directory","dir","walk","walking","path"],"license":"MIT","name":"pkg-dir","repository":{"type":"git","url":"git+https://github.com/sindresorhus/pkg-dir.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.2.0"}');
-
-/***/ }),
-
-/***/ 2377:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["posix-character-classes@0.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"posix-character-classes@0.1.1","_id":"posix-character-classes@0.1.1","_inBundle":false,"_integrity":"sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=","_location":"/posix-character-classes","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"posix-character-classes@0.1.1","name":"posix-character-classes","escapedName":"posix-character-classes","rawSpec":"0.1.1","saveSpec":null,"fetchSpec":"0.1.1"},"_requiredBy":["/expand-brackets"],"_resolved":"https://registry.npmjs.org/posix-character-classes/-/posix-character-classes-0.1.1.tgz","_spec":"0.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/posix-character-classes/issues"},"description":"POSIX character classes for creating regular expressions.","devDependencies":{"gulp-format-md":"^0.1.12","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/posix-character-classes","keywords":["character","classes","posix"],"license":"MIT","main":"index.js","name":"posix-character-classes","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/posix-character-classes.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"reflinks":["verb","verb-generate-readme"],"lint":{"reflinks":true},"related-list":["micromatch","nanomatch","extglob","expand-brackets"]},"version":"0.1.1"}');
-
-/***/ }),
-
-/***/ 52546:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["prelude-ls@1.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"prelude-ls@1.2.1","_id":"prelude-ls@1.2.1","_inBundle":false,"_integrity":"sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==","_location":"/prelude-ls","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"prelude-ls@1.2.1","name":"prelude-ls","escapedName":"prelude-ls","rawSpec":"1.2.1","saveSpec":null,"fetchSpec":"1.2.1"},"_requiredBy":["/levn","/optionator","/type-check"],"_resolved":"https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz","_spec":"1.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"George Zahariev","email":"z@georgezahariev.com"},"bugs":{"url":"https://github.com/gkz/prelude-ls/issues"},"description":"prelude.ls is a functionally oriented utility library. It is powerful and flexible. Almost all of its functions are curried. It is written in, and is the recommended base library for, LiveScript.","devDependencies":{"browserify":"^16.5.1","livescript":"^1.6.0","mocha":"^7.1.1","sinon":"~8.0.1","uglify-js":"^3.8.1"},"engines":{"node":">= 0.8.0"},"files":["lib/","README.md","LICENSE"],"homepage":"http://preludels.com","keywords":["prelude","livescript","utility","ls","coffeescript","javascript","library","functional","array","list","object","string"],"license":"MIT","main":"lib/","name":"prelude-ls","repository":{"type":"git","url":"git://github.com/gkz/prelude-ls.git"},"scripts":{"test":"make test"},"version":"1.2.1"}');
-
-/***/ }),
-
-/***/ 94493:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["progress@2.0.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"progress@2.0.3","_id":"progress@2.0.3","_inBundle":false,"_integrity":"sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==","_location":"/progress","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"progress@2.0.3","name":"progress","escapedName":"progress","rawSpec":"2.0.3","saveSpec":null,"fetchSpec":"2.0.3"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/progress/-/progress-2.0.3.tgz","_spec":"2.0.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},"bugs":{"url":"https://github.com/visionmedia/node-progress/issues"},"contributors":[{"name":"Christoffer Hallas","email":"christoffer.hallas@gmail.com"},{"name":"Jordan Scales","email":"scalesjordan@gmail.com"},{"name":"Andrew Rhyne","email":"rhyneandrew@gmail.com"},{"name":"Marco Brack","email":"PapstDonB@Googlemail.com"}],"dependencies":{},"description":"Flexible ascii progress bar","engines":{"node":">=0.4.0"},"homepage":"https://github.com/visionmedia/node-progress#readme","keywords":["cli","progress"],"license":"MIT","main":"./index.js","name":"progress","repository":{"type":"git","url":"git://github.com/visionmedia/node-progress.git"},"version":"2.0.3"}');
-
-/***/ }),
-
-/***/ 44557:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["promise-polyfill@6.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"promise-polyfill@6.1.0","_id":"promise-polyfill@6.1.0","_inBundle":false,"_integrity":"sha1-36lpQ+qcEh/KTem1hoyznTRy4Fc=","_location":"/promise-polyfill","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"promise-polyfill@6.1.0","name":"promise-polyfill","escapedName":"promise-polyfill","rawSpec":"6.1.0","saveSpec":null,"fetchSpec":"6.1.0"},"_requiredBy":["/child-process-promise"],"_resolved":"https://registry.npmjs.org/promise-polyfill/-/promise-polyfill-6.1.0.tgz","_spec":"6.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Taylor Hakes"},"bugs":{"url":"https://github.com/taylorhakes/promise-polyfill/issues"},"dependencies":{},"description":"Lightweight promise polyfill. A+ compliant","devDependencies":{"eslint":"^2.4.0","karma":"^0.13.19","karma-browserify":"^4.4.2","karma-chrome-launcher":"^0.2.2","karma-mocha":"^0.2.1","mocha":"^2.3.4","promises-aplus-tests":"*","sinon":"^1.17.2","uglify-js":"^2.6.2"},"homepage":"https://github.com/taylorhakes/promise-polyfill","keywords":["promise","promise-polyfill","ES6","promises-aplus"],"license":"MIT","main":"promise.js","name":"promise-polyfill","repository":{"type":"git","url":"git+https://taylorhakes@github.com/taylorhakes/promise-polyfill.git"},"scripts":{"build":"uglifyjs --compress --support-ie8 --mangle -o promise.min.js -- promise.js ","test":"eslint promise.js && mocha && karma start --single-run"},"version":"6.1.0"}');
-
-/***/ }),
-
-/***/ 59878:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["pseudomap@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"pseudomap@1.0.2","_id":"pseudomap@1.0.2","_inBundle":false,"_integrity":"sha1-8FKijacOYYkX7wqKw0wa5aaChrM=","_location":"/pseudomap","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"pseudomap@1.0.2","name":"pseudomap","escapedName":"pseudomap","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/lru-cache"],"_resolved":"https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bugs":{"url":"https://github.com/isaacs/pseudomap/issues"},"description":"A thing that is a lot like ES6 `Map`, but without iterators, for use in environments where `for..of` syntax and `Map` are not available.","devDependencies":{"tap":"^2.3.1"},"directories":{"test":"test"},"homepage":"https://github.com/isaacs/pseudomap#readme","license":"ISC","main":"map.js","name":"pseudomap","repository":{"type":"git","url":"git+https://github.com/isaacs/pseudomap.git"},"scripts":{"test":"tap test/*.js"},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 34144:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["pump@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"pump@3.0.0","_id":"pump@3.0.0","_inBundle":false,"_integrity":"sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==","_location":"/pump","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"pump@3.0.0","name":"pump","escapedName":"pump","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/get-stream"],"_resolved":"https://registry.npmjs.org/pump/-/pump-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Mathias Buus Madsen","email":"mathiasbuus@gmail.com"},"browser":{"fs":false},"bugs":{"url":"https://github.com/mafintosh/pump/issues"},"dependencies":{"end-of-stream":"^1.1.0","once":"^1.3.1"},"description":"pipe streams together and close all of them if one of them closes","homepage":"https://github.com/mafintosh/pump#readme","keywords":["streams","pipe","destroy","callback"],"license":"MIT","name":"pump","repository":{"type":"git","url":"git://github.com/mafintosh/pump.git"},"scripts":{"test":"node test-browser.js && node test-node.js"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 39548:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["punycode@2.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"punycode@2.1.1","_id":"punycode@2.1.1","_inBundle":false,"_integrity":"sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==","_location":"/punycode","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"punycode@2.1.1","name":"punycode","escapedName":"punycode","rawSpec":"2.1.1","saveSpec":null,"fetchSpec":"2.1.1"},"_requiredBy":["/uri-js"],"_resolved":"https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz","_spec":"2.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Mathias Bynens","url":"https://mathiasbynens.be/"},"bugs":{"url":"https://github.com/bestiejs/punycode.js/issues"},"contributors":[{"name":"Mathias Bynens","url":"https://mathiasbynens.be/"}],"description":"A robust Punycode converter that fully complies to RFC 3492 and RFC 5891, and works on nearly all JavaScript platforms.","devDependencies":{"codecov":"^1.0.1","istanbul":"^0.4.1","mocha":"^2.5.3"},"engines":{"node":">=6"},"files":["LICENSE-MIT.txt","punycode.js","punycode.es6.js"],"homepage":"https://mths.be/punycode","jsnext:main":"punycode.es6.js","jspm":{"map":{"./punycode.js":{"node":"@node/punycode"}}},"keywords":["punycode","unicode","idn","idna","dns","url","domain"],"license":"MIT","main":"punycode.js","module":"punycode.es6.js","name":"punycode","repository":{"type":"git","url":"git+https://github.com/bestiejs/punycode.js.git"},"scripts":{"prepublish":"node scripts/prepublish.js","test":"mocha tests"},"version":"2.1.1"}');
-
-/***/ }),
-
-/***/ 26966:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["queue-microtask@1.2.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"queue-microtask@1.2.3","_id":"queue-microtask@1.2.3","_inBundle":false,"_integrity":"sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==","_location":"/queue-microtask","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"queue-microtask@1.2.3","name":"queue-microtask","escapedName":"queue-microtask","rawSpec":"1.2.3","saveSpec":null,"fetchSpec":"1.2.3"},"_requiredBy":["/run-parallel"],"_resolved":"https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz","_spec":"1.2.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Feross Aboukhadijeh","email":"feross@feross.org","url":"https://feross.org"},"bugs":{"url":"https://github.com/feross/queue-microtask/issues"},"description":"fast, tiny `queueMicrotask` shim for modern engines","devDependencies":{"standard":"*","tape":"^5.2.2"},"funding":[{"type":"github","url":"https://github.com/sponsors/feross"},{"type":"patreon","url":"https://www.patreon.com/feross"},{"type":"consulting","url":"https://feross.org/support"}],"homepage":"https://github.com/feross/queue-microtask","keywords":["asap","immediate","micro task","microtask","nextTick","process.nextTick","queue micro task","queue microtask","queue-microtask","queueMicrotask","setImmediate","task"],"license":"MIT","main":"index.js","name":"queue-microtask","repository":{"type":"git","url":"git://github.com/feross/queue-microtask.git"},"scripts":{"test":"standard && tape test/*.js"},"version":"1.2.3"}');
-
-/***/ }),
-
-/***/ 40971:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["quick-lru@5.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"quick-lru@5.1.1","_id":"quick-lru@5.1.1","_inBundle":false,"_integrity":"sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==","_location":"/quick-lru","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"quick-lru@5.1.1","name":"quick-lru","escapedName":"quick-lru","rawSpec":"5.1.1","saveSpec":null,"fetchSpec":"5.1.1"},"_requiredBy":["/http2-wrapper"],"_resolved":"https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz","_spec":"5.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/quick-lru/issues"},"description":"Simple “Least Recently Used” (LRU) cache","devDependencies":{"ava":"^2.0.0","coveralls":"^3.0.3","nyc":"^15.0.0","tsd":"^0.11.0","xo":"^0.26.0"},"engines":{"node":">=10"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/quick-lru#readme","keywords":["lru","quick","cache","caching","least","recently","used","fast","map","hash","buffer"],"license":"MIT","name":"quick-lru","repository":{"type":"git","url":"git+https://github.com/sindresorhus/quick-lru.git"},"scripts":{"test":"xo && nyc ava && tsd"},"version":"5.1.1"}');
-
-/***/ }),
-
-/***/ 852:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["type-fest@0.8.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"type-fest@0.8.1","_id":"type-fest@0.8.1","_inBundle":false,"_integrity":"sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==","_location":"/read-pkg-up/type-fest","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"type-fest@0.8.1","name":"type-fest","escapedName":"type-fest","rawSpec":"0.8.1","saveSpec":null,"fetchSpec":"0.8.1"},"_requiredBy":["/read-pkg-up"],"_resolved":"https://registry.npmjs.org/type-fest/-/type-fest-0.8.1.tgz","_spec":"0.8.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/type-fest/issues"},"description":"A collection of essential TypeScript types","devDependencies":{"@sindresorhus/tsconfig":"^0.4.0","@typescript-eslint/eslint-plugin":"^2.2.0","@typescript-eslint/parser":"^2.2.0","eslint-config-xo-typescript":"^0.18.0","tsd":"^0.7.3","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.d.ts","source"],"homepage":"https://github.com/sindresorhus/type-fest#readme","keywords":["typescript","ts","types","utility","util","utilities","omit","merge","json"],"license":"(MIT OR CC0-1.0)","name":"type-fest","repository":{"type":"git","url":"git+https://github.com/sindresorhus/type-fest.git"},"scripts":{"test":"xo && tsd"},"version":"0.8.1","xo":{"extends":"xo-typescript","extensions":["ts"],"rules":{"import/no-unresolved":"off","@typescript-eslint/indent":"off"}}}');
-
-/***/ }),
-
-/***/ 40529:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["read-pkg-up@7.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"read-pkg-up@7.0.1","_id":"read-pkg-up@7.0.1","_inBundle":false,"_integrity":"sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==","_location":"/read-pkg-up","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"read-pkg-up@7.0.1","name":"read-pkg-up","escapedName":"read-pkg-up","rawSpec":"7.0.1","saveSpec":null,"fetchSpec":"7.0.1"},"_requiredBy":["/meow"],"_resolved":"https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-7.0.1.tgz","_spec":"7.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/read-pkg-up/issues"},"dependencies":{"find-up":"^4.1.0","read-pkg":"^5.2.0","type-fest":"^0.8.1"},"description":"Read the closest package.json file","devDependencies":{"ava":"^2.4.0","tsd":"^0.9.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/read-pkg-up#readme","keywords":["json","read","parse","file","fs","graceful","load","package","find","up","find-up","findup","look-up","look","search","match","resolve","parent","parents","folder","directory","walk","walking","path"],"license":"MIT","name":"read-pkg-up","repository":{"type":"git","url":"git+https://github.com/sindresorhus/read-pkg-up.git"},"scripts":{"test":"xo && ava && tsd"},"version":"7.0.1"}');
-
-/***/ }),
-
-/***/ 85881:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["type-fest@0.6.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"type-fest@0.6.0","_id":"type-fest@0.6.0","_inBundle":false,"_integrity":"sha512-q+MB8nYR1KDLrgr4G5yemftpMC7/QLqVndBmEEdqzmNj5dcFOO4Oo8qlwZE3ULT3+Zim1F8Kq4cBnikNhlCMlg==","_location":"/read-pkg/type-fest","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"type-fest@0.6.0","name":"type-fest","escapedName":"type-fest","rawSpec":"0.6.0","saveSpec":null,"fetchSpec":"0.6.0"},"_requiredBy":["/read-pkg"],"_resolved":"https://registry.npmjs.org/type-fest/-/type-fest-0.6.0.tgz","_spec":"0.6.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/type-fest/issues"},"description":"A collection of essential TypeScript types","devDependencies":{"@sindresorhus/tsconfig":"^0.4.0","@typescript-eslint/eslint-plugin":"^1.9.0","@typescript-eslint/parser":"^1.10.2","eslint-config-xo-typescript":"^0.14.0","tsd":"^0.7.3","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.d.ts","source"],"homepage":"https://github.com/sindresorhus/type-fest#readme","keywords":["typescript","ts","types","utility","util","utilities","omit","merge","json"],"license":"(MIT OR CC0-1.0)","name":"type-fest","repository":{"type":"git","url":"git+https://github.com/sindresorhus/type-fest.git"},"scripts":{"test":"xo && tsd"},"version":"0.6.0","xo":{"extends":"xo-typescript","extensions":["ts"],"rules":{"import/no-unresolved":"off","@typescript-eslint/indent":"off"}}}');
-
-/***/ }),
-
-/***/ 16735:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["read-pkg@5.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"read-pkg@5.2.0","_id":"read-pkg@5.2.0","_inBundle":false,"_integrity":"sha512-Ug69mNOpfvKDAc2Q8DRpMjjzdtrnv9HcSMX+4VsZxD1aZ6ZzrIE7rlzXBtWTyhULSMKg076AW6WR5iZpD0JiOg==","_location":"/read-pkg","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"read-pkg@5.2.0","name":"read-pkg","escapedName":"read-pkg","rawSpec":"5.2.0","saveSpec":null,"fetchSpec":"5.2.0"},"_requiredBy":["/read-pkg-up"],"_resolved":"https://registry.npmjs.org/read-pkg/-/read-pkg-5.2.0.tgz","_spec":"5.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/read-pkg/issues"},"dependencies":{"@types/normalize-package-data":"^2.4.0","normalize-package-data":"^2.5.0","parse-json":"^5.0.0","type-fest":"^0.6.0"},"description":"Read a package.json file","devDependencies":{"ava":"^2.2.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/read-pkg#readme","keywords":["json","read","parse","file","fs","graceful","load","package","normalize"],"license":"MIT","name":"read-pkg","repository":{"type":"git","url":"git+https://github.com/sindresorhus/read-pkg.git"},"scripts":{"test":"xo && ava && tsd"},"version":"5.2.0","xo":{"ignores":["test/test.js"]}}');
-
-/***/ }),
-
-/***/ 47782:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["redent@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"redent@3.0.0","_id":"redent@3.0.0","_inBundle":false,"_integrity":"sha512-6tDA8g98We0zd0GvVeMT9arEOnTw9qM03L9cJXaCjrip1OO764RDBLBfrB4cwzNGDj5OA5ioymC9GkizgWJDUg==","_location":"/redent","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"redent@3.0.0","name":"redent","escapedName":"redent","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/meow"],"_resolved":"https://registry.npmjs.org/redent/-/redent-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/redent/issues"},"dependencies":{"indent-string":"^4.0.0","strip-indent":"^3.0.0"},"description":"Strip redundant indentation and indent the string","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/redent#readme","keywords":["string","strip","trim","indent","indentation","add","reindent","normalize","remove","whitespace","space"],"license":"MIT","name":"redent","repository":{"type":"git","url":"git+https://github.com/sindresorhus/redent.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 55254:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["regex-not@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"regex-not@1.0.2","_id":"regex-not@1.0.2","_inBundle":false,"_integrity":"sha512-J6SDjUgDxQj5NusnOtdFxDwN/+HWykR8GELwctJ7mdqhcyy1xEc4SRFHUXvxTp661YaVKAjfRLZ9cCqS6tn32A==","_location":"/regex-not","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"regex-not@1.0.2","name":"regex-not","escapedName":"regex-not","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/cpy/micromatch","/expand-brackets","/extglob","/nanomatch","/to-regex"],"_resolved":"https://registry.npmjs.org/regex-not/-/regex-not-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/regex-not/issues"},"dependencies":{"extend-shallow":"^3.0.2","safe-regex":"^1.1.0"},"description":"Create a javascript regular expression for matching everything except for the given string.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/regex-not","keywords":["exec","match","negate","negation","not","regex","regular expression","test"],"license":"MIT","main":"index.js","name":"regex-not","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/regex-not.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["regex-cache","to-regex"]},"reflinks":["verb","verb-generate-readme"],"lint":{"reflinks":true}},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 49263:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["regexpp@3.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"regexpp@3.2.0","_id":"regexpp@3.2.0","_inBundle":false,"_integrity":"sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==","_location":"/regexpp","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"regexpp@3.2.0","name":"regexpp","escapedName":"regexpp","rawSpec":"3.2.0","saveSpec":null,"fetchSpec":"3.2.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/regexpp/-/regexpp-3.2.0.tgz","_spec":"3.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Toru Nagashima","url":"https://github.com/mysticatea"},"bugs":{"url":"https://github.com/mysticatea/regexpp/issues"},"dependencies":{},"description":"Regular expression parser for ECMAScript.","devDependencies":{"@mysticatea/eslint-plugin":"^11.0.0","@types/eslint":"^4.16.2","@types/jsdom":"^12.2.4","@types/mocha":"^5.2.2","@types/node":"^12.6.8","codecov":"^3.5.0","dts-bundle":"^0.7.3","eslint":"^6.1.0","jsdom":"^15.1.1","mocha":"^6.2.0","npm-run-all":"^4.1.5","nyc":"^14.1.1","rimraf":"^2.6.2","rollup":"^1.17.0","rollup-plugin-node-resolve":"^5.2.0","rollup-plugin-sourcemaps":"^0.4.2","ts-node":"^8.3.0","typescript":"^3.5.3"},"engines":{"node":">=8"},"exports":{".":{"import":"./index.mjs","default":"./index.js"},"./package.json":"./package.json"},"files":["index.*"],"funding":"https://github.com/sponsors/mysticatea","homepage":"https://github.com/mysticatea/regexpp#readme","keywords":["regexp","regular","expression","parser","validator","ast","abstract","syntax","tree","ecmascript","es2015","es2016","es2017","es2018","es2019","es2020","annexB"],"license":"MIT","main":"index","name":"regexpp","repository":{"type":"git","url":"git+https://github.com/mysticatea/regexpp.git"},"scripts":{"build":"run-s build:*","build:dts":"dts-bundle --name regexpp --main .temp/index.d.ts --out ../index.d.ts","build:rollup":"rollup -c","build:tsc":"tsc --module es2015","clean":"rimraf .temp index.*","codecov":"nyc report -r lcovonly && codecov -t ${CODECOV_TOKEN} --disable=gcov","lint":"eslint scripts src test --ext .ts","postversion":"git push && git push --tags","prebuild":"npm run -s clean","pretest":"run-s build lint","preversion":"npm test","prewatch":"npm run -s clean","test":"nyc _mocha \\"test/*.ts\\" --reporter dot --timeout 10000","update:test":"ts-node scripts/update-fixtures.ts","update:unicode":"run-s update:unicode:*","update:unicode:ids":"ts-node scripts/update-unicode-ids.ts","update:unicode:props":"ts-node scripts/update-unicode-properties.ts","version":"npm run -s build","watch":"_mocha \\"test/*.ts\\" --require ts-node/register --reporter dot --timeout 10000 --watch-extensions ts --watch --growl"},"version":"3.2.0"}');
-
-/***/ }),
-
-/***/ 19964:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["repeat-element@1.1.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"repeat-element@1.1.4","_id":"repeat-element@1.1.4","_inBundle":false,"_integrity":"sha512-LFiNfRcSu7KK3evMyYOuCzv3L10TW7yC1G2/+StMjK8Y6Vqd2MG7r/Qjw4ghtuCOjFvlnms/iMmLqpvW/ES/WQ==","_location":"/repeat-element","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"repeat-element@1.1.4","name":"repeat-element","escapedName":"repeat-element","rawSpec":"1.1.4","saveSpec":null,"fetchSpec":"1.1.4"},"_requiredBy":["/cpy/braces"],"_resolved":"https://registry.npmjs.org/repeat-element/-/repeat-element-1.1.4.tgz","_spec":"1.1.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/repeat-element/issues"},"description":"Create an array by repeating the given value n times.","devDependencies":{"benchmarked":"^2.0.0","chalk":"^2.4.1","glob":"^7.1.2","gulp-format-md":"^1.0.0","minimist":"^1.2.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/repeat-element","keywords":["array","element","repeat","string"],"license":"MIT","main":"index.js","name":"repeat-element","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/repeat-element.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"1.1.4"}');
-
-/***/ }),
-
-/***/ 38309:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["repeat-string@1.6.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"repeat-string@1.6.1","_id":"repeat-string@1.6.1","_inBundle":false,"_integrity":"sha1-jcrkcOHIirwtYA//Sndihtp15jc=","_location":"/repeat-string","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"repeat-string@1.6.1","name":"repeat-string","escapedName":"repeat-string","rawSpec":"1.6.1","saveSpec":null,"fetchSpec":"1.6.1"},"_requiredBy":["/cpy/fill-range","/cpy/to-regex-range"],"_resolved":"https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz","_spec":"1.6.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"http://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/repeat-string/issues"},"contributors":[{"name":"Brian Woodward","email":"brian.woodward@gmail.com","url":"https://github.com/doowb"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"},{"name":"Linus Unnebäck","email":"linus@folkdatorn.se","url":"http://linus.unnebäck.se"},{"name":"Thijs Busser","email":"tbusser@gmail.com","url":"http://tbusser.net"},{"name":"Titus","email":"tituswormer@gmail.com","url":"wooorm.com"}],"description":"Repeat the given string n times. Fastest implementation for repeating a string.","devDependencies":{"ansi-cyan":"^0.1.1","benchmarked":"^0.2.5","gulp-format-md":"^0.1.11","isobject":"^2.1.0","mocha":"^3.1.2","repeating":"^3.0.0","text-table":"^0.2.0","yargs-parser":"^4.0.2"},"engines":{"node":">=0.10"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/repeat-string","keywords":["fast","fastest","fill","left","left-pad","multiple","pad","padding","repeat","repeating","repetition","right","right-pad","string","times"],"license":"MIT","main":"index.js","name":"repeat-string","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/repeat-string.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["repeat-element"]},"helpers":["./benchmark/helper.js"],"reflinks":["verb"]},"version":"1.6.1"}');
-
-/***/ }),
-
-/***/ 21509:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["chalk@2.4.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"chalk@2.4.2","_id":"chalk@2.4.2","_inBundle":false,"_integrity":"sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==","_location":"/replace/chalk","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"chalk@2.4.2","name":"chalk","escapedName":"chalk","rawSpec":"2.4.2","saveSpec":null,"fetchSpec":"2.4.2"},"_requiredBy":["/replace"],"_resolved":"https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz","_spec":"2.4.2","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/chalk/chalk/issues"},"dependencies":{"ansi-styles":"^3.2.1","escape-string-regexp":"^1.0.5","supports-color":"^5.3.0"},"description":"Terminal string styling done right","devDependencies":{"ava":"*","coveralls":"^3.0.0","execa":"^0.9.0","flow-bin":"^0.68.0","import-fresh":"^2.0.0","matcha":"^0.7.0","nyc":"^11.0.2","resolve-from":"^4.0.0","typescript":"^2.5.3","xo":"*"},"engines":{"node":">=4"},"files":["index.js","templates.js","types/index.d.ts","index.js.flow"],"homepage":"https://github.com/chalk/chalk#readme","keywords":["color","colour","colors","terminal","console","cli","string","str","ansi","style","styles","tty","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"chalk","repository":{"type":"git","url":"git+https://github.com/chalk/chalk.git"},"scripts":{"bench":"matcha benchmark.js","coveralls":"nyc report --reporter=text-lcov | coveralls","test":"xo && tsc --project types && flow --max-warnings=0 && nyc ava"},"types":"types/index.d.ts","version":"2.4.2","xo":{"envs":["node","mocha"],"ignores":["test/_flow.js"]}}');
-
-/***/ }),
-
-/***/ 75114:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["replace@1.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"replace@1.2.1","_id":"replace@1.2.1","_inBundle":false,"_integrity":"sha512-KZCBe/tPanwBlbjSMQby4l+zjSiFi3CLEP/6VLClnRYgJ46DZ5u9tmA6ceWeFS8coaUnU4ZdGNb/puUGMHNSRg==","_location":"/replace","_phantomChildren":{"ansi-styles":"3.2.1","escape-string-regexp":"1.0.5","supports-color":"5.5.0"},"_requested":{"type":"version","registry":true,"raw":"replace@1.2.1","name":"replace","escapedName":"replace","rawSpec":"1.2.1","saveSpec":null,"fetchSpec":"1.2.1"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/replace/-/replace-1.2.1.tgz","_spec":"1.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Alessandro Maclaine","email":"almaclaine@gmail.com"},"bin":{"replace":"bin/replace.js","search":"bin/search.js"},"bugs":{"url":"https://github.com/ALMaclaine/replace/issues"},"dependencies":{"chalk":"2.4.2","minimatch":"3.0.4","yargs":"^15.3.1"},"description":"Command line search and replace utility","devDependencies":{"tape":"4.11.0"},"engines":{"node":">= 6"},"homepage":"https://github.com/ALMaclaine/replace#readme","keywords":["sed","grep","search","replace"],"license":"MIT","main":"replace.js","name":"replace","repository":{"type":"git","url":"git+https://github.com/ALMaclaine/replace.git"},"scripts":{"test":"node test"},"version":"1.2.1"}');
-
-/***/ }),
-
-/***/ 10332:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["require-directory@2.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"require-directory@2.1.1","_id":"require-directory@2.1.1","_inBundle":false,"_integrity":"sha1-jGStX9MNqxyXbiNE/+f3kqam30I=","_location":"/require-directory","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"require-directory@2.1.1","name":"require-directory","escapedName":"require-directory","rawSpec":"2.1.1","saveSpec":null,"fetchSpec":"2.1.1"},"_requiredBy":["/yargs"],"_resolved":"https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz","_spec":"2.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Troy Goode","email":"troygoode@gmail.com","url":"http://github.com/troygoode/"},"bugs":{"url":"http://github.com/troygoode/node-require-directory/issues/"},"contributors":[{"name":"Troy Goode","email":"troygoode@gmail.com","url":"http://github.com/troygoode/"}],"description":"Recursively iterates over specified directory, require()\'ing each file, and returning a nested hash structure containing those modules.","devDependencies":{"jshint":"^2.6.0","mocha":"^2.1.0"},"engines":{"node":">=0.10.0"},"homepage":"https://github.com/troygoode/node-require-directory/","keywords":["require","directory","library","recursive"],"license":"MIT","main":"index.js","name":"require-directory","repository":{"type":"git","url":"git://github.com/troygoode/node-require-directory.git"},"scripts":{"lint":"jshint index.js test/test.js","test":"mocha"},"version":"2.1.1"}');
-
-/***/ }),
-
-/***/ 59643:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["require-from-string@2.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"require-from-string@2.0.2","_id":"require-from-string@2.0.2","_inBundle":false,"_integrity":"sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==","_location":"/require-from-string","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"require-from-string@2.0.2","name":"require-from-string","escapedName":"require-from-string","rawSpec":"2.0.2","saveSpec":null,"fetchSpec":"2.0.2"},"_requiredBy":["/table/ajv"],"_resolved":"https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz","_spec":"2.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Vsevolod Strukchinsky","email":"floatdrop@gmail.com","url":"github.com/floatdrop"},"bugs":{"url":"https://github.com/floatdrop/require-from-string/issues"},"dependencies":{},"description":"Require module from string","devDependencies":{"mocha":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/floatdrop/require-from-string#readme","keywords":[],"license":"MIT","name":"require-from-string","repository":{"type":"git","url":"git+https://github.com/floatdrop/require-from-string.git"},"scripts":{"test":"mocha"},"version":"2.0.2"}');
-
-/***/ }),
-
-/***/ 58421:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["require-main-filename@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"require-main-filename@2.0.0","_id":"require-main-filename@2.0.0","_inBundle":false,"_integrity":"sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==","_location":"/require-main-filename","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"require-main-filename@2.0.0","name":"require-main-filename","escapedName":"require-main-filename","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/yargs"],"_resolved":"https://registry.npmjs.org/require-main-filename/-/require-main-filename-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Ben Coe","email":"ben@npmjs.com"},"bugs":{"url":"https://github.com/yargs/require-main-filename/issues"},"description":"shim for require.main.filename() that works in as many environments as possible","devDependencies":{"chai":"^4.0.0","standard":"^10.0.3","standard-version":"^4.0.0","tap":"^11.0.0"},"files":["index.js"],"homepage":"https://github.com/yargs/require-main-filename#readme","keywords":["require","shim","iisnode"],"license":"ISC","main":"index.js","name":"require-main-filename","repository":{"type":"git","url":"git+ssh://git@github.com/yargs/require-main-filename.git"},"scripts":{"pretest":"standard","release":"standard-version","test":"tap --coverage test.js"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 38456:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["resolve-alpn@1.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"resolve-alpn@1.2.1","_id":"resolve-alpn@1.2.1","_inBundle":false,"_integrity":"sha512-0a1F4l73/ZFZOakJnQ3FvkJ2+gSTQWz/r2KE5OdDY0TxPm5h4GkqkWWfM47T7HsbnOtcJVEF4epCVy6u7Q3K+g==","_location":"/resolve-alpn","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"resolve-alpn@1.2.1","name":"resolve-alpn","escapedName":"resolve-alpn","rawSpec":"1.2.1","saveSpec":null,"fetchSpec":"1.2.1"},"_requiredBy":["/http2-wrapper"],"_resolved":"https://registry.npmjs.org/resolve-alpn/-/resolve-alpn-1.2.1.tgz","_spec":"1.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Szymon Marczak"},"bugs":{"url":"https://github.com/szmarczak/resolve-alpn/issues"},"description":"Detects the ALPN protocol","devDependencies":{"ava":"^3.15.0","nyc":"^15.1.0","pem":"1.14.3","xo":"^0.38.2"},"files":["index.js"],"homepage":"https://github.com/szmarczak/resolve-alpn#readme","keywords":["alpn","tls","socket","http2"],"license":"MIT","main":"index.js","name":"resolve-alpn","repository":{"type":"git","url":"git+https://github.com/szmarczak/resolve-alpn.git"},"scripts":{"test":"xo && nyc --reporter=lcovonly --reporter=text --reporter=html ava"},"version":"1.2.1"}');
-
-/***/ }),
-
-/***/ 98659:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["resolve-from@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"resolve-from@4.0.0","_id":"resolve-from@4.0.0","_inBundle":false,"_integrity":"sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==","_location":"/resolve-from","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"resolve-from@4.0.0","name":"resolve-from","escapedName":"resolve-from","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/import-fresh"],"_resolved":"https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/resolve-from/issues"},"description":"Resolve the path of a module like `require.resolve()` but from a given path","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=4"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/resolve-from#readme","keywords":["require","resolve","path","module","from","like","import"],"license":"MIT","name":"resolve-from","repository":{"type":"git","url":"git+https://github.com/sindresorhus/resolve-from.git"},"scripts":{"test":"xo && ava"},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 44859:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["resolve-url@0.2.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"resolve-url@0.2.1","_id":"resolve-url@0.2.1","_inBundle":false,"_integrity":"sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=","_location":"/resolve-url","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"resolve-url@0.2.1","name":"resolve-url","escapedName":"resolve-url","rawSpec":"0.2.1","saveSpec":null,"fetchSpec":"0.2.1"},"_requiredBy":["/source-map-resolve"],"_resolved":"https://registry.npmjs.org/resolve-url/-/resolve-url-0.2.1.tgz","_spec":"0.2.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Simon Lydell"},"bugs":{"url":"https://github.com/lydell/resolve-url/issues"},"description":"Like Node.js’ `path.resolve`/`url.resolve` for the browser.","devDependencies":{"jshint":"~2.4.3","tape":"~2.5.0","testling":"~1.6.0"},"homepage":"https://github.com/lydell/resolve-url#readme","keywords":["resolve","url"],"license":"MIT","main":"resolve-url.js","name":"resolve-url","repository":{"type":"git","url":"git+https://github.com/lydell/resolve-url.git"},"scripts":{"test":"jshint resolve-url.js test/ && testling -u"},"testling":{"files":"test/*.js","browsers":["ie/8..latest","chrome/latest","firefox/latest","opera/12","opera/latest","safari/5","iphone/6","android-browser/4"]},"version":"0.2.1"}');
-
-/***/ }),
-
-/***/ 39795:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["resolve@1.20.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"resolve@1.20.0","_id":"resolve@1.20.0","_inBundle":false,"_integrity":"sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==","_location":"/resolve","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"resolve@1.20.0","name":"resolve","escapedName":"resolve","rawSpec":"1.20.0","saveSpec":null,"fetchSpec":"1.20.0"},"_requiredBy":["/normalize-package-data"],"_resolved":"https://registry.npmjs.org/resolve/-/resolve-1.20.0.tgz","_spec":"1.20.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"bugs":{"url":"https://github.com/browserify/resolve/issues"},"dependencies":{"is-core-module":"^2.2.0","path-parse":"^1.0.6"},"description":"resolve like require.resolve() on behalf of files asynchronously and synchronously","devDependencies":{"@ljharb/eslint-config":"^17.5.1","array.prototype.map":"^1.0.3","aud":"^1.1.4","eclint":"^2.8.1","eslint":"^7.19.0","object-keys":"^1.1.1","safe-publish-latest":"^1.1.4","tap":"0.4.13","tape":"^5.1.1"},"funding":{"url":"https://github.com/sponsors/ljharb"},"homepage":"https://github.com/browserify/resolve#readme","keywords":["resolve","require","node","module"],"license":"MIT","main":"index.js","name":"resolve","repository":{"type":"git","url":"git://github.com/browserify/resolve.git"},"scripts":{"lint":"eslint --ext=js,mjs .","posttest":"npm run test:multirepo && aud --production","prelint":"eclint check \'**/*\'","prepublish":"safe-publish-latest && cp node_modules/is-core-module/core.json ./lib/ ||:","pretest":"npm run lint","pretests-only":"cd ./test/resolver/nested_symlinks && node mylib/sync && node mylib/async","test":"npm run --silent tests-only","test:multirepo":"cd ./test/resolver/multirepo && npm install && npm test","tests-only":"tape test/*.js"},"version":"1.20.0"}');
-
-/***/ }),
-
-/***/ 79519:
-/***/ ((module) => {
-
-"use strict";
-module.exports = {"main":"main.js"};
-
-/***/ }),
-
-/***/ 82329:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"name":"baz","main":"quux.js"}');
-
-/***/ }),
-
-/***/ 49038:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"name":"browser_field","main":"a","browser":"b"}');
-
-/***/ }),
-
-/***/ 66312:
-/***/ ((module) => {
-
-"use strict";
-module.exports = {"main":"."};
-
-/***/ }),
-
-/***/ 62075:
-/***/ ((module) => {
-
-"use strict";
-module.exports = {"main":"./"};
-
-/***/ }),
-
-/***/ 89129:
-/***/ ((module) => {
-
-"use strict";
-module.exports = {"main":"wrong.js"};
-
-/***/ }),
-
-/***/ 4777:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"name":"invalid main","main":["why is this a thing","srsly omg wtf"]}');
-
-/***/ }),
-
-/***/ 42752:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"name":"monorepo-symlink-test","private":true,"version":"0.0.0","description":"","main":"index.js","scripts":{"postinstall":"lerna bootstrap","test":"node packages/package-a"},"author":"","license":"MIT","dependencies":{"jquery":"^3.3.1","resolve":"../../../"},"devDependencies":{"lerna":"^3.4.3"}}');
-
-/***/ }),
-
-/***/ 85192:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"name":"@my-scope/package-a","version":"0.0.0","private":true,"description":"","license":"MIT","main":"index.js","scripts":{"test":"echo \\"Error: run tests from root\\" && exit 1"},"dependencies":{"@my-scope/package-b":"^0.0.0"}}');
-
-/***/ }),
-
-/***/ 39063:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"name":"@my-scope/package-b","private":true,"version":"0.0.0","description":"","license":"MIT","main":"index.js","scripts":{"test":"echo \\"Error: run tests from root\\" && exit 1"},"dependencies":{"@my-scope/package-a":"^0.0.0"}}');
-
-/***/ }),
-
-/***/ 8102:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"name":"mylib","version":"0.0.0","description":"","private":true,"scripts":{"test":"echo \\"Error: no test specified\\" && exit 1"},"keywords":[],"author":"","license":"ISC","dependencies":{"buffer":"*"}}');
-
-/***/ }),
-
-/***/ 91074:
-/***/ ((module) => {
-
-"use strict";
-module.exports = {"main":"bar.js"};
-
-/***/ }),
-
-/***/ 82435:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["responselike@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"responselike@2.0.0","_id":"responselike@2.0.0","_inBundle":false,"_integrity":"sha512-xH48u3FTB9VsZw7R+vvgaKeLKzT6jOogbQhEe/jewwnZgzPcnyWui2Av6JpoYZF/91uueC+lqhWqeURw5/qhCw==","_location":"/responselike","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"responselike@2.0.0","name":"responselike","escapedName":"responselike","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/cacheable-request","/got"],"_resolved":"https://registry.npmjs.org/responselike/-/responselike-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"lukechilds"},"bugs":{"url":"https://github.com/lukechilds/responselike/issues"},"dependencies":{"lowercase-keys":"^2.0.0"},"description":"A response-like object for mocking a Node.js HTTP response stream","devDependencies":{"ava":"^0.25.0","coveralls":"^3.0.0","eslint-config-xo-lukechilds":"^1.0.0","get-stream":"^3.0.0","nyc":"^11.8.0","xo":"^0.19.0"},"homepage":"https://github.com/lukechilds/responselike#readme","keywords":["http","https","response","mock","request","responselike"],"license":"MIT","main":"src/index.js","name":"responselike","repository":{"type":"git","url":"git+https://github.com/lukechilds/responselike.git"},"scripts":{"coverage":"nyc report --reporter=text-lcov | coveralls","test":"xo && nyc ava"},"version":"2.0.0","xo":{"extends":"xo-lukechilds"}}');
-
-/***/ }),
-
-/***/ 81533:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ret@0.1.15","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ret@0.1.15","_id":"ret@0.1.15","_inBundle":false,"_integrity":"sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==","_location":"/ret","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ret@0.1.15","name":"ret","escapedName":"ret","rawSpec":"0.1.15","saveSpec":null,"fetchSpec":"0.1.15"},"_requiredBy":["/safe-regex"],"_resolved":"https://registry.npmjs.org/ret/-/ret-0.1.15.tgz","_spec":"0.1.15","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Roly Fentanes","url":"https://github.com/fent"},"bugs":{"url":"https://github.com/fent/ret.js/issues"},"description":"Tokenizes a string that represents a regular expression.","devDependencies":{"istanbul":"*","vows":"*"},"directories":{"lib":"./lib"},"engines":{"node":">=0.12"},"files":["lib"],"homepage":"https://github.com/fent/ret.js#readme","keywords":["regex","regexp","regular expression","parser","tokenizer"],"license":"MIT","main":"./lib/index.js","name":"ret","repository":{"type":"git","url":"git://github.com/fent/ret.js.git"},"scripts":{"test":"istanbul cover vows -- --spec test/*-test.js"},"version":"0.1.15"}');
-
-/***/ }),
-
-/***/ 37263:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["reusify@1.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_from":"reusify@1.0.4","_id":"reusify@1.0.4","_inBundle":false,"_integrity":"sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==","_location":"/reusify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"reusify@1.0.4","name":"reusify","escapedName":"reusify","rawSpec":"1.0.4","saveSpec":null,"fetchSpec":"1.0.4"},"_requiredBy":["/fastq"],"_resolved":"https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz","_spec":"1.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Matteo Collina","email":"hello@matteocollina.com"},"bugs":{"url":"https://github.com/mcollina/reusify/issues"},"description":"Reuse objects and functions with style","devDependencies":{"coveralls":"^2.13.3","faucet":"0.0.1","istanbul":"^0.4.5","pre-commit":"^1.2.2","standard":"^10.0.3","tape":"^4.8.0"},"engines":{"iojs":">=1.0.0","node":">=0.10.0"},"homepage":"https://github.com/mcollina/reusify#readme","keywords":["reuse","object","performance","function","fast"],"license":"MIT","main":"reusify.js","name":"reusify","pre-commit":["lint","test"],"repository":{"type":"git","url":"git+https://github.com/mcollina/reusify.git"},"scripts":{"coverage":"npm run istanbul; cat coverage/lcov.info | coveralls","istanbul":"istanbul cover tape test.js","lint":"standard","test":"tape test.js | faucet"},"version":"1.0.4"}');
-
-/***/ }),
-
-/***/ 95817:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["rimraf@3.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"rimraf@3.0.2","_id":"rimraf@3.0.2","_inBundle":false,"_integrity":"sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==","_location":"/rimraf","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"rimraf@3.0.2","name":"rimraf","escapedName":"rimraf","rawSpec":"3.0.2","saveSpec":null,"fetchSpec":"3.0.2"},"_requiredBy":["/flat-cache"],"_resolved":"https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz","_spec":"3.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bin":{"rimraf":"bin.js"},"bugs":{"url":"https://github.com/isaacs/rimraf/issues"},"dependencies":{"glob":"^7.1.3"},"description":"A deep deletion module for node (like `rm -rf`)","devDependencies":{"mkdirp":"^0.5.1","tap":"^12.1.1"},"files":["LICENSE","README.md","bin.js","rimraf.js"],"funding":{"url":"https://github.com/sponsors/isaacs"},"homepage":"https://github.com/isaacs/rimraf#readme","license":"ISC","main":"rimraf.js","name":"rimraf","repository":{"type":"git","url":"git://github.com/isaacs/rimraf.git"},"scripts":{"postpublish":"git push origin --follow-tags","postversion":"npm publish","preversion":"npm test","test":"tap test/*.js"},"version":"3.0.2"}');
-
-/***/ }),
-
-/***/ 32186:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["run-parallel@1.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"run-parallel@1.2.0","_id":"run-parallel@1.2.0","_inBundle":false,"_integrity":"sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==","_location":"/run-parallel","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"run-parallel@1.2.0","name":"run-parallel","escapedName":"run-parallel","rawSpec":"1.2.0","saveSpec":null,"fetchSpec":"1.2.0"},"_requiredBy":["/@nodelib/fs.scandir"],"_resolved":"https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz","_spec":"1.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Feross Aboukhadijeh","email":"feross@feross.org","url":"https://feross.org"},"bugs":{"url":"https://github.com/feross/run-parallel/issues"},"dependencies":{"queue-microtask":"^1.2.2"},"description":"Run an array of functions in parallel","devDependencies":{"airtap":"^3.0.0","standard":"*","tape":"^5.0.1"},"funding":[{"type":"github","url":"https://github.com/sponsors/feross"},{"type":"patreon","url":"https://www.patreon.com/feross"},{"type":"consulting","url":"https://feross.org/support"}],"homepage":"https://github.com/feross/run-parallel","keywords":["parallel","async","function","callback","asynchronous","run","array","run parallel"],"license":"MIT","main":"index.js","name":"run-parallel","repository":{"type":"git","url":"git://github.com/feross/run-parallel.git"},"scripts":{"test":"standard && npm run test-node && npm run test-browser","test-browser":"airtap -- test/*.js","test-browser-local":"airtap --local -- test/*.js","test-node":"tape test/*.js"},"version":"1.2.0"}');
-
-/***/ }),
-
-/***/ 72712:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["safe-regex@1.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"safe-regex@1.1.0","_id":"safe-regex@1.1.0","_inBundle":false,"_integrity":"sha1-QKNmnzsHfR6UPURinhV91IAjvy4=","_location":"/safe-regex","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"safe-regex@1.1.0","name":"safe-regex","escapedName":"safe-regex","rawSpec":"1.1.0","saveSpec":null,"fetchSpec":"1.1.0"},"_requiredBy":["/regex-not","/to-regex"],"_resolved":"https://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz","_spec":"1.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"bugs":{"url":"https://github.com/substack/safe-regex/issues"},"dependencies":{"ret":"~0.1.10"},"description":"detect possibly catastrophic, exponential-time regular expressions","devDependencies":{"tape":"^3.5.0"},"homepage":"https://github.com/substack/safe-regex","keywords":["catastrophic","exponential","regex","safe","sandbox"],"license":"MIT","main":"index.js","name":"safe-regex","repository":{"type":"git","url":"git://github.com/substack/safe-regex.git"},"scripts":{"test":"tape test/*.js"},"testling":{"files":"test/*.js","browsers":["ie/8","ie/9","ie/10","firefox/latest","chrome/latest","opera/latest","safari/latest"]},"version":"1.1.0"}');
-
-/***/ }),
-
-/***/ 26259:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["lru-cache@6.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"lru-cache@6.0.0","_id":"lru-cache@6.0.0","_inBundle":false,"_integrity":"sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==","_location":"/semver/lru-cache","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"lru-cache@6.0.0","name":"lru-cache","escapedName":"lru-cache","rawSpec":"6.0.0","saveSpec":null,"fetchSpec":"6.0.0"},"_requiredBy":["/semver"],"_resolved":"https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz","_spec":"6.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me"},"bugs":{"url":"https://github.com/isaacs/node-lru-cache/issues"},"dependencies":{"yallist":"^4.0.0"},"description":"A cache object that deletes the least-recently-used items.","devDependencies":{"benchmark":"^2.1.4","tap":"^14.10.7"},"engines":{"node":">=10"},"files":["index.js"],"homepage":"https://github.com/isaacs/node-lru-cache#readme","keywords":["mru","lru","cache"],"license":"ISC","main":"index.js","name":"lru-cache","repository":{"type":"git","url":"git://github.com/isaacs/node-lru-cache.git"},"scripts":{"postversion":"npm publish","prepublishOnly":"git push origin --follow-tags","preversion":"npm test","snap":"tap","test":"tap"},"version":"6.0.0"}');
-
-/***/ }),
-
-/***/ 47905:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["yallist@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"yallist@4.0.0","_id":"yallist@4.0.0","_inBundle":false,"_integrity":"sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==","_location":"/semver/yallist","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"yallist@4.0.0","name":"yallist","escapedName":"yallist","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/semver/lru-cache"],"_resolved":"https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bugs":{"url":"https://github.com/isaacs/yallist/issues"},"dependencies":{},"description":"Yet Another Linked List","devDependencies":{"tap":"^12.1.0"},"directories":{"test":"test"},"files":["yallist.js","iterator.js"],"homepage":"https://github.com/isaacs/yallist#readme","license":"ISC","main":"yallist.js","name":"yallist","repository":{"type":"git","url":"git+https://github.com/isaacs/yallist.git"},"scripts":{"postpublish":"git push origin --all; git push origin --tags","postversion":"npm publish","preversion":"npm test","test":"tap test/*.js --100"},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 15543:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["semver@7.3.5","/Users/brian.kimball/Github/bump-and-release"]],"_from":"semver@7.3.5","_id":"semver@7.3.5","_inBundle":false,"_integrity":"sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==","_location":"/semver","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"semver@7.3.5","name":"semver","escapedName":"semver","rawSpec":"7.3.5","saveSpec":null,"fetchSpec":"7.3.5"},"_requiredBy":["/","/eslint"],"_resolved":"https://registry.npmjs.org/semver/-/semver-7.3.5.tgz","_spec":"7.3.5","_where":"/Users/brian.kimball/Github/bump-and-release","bin":{"semver":"bin/semver.js"},"bugs":{"url":"https://github.com/npm/node-semver/issues"},"dependencies":{"lru-cache":"^6.0.0"},"description":"The semantic version parser used by npm.","devDependencies":{"tap":"^14.10.7"},"engines":{"node":">=10"},"files":["bin/**/*.js","range.bnf","classes/**/*.js","functions/**/*.js","internal/**/*.js","ranges/**/*.js","index.js","preload.js"],"homepage":"https://github.com/npm/node-semver#readme","license":"ISC","main":"index.js","name":"semver","repository":{"type":"git","url":"git+https://github.com/npm/node-semver.git"},"scripts":{"postpublish":"git push origin --follow-tags","postversion":"npm publish","preversion":"npm test","snap":"tap","test":"tap"},"tap":{"check-coverage":true,"coverage-map":"map.js"},"version":"7.3.5"}');
-
-/***/ }),
-
-/***/ 5649:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["set-blocking@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"set-blocking@2.0.0","_id":"set-blocking@2.0.0","_inBundle":false,"_integrity":"sha1-BF+XgtARrppoA93TgrJDkrPYkPc=","_location":"/set-blocking","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"set-blocking@2.0.0","name":"set-blocking","escapedName":"set-blocking","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/yargs"],"_resolved":"https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Ben Coe","email":"ben@npmjs.com"},"bugs":{"url":"https://github.com/yargs/set-blocking/issues"},"description":"set blocking stdio and stderr ensuring that terminal output does not truncate","devDependencies":{"chai":"^3.5.0","coveralls":"^2.11.9","mocha":"^2.4.5","nyc":"^6.4.4","standard":"^7.0.1","standard-version":"^2.2.1"},"files":["index.js","LICENSE.txt"],"homepage":"https://github.com/yargs/set-blocking#readme","keywords":["flush","terminal","blocking","shim","stdio","stderr"],"license":"ISC","main":"index.js","name":"set-blocking","repository":{"type":"git","url":"git+https://github.com/yargs/set-blocking.git"},"scripts":{"coverage":"nyc report --reporter=text-lcov | coveralls","pretest":"standard","test":"nyc mocha ./test/*.js","version":"standard-version"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 95074:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["extend-shallow@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"extend-shallow@2.0.1","_id":"extend-shallow@2.0.1","_inBundle":false,"_integrity":"sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=","_location":"/set-value/extend-shallow","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"extend-shallow@2.0.1","name":"extend-shallow","escapedName":"extend-shallow","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/set-value"],"_resolved":"https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/extend-shallow/issues"},"dependencies":{"is-extendable":"^0.1.0"},"description":"Extend an object with the properties of additional objects. node.js/javascript util.","devDependencies":{"array-slice":"^0.2.3","benchmarked":"^0.1.4","chalk":"^1.0.0","for-own":"^0.1.3","glob":"^5.0.12","is-plain-object":"^2.0.1","kind-of":"^2.0.0","minimist":"^1.1.1","mocha":"^2.2.5","should":"^7.0.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/extend-shallow","keywords":["assign","extend","javascript","js","keys","merge","obj","object","prop","properties","property","props","shallow","util","utility","utils","value"],"license":"MIT","main":"index.js","name":"extend-shallow","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/extend-shallow.git"},"scripts":{"test":"mocha"},"version":"2.0.1"}');
-
-/***/ }),
-
-/***/ 6800:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["set-value@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"set-value@2.0.1","_id":"set-value@2.0.1","_inBundle":false,"_integrity":"sha512-JxHc1weCN68wRY0fhCoXpyK55m/XPHafOmK4UWD7m2CI14GMcFypt4w/0+NV5f/ZMby2F6S2wwA7fgynh9gWSw==","_location":"/set-value","_phantomChildren":{"is-extendable":"0.1.1"},"_requested":{"type":"version","registry":true,"raw":"set-value@2.0.1","name":"set-value","escapedName":"set-value","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/cache-base","/union-value"],"_resolved":"https://registry.npmjs.org/set-value/-/set-value-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/set-value/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"url":"https://github.com/wtgtybhertgeghgtwtg"},{"name":"Vadim Demedes","url":"https://vadimdemedes.com"}],"dependencies":{"extend-shallow":"^2.0.1","is-extendable":"^0.1.1","is-plain-object":"^2.0.3","split-string":"^3.0.1"},"description":"Create nested values and any intermediaries using dot notation (`\'a.b.c\'`) paths.","devDependencies":{"gulp-format-md":"^0.1.12","mocha":"^3.4.2"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/set-value","keywords":["get","has","hasown","key","keys","nested","notation","object","prop","properties","property","props","set","value","values"],"license":"MIT","main":"index.js","name":"set-value","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/set-value.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["assign-value","get-value","has-value","merge-value","omit-value","set-value","union-value","unset-value"]},"lint":{"reflinks":true}},"version":"2.0.1"}');
-
-/***/ }),
-
-/***/ 16457:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["shebang-command@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"shebang-command@2.0.0","_id":"shebang-command@2.0.0","_inBundle":false,"_integrity":"sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==","_location":"/shebang-command","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"shebang-command@2.0.0","name":"shebang-command","escapedName":"shebang-command","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/cross-spawn"],"_resolved":"https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Kevin Mårtensson","email":"kevinmartensson@gmail.com","url":"github.com/kevva"},"bugs":{"url":"https://github.com/kevva/shebang-command/issues"},"dependencies":{"shebang-regex":"^3.0.0"},"description":"Get the command from a shebang","devDependencies":{"ava":"^2.3.0","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js"],"homepage":"https://github.com/kevva/shebang-command#readme","keywords":["cmd","command","parse","shebang"],"license":"MIT","name":"shebang-command","repository":{"type":"git","url":"git+https://github.com/kevva/shebang-command.git"},"scripts":{"test":"xo && ava"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 84217:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["shebang-regex@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"shebang-regex@3.0.0","_id":"shebang-regex@3.0.0","_inBundle":false,"_integrity":"sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==","_location":"/shebang-regex","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"shebang-regex@3.0.0","name":"shebang-regex","escapedName":"shebang-regex","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/shebang-command"],"_resolved":"https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/shebang-regex/issues"},"description":"Regular expression for matching a shebang line","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/shebang-regex#readme","keywords":["regex","regexp","shebang","match","test","line"],"license":"MIT","name":"shebang-regex","repository":{"type":"git","url":"git+https://github.com/sindresorhus/shebang-regex.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 39793:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["debug@4.3.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"debug@4.3.2","_id":"debug@4.3.2","_inBundle":false,"_integrity":"sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==","_location":"/simple-git/debug","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"debug@4.3.2","name":"debug","escapedName":"debug","rawSpec":"4.3.2","saveSpec":null,"fetchSpec":"4.3.2"},"_requiredBy":["/simple-git"],"_resolved":"https://registry.npmjs.org/debug/-/debug-4.3.2.tgz","_spec":"4.3.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},"browser":"./src/browser.js","bugs":{"url":"https://github.com/visionmedia/debug/issues"},"contributors":[{"name":"Nathan Rajlich","email":"nathan@tootallnate.net","url":"http://n8.io"},{"name":"Andrew Rhyne","email":"rhyneandrew@gmail.com"},{"name":"Josh Junon","email":"josh@junon.me"}],"dependencies":{"ms":"2.1.2"},"description":"small debugging utility","devDependencies":{"brfs":"^2.0.1","browserify":"^16.2.3","coveralls":"^3.0.2","istanbul":"^0.4.5","karma":"^3.1.4","karma-browserify":"^6.0.0","karma-chrome-launcher":"^2.2.0","karma-mocha":"^1.3.0","mocha":"^5.2.0","mocha-lcov-reporter":"^1.2.0","xo":"^0.23.0"},"engines":{"node":">=6.0"},"files":["src","LICENSE","README.md"],"homepage":"https://github.com/visionmedia/debug#readme","keywords":["debug","log","debugger"],"license":"MIT","main":"./src/index.js","name":"debug","peerDependenciesMeta":{"supports-color":{"optional":true}},"repository":{"type":"git","url":"git://github.com/visionmedia/debug.git"},"scripts":{"lint":"xo","test":"npm run test:node && npm run test:browser && npm run lint","test:browser":"karma start --single-run","test:coverage":"cat ./coverage/lcov.info | coveralls","test:node":"istanbul cover _mocha -- test.js"},"version":"4.3.2"}');
-
-/***/ }),
-
-/***/ 86570:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["simple-git@2.47.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"simple-git@2.47.0","_id":"simple-git@2.47.0","_inBundle":false,"_integrity":"sha512-+HfCpqPBEZTPWiW9fPdbiPJDslM22MLqrktfzNKyI2pWaJa6DhfNVx4Mds04KZzVv5vjC9/ksw3y5gVf8ECWDg==","_location":"/simple-git","_phantomChildren":{"ms":"2.1.2"},"_requested":{"type":"version","registry":true,"raw":"simple-git@2.47.0","name":"simple-git","escapedName":"simple-git","rawSpec":"2.47.0","saveSpec":null,"fetchSpec":"2.47.0"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/simple-git/-/simple-git-2.47.0.tgz","_spec":"2.47.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Steve King","email":"steve@mydev.co"},"bugs":{"url":"https://github.com/steveukx/git-js/issues"},"contributors":[{"name":"Steve King","email":"steve@mydev.co"}],"dependencies":{"@kwsites/file-exists":"^1.1.1","@kwsites/promise-deferred":"^1.1.1","debug":"^4.3.2"},"description":"Simple GIT interface for node.js","devDependencies":{"@babel/core":"^7.12.9","@babel/preset-env":"^7.12.7","@babel/preset-typescript":"^7.12.7","@kwsites/promise-result":"^1.1.0","@types/debug":"^4.1.5","@types/jest":"^26.0.15","@types/node":"^14.14.10","babel-jest":"^26.6.3","babel-plugin-module-resolver":"^4.0.0","jest":"^26.6.3","ts-node":"^9.0.0","typescript":"^4.1.2"},"files":["promise.js","promise.d.ts","src/**/*.d.ts","src/**/*.js","src/**/*.js.map","typings/"],"homepage":"https://github.com/steveukx/git-js#readme","keywords":["git","source control","vcs"],"license":"MIT","main":"./src/index.js","name":"simple-git","repository":{"type":"git","url":"git://github.com/steveukx/git-js.git"},"scripts":{"build":"tsc --build","build:clean":"yarn clean && yarn build","build:release":"tsc -p tsconfig.release.json","clean":"git clean -fxd -e .idea -e node_modules","postversion":"npm publish && git push && git push --tags","preversion":"yarn clean && yarn test && yarn build:release","test":"yarn test:consumer && yarn test:jest","test:consumer":"tsc -p test/consumer/tsconfig-standard.json && tsc -p test/consumer/tsconfig-promise.json","test:jest":"jest --coverage","tsc":"tsc"},"types":"./typings/index.d.ts","version":"2.47.0"}');
-
-/***/ }),
-
-/***/ 12:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["slash@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"slash@2.0.0","_id":"slash@2.0.0","_inBundle":false,"_integrity":"sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==","_location":"/slash","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"slash@2.0.0","name":"slash","escapedName":"slash","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/cpy/globby"],"_resolved":"https://registry.npmjs.org/slash/-/slash-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/slash/issues"},"description":"Convert Windows backslash paths to slash paths","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=6"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/slash#readme","keywords":["path","seperator","sep","slash","backslash","windows","win"],"license":"MIT","name":"slash","repository":{"type":"git","url":"git+https://github.com/sindresorhus/slash.git"},"scripts":{"test":"xo && ava"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 24760:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ansi-styles@4.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ansi-styles@4.3.0","_id":"ansi-styles@4.3.0","_inBundle":false,"_integrity":"sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==","_location":"/slice-ansi/ansi-styles","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ansi-styles@4.3.0","name":"ansi-styles","escapedName":"ansi-styles","rawSpec":"4.3.0","saveSpec":null,"fetchSpec":"4.3.0"},"_requiredBy":["/slice-ansi"],"_resolved":"https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz","_spec":"4.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/chalk/ansi-styles/issues"},"dependencies":{"color-convert":"^2.0.1"},"description":"ANSI escape codes for styling strings in the terminal","devDependencies":{"@types/color-convert":"^1.9.0","ava":"^2.3.0","svg-term-cli":"^2.1.1","tsd":"^0.11.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/chalk/ansi-styles?sponsor=1","homepage":"https://github.com/chalk/ansi-styles#readme","keywords":["ansi","styles","color","colour","colors","terminal","console","cli","string","tty","escape","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"ansi-styles","repository":{"type":"git","url":"git+https://github.com/chalk/ansi-styles.git"},"scripts":{"screenshot":"svg-term --command=\'node screenshot\' --out=screenshot.svg --padding=3 --width=55 --height=3 --at=1000 --no-cursor","test":"xo && ava && tsd"},"version":"4.3.0"}');
-
-/***/ }),
-
-/***/ 98891:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["color-convert@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"color-convert@2.0.1","_id":"color-convert@2.0.1","_inBundle":false,"_integrity":"sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==","_location":"/slice-ansi/color-convert","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"color-convert@2.0.1","name":"color-convert","escapedName":"color-convert","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/slice-ansi/ansi-styles"],"_resolved":"https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Heather Arthur","email":"fayearthur@gmail.com"},"bugs":{"url":"https://github.com/Qix-/color-convert/issues"},"dependencies":{"color-name":"~1.1.4"},"description":"Plain color conversion functions","devDependencies":{"chalk":"^2.4.2","xo":"^0.24.0"},"engines":{"node":">=7.0.0"},"files":["index.js","conversions.js","route.js"],"homepage":"https://github.com/Qix-/color-convert#readme","keywords":["color","colour","convert","converter","conversion","rgb","hsl","hsv","hwb","cmyk","ansi","ansi16"],"license":"MIT","name":"color-convert","repository":{"type":"git","url":"git+https://github.com/Qix-/color-convert.git"},"scripts":{"pretest":"xo","test":"node test/basic.js"},"version":"2.0.1","xo":{"rules":{"default-case":0,"no-inline-comments":0,"operator-linebreak":0}}}');
-
-/***/ }),
-
-/***/ 78229:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["color-name@1.1.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"color-name@1.1.4","_id":"color-name@1.1.4","_inBundle":false,"_integrity":"sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==","_location":"/slice-ansi/color-name","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"color-name@1.1.4","name":"color-name","escapedName":"color-name","rawSpec":"1.1.4","saveSpec":null,"fetchSpec":"1.1.4"},"_requiredBy":["/slice-ansi/color-convert"],"_resolved":"https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz","_spec":"1.1.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"DY","email":"dfcreative@gmail.com"},"bugs":{"url":"https://github.com/colorjs/color-name/issues"},"description":"A list of color names and its values","files":["index.js"],"homepage":"https://github.com/colorjs/color-name","keywords":["color-name","color","color-keyword","keyword"],"license":"MIT","main":"index.js","name":"color-name","repository":{"type":"git","url":"git+ssh://git@github.com/colorjs/color-name.git"},"scripts":{"test":"node test.js"},"version":"1.1.4"}');
-
-/***/ }),
-
-/***/ 3781:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["slice-ansi@4.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"slice-ansi@4.0.0","_id":"slice-ansi@4.0.0","_inBundle":false,"_integrity":"sha512-qMCMfhY040cVHT43K9BFygqYbUPFZKHOg7K73mtTWJRb8pyP3fzf4Ixd5SzdEJQ6MRUg/WBnOLxghZtKKurENQ==","_location":"/slice-ansi","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"slice-ansi@4.0.0","name":"slice-ansi","escapedName":"slice-ansi","rawSpec":"4.0.0","saveSpec":null,"fetchSpec":"4.0.0"},"_requiredBy":["/table"],"_resolved":"https://registry.npmjs.org/slice-ansi/-/slice-ansi-4.0.0.tgz","_spec":"4.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/chalk/slice-ansi/issues"},"dependencies":{"ansi-styles":"^4.0.0","astral-regex":"^2.0.0","is-fullwidth-code-point":"^3.0.0"},"description":"Slice a string with ANSI escape codes","devDependencies":{"ava":"^2.1.0","chalk":"^3.0.0","random-item":"^3.0.0","strip-ansi":"^6.0.0","xo":"^0.26.1"},"engines":{"node":">=10"},"files":["index.js"],"funding":"https://github.com/chalk/slice-ansi?sponsor=1","homepage":"https://github.com/chalk/slice-ansi#readme","keywords":["slice","string","ansi","styles","color","colour","colors","terminal","console","cli","tty","escape","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"slice-ansi","repository":{"type":"git","url":"git+https://github.com/chalk/slice-ansi.git"},"scripts":{"test":"xo && ava"},"version":"4.0.0"}');
-
-/***/ }),
-
-/***/ 75031:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["define-property@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"define-property@1.0.0","_id":"define-property@1.0.0","_inBundle":false,"_integrity":"sha1-dp66rz9KY6rTr56NMEybvnm/sOY=","_location":"/snapdragon-node/define-property","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"define-property@1.0.0","name":"define-property","escapedName":"define-property","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/snapdragon-node"],"_resolved":"https://registry.npmjs.org/define-property/-/define-property-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/define-property/issues"},"dependencies":{"is-descriptor":"^1.0.0"},"description":"Define a non-enumerable property on an object.","devDependencies":{"gulp-format-md":"^0.1.12","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/define-property","keywords":["define","define-property","enumerable","key","non","non-enumerable","object","prop","property","value"],"license":"MIT","main":"index.js","name":"define-property","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/define-property.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["extend-shallow","merge-deep","assign-deep","mixin-deep"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 1362:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-accessor-descriptor@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-accessor-descriptor@1.0.0","_id":"is-accessor-descriptor@1.0.0","_inBundle":false,"_integrity":"sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==","_location":"/snapdragon-node/is-accessor-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-accessor-descriptor@1.0.0","name":"is-accessor-descriptor","escapedName":"is-accessor-descriptor","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/snapdragon-node/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-accessor-descriptor/-/is-accessor-descriptor-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-accessor-descriptor/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"dependencies":{"kind-of":"^6.0.0"},"description":"Returns true if a value has the characteristics of a valid JavaScript accessor descriptor.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-accessor-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-accessor-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-accessor-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","is-plain-object","isobject"]},"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 76983:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-data-descriptor@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-data-descriptor@1.0.0","_id":"is-data-descriptor@1.0.0","_inBundle":false,"_integrity":"sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ==","_location":"/snapdragon-node/is-data-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-data-descriptor@1.0.0","name":"is-data-descriptor","escapedName":"is-data-descriptor","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/snapdragon-node/is-descriptor"],"_resolved":"https://registry.npmjs.org/is-data-descriptor/-/is-data-descriptor-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-data-descriptor/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"dependencies":{"kind-of":"^6.0.0"},"description":"Returns true if a value has the characteristics of a valid JavaScript data descriptor.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-data-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-data-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-data-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 25099:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["is-descriptor@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"is-descriptor@1.0.2","_id":"is-descriptor@1.0.2","_inBundle":false,"_integrity":"sha512-2eis5WqQGV7peooDyLmNEPUrps9+SXX5c9pL3xEB+4e9HnGuDa7mB7kHxHw4CbqS9k1T2hOH3miL8n8WtiYVtg==","_location":"/snapdragon-node/is-descriptor","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"is-descriptor@1.0.2","name":"is-descriptor","escapedName":"is-descriptor","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/snapdragon-node/define-property"],"_resolved":"https://registry.npmjs.org/is-descriptor/-/is-descriptor-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/is-descriptor/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"dependencies":{"is-accessor-descriptor":"^1.0.0","is-data-descriptor":"^1.0.0","kind-of":"^6.0.2"},"description":"Returns true if a value has the characteristics of a valid JavaScript descriptor. Works for data descriptors and accessor descriptors.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/is-descriptor","keywords":["accessor","check","data","descriptor","get","getter","is","keys","object","properties","property","set","setter","type","valid","value"],"license":"MIT","main":"index.js","name":"is-descriptor","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/is-descriptor.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["is-accessor-descriptor","is-data-descriptor","is-descriptor","isobject"]},"plugins":["gulp-format-md"],"toc":false,"layout":"default","tasks":["readme"],"lint":{"reflinks":true}},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 20879:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["snapdragon-node@2.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"snapdragon-node@2.1.1","_id":"snapdragon-node@2.1.1","_inBundle":false,"_integrity":"sha512-O27l4xaMYt/RSQ5TR3vpWCAB5Kb/czIcqUFOM/C4fYcLnbZUc1PkjTAMjof2pBWaSTwOUd6qUHcFGVGj7aIwnw==","_location":"/snapdragon-node","_phantomChildren":{"kind-of":"6.0.3"},"_requested":{"type":"version","registry":true,"raw":"snapdragon-node@2.1.1","name":"snapdragon-node","escapedName":"snapdragon-node","rawSpec":"2.1.1","saveSpec":null,"fetchSpec":"2.1.1"},"_requiredBy":["/cpy/braces"],"_resolved":"https://registry.npmjs.org/snapdragon-node/-/snapdragon-node-2.1.1.tgz","_spec":"2.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/snapdragon-node/issues"},"dependencies":{"define-property":"^1.0.0","isobject":"^3.0.0","snapdragon-util":"^3.0.1"},"description":"Snapdragon utility for creating a new AST node in custom code, such as plugins.","devDependencies":{"gulp":"^3.9.1","gulp-eslint":"^4.0.0","gulp-format-md":"^0.1.12","gulp-istanbul":"^1.1.2","gulp-mocha":"^3.0.1","mocha":"^3.4.2","snapdragon":"^0.11.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/snapdragon-node","keywords":["ast","compile","compiler","convert","node","parse","parser","plugin","render","snapdragon","snapdragonplugin","token","transform"],"license":"MIT","main":"index.js","name":"snapdragon-node","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/snapdragon-node.git"},"scripts":{"test":"mocha"},"verb":{"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["breakdance","snapdragon","snapdragon-capture","snapdragon-cheerio","snapdragon-util"]},"reflinks":["verb","verb-generate-readme"],"lint":{"reflinks":true}},"version":"2.1.1"}');
-
-/***/ }),
-
-/***/ 26408:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@3.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@3.2.2","_id":"kind-of@3.2.2","_inBundle":false,"_integrity":"sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=","_location":"/snapdragon-util/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@3.2.2","name":"kind-of","escapedName":"kind-of","rawSpec":"3.2.2","saveSpec":null,"fetchSpec":"3.2.2"},"_requiredBy":["/snapdragon-util"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz","_spec":"3.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"}],"dependencies":{"is-buffer":"^1.1.5"},"description":"Get the native type of a value.","devDependencies":{"ansi-bold":"^0.1.1","benchmarked":"^1.0.0","browserify":"^14.3.0","glob":"^7.1.1","gulp-format-md":"^0.1.12","mocha":"^3.3.0","type-of":"^2.0.1","typeof":"^1.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"related":{"list":["is-glob","is-number","is-primitive"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"3.2.2"}');
-
-/***/ }),
-
-/***/ 21115:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["snapdragon-util@3.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"snapdragon-util@3.0.1","_id":"snapdragon-util@3.0.1","_inBundle":false,"_integrity":"sha512-mbKkMdQKsjX4BAL4bRYTj21edOf8cN7XHdYUJEe+Zn99hVEYcMvKPct1IqNe7+AZPirn8BCDOQBHQZknqmKlZQ==","_location":"/snapdragon-util","_phantomChildren":{"is-buffer":"1.1.6"},"_requested":{"type":"version","registry":true,"raw":"snapdragon-util@3.0.1","name":"snapdragon-util","escapedName":"snapdragon-util","rawSpec":"3.0.1","saveSpec":null,"fetchSpec":"3.0.1"},"_requiredBy":["/snapdragon-node"],"_resolved":"https://registry.npmjs.org/snapdragon-util/-/snapdragon-util-3.0.1.tgz","_spec":"3.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/snapdragon-util/issues"},"dependencies":{"kind-of":"^3.2.0"},"description":"Utilities for the snapdragon parser/compiler.","devDependencies":{"define-property":"^1.0.0","gulp":"^3.9.1","gulp-eslint":"^3.0.1","gulp-format-md":"^0.1.12","gulp-istanbul":"^1.1.1","gulp-mocha":"^3.0.0","isobject":"^3.0.0","mocha":"^3.3.0","snapdragon":"^0.11.0","snapdragon-node":"^1.0.6"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/snapdragon-util","keywords":["capture","compile","compiler","convert","match","parse","parser","plugin","render","snapdragon","snapdragonplugin","transform","util"],"license":"MIT","main":"index.js","name":"snapdragon-util","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/snapdragon-util.git"},"scripts":{"test":"mocha"},"verb":{"toc":"collapsible","layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"3.0.1"}');
-
-/***/ }),
-
-/***/ 4249:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["debug@2.6.9","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"debug@2.6.9","_id":"debug@2.6.9","_inBundle":false,"_integrity":"sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==","_location":"/snapdragon/debug","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"debug@2.6.9","name":"debug","escapedName":"debug","rawSpec":"2.6.9","saveSpec":null,"fetchSpec":"2.6.9"},"_requiredBy":["/snapdragon"],"_resolved":"https://registry.npmjs.org/debug/-/debug-2.6.9.tgz","_spec":"2.6.9","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"TJ Holowaychuk","email":"tj@vision-media.ca"},"browser":"./src/browser.js","bugs":{"url":"https://github.com/visionmedia/debug/issues"},"component":{"scripts":{"debug/index.js":"browser.js","debug/debug.js":"debug.js"}},"contributors":[{"name":"Nathan Rajlich","email":"nathan@tootallnate.net","url":"http://n8.io"},{"name":"Andrew Rhyne","email":"rhyneandrew@gmail.com"}],"dependencies":{"ms":"2.0.0"},"description":"small debugging utility","devDependencies":{"browserify":"9.0.3","chai":"^3.5.0","concurrently":"^3.1.0","coveralls":"^2.11.15","eslint":"^3.12.1","istanbul":"^0.4.5","karma":"^1.3.0","karma-chai":"^0.1.0","karma-mocha":"^1.3.0","karma-phantomjs-launcher":"^1.0.2","karma-sinon":"^1.0.5","mocha":"^3.2.0","mocha-lcov-reporter":"^1.2.0","rimraf":"^2.5.4","sinon":"^1.17.6","sinon-chai":"^2.8.0"},"homepage":"https://github.com/visionmedia/debug#readme","keywords":["debug","log","debugger"],"license":"MIT","main":"./src/index.js","name":"debug","repository":{"type":"git","url":"git://github.com/visionmedia/debug.git"},"version":"2.6.9"}');
-
-/***/ }),
-
-/***/ 47109:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["define-property@0.2.5","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"define-property@0.2.5","_id":"define-property@0.2.5","_inBundle":false,"_integrity":"sha1-w1se+RjsPJkPmlvFe+BKrOxcgRY=","_location":"/snapdragon/define-property","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"define-property@0.2.5","name":"define-property","escapedName":"define-property","rawSpec":"0.2.5","saveSpec":null,"fetchSpec":"0.2.5"},"_requiredBy":["/snapdragon"],"_resolved":"https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz","_spec":"0.2.5","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/define-property/issues"},"dependencies":{"is-descriptor":"^0.1.0"},"description":"Define a non-enumerable property on an object.","devDependencies":{"mocha":"*","should":"^7.0.4"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/define-property","keywords":["define","define-property","enumerable","key","non","non-enumerable","object","prop","property","value"],"license":"MIT","main":"index.js","name":"define-property","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/define-property.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["mixin-deep","mixin-object","delegate-object","forward-object"]}},"version":"0.2.5"}');
-
-/***/ }),
-
-/***/ 31905:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["extend-shallow@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"extend-shallow@2.0.1","_id":"extend-shallow@2.0.1","_inBundle":false,"_integrity":"sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=","_location":"/snapdragon/extend-shallow","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"extend-shallow@2.0.1","name":"extend-shallow","escapedName":"extend-shallow","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/snapdragon"],"_resolved":"https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/extend-shallow/issues"},"dependencies":{"is-extendable":"^0.1.0"},"description":"Extend an object with the properties of additional objects. node.js/javascript util.","devDependencies":{"array-slice":"^0.2.3","benchmarked":"^0.1.4","chalk":"^1.0.0","for-own":"^0.1.3","glob":"^5.0.12","is-plain-object":"^2.0.1","kind-of":"^2.0.0","minimist":"^1.1.1","mocha":"^2.2.5","should":"^7.0.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/extend-shallow","keywords":["assign","extend","javascript","js","keys","merge","obj","object","prop","properties","property","props","shallow","util","utility","utils","value"],"license":"MIT","main":"index.js","name":"extend-shallow","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/extend-shallow.git"},"scripts":{"test":"mocha"},"version":"2.0.1"}');
-
-/***/ }),
-
-/***/ 86681:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ms@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ms@2.0.0","_id":"ms@2.0.0","_inBundle":false,"_integrity":"sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=","_location":"/snapdragon/ms","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ms@2.0.0","name":"ms","escapedName":"ms","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/snapdragon/debug"],"_resolved":"https://registry.npmjs.org/ms/-/ms-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/zeit/ms/issues"},"description":"Tiny milisecond conversion utility","devDependencies":{"eslint":"3.19.0","expect.js":"0.3.1","husky":"0.13.3","lint-staged":"3.4.1","mocha":"3.4.1"},"eslintConfig":{"extends":"eslint:recommended","env":{"node":true,"es6":true}},"files":["index.js"],"homepage":"https://github.com/zeit/ms#readme","license":"MIT","lint-staged":{"*.js":["npm run lint","prettier --single-quote --write","git add"]},"main":"./index","name":"ms","repository":{"type":"git","url":"git+https://github.com/zeit/ms.git"},"scripts":{"lint":"eslint lib/* bin/*","precommit":"lint-staged","test":"mocha tests.js"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 60315:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["snapdragon@0.8.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"snapdragon@0.8.2","_id":"snapdragon@0.8.2","_inBundle":false,"_integrity":"sha512-FtyOnWN/wCHTVXOMwvSv26d+ko5vWlIDD6zoUJ7LW8vh+ZBC8QdljveRP+crNrtBwioEUWy/4dMtbBjA4ioNlg==","_location":"/snapdragon","_phantomChildren":{"is-descriptor":"0.1.6","is-extendable":"0.1.1"},"_requested":{"type":"version","registry":true,"raw":"snapdragon@0.8.2","name":"snapdragon","escapedName":"snapdragon","rawSpec":"0.8.2","saveSpec":null,"fetchSpec":"0.8.2"},"_requiredBy":["/cpy/braces","/cpy/micromatch","/expand-brackets","/extglob","/nanomatch"],"_resolved":"https://registry.npmjs.org/snapdragon/-/snapdragon-0.8.2.tgz","_spec":"0.8.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/snapdragon/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Edward Betts","url":"http://edwardbetts.com"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"base":"^0.11.1","debug":"^2.2.0","define-property":"^0.2.5","extend-shallow":"^2.0.1","map-cache":"^0.2.2","source-map":"^0.5.6","source-map-resolve":"^0.5.0","use":"^3.1.0"},"description":"Fast, pluggable and easy-to-use parser-renderer factory.","devDependencies":{"gulp":"^3.9.1","gulp-eslint":"^3.0.1","gulp-format-md":"^0.1.10","gulp-istanbul":"^1.1.1","gulp-mocha":"^3.0.1","gulp-unused":"^0.2.0","mocha":"^3.0.2"},"engines":{"node":">=0.10.0"},"files":["index.js","lib"],"homepage":"https://github.com/jonschlinkert/snapdragon","keywords":["lexer","snapdragon"],"license":"MIT","main":"index.js","name":"snapdragon","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/snapdragon.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"description":"These libraries use snapdragon:","list":["braces","expand-brackets","extglob","micromatch"]},"reflinks":["css","pug","verb","verb-generate-readme"],"lint":{"reflinks":true}},"version":"0.8.2"}');
-
-/***/ }),
-
-/***/ 17701:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["source-map-resolve@0.5.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"source-map-resolve@0.5.3","_id":"source-map-resolve@0.5.3","_inBundle":false,"_integrity":"sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw==","_location":"/source-map-resolve","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"source-map-resolve@0.5.3","name":"source-map-resolve","escapedName":"source-map-resolve","rawSpec":"0.5.3","saveSpec":null,"fetchSpec":"0.5.3"},"_requiredBy":["/snapdragon"],"_resolved":"https://registry.npmjs.org/source-map-resolve/-/source-map-resolve-0.5.3.tgz","_spec":"0.5.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Simon Lydell"},"browser":"source-map-resolve.js","bugs":{"url":"https://github.com/lydell/source-map-resolve/issues"},"dependencies":{"atob":"^2.1.2","decode-uri-component":"^0.2.0","resolve-url":"^0.2.1","source-map-url":"^0.4.0","urix":"^0.1.0"},"description":"Resolve the source map and/or sources for a generated file.","devDependencies":{"Base64":"1.1.0","jshint":"2.10.3","setimmediate":"1.0.5","simple-asyncify":"1.0.0","tape":"4.12.1"},"files":["lib","source-map-resolve.js"],"homepage":"https://github.com/lydell/source-map-resolve#readme","keywords":["source map","sourcemap","source","map","sourceMappingURL","resolve","resolver","locate","locator","find","finder"],"license":"MIT","main":"lib/source-map-resolve-node.js","name":"source-map-resolve","repository":{"type":"git","url":"git+https://github.com/lydell/source-map-resolve.git"},"scripts":{"build":"node generate-source-map-resolve.js","lint":"jshint lib/ test/","test":"npm run lint && npm run unit","unit":"node test/source-map-resolve.js && node test/windows.js"},"version":"0.5.3"}');
-
-/***/ }),
-
-/***/ 12688:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["source-map-url@0.4.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"source-map-url@0.4.1","_id":"source-map-url@0.4.1","_inBundle":false,"_integrity":"sha512-cPiFOTLUKvJFIg4SKVScy4ilPPW6rFgMgfuZJPNoDuMs3nC1HbMUycBoJw77xFIp6z1UJQJOfx6C9GMH80DiTw==","_location":"/source-map-url","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"source-map-url@0.4.1","name":"source-map-url","escapedName":"source-map-url","rawSpec":"0.4.1","saveSpec":null,"fetchSpec":"0.4.1"},"_requiredBy":["/source-map-resolve"],"_resolved":"https://registry.npmjs.org/source-map-url/-/source-map-url-0.4.1.tgz","_spec":"0.4.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Simon Lydell"},"bugs":{"url":"https://github.com/lydell/source-map-url/issues"},"description":"Tools for working with sourceMappingURL comments.","devDependencies":{"expect.js":"~0.3.1","jshint":"~2.4.3","mocha":"~1.17.1"},"homepage":"https://github.com/lydell/source-map-url#readme","keywords":["source map","sourceMappingURL","comment","annotation"],"license":"MIT","main":"source-map-url.js","name":"source-map-url","repository":{"type":"git","url":"git+https://github.com/lydell/source-map-url.git"},"scripts":{"lint":"jshint source-map-url.js test/ ","test":"npm run lint && npm run unit","unit":"mocha"},"testling":{"harness":"mocha","files":"test/*.js","browsers":["ie/8..latest","chrome/latest","firefox/latest","opera/12","opera/latest","safari/5","iphone/6","android-browser/4"]},"version":"0.4.1"}');
-
-/***/ }),
-
-/***/ 4671:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["source-map@0.5.7","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"source-map@0.5.7","_id":"source-map@0.5.7","_inBundle":false,"_integrity":"sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=","_location":"/source-map","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"source-map@0.5.7","name":"source-map","escapedName":"source-map","rawSpec":"0.5.7","saveSpec":null,"fetchSpec":"0.5.7"},"_requiredBy":["/snapdragon"],"_resolved":"https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz","_spec":"0.5.7","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Nick Fitzgerald","email":"nfitzgerald@mozilla.com"},"bugs":{"url":"https://github.com/mozilla/source-map/issues"},"contributors":[{"name":"Tobias Koppers","email":"tobias.koppers@googlemail.com"},{"name":"Duncan Beevers","email":"duncan@dweebd.com"},{"name":"Stephen Crane","email":"scrane@mozilla.com"},{"name":"Ryan Seddon","email":"seddon.ryan@gmail.com"},{"name":"Miles Elam","email":"miles.elam@deem.com"},{"name":"Mihai Bazon","email":"mihai.bazon@gmail.com"},{"name":"Michael Ficarra","email":"github.public.email@michael.ficarra.me"},{"name":"Todd Wolfson","email":"todd@twolfson.com"},{"name":"Alexander Solovyov","email":"alexander@solovyov.net"},{"name":"Felix Gnass","email":"fgnass@gmail.com"},{"name":"Conrad Irwin","email":"conrad.irwin@gmail.com"},{"name":"usrbincc","email":"usrbincc@yahoo.com"},{"name":"David Glasser","email":"glasser@davidglasser.net"},{"name":"Chase Douglas","email":"chase@newrelic.com"},{"name":"Evan Wallace","email":"evan.exe@gmail.com"},{"name":"Heather Arthur","email":"fayearthur@gmail.com"},{"name":"Hugh Kennedy","email":"hughskennedy@gmail.com"},{"name":"David Glasser","email":"glasser@davidglasser.net"},{"name":"Simon Lydell","email":"simon.lydell@gmail.com"},{"name":"Jmeas Smith","email":"jellyes2@gmail.com"},{"name":"Michael Z Goddard","email":"mzgoddard@gmail.com"},{"name":"azu","email":"azu@users.noreply.github.com"},{"name":"John Gozde","email":"john@gozde.ca"},{"name":"Adam Kirkton","email":"akirkton@truefitinnovation.com"},{"name":"Chris Montgomery","email":"christopher.montgomery@dowjones.com"},{"name":"J. Ryan Stinnett","email":"jryans@gmail.com"},{"name":"Jack Herrington","email":"jherrington@walmartlabs.com"},{"name":"Chris Truter","email":"jeffpalentine@gmail.com"},{"name":"Daniel Espeset","email":"daniel@danielespeset.com"},{"name":"Jamie Wong","email":"jamie.lf.wong@gmail.com"},{"name":"Eddy Bruël","email":"ejpbruel@mozilla.com"},{"name":"Hawken Rives","email":"hawkrives@gmail.com"},{"name":"Gilad Peleg","email":"giladp007@gmail.com"},{"name":"djchie","email":"djchie.dev@gmail.com"},{"name":"Gary Ye","email":"garysye@gmail.com"},{"name":"Nicolas Lalevée","email":"nicolas.lalevee@hibnet.org"}],"description":"Generates and consumes source maps","devDependencies":{"doctoc":"^0.15.0","webpack":"^1.12.0"},"engines":{"node":">=0.10.0"},"files":["source-map.js","lib/","dist/source-map.debug.js","dist/source-map.js","dist/source-map.min.js","dist/source-map.min.js.map"],"homepage":"https://github.com/mozilla/source-map","license":"BSD-3-Clause","main":"./source-map.js","name":"source-map","repository":{"type":"git","url":"git+ssh://git@github.com/mozilla/source-map.git"},"scripts":{"build":"webpack --color","test":"npm run build && node test/run-tests.js","toc":"doctoc --title \'## Table of Contents\' README.md && doctoc --title \'## Table of Contents\' CONTRIBUTING.md"},"typings":"source-map","version":"0.5.7"}');
-
-/***/ }),
-
-/***/ 74424:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["spdx-correct@3.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"spdx-correct@3.1.1","_id":"spdx-correct@3.1.1","_inBundle":false,"_integrity":"sha512-cOYcUWwhCuHCXi49RhFRCyJEK3iPj1Ziz9DpViV3tbZOwXD49QzIN3MpOLJNxh2qwq2lJJZaKMVw9qNi4jTC0w==","_location":"/spdx-correct","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"spdx-correct@3.1.1","name":"spdx-correct","escapedName":"spdx-correct","rawSpec":"3.1.1","saveSpec":null,"fetchSpec":"3.1.1"},"_requiredBy":["/validate-npm-package-license"],"_resolved":"https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz","_spec":"3.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Kyle E. Mitchell","email":"kyle@kemitchell.com","url":"https://kemitchell.com"},"bugs":{"url":"https://github.com/jslicense/spdx-correct.js/issues"},"contributors":[{"name":"Kyle E. Mitchell","email":"kyle@kemitchell.com","url":"https://kemitchell.com"},{"name":"Christian Zommerfelds","email":"aero_super@yahoo.com"},{"name":"Tal Einat","email":"taleinat@gmail.com"},{"name":"Dan Butvinik","email":"butvinik@outlook.com"}],"dependencies":{"spdx-expression-parse":"^3.0.0","spdx-license-ids":"^3.0.0"},"description":"correct invalid SPDX expressions","devDependencies":{"defence-cli":"^2.0.1","replace-require-self":"^1.0.0","standard":"^11.0.0","standard-markdown":"^4.0.2","tape":"^4.9.0"},"files":["index.js"],"homepage":"https://github.com/jslicense/spdx-correct.js#readme","keywords":["SPDX","law","legal","license","metadata"],"license":"Apache-2.0","name":"spdx-correct","repository":{"type":"git","url":"git+https://github.com/jslicense/spdx-correct.js.git"},"scripts":{"lint":"standard && standard-markdown README.md","test":"defence README.md | replace-require-self | node && node test.js"},"version":"3.1.1"}');
-
-/***/ }),
-
-/***/ 29882:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["spdx-exceptions@2.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"spdx-exceptions@2.3.0","_id":"spdx-exceptions@2.3.0","_inBundle":false,"_integrity":"sha512-/tTrYOC7PPI1nUAgx34hUpqXuyJG+DTHJTnIULG4rDygi4xu/tfgmq1e1cIRwRzwZgo4NLySi+ricLkZkw4i5A==","_location":"/spdx-exceptions","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"spdx-exceptions@2.3.0","name":"spdx-exceptions","escapedName":"spdx-exceptions","rawSpec":"2.3.0","saveSpec":null,"fetchSpec":"2.3.0"},"_requiredBy":["/spdx-expression-parse"],"_resolved":"https://registry.npmjs.org/spdx-exceptions/-/spdx-exceptions-2.3.0.tgz","_spec":"2.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"The Linux Foundation"},"bugs":{"url":"https://github.com/kemitchell/spdx-exceptions.json/issues"},"contributors":[{"name":"Kyle E. Mitchell","email":"kyle@kemitchell.com","url":"https://kemitchell.com/"}],"description":"list of SPDX standard license exceptions","files":["index.json"],"homepage":"https://github.com/kemitchell/spdx-exceptions.json#readme","license":"CC-BY-3.0","name":"spdx-exceptions","repository":{"type":"git","url":"git+https://github.com/kemitchell/spdx-exceptions.json.git"},"scripts":{"build":"node build.js"},"version":"2.3.0"}');
-
-/***/ }),
-
-/***/ 96115:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["spdx-expression-parse@3.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"spdx-expression-parse@3.0.1","_id":"spdx-expression-parse@3.0.1","_inBundle":false,"_integrity":"sha512-cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==","_location":"/spdx-expression-parse","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"spdx-expression-parse@3.0.1","name":"spdx-expression-parse","escapedName":"spdx-expression-parse","rawSpec":"3.0.1","saveSpec":null,"fetchSpec":"3.0.1"},"_requiredBy":["/spdx-correct","/validate-npm-package-license"],"_resolved":"https://registry.npmjs.org/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz","_spec":"3.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Kyle E. Mitchell","email":"kyle@kemitchell.com","url":"https://kemitchell.com"},"bugs":{"url":"https://github.com/jslicense/spdx-expression-parse.js/issues"},"contributors":[{"name":"C. Scott Ananian","email":"cscott@cscott.net","url":"http://cscott.net"},{"name":"Kyle E. Mitchell","email":"kyle@kemitchell.com","url":"https://kemitchell.com"},{"name":"Shinnosuke Watanabe","email":"snnskwtnb@gmail.com"},{"name":"Antoine Motet","email":"antoine.motet@gmail.com"}],"dependencies":{"spdx-exceptions":"^2.1.0","spdx-license-ids":"^3.0.0"},"description":"parse SPDX license expressions","devDependencies":{"defence-cli":"^3.0.1","replace-require-self":"^1.0.0","standard":"^14.1.0"},"files":["AUTHORS","index.js","parse.js","scan.js"],"homepage":"https://github.com/jslicense/spdx-expression-parse.js#readme","keywords":["SPDX","law","legal","license","metadata","package","package.json","standards"],"license":"MIT","name":"spdx-expression-parse","repository":{"type":"git","url":"git+https://github.com/jslicense/spdx-expression-parse.js.git"},"scripts":{"lint":"standard","test":"npm run test:suite && npm run test:readme","test:readme":"defence -i javascript README.md | replace-require-self | node","test:suite":"node test.js"},"version":"3.0.1"}');
-
-/***/ }),
-
-/***/ 45000:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["spdx-license-ids@3.0.11","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"spdx-license-ids@3.0.11","_id":"spdx-license-ids@3.0.11","_inBundle":false,"_integrity":"sha512-Ctl2BrFiM0X3MANYgj3CkygxhRmr9mi6xhejbdO960nF6EDJApTYpn0BQnDKlnNBULKiCN1n3w9EBkHK8ZWg+g==","_location":"/spdx-license-ids","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"spdx-license-ids@3.0.11","name":"spdx-license-ids","escapedName":"spdx-license-ids","rawSpec":"3.0.11","saveSpec":null,"fetchSpec":"3.0.11"},"_requiredBy":["/spdx-correct","/spdx-expression-parse"],"_resolved":"https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.11.tgz","_spec":"3.0.11","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Shinnosuke Watanabe","url":"https://github.com/shinnn"},"bugs":{"url":"https://github.com/jslicense/spdx-license-ids/issues"},"description":"A list of SPDX license identifiers","devDependencies":{"@shinnn/eslint-config":"^7.0.0","eslint":"^8.2.0","eslint-formatter-codeframe":"^7.32.1","rmfr":"^2.0.0","tape":"^5.3.1"},"eslintConfig":{"extends":"@shinnn"},"files":["deprecated.json","index.json"],"homepage":"https://github.com/jslicense/spdx-license-ids#readme","keywords":["spdx","license","licenses","id","identifier","identifiers","json","array","oss"],"license":"CC0-1.0","name":"spdx-license-ids","repository":{"type":"git","url":"git+https://github.com/jslicense/spdx-license-ids.git"},"scripts":{"build":"node build.js","latest":"node latest.js","pretest":"eslint .","test":"node test.js"},"version":"3.0.11"}');
-
-/***/ }),
-
-/***/ 99044:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["split-string@3.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"split-string@3.1.0","_id":"split-string@3.1.0","_inBundle":false,"_integrity":"sha512-NzNVhJDYpwceVVii8/Hu6DKfD2G+NrQHlS/V/qgv763EYudVwEcMQNxd2lh+0VrUByXN/oJkl5grOhYWvQUYiw==","_location":"/split-string","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"split-string@3.1.0","name":"split-string","escapedName":"split-string","rawSpec":"3.1.0","saveSpec":null,"fetchSpec":"3.1.0"},"_requiredBy":["/cpy/braces","/set-value"],"_resolved":"https://registry.npmjs.org/split-string/-/split-string-3.1.0.tgz","_spec":"3.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/split-string/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"extend-shallow":"^3.0.0"},"description":"Split a string on a character except when the character is escaped.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/split-string","keywords":["character","escape","split","string"],"license":"MIT","main":"index.js","name":"split-string","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/split-string.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","titles":[".","install","Why use this?"],"related":{"list":["deromanize","randomatic","repeat-string","romanize"]},"tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"3.1.0"}');
-
-/***/ }),
-
-/***/ 48204:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["sprintf-js@1.0.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"sprintf-js@1.0.3","_id":"sprintf-js@1.0.3","_inBundle":false,"_integrity":"sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=","_location":"/sprintf-js","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"sprintf-js@1.0.3","name":"sprintf-js","escapedName":"sprintf-js","rawSpec":"1.0.3","saveSpec":null,"fetchSpec":"1.0.3"},"_requiredBy":["/argparse"],"_resolved":"https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz","_spec":"1.0.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Alexandru Marasteanu","email":"hello@alexei.ro","url":"http://alexei.ro/"},"bugs":{"url":"https://github.com/alexei/sprintf.js/issues"},"description":"JavaScript sprintf implementation","devDependencies":{"grunt":"*","grunt-contrib-uglify":"*","grunt-contrib-watch":"*","mocha":"*"},"homepage":"https://github.com/alexei/sprintf.js#readme","license":"BSD-3-Clause","main":"src/sprintf.js","name":"sprintf-js","repository":{"type":"git","url":"git+https://github.com/alexei/sprintf.js.git"},"scripts":{"test":"mocha test/test.js"},"version":"1.0.3"}');
-
-/***/ }),
-
-/***/ 58469:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["define-property@0.2.5","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"define-property@0.2.5","_id":"define-property@0.2.5","_inBundle":false,"_integrity":"sha1-w1se+RjsPJkPmlvFe+BKrOxcgRY=","_location":"/static-extend/define-property","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"define-property@0.2.5","name":"define-property","escapedName":"define-property","rawSpec":"0.2.5","saveSpec":null,"fetchSpec":"0.2.5"},"_requiredBy":["/static-extend"],"_resolved":"https://registry.npmjs.org/define-property/-/define-property-0.2.5.tgz","_spec":"0.2.5","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/define-property/issues"},"dependencies":{"is-descriptor":"^0.1.0"},"description":"Define a non-enumerable property on an object.","devDependencies":{"mocha":"*","should":"^7.0.4"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/define-property","keywords":["define","define-property","enumerable","key","non","non-enumerable","object","prop","property","value"],"license":"MIT","main":"index.js","name":"define-property","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/define-property.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["mixin-deep","mixin-object","delegate-object","forward-object"]}},"version":"0.2.5"}');
-
-/***/ }),
-
-/***/ 3133:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["static-extend@0.1.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"static-extend@0.1.2","_id":"static-extend@0.1.2","_inBundle":false,"_integrity":"sha1-YICcOcv/VTNyJv1eC1IPNB8ftcY=","_location":"/static-extend","_phantomChildren":{"is-descriptor":"0.1.6"},"_requested":{"type":"version","registry":true,"raw":"static-extend@0.1.2","name":"static-extend","escapedName":"static-extend","rawSpec":"0.1.2","saveSpec":null,"fetchSpec":"0.1.2"},"_requiredBy":["/class-utils"],"_resolved":"https://registry.npmjs.org/static-extend/-/static-extend-0.1.2.tgz","_spec":"0.1.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/static-extend/issues"},"dependencies":{"define-property":"^0.2.5","object-copy":"^0.1.0"},"description":"Adds a static `extend` method to a class, to simplify inheritance. Extends the static properties, prototype properties, and descriptors from a `Parent` constructor onto `Child` constructors.","devDependencies":{"gulp-format-md":"^0.1.9","mocha":"^2.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/static-extend","keywords":["class","ctor","descriptor","extend","extends","inherit","inheritance","merge","method","prop","properties","property","prototype"],"license":"MIT","main":"index.js","name":"static-extend","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/static-extend.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"reflinks":["verb","verb-readme-generator"],"lint":{"reflinks":true}},"version":"0.1.2"}');
-
-/***/ }),
-
-/***/ 97846:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["string-width@4.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"string-width@4.2.2","_id":"string-width@4.2.2","_inBundle":false,"_integrity":"sha512-XBJbT3N4JhVumXE0eoLU9DCjcaF92KLNqTmFCnG1pf8duUxFGwtP6AD6nkjw9a3IdiRtL3E2w3JDiE/xi3vOeA==","_location":"/string-width","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"string-width@4.2.2","name":"string-width","escapedName":"string-width","rawSpec":"4.2.2","saveSpec":null,"fetchSpec":"4.2.2"},"_requiredBy":["/cliui","/wrap-ansi","/yargs"],"_resolved":"https://registry.npmjs.org/string-width/-/string-width-4.2.2.tgz","_spec":"4.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/string-width/issues"},"dependencies":{"emoji-regex":"^8.0.0","is-fullwidth-code-point":"^3.0.0","strip-ansi":"^6.0.0"},"description":"Get the visual width of a string - the number of columns required to display it","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.1","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/string-width#readme","keywords":["string","character","unicode","width","visual","column","columns","fullwidth","full-width","full","ansi","escape","codes","cli","command-line","terminal","console","cjk","chinese","japanese","korean","fixed-width"],"license":"MIT","name":"string-width","repository":{"type":"git","url":"git+https://github.com/sindresorhus/string-width.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.2.2"}');
-
-/***/ }),
-
-/***/ 9725:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["strip-ansi@6.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"strip-ansi@6.0.0","_id":"strip-ansi@6.0.0","_inBundle":false,"_integrity":"sha512-AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w==","_location":"/strip-ansi","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"strip-ansi@6.0.0","name":"strip-ansi","escapedName":"strip-ansi","rawSpec":"6.0.0","saveSpec":null,"fetchSpec":"6.0.0"},"_requiredBy":["/cliui","/eslint","/string-width","/wrap-ansi"],"_resolved":"https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.0.tgz","_spec":"6.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/chalk/strip-ansi/issues"},"dependencies":{"ansi-regex":"^5.0.0"},"description":"Strip ANSI escape codes from a string","devDependencies":{"ava":"^2.4.0","tsd":"^0.10.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/chalk/strip-ansi#readme","keywords":["strip","trim","remove","ansi","styles","color","colour","colors","terminal","console","string","tty","escape","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"strip-ansi","repository":{"type":"git","url":"git+https://github.com/chalk/strip-ansi.git"},"scripts":{"test":"xo && ava && tsd"},"version":"6.0.0"}');
-
-/***/ }),
-
-/***/ 34415:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["strip-indent@3.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"strip-indent@3.0.0","_id":"strip-indent@3.0.0","_inBundle":false,"_integrity":"sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==","_location":"/strip-indent","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"strip-indent@3.0.0","name":"strip-indent","escapedName":"strip-indent","rawSpec":"3.0.0","saveSpec":null,"fetchSpec":"3.0.0"},"_requiredBy":["/redent"],"_resolved":"https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz","_spec":"3.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/strip-indent/issues"},"dependencies":{"min-indent":"^1.0.0"},"description":"Strip leading whitespace from each line in a string","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/strip-indent#readme","keywords":["strip","indent","indentation","normalize","remove","delete","whitespace","space","tab","string"],"license":"MIT","name":"strip-indent","repository":{"type":"git","url":"git+https://github.com/sindresorhus/strip-indent.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.0.0"}');
-
-/***/ }),
-
-/***/ 76821:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["strip-json-comments@3.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"strip-json-comments@3.1.1","_id":"strip-json-comments@3.1.1","_inBundle":false,"_integrity":"sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==","_location":"/strip-json-comments","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"strip-json-comments@3.1.1","name":"strip-json-comments","escapedName":"strip-json-comments","rawSpec":"3.1.1","saveSpec":null,"fetchSpec":"3.1.1"},"_requiredBy":["/@eslint/eslintrc","/eslint"],"_resolved":"https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz","_spec":"3.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/strip-json-comments/issues"},"description":"Strip comments from JSON. Lets you use comments in your JSON files!","devDependencies":{"ava":"^1.4.1","matcha":"^0.7.0","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/strip-json-comments#readme","keywords":["json","strip","comments","remove","delete","trim","multiline","parse","config","configuration","settings","util","env","environment","jsonc"],"license":"MIT","name":"strip-json-comments","repository":{"type":"git","url":"git+https://github.com/sindresorhus/strip-json-comments.git"},"scripts":{"bench":"matcha benchmark.js","test":"xo && ava && tsd"},"version":"3.1.1"}');
-
-/***/ }),
-
-/***/ 96180:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["strip-outer@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"strip-outer@1.0.1","_id":"strip-outer@1.0.1","_inBundle":false,"_integrity":"sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg==","_location":"/strip-outer","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"strip-outer@1.0.1","name":"strip-outer","escapedName":"strip-outer","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/filenamify"],"_resolved":"https://registry.npmjs.org/strip-outer/-/strip-outer-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/strip-outer/issues"},"dependencies":{"escape-string-regexp":"^1.0.2"},"description":"Strip a substring from the start/end of a string","devDependencies":{"ava":"*","xo":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/strip-outer#readme","keywords":["strip","trim","remove","outer","str","string","substring","start","end","wrap","leading","trailing","regex","regexp"],"license":"MIT","name":"strip-outer","repository":{"type":"git","url":"git+https://github.com/sindresorhus/strip-outer.git"},"scripts":{"test":"xo && ava"},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 5760:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["supports-color@5.5.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"supports-color@5.5.0","_id":"supports-color@5.5.0","_inBundle":false,"_integrity":"sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==","_location":"/supports-color","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"supports-color@5.5.0","name":"supports-color","escapedName":"supports-color","rawSpec":"5.5.0","saveSpec":null,"fetchSpec":"5.5.0"},"_requiredBy":["/@babel/highlight/chalk","/replace/chalk"],"_resolved":"https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz","_spec":"5.5.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"browser":"browser.js","bugs":{"url":"https://github.com/chalk/supports-color/issues"},"dependencies":{"has-flag":"^3.0.0"},"description":"Detect whether a terminal supports color","devDependencies":{"ava":"^0.25.0","import-fresh":"^2.0.0","xo":"^0.20.0"},"engines":{"node":">=4"},"files":["index.js","browser.js"],"homepage":"https://github.com/chalk/supports-color#readme","keywords":["color","colour","colors","terminal","console","cli","ansi","styles","tty","rgb","256","shell","xterm","command-line","support","supports","capability","detect","truecolor","16m"],"license":"MIT","name":"supports-color","repository":{"type":"git","url":"git+https://github.com/chalk/supports-color.git"},"scripts":{"test":"xo && ava"},"version":"5.5.0"}');
-
-/***/ }),
-
-/***/ 56057:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ajv@8.8.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ajv@8.8.0","_id":"ajv@8.8.0","_inBundle":false,"_integrity":"sha512-L+cJ/+pkdICMueKR6wIx3VP2fjIx3yAhuvadUv/osv9yFD7OVZy442xFF+Oeu3ZvmhBGQzoF6mTSt+LUWBmGQg==","_location":"/table/ajv","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ajv@8.8.0","name":"ajv","escapedName":"ajv","rawSpec":"8.8.0","saveSpec":null,"fetchSpec":"8.8.0"},"_requiredBy":["/table"],"_resolved":"https://registry.npmjs.org/ajv/-/ajv-8.8.0.tgz","_spec":"8.8.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Evgeny Poberezkin"},"bugs":{"url":"https://github.com/ajv-validator/ajv/issues"},"collective":{"type":"opencollective","url":"https://opencollective.com/ajv"},"dependencies":{"fast-deep-equal":"^3.1.1","json-schema-traverse":"^1.0.0","require-from-string":"^2.0.2","uri-js":"^4.2.2"},"description":"Another JSON Schema Validator","devDependencies":{"@ajv-validator/config":"^0.3.0","@rollup/plugin-commonjs":"^21.0.0","@rollup/plugin-json":"^4.1.0","@rollup/plugin-node-resolve":"^13.0.0","@rollup/plugin-typescript":"^8.2.1","@types/chai":"^4.2.12","@types/mocha":"^9.0.0","@types/node":"^16.3.2","@types/require-from-string":"^1.2.0","@typescript-eslint/eslint-plugin":"^3.8.0","@typescript-eslint/parser":"^3.8.0","ajv-formats":"^3.0.0-rc.0","browserify":"^17.0.0","chai":"^4.0.1","cross-env":"^7.0.2","dayjs":"^1.10.4","dayjs-plugin-utc":"^0.1.2","eslint":"^7.8.1","eslint-config-prettier":"^7.0.0","glob":"^7.0.0","husky":"^7.0.1","if-node-version":"^1.0.0","jimp":"^0.16.1","js-beautify":"^1.7.3","json-schema-test":"^2.0.0","karma":"^6.0.0","karma-chrome-launcher":"^3.0.0","karma-mocha":"^2.0.0","lint-staged":"^11.0.0","mocha":"^9.0.2","node-fetch":"^3.0.0","nyc":"^15.0.0","prettier":"^2.3.1","re2":"^1.16.0","rollup":"^2.44.0","rollup-plugin-terser":"^7.0.2","ts-node":"^10.0.0","tsify":"^5.0.2","typescript":"^4.2.0"},"files":["lib/","dist/",".runkit_example.js"],"funding":{"type":"github","url":"https://github.com/sponsors/epoberezkin"},"homepage":"https://ajv.js.org","husky":{"hooks":{"pre-commit":"lint-staged && npm test"}},"keywords":["JSON","schema","validator","validation","jsonschema","json-schema","json-schema-validator","json-schema-validation"],"license":"MIT","lint-staged":{"*.{json,yaml,js,ts}":"prettier --write"},"main":"dist/ajv.js","name":"ajv","nyc":{"exclude":["**/spec/**","node_modules"],"reporter":["lcov","text-summary"]},"prettier":"@ajv-validator/config/prettierrc.json","repository":{"type":"git","url":"git+https://github.com/ajv-validator/ajv.git"},"runkitExampleFilename":".runkit_example.js","scripts":{"benchmark":"npm i && npm run build && npm link && cd ./benchmark && npm link --legacy-peer-deps ajv && npm i && node ./jtd","build":"rm -rf dist && tsc && cp -r lib/refs dist && rm dist/refs/json-schema-2019-09/index.ts && rm dist/refs/json-schema-2020-12/index.ts && rm dist/refs/jtd-schema.ts","bundle":"rm -rf bundle && node ./scripts/bundle.js ajv ajv7 ajv7 && node ./scripts/bundle.js 2019 ajv2019 ajv2019 && node ./scripts/bundle.js 2020 ajv2020 ajv2020 && node ./scripts/bundle.js jtd ajvJTD ajvJTD","docs:build":"./scripts/prepare-site && vuepress build docs","docs:dev":"./scripts/prepare-site && vuepress dev docs","eslint":"eslint \\"lib/**/*.ts\\" \\"spec/**/*.*s\\" --ignore-pattern spec/JSON-Schema-Test-Suite","json-tests":"rm -rf spec/_json/*.js && node scripts/jsontests","prepublish":"npm run build","prettier:check":"prettier --list-different \\"./**/*.{json,yaml,js,ts}\\"","prettier:write":"prettier --write \\"./**/*.{json,yaml,js,ts}\\"","rollup":"rm -rf bundle && rollup -c","test":"npm run json-tests && npm run prettier:check && npm run eslint && npm link && npm link --legacy-peer-deps ajv && npm run test-cov","test-all":"npm run test-cov && if-node-version 12 npm run test-browser","test-browser":"rm -rf .browser && npm run bundle && scripts/prepare-tests && karma start","test-ci":"AJV_FULL_TEST=true npm test","test-codegen":"nyc cross-env TS_NODE_PROJECT=spec/tsconfig.json mocha -r ts-node/register \'spec/codegen.spec.ts\' -R spec","test-cov":"nyc npm run test-spec","test-debug":"npm run test-spec -- --inspect-brk","test-karma":"karma start","test-spec":"cross-env TS_NODE_PROJECT=spec/tsconfig.json mocha -r ts-node/register \\"spec/**/*.spec.{ts,js}\\" -R dot"},"types":"dist/ajv.d.ts","version":"8.8.0"}');
-
-/***/ }),
-
-/***/ 10319:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ansi-regex@5.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"ansi-regex@5.0.1","_id":"ansi-regex@5.0.1","_inBundle":false,"_integrity":"sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==","_location":"/table/ansi-regex","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ansi-regex@5.0.1","name":"ansi-regex","escapedName":"ansi-regex","rawSpec":"5.0.1","saveSpec":null,"fetchSpec":"5.0.1"},"_requiredBy":["/table/strip-ansi"],"_resolved":"https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz","_spec":"5.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/chalk/ansi-regex/issues"},"description":"Regular expression for matching ANSI escape codes","devDependencies":{"ava":"^2.4.0","tsd":"^0.9.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/chalk/ansi-regex#readme","keywords":["ansi","styles","color","colour","colors","terminal","console","cli","string","tty","escape","formatting","rgb","256","shell","xterm","command-line","text","regex","regexp","re","match","test","find","pattern"],"license":"MIT","name":"ansi-regex","repository":{"type":"git","url":"git+https://github.com/chalk/ansi-regex.git"},"scripts":{"test":"xo && ava && tsd","view-supported":"node fixtures/view-codes.js"},"version":"5.0.1"}');
-
-/***/ }),
-
-/***/ 53966:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["json-schema-traverse@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"json-schema-traverse@1.0.0","_id":"json-schema-traverse@1.0.0","_inBundle":false,"_integrity":"sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==","_location":"/table/json-schema-traverse","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"json-schema-traverse@1.0.0","name":"json-schema-traverse","escapedName":"json-schema-traverse","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/table/ajv"],"_resolved":"https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Evgeny Poberezkin"},"bugs":{"url":"https://github.com/epoberezkin/json-schema-traverse/issues"},"description":"Traverse JSON Schema passing each schema object to callback","devDependencies":{"eslint":"^7.3.1","mocha":"^8.0.1","nyc":"^15.0.0","pre-commit":"^1.2.2"},"homepage":"https://github.com/epoberezkin/json-schema-traverse#readme","keywords":["JSON-Schema","traverse","iterate"],"license":"MIT","main":"index.js","name":"json-schema-traverse","nyc":{"exclude":["**/spec/**","node_modules"],"reporter":["lcov","text-summary"]},"repository":{"type":"git","url":"git+https://github.com/epoberezkin/json-schema-traverse.git"},"scripts":{"eslint":"eslint index.js spec","test":"npm run eslint && nyc npm run test-spec","test-spec":"mocha spec -R spec"},"types":"index.d.ts","version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 20841:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["string-width@4.2.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"string-width@4.2.3","_id":"string-width@4.2.3","_inBundle":false,"_integrity":"sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==","_location":"/table/string-width","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"string-width@4.2.3","name":"string-width","escapedName":"string-width","rawSpec":"4.2.3","saveSpec":null,"fetchSpec":"4.2.3"},"_requiredBy":["/table"],"_resolved":"https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz","_spec":"4.2.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/string-width/issues"},"dependencies":{"emoji-regex":"^8.0.0","is-fullwidth-code-point":"^3.0.0","strip-ansi":"^6.0.1"},"description":"Get the visual width of a string - the number of columns required to display it","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.1","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/string-width#readme","keywords":["string","character","unicode","width","visual","column","columns","fullwidth","full-width","full","ansi","escape","codes","cli","command-line","terminal","console","cjk","chinese","japanese","korean","fixed-width"],"license":"MIT","name":"string-width","repository":{"type":"git","url":"git+https://github.com/sindresorhus/string-width.git"},"scripts":{"test":"xo && ava && tsd"},"version":"4.2.3"}');
-
-/***/ }),
-
-/***/ 4774:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["strip-ansi@6.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"strip-ansi@6.0.1","_id":"strip-ansi@6.0.1","_inBundle":false,"_integrity":"sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==","_location":"/table/strip-ansi","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"strip-ansi@6.0.1","name":"strip-ansi","escapedName":"strip-ansi","rawSpec":"6.0.1","saveSpec":null,"fetchSpec":"6.0.1"},"_requiredBy":["/table","/table/string-width"],"_resolved":"https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz","_spec":"6.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/chalk/strip-ansi/issues"},"dependencies":{"ansi-regex":"^5.0.1"},"description":"Strip ANSI escape codes from a string","devDependencies":{"ava":"^2.4.0","tsd":"^0.10.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/chalk/strip-ansi#readme","keywords":["strip","trim","remove","ansi","styles","color","colour","colors","terminal","console","string","tty","escape","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"strip-ansi","repository":{"type":"git","url":"git+https://github.com/chalk/strip-ansi.git"},"scripts":{"test":"xo && ava && tsd"},"version":"6.0.1"}');
-
-/***/ }),
-
-/***/ 93354:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["table@6.7.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"table@6.7.3","_id":"table@6.7.3","_inBundle":false,"_integrity":"sha512-5DkIxeA7XERBqMwJq0aHZOdMadBx4e6eDoFRuyT5VR82J0Ycg2DwM6GfA/EQAhJ+toRTaS1lIdSQCqgrmhPnlw==","_location":"/table","_phantomChildren":{"emoji-regex":"8.0.0","fast-deep-equal":"3.1.3","is-fullwidth-code-point":"3.0.0","require-from-string":"2.0.2","uri-js":"4.4.1"},"_requested":{"type":"version","registry":true,"raw":"table@6.7.3","name":"table","escapedName":"table","rawSpec":"6.7.3","saveSpec":null,"fetchSpec":"6.7.3"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/table/-/table-6.7.3.tgz","_spec":"6.7.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Gajus Kuizinas","email":"gajus@gajus.com","url":"http://gajus.com"},"bugs":{"url":"https://github.com/gajus/table/issues"},"dependencies":{"ajv":"^8.0.1","lodash.truncate":"^4.4.2","slice-ansi":"^4.0.0","string-width":"^4.2.3","strip-ansi":"^6.0.1"},"description":"Formats data into a string table.","devDependencies":{"@types/chai":"^4.2.16","@types/lodash.mapvalues":"^4.6.6","@types/lodash.truncate":"^4.4.6","@types/mocha":"^8.2.2","@types/node":"^14.14.37","@types/sinon":"^10.0.0","@types/slice-ansi":"^4.0.0","ajv-cli":"^5.0.0","ajv-keywords":"^5.0.0","chai":"^4.2.0","chalk":"^4.1.0","coveralls":"^3.1.0","eslint":"^7.16.0","eslint-config-canonical":"^25.0.0","gitdown":"^3.1.3","husky":"^4.3.6","js-beautify":"^1.13.0","lodash.mapvalues":"^4.6.0","mkdirp":"^1.0.4","mocha":"^8.2.1","nyc":"^15.1.0","semantic-release":"^17.3.1","sinon":"^9.2.2","ts-node":"^9.1.1","typescript":"4.2.4"},"engines":{"node":">=10.0.0"},"files":["dist/**/*.js","dist/**/*.d.ts"],"homepage":"https://github.com/gajus/table#readme","husky":{"hooks":{"post-commit":"npm run create-readme && git add README.md && git commit -m \'docs: generate docs\' --no-verify","pre-commit":"npm run build && npm run lint && npm run test"}},"keywords":["ascii","text","table","align","ansi"],"license":"BSD-3-Clause","main":"./dist/index.js","name":"table","nyc":{"extensions":[".ts"],"exclude":["src/generated/validators.js","test/**/*.ts"],"reporter":["text-lcov","text"]},"repository":{"type":"git","url":"git+https://github.com/gajus/table.git"},"scripts":{"build":"npm run create-validators && npm run compile","compile":"tsc","create-readme":"gitdown ./.README/README.md --output-file ./README.md","create-validators":"rm -fr ./src/generated && mkdirp ./src/generated && ajv compile --all-errors --inline-refs=false -s src/schemas/config -s src/schemas/streamConfig -r src/schemas/shared -c ajv-keywords/dist/keywords/typeof -o | js-beautify > ./src/generated/validators.js","lint":"eslint --ignore-path .gitignore ./src ./test","prebuild":"rm -fr ./dist && mkdirp dist","test":"npm run create-validators && mocha --require ts-node/register \\"./test/**/*.ts\\""},"version":"6.7.3"}');
-
-/***/ }),
-
-/***/ 85471:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["text-table@0.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"text-table@0.2.0","_id":"text-table@0.2.0","_inBundle":false,"_integrity":"sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=","_location":"/text-table","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"text-table@0.2.0","name":"text-table","escapedName":"text-table","rawSpec":"0.2.0","saveSpec":null,"fetchSpec":"0.2.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz","_spec":"0.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"James Halliday","email":"mail@substack.net","url":"http://substack.net"},"bugs":{"url":"https://github.com/substack/text-table/issues"},"description":"borderless text tables with alignment","devDependencies":{"cli-color":"~0.2.3","tap":"~0.4.0","tape":"~1.0.2"},"homepage":"https://github.com/substack/text-table","keywords":["text","table","align","ascii","rows","tabular"],"license":"MIT","main":"index.js","name":"text-table","repository":{"type":"git","url":"git://github.com/substack/text-table.git"},"scripts":{"test":"tap test/*.js"},"testling":{"files":"test/*.js","browsers":["ie/6..latest","chrome/20..latest","firefox/10..latest","safari/latest","opera/11.0..latest","iphone/6","ipad/6"]},"version":"0.2.0"}');
-
-/***/ }),
-
-/***/ 49157:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["kind-of@3.2.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"kind-of@3.2.2","_id":"kind-of@3.2.2","_inBundle":false,"_integrity":"sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=","_location":"/to-object-path/kind-of","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"kind-of@3.2.2","name":"kind-of","escapedName":"kind-of","rawSpec":"3.2.2","saveSpec":null,"fetchSpec":"3.2.2"},"_requiredBy":["/to-object-path"],"_resolved":"https://registry.npmjs.org/kind-of/-/kind-of-3.2.2.tgz","_spec":"3.2.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/kind-of/issues"},"contributors":[{"name":"David Fox-Powell","url":"https://dtothefp.github.io/me"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Ken Sheedlo","url":"kensheedlo.com"},{"name":"laggingreflex","url":"https://github.com/laggingreflex"},{"name":"Miguel Mota","url":"https://miguelmota.com"},{"name":"Peter deHaan","url":"http://about.me/peterdehaan"}],"dependencies":{"is-buffer":"^1.1.5"},"description":"Get the native type of a value.","devDependencies":{"ansi-bold":"^0.1.1","benchmarked":"^1.0.0","browserify":"^14.3.0","glob":"^7.1.1","gulp-format-md":"^0.1.12","mocha":"^3.3.0","type-of":"^2.0.1","typeof":"^1.0.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/kind-of","keywords":["arguments","array","boolean","check","date","function","is","is-type","is-type-of","kind","kind-of","number","object","of","regexp","string","test","type","type-of","typeof","types"],"license":"MIT","main":"index.js","name":"kind-of","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/kind-of.git"},"scripts":{"prepublish":"browserify -o browser.js -e index.js -s index --bare","test":"mocha"},"verb":{"related":{"list":["is-glob","is-number","is-primitive"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"3.2.2"}');
-
-/***/ }),
-
-/***/ 91969:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["to-object-path@0.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"to-object-path@0.3.0","_id":"to-object-path@0.3.0","_inBundle":false,"_integrity":"sha1-KXWIt7Dn4KwI4E5nL4XB9JmeF68=","_location":"/to-object-path","_phantomChildren":{"is-buffer":"1.1.6"},"_requested":{"type":"version","registry":true,"raw":"to-object-path@0.3.0","name":"to-object-path","escapedName":"to-object-path","rawSpec":"0.3.0","saveSpec":null,"fetchSpec":"0.3.0"},"_requiredBy":["/cache-base"],"_resolved":"https://registry.npmjs.org/to-object-path/-/to-object-path-0.3.0.tgz","_spec":"0.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/to-object-path/issues"},"dependencies":{"kind-of":"^3.0.2"},"description":"Create an object path from a list or array of strings.","devDependencies":{"base":"^0.6.7","mocha":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/to-object-path","keywords":["dot","nested","notation","object","path","stringify"],"license":"MIT","main":"index.js","name":"to-object-path","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/to-object-path.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["get-value","set-value","has-value","omit-value","unset-value"]}},"version":"0.3.0"}');
-
-/***/ }),
-
-/***/ 20064:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["to-regex-range@5.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"to-regex-range@5.0.1","_id":"to-regex-range@5.0.1","_inBundle":false,"_integrity":"sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==","_location":"/to-regex-range","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"to-regex-range@5.0.1","name":"to-regex-range","escapedName":"to-regex-range","rawSpec":"5.0.1","saveSpec":null,"fetchSpec":"5.0.1"},"_requiredBy":["/fill-range"],"_resolved":"https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz","_spec":"5.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/micromatch/to-regex-range/issues"},"contributors":[{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Rouven Weßling","url":"www.rouvenwessling.de"}],"dependencies":{"is-number":"^7.0.0"},"description":"Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.","devDependencies":{"fill-range":"^6.0.0","gulp-format-md":"^2.0.0","mocha":"^6.0.2","text-table":"^0.2.0","time-diff":"^0.3.1"},"engines":{"node":">=8.0"},"files":["index.js"],"homepage":"https://github.com/micromatch/to-regex-range","keywords":["bash","date","expand","expansion","expression","glob","match","match date","match number","match numbers","match year","matches","matching","number","numbers","numerical","range","ranges","regex","regexp","regular","regular expression","sequence"],"license":"MIT","main":"index.js","name":"to-regex-range","repository":{"type":"git","url":"git+https://github.com/micromatch/to-regex-range.git"},"scripts":{"test":"mocha"},"verb":{"layout":"default","toc":false,"tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"helpers":{"examples":{"displayName":"examples"}},"related":{"list":["expand-range","fill-range","micromatch","repeat-element","repeat-string"]}},"version":"5.0.1"}');
-
-/***/ }),
-
-/***/ 10212:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["to-regex@3.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"to-regex@3.0.2","_id":"to-regex@3.0.2","_inBundle":false,"_integrity":"sha512-FWtleNAtZ/Ki2qtqej2CXTOayOH9bHDQF+Q48VpWyDXjbYxA4Yz8iDB31zXOBUlOHHKidDbqGVrTUvQMPmBGBw==","_location":"/to-regex","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"to-regex@3.0.2","name":"to-regex","escapedName":"to-regex","rawSpec":"3.0.2","saveSpec":null,"fetchSpec":"3.0.2"},"_requiredBy":["/cpy/braces","/cpy/micromatch","/expand-brackets","/extglob","/nanomatch"],"_resolved":"https://registry.npmjs.org/to-regex/-/to-regex-3.0.2.tgz","_spec":"3.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/to-regex/issues"},"dependencies":{"define-property":"^2.0.2","extend-shallow":"^3.0.2","regex-not":"^1.0.2","safe-regex":"^1.1.0"},"description":"Generate a regex from a string or array of strings.","devDependencies":{"gulp-format-md":"^1.0.0","mocha":"^3.5.3"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/to-regex","keywords":["match","regex","regular expression","test","to"],"license":"MIT","main":"index.js","name":"to-regex","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/to-regex.git"},"scripts":{"test":"mocha"},"verb":{"toc":{"method":"preWrite"},"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["has-glob","is-glob","path-regex","to-regex-range"]},"lint":{"reflinks":true}},"version":"3.0.2"}');
-
-/***/ }),
-
-/***/ 93437:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["trim-newlines@3.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"trim-newlines@3.0.1","_id":"trim-newlines@3.0.1","_inBundle":false,"_integrity":"sha512-c1PTsA3tYrIsLGkJkzHF+w9F2EyxfXGo4UyJc4pFL++FMjnq0HJS69T3M7d//gKrFKwy429bouPescbjecU+Zw==","_location":"/trim-newlines","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"trim-newlines@3.0.1","name":"trim-newlines","escapedName":"trim-newlines","rawSpec":"3.0.1","saveSpec":null,"fetchSpec":"3.0.1"},"_requiredBy":["/meow"],"_resolved":"https://registry.npmjs.org/trim-newlines/-/trim-newlines-3.0.1.tgz","_spec":"3.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/trim-newlines/issues"},"description":"Trim newlines from the start and/or end of a string","devDependencies":{"ava":"^1.4.1","tsd":"^0.7.2","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/sindresorhus/trim-newlines#readme","keywords":["trim","newline","newlines","linebreak","lf","crlf","left","right","start","end","string","remove","delete","strip"],"license":"MIT","name":"trim-newlines","repository":{"type":"git","url":"git+https://github.com/sindresorhus/trim-newlines.git"},"scripts":{"test":"xo && ava && tsd"},"version":"3.0.1"}');
-
-/***/ }),
-
-/***/ 4042:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["trim-repeated@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"trim-repeated@1.0.0","_id":"trim-repeated@1.0.0","_inBundle":false,"_integrity":"sha1-42RqLqTokTEr9+rObPsFOAvAHCE=","_location":"/trim-repeated","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"trim-repeated@1.0.0","name":"trim-repeated","escapedName":"trim-repeated","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/filenamify"],"_resolved":"https://registry.npmjs.org/trim-repeated/-/trim-repeated-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/trim-repeated/issues"},"dependencies":{"escape-string-regexp":"^1.0.2"},"description":"Trim a consecutively repeated substring: foo--bar---baz → foo-bar-baz","devDependencies":{"ava":"0.0.4"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/sindresorhus/trim-repeated#readme","keywords":["condense","collapse","compact","consecutive","repeated","string","str","trim","remove","strip","character","char"],"license":"MIT","name":"trim-repeated","repository":{"type":"git","url":"git+https://github.com/sindresorhus/trim-repeated.git"},"scripts":{"test":"node test.js"},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 957:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["tunnel@0.0.6","/Users/brian.kimball/Github/bump-and-release"]],"_from":"tunnel@0.0.6","_id":"tunnel@0.0.6","_inBundle":false,"_integrity":"sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==","_location":"/tunnel","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"tunnel@0.0.6","name":"tunnel","escapedName":"tunnel","rawSpec":"0.0.6","saveSpec":null,"fetchSpec":"0.0.6"},"_requiredBy":["/@actions/http-client"],"_resolved":"https://registry.npmjs.org/tunnel/-/tunnel-0.0.6.tgz","_spec":"0.0.6","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Koichi Kobayashi","email":"koichik@improvement.jp"},"bugs":{"url":"https://github.com/koichik/node-tunnel/issues"},"description":"Node HTTP/HTTPS Agents for tunneling proxies","devDependencies":{"mocha":"^5.2.0","should":"^13.2.3"},"directories":{"lib":"./lib"},"engines":{"node":">=0.6.11 <=0.7.0 || >=0.7.3"},"homepage":"https://github.com/koichik/node-tunnel/","keywords":["http","https","agent","proxy","tunnel"],"license":"MIT","main":"./index.js","name":"tunnel","repository":{"type":"git","url":"git+https://github.com/koichik/node-tunnel.git"},"scripts":{"test":"mocha"},"version":"0.0.6"}');
-
-/***/ }),
-
-/***/ 22935:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["type-check@0.4.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"type-check@0.4.0","_id":"type-check@0.4.0","_inBundle":false,"_integrity":"sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==","_location":"/type-check","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"type-check@0.4.0","name":"type-check","escapedName":"type-check","rawSpec":"0.4.0","saveSpec":null,"fetchSpec":"0.4.0"},"_requiredBy":["/levn","/optionator"],"_resolved":"https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz","_spec":"0.4.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"George Zahariev","email":"z@georgezahariev.com"},"bugs":{"url":"https://github.com/gkz/type-check/issues"},"dependencies":{"prelude-ls":"^1.2.1"},"description":"type-check allows you to check the types of JavaScript values at runtime with a Haskell like type syntax.","devDependencies":{"browserify":"^16.5.1","livescript":"^1.6.0","mocha":"^7.1.1"},"engines":{"node":">= 0.8.0"},"files":["lib","README.md","LICENSE"],"homepage":"https://github.com/gkz/type-check","keywords":["type","check","checking","library"],"license":"MIT","main":"./lib/","name":"type-check","repository":{"type":"git","url":"git://github.com/gkz/type-check.git"},"scripts":{"test":"make test"},"version":"0.4.0"}');
-
-/***/ }),
-
-/***/ 37725:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["type-fest@0.20.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"type-fest@0.20.2","_id":"type-fest@0.20.2","_inBundle":false,"_integrity":"sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==","_location":"/type-fest","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"type-fest@0.20.2","name":"type-fest","escapedName":"type-fest","rawSpec":"0.20.2","saveSpec":null,"fetchSpec":"0.20.2"},"_requiredBy":["/globals"],"_resolved":"https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz","_spec":"0.20.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"https://sindresorhus.com"},"bugs":{"url":"https://github.com/sindresorhus/type-fest/issues"},"description":"A collection of essential TypeScript types","devDependencies":{"@sindresorhus/tsconfig":"~0.7.0","tsd":"^0.13.1","typescript":"^4.1.2","xo":"^0.35.0"},"engines":{"node":">=10"},"files":["index.d.ts","base.d.ts","source","ts41"],"funding":"https://github.com/sponsors/sindresorhus","homepage":"https://github.com/sindresorhus/type-fest#readme","keywords":["typescript","ts","types","utility","util","utilities","omit","merge","json"],"license":"(MIT OR CC0-1.0)","name":"type-fest","repository":{"type":"git","url":"git+https://github.com/sindresorhus/type-fest.git"},"scripts":{"//test":"xo && tsd && tsc","test":"xo && tsc"},"types":"./index.d.ts","typesVersions":{">=4.1":{"*":["ts41/*"]}},"version":"0.20.2","xo":{"rules":{"@typescript-eslint/ban-types":"off","@typescript-eslint/indent":"off","node/no-unsupported-features/es-builtins":"off"}}}');
-
-/***/ }),
-
-/***/ 55374:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["union-value@1.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"union-value@1.0.1","_id":"union-value@1.0.1","_inBundle":false,"_integrity":"sha512-tJfXmxMeWYnczCVs7XAEvIV7ieppALdyepWMkHkwciRpZraG/xwT+s2JN8+pr1+8jCRf80FFzvr+MpQeeoF4Xg==","_location":"/union-value","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"union-value@1.0.1","name":"union-value","escapedName":"union-value","rawSpec":"1.0.1","saveSpec":null,"fetchSpec":"1.0.1"},"_requiredBy":["/cache-base"],"_resolved":"https://registry.npmjs.org/union-value/-/union-value-1.0.1.tgz","_spec":"1.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/union-value/issues"},"dependencies":{"arr-union":"^3.1.0","get-value":"^2.0.6","is-extendable":"^0.1.1","set-value":"^2.0.1"},"description":"Set an array of unique values as the property of an object. Supports setting deeply nested properties using using object-paths/dot notation.","devDependencies":{"gulp-format-md":"^0.1.11","mocha":"^3.2.0","should":"^11.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/union-value","keywords":["array","dot","get","has","nested","notation","object","path","prop","property","set","union","value"],"license":"MIT","main":"index.js","name":"union-value","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/union-value.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["assign-value","get-value","has-value","set-value","unset-value"]},"lint":{"reflinks":true}},"version":"1.0.1"}');
-
-/***/ }),
-
-/***/ 23922:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["universalify@0.1.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"universalify@0.1.2","_id":"universalify@0.1.2","_inBundle":false,"_integrity":"sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==","_location":"/universalify","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"universalify@0.1.2","name":"universalify","escapedName":"universalify","rawSpec":"0.1.2","saveSpec":null,"fetchSpec":"0.1.2"},"_requiredBy":["/fs-extra"],"_resolved":"https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz","_spec":"0.1.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Ryan Zimmerman","email":"opensrc@ryanzim.com"},"bugs":{"url":"https://github.com/RyanZim/universalify/issues"},"description":"Make a callback- or promise-based function support both promises and callbacks.","devDependencies":{"colortape":"^0.1.2","coveralls":"^3.0.1","nyc":"^10.2.0","standard":"^10.0.1","tape":"^4.6.3"},"engines":{"node":">= 4.0.0"},"files":["index.js"],"homepage":"https://github.com/RyanZim/universalify#readme","keywords":["callback","native","promise"],"license":"MIT","name":"universalify","repository":{"type":"git","url":"git+https://github.com/RyanZim/universalify.git"},"scripts":{"test":"standard && nyc tape test/*.js | colortape"},"version":"0.1.2"}');
-
-/***/ }),
-
-/***/ 46389:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["isobject@2.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"isobject@2.1.0","_id":"isobject@2.1.0","_inBundle":false,"_integrity":"sha1-8GVWEJaj8dou9GJy+BXIQNh+DIk=","_location":"/unset-value/has-value/isobject","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"isobject@2.1.0","name":"isobject","escapedName":"isobject","rawSpec":"2.1.0","saveSpec":null,"fetchSpec":"2.1.0"},"_requiredBy":["/unset-value/has-value"],"_resolved":"https://registry.npmjs.org/isobject/-/isobject-2.1.0.tgz","_spec":"2.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/isobject/issues"},"dependencies":{"isarray":"1.0.0"},"description":"Returns true if the value is an object and not an array or null.","devDependencies":{"gulp-format-md":"^0.1.9","mocha":"^2.4.5"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/isobject","keywords":["check","is","is-object","isobject","kind","kind-of","kindof","native","object","type","typeof","value"],"license":"MIT","main":"index.js","name":"isobject","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/isobject.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["merge-deep","extend-shallow","is-plain-object","kind-of"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"reflinks":["verb"]},"version":"2.1.0"}');
-
-/***/ }),
-
-/***/ 88886:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["has-value@0.3.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"has-value@0.3.1","_id":"has-value@0.3.1","_inBundle":false,"_integrity":"sha1-ex9YutpiyoJ+wKIHgCVlSEWZXh8=","_location":"/unset-value/has-value","_phantomChildren":{"isarray":"1.0.0"},"_requested":{"type":"version","registry":true,"raw":"has-value@0.3.1","name":"has-value","escapedName":"has-value","rawSpec":"0.3.1","saveSpec":null,"fetchSpec":"0.3.1"},"_requiredBy":["/unset-value"],"_resolved":"https://registry.npmjs.org/has-value/-/has-value-0.3.1.tgz","_spec":"0.3.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/has-value/issues"},"dependencies":{"get-value":"^2.0.3","has-values":"^0.1.4","isobject":"^2.0.0"},"description":"Returns true if a value exists, false if empty. Works with deeply nested values using object paths.","devDependencies":{"gulp-format-md":"^0.1.7","mocha":"^2.4.5"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/has-value","keywords":["array","boolean","empty","find","function","has","hasOwn","javascript","js","key","keys","node.js","null","number","object","properties","property","string","type","util","utilities","utility","value"],"license":"MIT","main":"index.js","name":"has-value","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/has-value.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["get-object","get-property","get-value","set-value"]},"reflinks":["verb"],"lint":{"reflinks":true}},"version":"0.3.1"}');
-
-/***/ }),
-
-/***/ 71131:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["has-values@0.1.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"has-values@0.1.4","_id":"has-values@0.1.4","_inBundle":false,"_integrity":"sha1-bWHeldkd/Km5oCCJrThL/49it3E=","_location":"/unset-value/has-values","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"has-values@0.1.4","name":"has-values","escapedName":"has-values","rawSpec":"0.1.4","saveSpec":null,"fetchSpec":"0.1.4"},"_requiredBy":["/unset-value/has-value"],"_resolved":"https://registry.npmjs.org/has-values/-/has-values-0.1.4.tgz","_spec":"0.1.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/has-values/issues"},"description":"Returns true if any values exist, false if empty. Works for booleans, functions, numbers, strings, nulls, objects and arrays. ","devDependencies":{"gulp-format-md":"^0.1.7","mocha":"^2.4.5"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/has-values","keywords":["array","boolean","empty","find","function","has","hasOwn","javascript","js","key","keys","node.js","null","number","object","properties","property","string","type","util","utilities","utility","value"],"license":"MIT","main":"index.js","name":"has-values","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/has-values.git"},"scripts":{"test":"mocha"},"verb":{"run":true,"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["has-value","isobject","is-plain-object"]},"reflinks":["verb"],"lint":{"reflinks":true}},"version":"0.1.4"}');
-
-/***/ }),
-
-/***/ 2023:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["unset-value@1.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"unset-value@1.0.0","_id":"unset-value@1.0.0","_inBundle":false,"_integrity":"sha1-g3aHP30jNRef+x5vw6jtDfyKtVk=","_location":"/unset-value","_phantomChildren":{"get-value":"2.0.6","isarray":"1.0.0"},"_requested":{"type":"version","registry":true,"raw":"unset-value@1.0.0","name":"unset-value","escapedName":"unset-value","rawSpec":"1.0.0","saveSpec":null,"fetchSpec":"1.0.0"},"_requiredBy":["/cache-base"],"_resolved":"https://registry.npmjs.org/unset-value/-/unset-value-1.0.0.tgz","_spec":"1.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/unset-value/issues"},"contributors":[{"email":"wtgtybhertgeghgtwtg@gmail.com","url":"https://github.com/wtgtybhertgeghgtwtg"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"}],"dependencies":{"has-value":"^0.3.1","isobject":"^3.0.0"},"description":"Delete nested properties from an object using dot notation.","devDependencies":{"gulp-format-md":"^0.1.11","mocha":"*","should":"*"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/unset-value","keywords":["del","delete","key","object","omit","prop","property","remove","unset","value"],"license":"MIT","main":"index.js","name":"unset-value","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/unset-value.git"},"scripts":{"test":"mocha"},"verb":{"related":{"list":["get-value","get-values","omit-value","put-value","set-value","union-value","upsert-value"]},"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true}},"version":"1.0.0"}');
-
-/***/ }),
-
-/***/ 81569:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["uri-js@4.4.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"uri-js@4.4.1","_id":"uri-js@4.4.1","_inBundle":false,"_integrity":"sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==","_location":"/uri-js","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"uri-js@4.4.1","name":"uri-js","escapedName":"uri-js","rawSpec":"4.4.1","saveSpec":null,"fetchSpec":"4.4.1"},"_requiredBy":["/ajv","/table/ajv"],"_resolved":"https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz","_spec":"4.4.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Gary Court","email":"gary.court@gmail.com"},"bugs":{"url":"https://github.com/garycourt/uri-js/issues"},"dependencies":{"punycode":"^2.1.0"},"description":"An RFC 3986/3987 compliant, scheme extendable URI/IRI parsing/validating/resolving library for JavaScript.","devDependencies":{"babel-cli":"^6.26.0","babel-plugin-external-helpers":"^6.22.0","babel-preset-latest":"^6.24.1","mocha":"^8.2.1","mocha-qunit-ui":"^0.1.3","rollup":"^0.41.6","rollup-plugin-babel":"^2.7.1","rollup-plugin-node-resolve":"^2.0.0","sorcery":"^0.10.0","typescript":"^2.8.1","uglify-js":"^2.8.14"},"directories":{"test":"tests"},"files":["dist","package.json","yarn.lock","README.md","CHANGELOG","LICENSE"],"homepage":"https://github.com/garycourt/uri-js","keywords":["URI","IRI","IDN","URN","UUID","HTTP","HTTPS","WS","WSS","MAILTO","RFC3986","RFC3987","RFC5891","RFC2616","RFC2818","RFC2141","RFC4122","RFC4291","RFC5952","RFC6068","RFC6455","RFC6874"],"license":"BSD-2-Clause","main":"dist/es5/uri.all.js","name":"uri-js","repository":{"type":"git","url":"git+ssh://git@github.com/garycourt/uri-js.git"},"scripts":{"build":"npm run build:esnext && npm run build:es5 && npm run build:es5:min","build:es5":"rollup -c && cp dist/esnext/uri.d.ts dist/es5/uri.all.d.ts && npm run build:es5:fix-sourcemap","build:es5:fix-sourcemap":"sorcery -i dist/es5/uri.all.js","build:es5:min":"uglifyjs dist/es5/uri.all.js --support-ie8 --output dist/es5/uri.all.min.js --in-source-map dist/es5/uri.all.js.map --source-map uri.all.min.js.map --comments --compress --mangle --pure-funcs merge subexp && mv uri.all.min.js.map dist/es5/ && cp dist/es5/uri.all.d.ts dist/es5/uri.all.min.d.ts","build:esnext":"tsc","clean":"rm -rf dist","test":"mocha -u mocha-qunit-ui dist/es5/uri.all.js tests/tests.js"},"types":"dist/es5/uri.all.d.ts","version":"4.4.1"}');
-
-/***/ }),
-
-/***/ 85086:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["urix@0.1.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"urix@0.1.0","_id":"urix@0.1.0","_inBundle":false,"_integrity":"sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=","_location":"/urix","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"urix@0.1.0","name":"urix","escapedName":"urix","rawSpec":"0.1.0","saveSpec":null,"fetchSpec":"0.1.0"},"_requiredBy":["/source-map-resolve"],"_resolved":"https://registry.npmjs.org/urix/-/urix-0.1.0.tgz","_spec":"0.1.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Simon Lydell"},"bugs":{"url":"https://github.com/lydell/urix/issues"},"description":"Makes Windows-style paths more unix and URI friendly.","devDependencies":{"jshint":"^2.4.4","mocha":"^1.17.1"},"homepage":"https://github.com/lydell/urix#readme","keywords":["path","url","uri","unix","windows","backslash","slash"],"license":"MIT","main":"index.js","name":"urix","repository":{"type":"git","url":"git+https://github.com/lydell/urix.git"},"scripts":{"test":"jshint index.js test/ && mocha"},"version":"0.1.0"}');
-
-/***/ }),
-
-/***/ 72311:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["use@3.1.1","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"use@3.1.1","_id":"use@3.1.1","_inBundle":false,"_integrity":"sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ==","_location":"/use","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"use@3.1.1","name":"use","escapedName":"use","rawSpec":"3.1.1","saveSpec":null,"fetchSpec":"3.1.1"},"_requiredBy":["/snapdragon"],"_resolved":"https://registry.npmjs.org/use/-/use-3.1.1.tgz","_spec":"3.1.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/use/issues"},"contributors":[{"name":"Brian Woodward","url":"https://twitter.com/doowb"},{"name":"Jon Schlinkert","url":"http://twitter.com/jonschlinkert"},{"name":"Olsten Larck","url":"https://i.am.charlike.online"},{"url":"https://github.com/wtgtybhertgeghgtwtg"}],"description":"Easily add plugin support to your node.js application.","devDependencies":{"base-plugins":"^1.0.0","define-property":"^2.0.0","extend-shallow":"^3.0.1","gulp":"^3.9.1","gulp-eslint":"^4.0.0","gulp-format-md":"^1.0.0","gulp-istanbul":"^1.1.2","gulp-mocha":"^3.0.1","mocha":"^4.0.1"},"engines":{"node":">=0.10.0"},"files":["index.js"],"homepage":"https://github.com/jonschlinkert/use","keywords":["use"],"license":"MIT","main":"index.js","name":"use","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/use.git"},"scripts":{"test":"mocha"},"verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"related":{"list":["base","base-plugins","ware"]},"reflinks":["verb","ware"],"lint":{"reflinks":true}},"version":"3.1.1"}');
-
-/***/ }),
-
-/***/ 3733:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["v8-compile-cache@2.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"v8-compile-cache@2.3.0","_id":"v8-compile-cache@2.3.0","_inBundle":false,"_integrity":"sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==","_location":"/v8-compile-cache","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"v8-compile-cache@2.3.0","name":"v8-compile-cache","escapedName":"v8-compile-cache","rawSpec":"2.3.0","saveSpec":null,"fetchSpec":"2.3.0"},"_requiredBy":["/eslint"],"_resolved":"https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz","_spec":"2.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Andres Suarez","email":"zertosh@gmail.com"},"bugs":{"url":"https://github.com/zertosh/v8-compile-cache/issues"},"dependencies":{},"description":"Require hook for automatic V8 compile cache persistence","devDependencies":{"babel-core":"6.26.3","eslint":"^7.12.1","flow-parser":"0.136.0","rimraf":"^2.5.4","rxjs":"6.6.3","semver":"^5.3.0","tap":"^9.0.0","temp":"^0.8.3","yarn":"1.22.10"},"files":["v8-compile-cache.js"],"homepage":"https://github.com/zertosh/v8-compile-cache#readme","license":"MIT","main":"v8-compile-cache.js","name":"v8-compile-cache","repository":{"type":"git","url":"git+https://github.com/zertosh/v8-compile-cache.git"},"scripts":{"bench":"bench/run.sh","eslint":"eslint --max-warnings=0 .","posttest":"npm run eslint","tap":"tap test/*-test.js","test":"npm run tap"},"version":"2.3.0"}');
-
-/***/ }),
-
-/***/ 42500:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["validate-npm-package-license@3.0.4","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"validate-npm-package-license@3.0.4","_id":"validate-npm-package-license@3.0.4","_inBundle":false,"_integrity":"sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==","_location":"/validate-npm-package-license","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"validate-npm-package-license@3.0.4","name":"validate-npm-package-license","escapedName":"validate-npm-package-license","rawSpec":"3.0.4","saveSpec":null,"fetchSpec":"3.0.4"},"_requiredBy":["/normalize-package-data"],"_resolved":"https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz","_spec":"3.0.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Kyle E. Mitchell","email":"kyle@kemitchell.com","url":"https://kemitchell.com"},"bugs":{"url":"https://github.com/kemitchell/validate-npm-package-license.js/issues"},"contributors":[{"name":"Mark Stacey","email":"markjstacey@gmail.com"}],"dependencies":{"spdx-correct":"^3.0.0","spdx-expression-parse":"^3.0.0"},"description":"Give me a string and I\'ll tell you if it\'s a valid npm package license string","devDependencies":{"defence-cli":"^2.0.1","replace-require-self":"^1.0.0"},"homepage":"https://github.com/kemitchell/validate-npm-package-license.js#readme","keywords":["license","npm","package","validation"],"license":"Apache-2.0","name":"validate-npm-package-license","repository":{"type":"git","url":"git+https://github.com/kemitchell/validate-npm-package-license.js.git"},"scripts":{"test":"defence README.md | replace-require-self | node"},"version":"3.0.4"}');
-
-/***/ }),
-
-/***/ 18584:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["which-module@2.0.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"which-module@2.0.0","_id":"which-module@2.0.0","_inBundle":false,"_integrity":"sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=","_location":"/which-module","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"which-module@2.0.0","name":"which-module","escapedName":"which-module","rawSpec":"2.0.0","saveSpec":null,"fetchSpec":"2.0.0"},"_requiredBy":["/yargs"],"_resolved":"https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz","_spec":"2.0.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"nexdrew"},"bugs":{"url":"https://github.com/nexdrew/which-module/issues"},"description":"Find the module object for something that was require()d","devDependencies":{"ava":"^0.19.1","coveralls":"^2.13.1","nyc":"^10.3.0","standard":"^10.0.2","standard-version":"^4.0.0"},"files":["index.js"],"homepage":"https://github.com/nexdrew/which-module#readme","keywords":["which","module","exports","filename","require","reverse","lookup"],"license":"ISC","main":"index.js","name":"which-module","repository":{"type":"git","url":"git+https://github.com/nexdrew/which-module.git"},"scripts":{"coverage":"nyc report --reporter=text-lcov | coveralls","pretest":"standard","release":"standard-version","test":"nyc ava"},"version":"2.0.0"}');
-
-/***/ }),
-
-/***/ 75048:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["which@2.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"which@2.0.2","_id":"which@2.0.2","_inBundle":false,"_integrity":"sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==","_location":"/which","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"which@2.0.2","name":"which","escapedName":"which","rawSpec":"2.0.2","saveSpec":null,"fetchSpec":"2.0.2"},"_requiredBy":["/cross-spawn"],"_resolved":"https://registry.npmjs.org/which/-/which-2.0.2.tgz","_spec":"2.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me"},"bin":{"node-which":"bin/node-which"},"bugs":{"url":"https://github.com/isaacs/node-which/issues"},"dependencies":{"isexe":"^2.0.0"},"description":"Like which(1) unix command. Find the first instance of an executable in the PATH.","devDependencies":{"mkdirp":"^0.5.0","rimraf":"^2.6.2","tap":"^14.6.9"},"engines":{"node":">= 8"},"files":["which.js","bin/node-which"],"homepage":"https://github.com/isaacs/node-which#readme","license":"ISC","main":"which.js","name":"which","repository":{"type":"git","url":"git://github.com/isaacs/node-which.git"},"scripts":{"changelog":"git add CHANGELOG.md","postchangelog":"git commit -m \'update changelog - \'${npm_package_version}","postpublish":"git push origin --follow-tags","postversion":"npm publish","prechangelog":"bash gen-changelog.sh","prepublish":"npm run changelog","preversion":"npm test","test":"tap"},"tap":{"check-coverage":true},"version":"2.0.2"}');
-
-/***/ }),
-
-/***/ 56255:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["word-wrap@1.2.3","/Users/brian.kimball/Github/bump-and-release"]],"_development":true,"_from":"word-wrap@1.2.3","_id":"word-wrap@1.2.3","_inBundle":false,"_integrity":"sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==","_location":"/word-wrap","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"word-wrap@1.2.3","name":"word-wrap","escapedName":"word-wrap","rawSpec":"1.2.3","saveSpec":null,"fetchSpec":"1.2.3"},"_requiredBy":["/optionator"],"_resolved":"https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz","_spec":"1.2.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Jon Schlinkert","url":"https://github.com/jonschlinkert"},"bugs":{"url":"https://github.com/jonschlinkert/word-wrap/issues"},"contributors":[{"name":"Danilo Sampaio","email":"danilo.sampaio@gmail.com","url":"localhost:8080"},{"name":"Fede Ramirez","email":"i@2fd.me","url":"https://2fd.github.io"},{"name":"Joe Hildebrand","email":"joe-github@cursive.net","url":"https://twitter.com/hildjj"},{"name":"Jon Schlinkert","email":"jon.schlinkert@sellside.com","url":"http://twitter.com/jonschlinkert"},{"name":"Todd Kennedy","url":"https://tck.io"},{"name":"Waldemar Reusch","url":"https://github.com/lordvlad"},{"name":"Wolfgang Faust","url":"http://www.linestarve.com"},{"name":"Zach Hale","email":"zachhale@gmail.com","url":"http://zachhale.com"}],"description":"Wrap words to a specified length.","devDependencies":{"gulp-format-md":"^0.1.11","mocha":"^3.2.0"},"engines":{"node":">=0.10.0"},"files":["index.js","index.d.ts"],"homepage":"https://github.com/jonschlinkert/word-wrap","keywords":["break","carriage","line","new-line","newline","return","soft","text","word","word-wrap","words","wrap"],"license":"MIT","main":"index.js","name":"word-wrap","repository":{"type":"git","url":"git+https://github.com/jonschlinkert/word-wrap.git"},"scripts":{"test":"mocha"},"typings":"index.d.ts","verb":{"toc":false,"layout":"default","tasks":["readme"],"plugins":["gulp-format-md"],"lint":{"reflinks":true},"related":{"list":["common-words","shuffle-words","unique-words","wordcount"]},"reflinks":["verb","verb-generate-readme"]},"version":"1.2.3"}');
-
-/***/ }),
-
-/***/ 62909:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["ansi-styles@4.3.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"ansi-styles@4.3.0","_id":"ansi-styles@4.3.0","_inBundle":false,"_integrity":"sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==","_location":"/wrap-ansi/ansi-styles","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"ansi-styles@4.3.0","name":"ansi-styles","escapedName":"ansi-styles","rawSpec":"4.3.0","saveSpec":null,"fetchSpec":"4.3.0"},"_requiredBy":["/wrap-ansi"],"_resolved":"https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz","_spec":"4.3.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/chalk/ansi-styles/issues"},"dependencies":{"color-convert":"^2.0.1"},"description":"ANSI escape codes for styling strings in the terminal","devDependencies":{"@types/color-convert":"^1.9.0","ava":"^2.3.0","svg-term-cli":"^2.1.1","tsd":"^0.11.0","xo":"^0.25.3"},"engines":{"node":">=8"},"files":["index.js","index.d.ts"],"funding":"https://github.com/chalk/ansi-styles?sponsor=1","homepage":"https://github.com/chalk/ansi-styles#readme","keywords":["ansi","styles","color","colour","colors","terminal","console","cli","string","tty","escape","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"ansi-styles","repository":{"type":"git","url":"git+https://github.com/chalk/ansi-styles.git"},"scripts":{"screenshot":"svg-term --command=\'node screenshot\' --out=screenshot.svg --padding=3 --width=55 --height=3 --at=1000 --no-cursor","test":"xo && ava && tsd"},"version":"4.3.0"}');
-
-/***/ }),
-
-/***/ 64754:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["color-convert@2.0.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"color-convert@2.0.1","_id":"color-convert@2.0.1","_inBundle":false,"_integrity":"sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==","_location":"/wrap-ansi/color-convert","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"color-convert@2.0.1","name":"color-convert","escapedName":"color-convert","rawSpec":"2.0.1","saveSpec":null,"fetchSpec":"2.0.1"},"_requiredBy":["/wrap-ansi/ansi-styles"],"_resolved":"https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz","_spec":"2.0.1","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Heather Arthur","email":"fayearthur@gmail.com"},"bugs":{"url":"https://github.com/Qix-/color-convert/issues"},"dependencies":{"color-name":"~1.1.4"},"description":"Plain color conversion functions","devDependencies":{"chalk":"^2.4.2","xo":"^0.24.0"},"engines":{"node":">=7.0.0"},"files":["index.js","conversions.js","route.js"],"homepage":"https://github.com/Qix-/color-convert#readme","keywords":["color","colour","convert","converter","conversion","rgb","hsl","hsv","hwb","cmyk","ansi","ansi16"],"license":"MIT","name":"color-convert","repository":{"type":"git","url":"git+https://github.com/Qix-/color-convert.git"},"scripts":{"pretest":"xo","test":"node test/basic.js"},"version":"2.0.1","xo":{"rules":{"default-case":0,"no-inline-comments":0,"operator-linebreak":0}}}');
-
-/***/ }),
-
-/***/ 56353:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["color-name@1.1.4","/Users/brian.kimball/Github/bump-and-release"]],"_from":"color-name@1.1.4","_id":"color-name@1.1.4","_inBundle":false,"_integrity":"sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==","_location":"/wrap-ansi/color-name","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"color-name@1.1.4","name":"color-name","escapedName":"color-name","rawSpec":"1.1.4","saveSpec":null,"fetchSpec":"1.1.4"},"_requiredBy":["/wrap-ansi/color-convert"],"_resolved":"https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz","_spec":"1.1.4","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"DY","email":"dfcreative@gmail.com"},"bugs":{"url":"https://github.com/colorjs/color-name/issues"},"description":"A list of color names and its values","files":["index.js"],"homepage":"https://github.com/colorjs/color-name","keywords":["color-name","color","color-keyword","keyword"],"license":"MIT","main":"index.js","name":"color-name","repository":{"type":"git","url":"git+ssh://git@github.com/colorjs/color-name.git"},"scripts":{"test":"node test.js"},"version":"1.1.4"}');
-
-/***/ }),
-
-/***/ 54285:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["wrap-ansi@6.2.0","/Users/brian.kimball/Github/bump-and-release"]],"_from":"wrap-ansi@6.2.0","_id":"wrap-ansi@6.2.0","_inBundle":false,"_integrity":"sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==","_location":"/wrap-ansi","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"wrap-ansi@6.2.0","name":"wrap-ansi","escapedName":"wrap-ansi","rawSpec":"6.2.0","saveSpec":null,"fetchSpec":"6.2.0"},"_requiredBy":["/cliui"],"_resolved":"https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-6.2.0.tgz","_spec":"6.2.0","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Sindre Sorhus","email":"sindresorhus@gmail.com","url":"sindresorhus.com"},"bugs":{"url":"https://github.com/chalk/wrap-ansi/issues"},"dependencies":{"ansi-styles":"^4.0.0","string-width":"^4.1.0","strip-ansi":"^6.0.0"},"description":"Wordwrap a string with ANSI escape codes","devDependencies":{"ava":"^2.1.0","chalk":"^2.4.2","coveralls":"^3.0.3","has-ansi":"^3.0.0","nyc":"^14.1.1","xo":"^0.24.0"},"engines":{"node":">=8"},"files":["index.js"],"homepage":"https://github.com/chalk/wrap-ansi#readme","keywords":["wrap","break","wordwrap","wordbreak","linewrap","ansi","styles","color","colour","colors","terminal","console","cli","string","tty","escape","formatting","rgb","256","shell","xterm","log","logging","command-line","text"],"license":"MIT","name":"wrap-ansi","repository":{"type":"git","url":"git+https://github.com/chalk/wrap-ansi.git"},"scripts":{"test":"xo && nyc ava"},"version":"6.2.0"}');
-
-/***/ }),
-
-/***/ 17603:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["wrappy@1.0.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"wrappy@1.0.2","_id":"wrappy@1.0.2","_inBundle":false,"_integrity":"sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=","_location":"/wrappy","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"wrappy@1.0.2","name":"wrappy","escapedName":"wrappy","rawSpec":"1.0.2","saveSpec":null,"fetchSpec":"1.0.2"},"_requiredBy":["/inflight","/once"],"_resolved":"https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz","_spec":"1.0.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bugs":{"url":"https://github.com/npm/wrappy/issues"},"dependencies":{},"description":"Callback wrapping utility","devDependencies":{"tap":"^2.3.1"},"directories":{"test":"test"},"files":["wrappy.js"],"homepage":"https://github.com/npm/wrappy","license":"ISC","main":"wrappy.js","name":"wrappy","repository":{"type":"git","url":"git+https://github.com/npm/wrappy.git"},"scripts":{"test":"tap --coverage test/*.js"},"version":"1.0.2"}');
-
-/***/ }),
-
-/***/ 90057:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["y18n@4.0.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"y18n@4.0.3","_id":"y18n@4.0.3","_inBundle":false,"_integrity":"sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ==","_location":"/y18n","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"y18n@4.0.3","name":"y18n","escapedName":"y18n","rawSpec":"4.0.3","saveSpec":null,"fetchSpec":"4.0.3"},"_requiredBy":["/yargs"],"_resolved":"https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz","_spec":"4.0.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Ben Coe","email":"ben@npmjs.com"},"bugs":{"url":"https://github.com/yargs/y18n/issues"},"description":"the bare-bones internationalization library used by yargs","devDependencies":{"chai":"^4.0.1","coveralls":"^3.0.0","mocha":"^4.0.1","nyc":"^11.0.1","rimraf":"^2.5.0","standard":"^10.0.0-beta.0","standard-version":"^4.2.0"},"files":["index.js"],"homepage":"https://github.com/yargs/y18n","keywords":["i18n","internationalization","yargs"],"license":"ISC","main":"index.js","name":"y18n","repository":{"type":"git","url":"git+ssh://git@github.com/yargs/y18n.git"},"scripts":{"coverage":"nyc report --reporter=text-lcov | coveralls","pretest":"standard","release":"standard-version","test":"nyc mocha"},"version":"4.0.3"}');
-
-/***/ }),
-
-/***/ 49712:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["yallist@2.1.2","/Users/brian.kimball/Github/bump-and-release"]],"_from":"yallist@2.1.2","_id":"yallist@2.1.2","_inBundle":false,"_integrity":"sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=","_location":"/yallist","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"yallist@2.1.2","name":"yallist","escapedName":"yallist","rawSpec":"2.1.2","saveSpec":null,"fetchSpec":"2.1.2"},"_requiredBy":["/lru-cache"],"_resolved":"https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz","_spec":"2.1.2","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Isaac Z. Schlueter","email":"i@izs.me","url":"http://blog.izs.me/"},"bugs":{"url":"https://github.com/isaacs/yallist/issues"},"dependencies":{},"description":"Yet Another Linked List","devDependencies":{"tap":"^10.3.0"},"directories":{"test":"test"},"files":["yallist.js","iterator.js"],"homepage":"https://github.com/isaacs/yallist#readme","license":"ISC","main":"yallist.js","name":"yallist","repository":{"type":"git","url":"git+https://github.com/isaacs/yallist.git"},"scripts":{"postpublish":"git push origin --all; git push origin --tags","postversion":"npm publish","preversion":"npm test","test":"tap test/*.js --100"},"version":"2.1.2"}');
-
-/***/ }),
-
-/***/ 50220:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["yargs-parser@18.1.3","/Users/brian.kimball/Github/bump-and-release"]],"_from":"yargs-parser@18.1.3","_id":"yargs-parser@18.1.3","_inBundle":false,"_integrity":"sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ==","_location":"/yargs-parser","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"yargs-parser@18.1.3","name":"yargs-parser","escapedName":"yargs-parser","rawSpec":"18.1.3","saveSpec":null,"fetchSpec":"18.1.3"},"_requiredBy":["/meow","/yargs"],"_resolved":"https://registry.npmjs.org/yargs-parser/-/yargs-parser-18.1.3.tgz","_spec":"18.1.3","_where":"/Users/brian.kimball/Github/bump-and-release","author":{"name":"Ben Coe","email":"ben@npmjs.com"},"bugs":{"url":"https://github.com/yargs/yargs-parser/issues"},"dependencies":{"camelcase":"^5.0.0","decamelize":"^1.2.0"},"description":"the mighty option parser used by yargs","devDependencies":{"c8":"^7.0.1","chai":"^4.2.0","mocha":"^7.0.0","standard":"^14.3.1"},"engines":{"node":">=6"},"files":["lib","index.js"],"homepage":"https://github.com/yargs/yargs-parser#readme","keywords":["argument","parser","yargs","command","cli","parsing","option","args","argument"],"license":"ISC","main":"index.js","name":"yargs-parser","repository":{"type":"git","url":"git+https://github.com/yargs/yargs-parser.git"},"scripts":{"coverage":"c8 report --check-coverage check-coverage --lines=100 --branches=97 --statements=100","fix":"standard --fix","posttest":"standard","test":"c8 --reporter=text --reporter=html  mocha test/*.js"},"version":"18.1.3"}');
-
-/***/ }),
-
-/***/ 30264:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_args":[["yargs@15.4.1","/Users/brian.kimball/Github/bump-and-release"]],"_from":"yargs@15.4.1","_id":"yargs@15.4.1","_inBundle":false,"_integrity":"sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==","_location":"/yargs","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"yargs@15.4.1","name":"yargs","escapedName":"yargs","rawSpec":"15.4.1","saveSpec":null,"fetchSpec":"15.4.1"},"_requiredBy":["/replace"],"_resolved":"https://registry.npmjs.org/yargs/-/yargs-15.4.1.tgz","_spec":"15.4.1","_where":"/Users/brian.kimball/Github/bump-and-release","bugs":{"url":"https://github.com/yargs/yargs/issues"},"contributors":[{"name":"Yargs Contributors","url":"https://github.com/yargs/yargs/graphs/contributors"}],"dependencies":{"cliui":"^6.0.0","decamelize":"^1.2.0","find-up":"^4.1.0","get-caller-file":"^2.0.1","require-directory":"^2.1.1","require-main-filename":"^2.0.0","set-blocking":"^2.0.0","string-width":"^4.2.0","which-module":"^2.0.0","y18n":"^4.0.0","yargs-parser":"^18.1.2"},"description":"yargs the modern, pirate-themed, successor to optimist.","devDependencies":{"@types/chai":"^4.2.11","@types/decamelize":"^1.2.0","@types/mocha":"^7.0.2","@types/node":"^10.0.3","@typescript-eslint/eslint-plugin":"^3.0.0","@typescript-eslint/parser":"^3.0.0","c8":"^7.0.0","chai":"^4.2.0","chalk":"^4.0.0","coveralls":"^3.0.9","cpr":"^3.0.1","cross-spawn":"^7.0.0","es6-promise":"^4.2.5","eslint":"^6.8.0","eslint-plugin-import":"^2.20.1","eslint-plugin-node":"^11.0.0","gts":"^2.0.0-alpha.4","hashish":"0.0.4","mocha":"^7.0.0","rimraf":"^3.0.2","standardx":"^5.0.0","typescript":"^3.7.0","which":"^2.0.0","yargs-test-extends":"^1.0.1"},"engines":{"node":">=8"},"files":["index.js","yargs.js","build","locales","LICENSE"],"homepage":"https://yargs.js.org/","keywords":["argument","args","option","parser","parsing","cli","command"],"license":"MIT","main":"./index.js","name":"yargs","repository":{"type":"git","url":"git+https://github.com/yargs/yargs.git"},"scripts":{"check":"standardx && standardx **/*.ts","compile":"rimraf build && tsc","coverage":"c8 report --check-coverage","fix":"standardx --fix  && standardx --fix **/*.ts","posttest":"npm run check","prepare":"npm run compile","pretest":"npm run compile -- -p tsconfig.test.json","test":"c8 mocha --require ./test/before.js --timeout=12000 --check-leaks"},"standardx":{"ignore":["build","**/example/**"]},"version":"15.4.1"}');
-
-/***/ }),
-
-/***/ 60306:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.1.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
-
-/***/ }),
-
-/***/ 42357:
+/***/ 2357:
 /***/ ((module) => {
 
 "use strict";
@@ -50154,7 +46730,7 @@ module.exports = require("assert");
 
 /***/ }),
 
-/***/ 64293:
+/***/ 4293:
 /***/ ((module) => {
 
 "use strict";
@@ -50162,7 +46738,7 @@ module.exports = require("buffer");
 
 /***/ }),
 
-/***/ 63129:
+/***/ 3129:
 /***/ ((module) => {
 
 "use strict";
@@ -50170,7 +46746,7 @@ module.exports = require("child_process");
 
 /***/ }),
 
-/***/ 27619:
+/***/ 7619:
 /***/ ((module) => {
 
 "use strict";
@@ -50178,7 +46754,7 @@ module.exports = require("constants");
 
 /***/ }),
 
-/***/ 40881:
+/***/ 881:
 /***/ ((module) => {
 
 "use strict";
@@ -50186,7 +46762,7 @@ module.exports = require("dns");
 
 /***/ }),
 
-/***/ 28614:
+/***/ 8614:
 /***/ ((module) => {
 
 "use strict";
@@ -50194,7 +46770,7 @@ module.exports = require("events");
 
 /***/ }),
 
-/***/ 35747:
+/***/ 5747:
 /***/ ((module) => {
 
 "use strict";
@@ -50202,7 +46778,7 @@ module.exports = require("fs");
 
 /***/ }),
 
-/***/ 98605:
+/***/ 8605:
 /***/ ((module) => {
 
 "use strict";
@@ -50210,7 +46786,7 @@ module.exports = require("http");
 
 /***/ }),
 
-/***/ 97565:
+/***/ 7565:
 /***/ ((module) => {
 
 "use strict";
@@ -50218,7 +46794,7 @@ module.exports = require("http2");
 
 /***/ }),
 
-/***/ 57211:
+/***/ 7211:
 /***/ ((module) => {
 
 "use strict";
@@ -50226,7 +46802,7 @@ module.exports = require("https");
 
 /***/ }),
 
-/***/ 11631:
+/***/ 1631:
 /***/ ((module) => {
 
 "use strict";
@@ -50234,7 +46810,7 @@ module.exports = require("net");
 
 /***/ }),
 
-/***/ 12087:
+/***/ 2087:
 /***/ ((module) => {
 
 "use strict";
@@ -50242,7 +46818,7 @@ module.exports = require("os");
 
 /***/ }),
 
-/***/ 85622:
+/***/ 5622:
 /***/ ((module) => {
 
 "use strict";
@@ -50250,7 +46826,7 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 92413:
+/***/ 2413:
 /***/ ((module) => {
 
 "use strict";
@@ -50266,7 +46842,7 @@ module.exports = require("tls");
 
 /***/ }),
 
-/***/ 33867:
+/***/ 3867:
 /***/ ((module) => {
 
 "use strict";
@@ -50274,7 +46850,7 @@ module.exports = require("tty");
 
 /***/ }),
 
-/***/ 78835:
+/***/ 8835:
 /***/ ((module) => {
 
 "use strict";
@@ -50282,7 +46858,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 31669:
+/***/ 1669:
 /***/ ((module) => {
 
 "use strict";
@@ -50290,7 +46866,7 @@ module.exports = require("util");
 
 /***/ }),
 
-/***/ 78761:
+/***/ 8761:
 /***/ ((module) => {
 
 "use strict";
@@ -50351,459 +46927,34 @@ module.exports = require("zlib");
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-function __ncc_wildcard$0 (arg) {
-  if (arg === "node_modules/@actions/core") return __nccwpck_require__(26981);
-  else if (arg === "node_modules/@actions/http-client") return __nccwpck_require__(21768);
-  else if (arg === "node_modules/@babel/code-frame") return __nccwpck_require__(23474);
-  else if (arg === "node_modules/@babel/helper-validator-identifier") return __nccwpck_require__(93534);
-  else if (arg === "node_modules/@babel/highlight/node_modules/chalk") return __nccwpck_require__(3850);
-  else if (arg === "node_modules/@babel/highlight") return __nccwpck_require__(98918);
-  else if (arg === "node_modules/@eslint/eslintrc") return __nccwpck_require__(42012);
-  else if (arg === "node_modules/@humanwhocodes/config-array") return __nccwpck_require__(12170);
-  else if (arg === "node_modules/@humanwhocodes/object-schema") return __nccwpck_require__(53233);
-  else if (arg === "node_modules/@kwsites/file-exists") return __nccwpck_require__(21028);
-  else if (arg === "node_modules/@kwsites/promise-deferred") return __nccwpck_require__(82336);
-  else if (arg === "node_modules/@mrmlnc/readdir-enhanced") return __nccwpck_require__(30004);
-  else if (arg === "node_modules/@nodelib/fs.scandir") return __nccwpck_require__(72697);
-  else if (arg === "node_modules/@nodelib/fs.stat") return __nccwpck_require__(16888);
-  else if (arg === "node_modules/@nodelib/fs.walk") return __nccwpck_require__(8900);
-  else if (arg === "node_modules/@sindresorhus/is") return __nccwpck_require__(55683);
-  else if (arg === "node_modules/@szmarczak/http-timer") return __nccwpck_require__(3579);
-  else if (arg === "node_modules/@types/cacheable-request") return __nccwpck_require__(82770);
-  else if (arg === "node_modules/@types/glob") return __nccwpck_require__(14739);
-  else if (arg === "node_modules/@types/http-cache-semantics") return __nccwpck_require__(60527);
-  else if (arg === "node_modules/@types/keyv") return __nccwpck_require__(85975);
-  else if (arg === "node_modules/@types/minimatch") return __nccwpck_require__(5518);
-  else if (arg === "node_modules/@types/minimist") return __nccwpck_require__(63802);
-  else if (arg === "node_modules/@types/node") return __nccwpck_require__(73685);
-  else if (arg === "node_modules/@types/normalize-package-data") return __nccwpck_require__(24551);
-  else if (arg === "node_modules/@types/responselike") return __nccwpck_require__(15990);
-  else if (arg === "node_modules/@vercel/ncc") return __nccwpck_require__(30741);
-  else if (arg === "node_modules/acorn-jsx") return __nccwpck_require__(61452);
-  else if (arg === "node_modules/acorn") return __nccwpck_require__(62201);
-  else if (arg === "node_modules/aggregate-error") return __nccwpck_require__(99765);
-  else if (arg === "node_modules/ajv") return __nccwpck_require__(15802);
-  else if (arg === "node_modules/ansi-colors") return __nccwpck_require__(7266);
-  else if (arg === "node_modules/ansi-regex") return __nccwpck_require__(75090);
-  else if (arg === "node_modules/ansi-styles") return __nccwpck_require__(43604);
-  else if (arg === "node_modules/argparse") return __nccwpck_require__(61427);
-  else if (arg === "node_modules/arr-diff") return __nccwpck_require__(6739);
-  else if (arg === "node_modules/arr-flatten") return __nccwpck_require__(96585);
-  else if (arg === "node_modules/arr-union") return __nccwpck_require__(3754);
-  else if (arg === "node_modules/array-union") return __nccwpck_require__(67980);
-  else if (arg === "node_modules/array-uniq") return __nccwpck_require__(40090);
-  else if (arg === "node_modules/array-unique") return __nccwpck_require__(66048);
-  else if (arg === "node_modules/arrify") return __nccwpck_require__(20552);
-  else if (arg === "node_modules/assign-symbols") return __nccwpck_require__(93176);
-  else if (arg === "node_modules/astral-regex") return __nccwpck_require__(67573);
-  else if (arg === "node_modules/async") return __nccwpck_require__(71744);
-  else if (arg === "node_modules/atob") return __nccwpck_require__(84346);
-  else if (arg === "node_modules/balanced-match") return __nccwpck_require__(55519);
-  else if (arg === "node_modules/base/node_modules/define-property") return __nccwpck_require__(7566);
-  else if (arg === "node_modules/base/node_modules/is-accessor-descriptor") return __nccwpck_require__(32039);
-  else if (arg === "node_modules/base/node_modules/is-data-descriptor") return __nccwpck_require__(91480);
-  else if (arg === "node_modules/base/node_modules/is-descriptor") return __nccwpck_require__(18857);
-  else if (arg === "node_modules/base") return __nccwpck_require__(72481);
-  else if (arg === "node_modules/brace-expansion") return __nccwpck_require__(72289);
-  else if (arg === "node_modules/braces") return __nccwpck_require__(48385);
-  else if (arg === "node_modules/cache-base") return __nccwpck_require__(12919);
-  else if (arg === "node_modules/cacheable-lookup") return __nccwpck_require__(95138);
-  else if (arg === "node_modules/cacheable-request") return __nccwpck_require__(83604);
-  else if (arg === "node_modules/call-me-maybe") return __nccwpck_require__(15621);
-  else if (arg === "node_modules/callsites") return __nccwpck_require__(28871);
-  else if (arg === "node_modules/camelcase-keys/node_modules/quick-lru") return __nccwpck_require__(66069);
-  else if (arg === "node_modules/camelcase-keys") return __nccwpck_require__(3718);
-  else if (arg === "node_modules/camelcase") return __nccwpck_require__(63466);
-  else if (arg === "node_modules/chalk/node_modules/ansi-styles") return __nccwpck_require__(28458);
-  else if (arg === "node_modules/chalk/node_modules/color-convert") return __nccwpck_require__(62532);
-  else if (arg === "node_modules/chalk/node_modules/color-name") return __nccwpck_require__(61170);
-  else if (arg === "node_modules/chalk/node_modules/has-flag") return __nccwpck_require__(97283);
-  else if (arg === "node_modules/chalk/node_modules/supports-color") return __nccwpck_require__(22542);
-  else if (arg === "node_modules/chalk") return __nccwpck_require__(9680);
-  else if (arg === "node_modules/child-process-promise/node_modules/cross-spawn") return __nccwpck_require__(85158);
-  else if (arg === "node_modules/child-process-promise/node_modules/which") return __nccwpck_require__(3319);
-  else if (arg === "node_modules/child-process-promise") return __nccwpck_require__(24907);
-  else if (arg === "node_modules/class-utils/node_modules/define-property") return __nccwpck_require__(28373);
-  else if (arg === "node_modules/class-utils") return __nccwpck_require__(14689);
-  else if (arg === "node_modules/clean-stack") return __nccwpck_require__(41984);
-  else if (arg === "node_modules/cliui") return __nccwpck_require__(51363);
-  else if (arg === "node_modules/clone-response") return __nccwpck_require__(98719);
-  else if (arg === "node_modules/collection-visit") return __nccwpck_require__(65732);
-  else if (arg === "node_modules/color-convert") return __nccwpck_require__(65116);
-  else if (arg === "node_modules/color-name") return __nccwpck_require__(19780);
-  else if (arg === "node_modules/commander") return __nccwpck_require__(48786);
-  else if (arg === "node_modules/commondir") return __nccwpck_require__(80980);
-  else if (arg === "node_modules/component-emitter") return __nccwpck_require__(74688);
-  else if (arg === "node_modules/concat-map") return __nccwpck_require__(67656);
-  else if (arg === "node_modules/copy-descriptor") return __nccwpck_require__(49012);
-  else if (arg === "node_modules/cp-file") return __nccwpck_require__(28964);
-  else if (arg === "node_modules/cpy-cli") return __nccwpck_require__(23106);
-  else if (arg === "node_modules/cpy/node_modules/@nodelib/fs.stat") return __nccwpck_require__(34195);
-  else if (arg === "node_modules/cpy/node_modules/braces/node_modules/extend-shallow") return __nccwpck_require__(42996);
-  else if (arg === "node_modules/cpy/node_modules/braces") return __nccwpck_require__(31633);
-  else if (arg === "node_modules/cpy/node_modules/fast-glob") return __nccwpck_require__(80666);
-  else if (arg === "node_modules/cpy/node_modules/fill-range/node_modules/extend-shallow") return __nccwpck_require__(81133);
-  else if (arg === "node_modules/cpy/node_modules/fill-range") return __nccwpck_require__(29875);
-  else if (arg === "node_modules/cpy/node_modules/glob-parent/node_modules/is-glob") return __nccwpck_require__(3496);
-  else if (arg === "node_modules/cpy/node_modules/glob-parent") return __nccwpck_require__(62904);
-  else if (arg === "node_modules/cpy/node_modules/globby") return __nccwpck_require__(57638);
-  else if (arg === "node_modules/cpy/node_modules/is-number/node_modules/kind-of") return __nccwpck_require__(84944);
-  else if (arg === "node_modules/cpy/node_modules/is-number") return __nccwpck_require__(82401);
-  else if (arg === "node_modules/cpy/node_modules/micromatch") return __nccwpck_require__(77185);
-  else if (arg === "node_modules/cpy/node_modules/pify") return __nccwpck_require__(19550);
-  else if (arg === "node_modules/cpy/node_modules/to-regex-range") return __nccwpck_require__(72322);
-  else if (arg === "node_modules/cpy") return __nccwpck_require__(153);
-  else if (arg === "node_modules/cross-spawn") return __nccwpck_require__(30698);
-  else if (arg === "node_modules/debug") return __nccwpck_require__(60442);
-  else if (arg === "node_modules/decamelize-keys/node_modules/map-obj") return __nccwpck_require__(44730);
-  else if (arg === "node_modules/decamelize-keys") return __nccwpck_require__(95017);
-  else if (arg === "node_modules/decamelize") return __nccwpck_require__(35031);
-  else if (arg === "node_modules/decode-uri-component") return __nccwpck_require__(73772);
-  else if (arg === "node_modules/decompress-response/node_modules/mimic-response") return __nccwpck_require__(92748);
-  else if (arg === "node_modules/decompress-response") return __nccwpck_require__(25527);
-  else if (arg === "node_modules/deep-is") return __nccwpck_require__(40859);
-  else if (arg === "node_modules/defer-to-connect") return __nccwpck_require__(44055);
-  else if (arg === "node_modules/define-property/node_modules/is-accessor-descriptor") return __nccwpck_require__(45558);
-  else if (arg === "node_modules/define-property/node_modules/is-data-descriptor") return __nccwpck_require__(95206);
-  else if (arg === "node_modules/define-property/node_modules/is-descriptor") return __nccwpck_require__(34737);
-  else if (arg === "node_modules/define-property") return __nccwpck_require__(74203);
-  else if (arg === "node_modules/dir-glob") return __nccwpck_require__(54923);
-  else if (arg === "node_modules/doctrine") return __nccwpck_require__(9516);
-  else if (arg === "node_modules/email-addresses") return __nccwpck_require__(54937);
-  else if (arg === "node_modules/emoji-regex") return __nccwpck_require__(59874);
-  else if (arg === "node_modules/end-of-stream") return __nccwpck_require__(39423);
-  else if (arg === "node_modules/enquirer") return __nccwpck_require__(27225);
-  else if (arg === "node_modules/error-ex") return __nccwpck_require__(20802);
-  else if (arg === "node_modules/escape-string-regexp") return __nccwpck_require__(86838);
-  else if (arg === "node_modules/eslint-scope") return __nccwpck_require__(42245);
-  else if (arg === "node_modules/eslint-utils/node_modules/eslint-visitor-keys") return __nccwpck_require__(22583);
-  else if (arg === "node_modules/eslint-utils") return __nccwpck_require__(45002);
-  else if (arg === "node_modules/eslint-visitor-keys") return __nccwpck_require__(97491);
-  else if (arg === "node_modules/eslint/node_modules/escape-string-regexp") return __nccwpck_require__(34693);
-  else if (arg === "node_modules/eslint") return __nccwpck_require__(53269);
-  else if (arg === "node_modules/espree/node_modules/eslint-visitor-keys") return __nccwpck_require__(85633);
-  else if (arg === "node_modules/espree") return __nccwpck_require__(72598);
-  else if (arg === "node_modules/esprima") return __nccwpck_require__(70126);
-  else if (arg === "node_modules/esquery/node_modules/estraverse") return __nccwpck_require__(96734);
-  else if (arg === "node_modules/esquery") return __nccwpck_require__(1396);
-  else if (arg === "node_modules/esrecurse/node_modules/estraverse") return __nccwpck_require__(48376);
-  else if (arg === "node_modules/esrecurse") return __nccwpck_require__(18492);
-  else if (arg === "node_modules/estraverse") return __nccwpck_require__(82788);
-  else if (arg === "node_modules/esutils") return __nccwpck_require__(43744);
-  else if (arg === "node_modules/expand-brackets/node_modules/debug") return __nccwpck_require__(17330);
-  else if (arg === "node_modules/expand-brackets/node_modules/define-property") return __nccwpck_require__(33606);
-  else if (arg === "node_modules/expand-brackets/node_modules/extend-shallow") return __nccwpck_require__(43868);
-  else if (arg === "node_modules/expand-brackets/node_modules/ms") return __nccwpck_require__(99078);
-  else if (arg === "node_modules/expand-brackets") return __nccwpck_require__(33046);
-  else if (arg === "node_modules/extend-shallow/node_modules/is-extendable") return __nccwpck_require__(85527);
-  else if (arg === "node_modules/extend-shallow") return __nccwpck_require__(32790);
-  else if (arg === "node_modules/extglob/node_modules/define-property") return __nccwpck_require__(86430);
-  else if (arg === "node_modules/extglob/node_modules/extend-shallow") return __nccwpck_require__(71107);
-  else if (arg === "node_modules/extglob/node_modules/is-accessor-descriptor") return __nccwpck_require__(64090);
-  else if (arg === "node_modules/extglob/node_modules/is-data-descriptor") return __nccwpck_require__(60142);
-  else if (arg === "node_modules/extglob/node_modules/is-descriptor") return __nccwpck_require__(99220);
-  else if (arg === "node_modules/extglob") return __nccwpck_require__(19959);
-  else if (arg === "node_modules/fast-deep-equal") return __nccwpck_require__(61470);
-  else if (arg === "node_modules/fast-glob") return __nccwpck_require__(36071);
-  else if (arg === "node_modules/fast-json-stable-stringify") return __nccwpck_require__(57373);
-  else if (arg === "node_modules/fast-levenshtein") return __nccwpck_require__(87749);
-  else if (arg === "node_modules/fastq") return __nccwpck_require__(14528);
-  else if (arg === "node_modules/file-entry-cache") return __nccwpck_require__(46438);
-  else if (arg === "node_modules/filename-reserved-regex") return __nccwpck_require__(15671);
-  else if (arg === "node_modules/filenamify") return __nccwpck_require__(43375);
-  else if (arg === "node_modules/fill-range") return __nccwpck_require__(50226);
-  else if (arg === "node_modules/find-cache-dir") return __nccwpck_require__(98611);
-  else if (arg === "node_modules/find-up") return __nccwpck_require__(43682);
-  else if (arg === "node_modules/flat-cache") return __nccwpck_require__(50824);
-  else if (arg === "node_modules/flatted/cjs") return __nccwpck_require__(21508);
-  else if (arg === "node_modules/flatted") return __nccwpck_require__(12737);
-  else if (arg === "node_modules/for-in") return __nccwpck_require__(93685);
-  else if (arg === "node_modules/fragment-cache") return __nccwpck_require__(23624);
-  else if (arg === "node_modules/fs-extra") return __nccwpck_require__(66287);
-  else if (arg === "node_modules/fs.realpath") return __nccwpck_require__(23342);
-  else if (arg === "node_modules/function-bind") return __nccwpck_require__(80694);
-  else if (arg === "node_modules/functional-red-black-tree") return __nccwpck_require__(16638);
-  else if (arg === "node_modules/get-caller-file") return __nccwpck_require__(68834);
-  else if (arg === "node_modules/get-stream") return __nccwpck_require__(66418);
-  else if (arg === "node_modules/get-value") return __nccwpck_require__(50348);
-  else if (arg === "node_modules/gh-pages") return __nccwpck_require__(90601);
-  else if (arg === "node_modules/glob-parent") return __nccwpck_require__(7770);
-  else if (arg === "node_modules/glob-to-regexp") return __nccwpck_require__(48893);
-  else if (arg === "node_modules/glob") return __nccwpck_require__(90388);
-  else if (arg === "node_modules/globals") return __nccwpck_require__(24709);
-  else if (arg === "node_modules/globby") return __nccwpck_require__(7180);
-  else if (arg === "node_modules/got") return __nccwpck_require__(9248);
-  else if (arg === "node_modules/graceful-fs") return __nccwpck_require__(84952);
-  else if (arg === "node_modules/hard-rejection") return __nccwpck_require__(91413);
-  else if (arg === "node_modules/has-flag") return __nccwpck_require__(99317);
-  else if (arg === "node_modules/has-glob/node_modules/is-glob") return __nccwpck_require__(366);
-  else if (arg === "node_modules/has-glob") return __nccwpck_require__(30840);
-  else if (arg === "node_modules/has-value") return __nccwpck_require__(75754);
-  else if (arg === "node_modules/has-values/node_modules/is-number/node_modules/kind-of") return __nccwpck_require__(43461);
-  else if (arg === "node_modules/has-values/node_modules/is-number") return __nccwpck_require__(81752);
-  else if (arg === "node_modules/has-values/node_modules/kind-of") return __nccwpck_require__(56457);
-  else if (arg === "node_modules/has-values") return __nccwpck_require__(63352);
-  else if (arg === "node_modules/has") return __nccwpck_require__(60936);
-  else if (arg === "node_modules/hosted-git-info") return __nccwpck_require__(57972);
-  else if (arg === "node_modules/http-cache-semantics") return __nccwpck_require__(17666);
-  else if (arg === "node_modules/http2-wrapper") return __nccwpck_require__(30375);
-  else if (arg === "node_modules/ignore") return __nccwpck_require__(73548);
-  else if (arg === "node_modules/import-fresh") return __nccwpck_require__(50886);
-  else if (arg === "node_modules/imurmurhash") return __nccwpck_require__(48528);
-  else if (arg === "node_modules/indent-string") return __nccwpck_require__(41925);
-  else if (arg === "node_modules/inflight") return __nccwpck_require__(8755);
-  else if (arg === "node_modules/inherits") return __nccwpck_require__(79394);
-  else if (arg === "node_modules/is-accessor-descriptor/node_modules/kind-of") return __nccwpck_require__(56637);
-  else if (arg === "node_modules/is-accessor-descriptor") return __nccwpck_require__(48246);
-  else if (arg === "node_modules/is-arrayish") return __nccwpck_require__(4266);
-  else if (arg === "node_modules/is-buffer") return __nccwpck_require__(97281);
-  else if (arg === "node_modules/is-core-module") return __nccwpck_require__(35419);
-  else if (arg === "node_modules/is-data-descriptor/node_modules/kind-of") return __nccwpck_require__(81043);
-  else if (arg === "node_modules/is-data-descriptor") return __nccwpck_require__(52757);
-  else if (arg === "node_modules/is-descriptor/node_modules/kind-of") return __nccwpck_require__(53222);
-  else if (arg === "node_modules/is-descriptor") return __nccwpck_require__(95896);
-  else if (arg === "node_modules/is-extendable") return __nccwpck_require__(8331);
-  else if (arg === "node_modules/is-extglob") return __nccwpck_require__(48434);
-  else if (arg === "node_modules/is-fullwidth-code-point") return __nccwpck_require__(69458);
-  else if (arg === "node_modules/is-glob") return __nccwpck_require__(65646);
-  else if (arg === "node_modules/is-number") return __nccwpck_require__(34278);
-  else if (arg === "node_modules/is-plain-obj") return __nccwpck_require__(7309);
-  else if (arg === "node_modules/is-plain-object") return __nccwpck_require__(69991);
-  else if (arg === "node_modules/is-windows") return __nccwpck_require__(81150);
-  else if (arg === "node_modules/isarray") return __nccwpck_require__(86962);
-  else if (arg === "node_modules/isexe") return __nccwpck_require__(17938);
-  else if (arg === "node_modules/isobject") return __nccwpck_require__(89921);
-  else if (arg === "node_modules/js-tokens") return __nccwpck_require__(96399);
-  else if (arg === "node_modules/js-yaml") return __nccwpck_require__(11080);
-  else if (arg === "node_modules/json-buffer") return __nccwpck_require__(31158);
-  else if (arg === "node_modules/json-parse-even-better-errors") return __nccwpck_require__(81784);
-  else if (arg === "node_modules/json-schema-traverse") return __nccwpck_require__(12371);
-  else if (arg === "node_modules/json-stable-stringify-without-jsonify") return __nccwpck_require__(72709);
-  else if (arg === "node_modules/jsonfile") return __nccwpck_require__(19419);
-  else if (arg === "node_modules/junk") return __nccwpck_require__(64952);
-  else if (arg === "node_modules/keyv") return __nccwpck_require__(42440);
-  else if (arg === "node_modules/kind-of") return __nccwpck_require__(20589);
-  else if (arg === "node_modules/levn") return __nccwpck_require__(57265);
-  else if (arg === "node_modules/lines-and-columns") return __nccwpck_require__(95492);
-  else if (arg === "node_modules/locate-path") return __nccwpck_require__(70555);
-  else if (arg === "node_modules/lodash.merge") return __nccwpck_require__(26421);
-  else if (arg === "node_modules/lodash.truncate") return __nccwpck_require__(78889);
-  else if (arg === "node_modules/lodash") return __nccwpck_require__(23235);
-  else if (arg === "node_modules/lowercase-keys") return __nccwpck_require__(24666);
-  else if (arg === "node_modules/lru-cache") return __nccwpck_require__(91410);
-  else if (arg === "node_modules/make-dir/node_modules/semver") return __nccwpck_require__(60801);
-  else if (arg === "node_modules/make-dir") return __nccwpck_require__(66736);
-  else if (arg === "node_modules/map-cache") return __nccwpck_require__(24510);
-  else if (arg === "node_modules/map-obj") return __nccwpck_require__(44649);
-  else if (arg === "node_modules/map-visit") return __nccwpck_require__(43574);
-  else if (arg === "node_modules/meow/node_modules/type-fest") return __nccwpck_require__(14982);
-  else if (arg === "node_modules/meow") return __nccwpck_require__(32067);
-  else if (arg === "node_modules/merge2") return __nccwpck_require__(93121);
-  else if (arg === "node_modules/micromatch") return __nccwpck_require__(34266);
-  else if (arg === "node_modules/mimic-response") return __nccwpck_require__(59404);
-  else if (arg === "node_modules/min-indent") return __nccwpck_require__(88283);
-  else if (arg === "node_modules/minimatch") return __nccwpck_require__(68442);
-  else if (arg === "node_modules/minimist-options/node_modules/arrify") return __nccwpck_require__(58559);
-  else if (arg === "node_modules/minimist-options") return __nccwpck_require__(28556);
-  else if (arg === "node_modules/mixin-deep/node_modules/is-extendable") return __nccwpck_require__(72535);
-  else if (arg === "node_modules/mixin-deep") return __nccwpck_require__(7897);
-  else if (arg === "node_modules/ms") return __nccwpck_require__(10317);
-  else if (arg === "node_modules/nanomatch") return __nccwpck_require__(31522);
-  else if (arg === "node_modules/natural-compare") return __nccwpck_require__(17503);
-  else if (arg === "node_modules/nested-error-stacks") return __nccwpck_require__(97256);
-  else if (arg === "node_modules/node-version") return __nccwpck_require__(18044);
-  else if (arg === "node_modules/normalize-package-data/node_modules/semver") return __nccwpck_require__(678);
-  else if (arg === "node_modules/normalize-package-data") return __nccwpck_require__(19472);
-  else if (arg === "node_modules/normalize-url") return __nccwpck_require__(53969);
-  else if (arg === "node_modules/object-assign") return __nccwpck_require__(41516);
-  else if (arg === "node_modules/object-copy/node_modules/define-property") return __nccwpck_require__(95185);
-  else if (arg === "node_modules/object-copy/node_modules/kind-of") return __nccwpck_require__(17079);
-  else if (arg === "node_modules/object-copy") return __nccwpck_require__(64504);
-  else if (arg === "node_modules/object-visit") return __nccwpck_require__(80250);
-  else if (arg === "node_modules/object.pick") return __nccwpck_require__(3083);
-  else if (arg === "node_modules/once") return __nccwpck_require__(67376);
-  else if (arg === "node_modules/optionator") return __nccwpck_require__(79026);
-  else if (arg === "node_modules/p-all/node_modules/p-map") return __nccwpck_require__(36304);
-  else if (arg === "node_modules/p-all") return __nccwpck_require__(50523);
-  else if (arg === "node_modules/p-cancelable") return __nccwpck_require__(20650);
-  else if (arg === "node_modules/p-event") return __nccwpck_require__(18719);
-  else if (arg === "node_modules/p-filter/node_modules/p-map") return __nccwpck_require__(42198);
-  else if (arg === "node_modules/p-filter") return __nccwpck_require__(71523);
-  else if (arg === "node_modules/p-finally") return __nccwpck_require__(66128);
-  else if (arg === "node_modules/p-limit") return __nccwpck_require__(19446);
-  else if (arg === "node_modules/p-locate") return __nccwpck_require__(25593);
-  else if (arg === "node_modules/p-map") return __nccwpck_require__(87341);
-  else if (arg === "node_modules/p-timeout") return __nccwpck_require__(87620);
-  else if (arg === "node_modules/p-try") return __nccwpck_require__(3794);
-  else if (arg === "node_modules/parent-module") return __nccwpck_require__(82802);
-  else if (arg === "node_modules/parse-json") return __nccwpck_require__(93570);
-  else if (arg === "node_modules/pascalcase") return __nccwpck_require__(41430);
-  else if (arg === "node_modules/path-dirname") return __nccwpck_require__(62581);
-  else if (arg === "node_modules/path-exists") return __nccwpck_require__(84799);
-  else if (arg === "node_modules/path-is-absolute") return __nccwpck_require__(95418);
-  else if (arg === "node_modules/path-key") return __nccwpck_require__(78664);
-  else if (arg === "node_modules/path-parse") return __nccwpck_require__(5992);
-  else if (arg === "node_modules/path-type/node_modules/pify") return __nccwpck_require__(12624);
-  else if (arg === "node_modules/path-type") return __nccwpck_require__(18042);
-  else if (arg === "node_modules/picomatch") return __nccwpck_require__(45202);
-  else if (arg === "node_modules/pify") return __nccwpck_require__(61499);
-  else if (arg === "node_modules/pinkie-promise") return __nccwpck_require__(37271);
-  else if (arg === "node_modules/pinkie") return __nccwpck_require__(14538);
-  else if (arg === "node_modules/pkg-dir") return __nccwpck_require__(62098);
-  else if (arg === "node_modules/posix-character-classes") return __nccwpck_require__(2377);
-  else if (arg === "node_modules/prelude-ls") return __nccwpck_require__(52546);
-  else if (arg === "node_modules/progress") return __nccwpck_require__(94493);
-  else if (arg === "node_modules/promise-polyfill") return __nccwpck_require__(44557);
-  else if (arg === "node_modules/pseudomap") return __nccwpck_require__(59878);
-  else if (arg === "node_modules/pump") return __nccwpck_require__(34144);
-  else if (arg === "node_modules/punycode") return __nccwpck_require__(39548);
-  else if (arg === "node_modules/queue-microtask") return __nccwpck_require__(26966);
-  else if (arg === "node_modules/quick-lru") return __nccwpck_require__(40971);
-  else if (arg === "node_modules/read-pkg-up/node_modules/type-fest") return __nccwpck_require__(852);
-  else if (arg === "node_modules/read-pkg-up") return __nccwpck_require__(40529);
-  else if (arg === "node_modules/read-pkg/node_modules/type-fest") return __nccwpck_require__(85881);
-  else if (arg === "node_modules/read-pkg") return __nccwpck_require__(16735);
-  else if (arg === "node_modules/redent") return __nccwpck_require__(47782);
-  else if (arg === "node_modules/regex-not") return __nccwpck_require__(55254);
-  else if (arg === "node_modules/regexpp") return __nccwpck_require__(49263);
-  else if (arg === "node_modules/repeat-element") return __nccwpck_require__(19964);
-  else if (arg === "node_modules/repeat-string") return __nccwpck_require__(38309);
-  else if (arg === "node_modules/replace/node_modules/chalk") return __nccwpck_require__(21509);
-  else if (arg === "node_modules/replace") return __nccwpck_require__(75114);
-  else if (arg === "node_modules/require-directory") return __nccwpck_require__(10332);
-  else if (arg === "node_modules/require-from-string") return __nccwpck_require__(59643);
-  else if (arg === "node_modules/require-main-filename") return __nccwpck_require__(58421);
-  else if (arg === "node_modules/resolve-alpn") return __nccwpck_require__(38456);
-  else if (arg === "node_modules/resolve-from") return __nccwpck_require__(98659);
-  else if (arg === "node_modules/resolve-url") return __nccwpck_require__(44859);
-  else if (arg === "node_modules/resolve") return __nccwpck_require__(39795);
-  else if (arg === "node_modules/resolve/test/module_dir/zmodules/bbb") return __nccwpck_require__(79519);
-  else if (arg === "node_modules/resolve/test/resolver/baz") return __nccwpck_require__(82329);
-  else if (arg === "node_modules/resolve/test/resolver/browser_field") return __nccwpck_require__(49038);
-  else if (arg === "node_modules/resolve/test/resolver/dot_main") return __nccwpck_require__(66312);
-  else if (arg === "node_modules/resolve/test/resolver/dot_slash_main") return __nccwpck_require__(62075);
-  else if (arg === "node_modules/resolve/test/resolver/incorrect_main") return __nccwpck_require__(89129);
-  else if (arg === "node_modules/resolve/test/resolver/invalid_main") return __nccwpck_require__(4777);
-  else if (arg === "node_modules/resolve/test/resolver/multirepo") return __nccwpck_require__(42752);
-  else if (arg === "node_modules/resolve/test/resolver/multirepo/packages/package-a") return __nccwpck_require__(85192);
-  else if (arg === "node_modules/resolve/test/resolver/multirepo/packages/package-b") return __nccwpck_require__(39063);
-  else if (arg === "node_modules/resolve/test/resolver/nested_symlinks/mylib") return __nccwpck_require__(8102);
-  else if (arg === "node_modules/resolve/test/resolver/symlinked/package") return __nccwpck_require__(91074);
-  else if (arg === "node_modules/responselike") return __nccwpck_require__(82435);
-  else if (arg === "node_modules/ret") return __nccwpck_require__(81533);
-  else if (arg === "node_modules/reusify") return __nccwpck_require__(37263);
-  else if (arg === "node_modules/rimraf") return __nccwpck_require__(95817);
-  else if (arg === "node_modules/run-parallel") return __nccwpck_require__(32186);
-  else if (arg === "node_modules/safe-regex") return __nccwpck_require__(72712);
-  else if (arg === "node_modules/semver/node_modules/lru-cache") return __nccwpck_require__(26259);
-  else if (arg === "node_modules/semver/node_modules/yallist") return __nccwpck_require__(47905);
-  else if (arg === "node_modules/semver") return __nccwpck_require__(15543);
-  else if (arg === "node_modules/set-blocking") return __nccwpck_require__(5649);
-  else if (arg === "node_modules/set-value/node_modules/extend-shallow") return __nccwpck_require__(95074);
-  else if (arg === "node_modules/set-value") return __nccwpck_require__(6800);
-  else if (arg === "node_modules/shebang-command") return __nccwpck_require__(16457);
-  else if (arg === "node_modules/shebang-regex") return __nccwpck_require__(84217);
-  else if (arg === "node_modules/simple-git/node_modules/debug") return __nccwpck_require__(39793);
-  else if (arg === "node_modules/simple-git") return __nccwpck_require__(86570);
-  else if (arg === "node_modules/slash") return __nccwpck_require__(12);
-  else if (arg === "node_modules/slice-ansi/node_modules/ansi-styles") return __nccwpck_require__(24760);
-  else if (arg === "node_modules/slice-ansi/node_modules/color-convert") return __nccwpck_require__(98891);
-  else if (arg === "node_modules/slice-ansi/node_modules/color-name") return __nccwpck_require__(78229);
-  else if (arg === "node_modules/slice-ansi") return __nccwpck_require__(3781);
-  else if (arg === "node_modules/snapdragon-node/node_modules/define-property") return __nccwpck_require__(75031);
-  else if (arg === "node_modules/snapdragon-node/node_modules/is-accessor-descriptor") return __nccwpck_require__(1362);
-  else if (arg === "node_modules/snapdragon-node/node_modules/is-data-descriptor") return __nccwpck_require__(76983);
-  else if (arg === "node_modules/snapdragon-node/node_modules/is-descriptor") return __nccwpck_require__(25099);
-  else if (arg === "node_modules/snapdragon-node") return __nccwpck_require__(20879);
-  else if (arg === "node_modules/snapdragon-util/node_modules/kind-of") return __nccwpck_require__(26408);
-  else if (arg === "node_modules/snapdragon-util") return __nccwpck_require__(21115);
-  else if (arg === "node_modules/snapdragon/node_modules/debug") return __nccwpck_require__(4249);
-  else if (arg === "node_modules/snapdragon/node_modules/define-property") return __nccwpck_require__(47109);
-  else if (arg === "node_modules/snapdragon/node_modules/extend-shallow") return __nccwpck_require__(31905);
-  else if (arg === "node_modules/snapdragon/node_modules/ms") return __nccwpck_require__(86681);
-  else if (arg === "node_modules/snapdragon") return __nccwpck_require__(60315);
-  else if (arg === "node_modules/source-map-resolve") return __nccwpck_require__(17701);
-  else if (arg === "node_modules/source-map-url") return __nccwpck_require__(12688);
-  else if (arg === "node_modules/source-map") return __nccwpck_require__(4671);
-  else if (arg === "node_modules/spdx-correct") return __nccwpck_require__(74424);
-  else if (arg === "node_modules/spdx-exceptions") return __nccwpck_require__(29882);
-  else if (arg === "node_modules/spdx-expression-parse") return __nccwpck_require__(96115);
-  else if (arg === "node_modules/spdx-license-ids") return __nccwpck_require__(45000);
-  else if (arg === "node_modules/split-string") return __nccwpck_require__(99044);
-  else if (arg === "node_modules/sprintf-js") return __nccwpck_require__(48204);
-  else if (arg === "node_modules/static-extend/node_modules/define-property") return __nccwpck_require__(58469);
-  else if (arg === "node_modules/static-extend") return __nccwpck_require__(3133);
-  else if (arg === "node_modules/string-width") return __nccwpck_require__(97846);
-  else if (arg === "node_modules/strip-ansi") return __nccwpck_require__(9725);
-  else if (arg === "node_modules/strip-indent") return __nccwpck_require__(34415);
-  else if (arg === "node_modules/strip-json-comments") return __nccwpck_require__(76821);
-  else if (arg === "node_modules/strip-outer") return __nccwpck_require__(96180);
-  else if (arg === "node_modules/supports-color") return __nccwpck_require__(5760);
-  else if (arg === "node_modules/table/node_modules/ajv") return __nccwpck_require__(56057);
-  else if (arg === "node_modules/table/node_modules/ansi-regex") return __nccwpck_require__(10319);
-  else if (arg === "node_modules/table/node_modules/json-schema-traverse") return __nccwpck_require__(53966);
-  else if (arg === "node_modules/table/node_modules/string-width") return __nccwpck_require__(20841);
-  else if (arg === "node_modules/table/node_modules/strip-ansi") return __nccwpck_require__(4774);
-  else if (arg === "node_modules/table") return __nccwpck_require__(93354);
-  else if (arg === "node_modules/text-table") return __nccwpck_require__(85471);
-  else if (arg === "node_modules/to-object-path/node_modules/kind-of") return __nccwpck_require__(49157);
-  else if (arg === "node_modules/to-object-path") return __nccwpck_require__(91969);
-  else if (arg === "node_modules/to-regex-range") return __nccwpck_require__(20064);
-  else if (arg === "node_modules/to-regex") return __nccwpck_require__(10212);
-  else if (arg === "node_modules/trim-newlines") return __nccwpck_require__(93437);
-  else if (arg === "node_modules/trim-repeated") return __nccwpck_require__(4042);
-  else if (arg === "node_modules/tunnel") return __nccwpck_require__(957);
-  else if (arg === "node_modules/type-check") return __nccwpck_require__(22935);
-  else if (arg === "node_modules/type-fest") return __nccwpck_require__(37725);
-  else if (arg === "node_modules/union-value") return __nccwpck_require__(55374);
-  else if (arg === "node_modules/universalify") return __nccwpck_require__(23922);
-  else if (arg === "node_modules/unset-value/node_modules/has-value/node_modules/isobject") return __nccwpck_require__(46389);
-  else if (arg === "node_modules/unset-value/node_modules/has-value") return __nccwpck_require__(88886);
-  else if (arg === "node_modules/unset-value/node_modules/has-values") return __nccwpck_require__(71131);
-  else if (arg === "node_modules/unset-value") return __nccwpck_require__(2023);
-  else if (arg === "node_modules/uri-js") return __nccwpck_require__(81569);
-  else if (arg === "node_modules/urix") return __nccwpck_require__(85086);
-  else if (arg === "node_modules/use") return __nccwpck_require__(72311);
-  else if (arg === "node_modules/v8-compile-cache") return __nccwpck_require__(3733);
-  else if (arg === "node_modules/validate-npm-package-license") return __nccwpck_require__(42500);
-  else if (arg === "node_modules/which-module") return __nccwpck_require__(18584);
-  else if (arg === "node_modules/which") return __nccwpck_require__(75048);
-  else if (arg === "node_modules/word-wrap") return __nccwpck_require__(56255);
-  else if (arg === "node_modules/wrap-ansi/node_modules/ansi-styles") return __nccwpck_require__(62909);
-  else if (arg === "node_modules/wrap-ansi/node_modules/color-convert") return __nccwpck_require__(64754);
-  else if (arg === "node_modules/wrap-ansi/node_modules/color-name") return __nccwpck_require__(56353);
-  else if (arg === "node_modules/wrap-ansi") return __nccwpck_require__(54285);
-  else if (arg === "node_modules/wrappy") return __nccwpck_require__(17603);
-  else if (arg === "node_modules/y18n") return __nccwpck_require__(90057);
-  else if (arg === "node_modules/yallist") return __nccwpck_require__(49712);
-  else if (arg === "node_modules/yargs-parser") return __nccwpck_require__(50220);
-  else if (arg === "node_modules/yargs") return __nccwpck_require__(30264);
-  else if (arg === "/") return __nccwpck_require__(60306);
-}
-function __ncc_wildcard$1 (arg) {
-  if (arg === "/") return __nccwpck_require__(29361);
-}
-const fs = __nccwpck_require__(35747);
-const path = __nccwpck_require__(85622);
-const core = __nccwpck_require__(42186);
+const fs = __nccwpck_require__(5747);
+const path = __nccwpck_require__(5622);
+const core = __nccwpck_require__(2186);
 // const util = require("util");
-const replace = __nccwpck_require__(82617);
-const semver = __nccwpck_require__(11383);
-const got = __nccwpck_require__(93061);
-const git = __nccwpck_require__(91477)();
-const shell = __nccwpck_require__(64858);
-const glob = __nccwpck_require__(43664);
-const ghpages = __nccwpck_require__(54290);
+const replace = __nccwpck_require__(2617);
+const semver = __nccwpck_require__(1383);
+const got = __nccwpck_require__(3061);
+const git = __nccwpck_require__(1477)();
+const shell = __nccwpck_require__(4858);
+const glob = __nccwpck_require__(3664);
+const ghpages = __nccwpck_require__(4290);
 
-const hasEventFile = fs.existsSync("/github/workflow/event.json");
-const event = hasEventFile
-  ? JSON.parse(fs.readFileSync("/github/workflow/event.json").toString())
-  : null;
-
-const root = process.env.GITHUB_WORKSPACE;
 const branch = process.env.GITHUB_REF.split("/").slice(2).join("/");
-const pkg = __ncc_wildcard$0(root);
-const globalConfig = __ncc_wildcard$1(root);
+const root = process.env.GITHUB_WORKSPACE;
+const readJSON = (fileName) => {
+  const filePath = fileName[0] !== "/" ? path.join(root, fileName) : fileName;
+  try {
+    const bytes = fs.readFileSync(filePath);
+    return JSON.parse(bytes.toString());
+  } catch (err) {
+    core.warning(`Error reading file: ${filePath}`);
+  }
+  return {};
+};
+
+const event = readJSON("/github/workflow/event.json");
+const pkg = readJSON("package.json");
+const globalConfig = readJSON("./bump.json");
 
 const initialize = async () => {
   const gitUserEmail = core.getInput("git-user-email");

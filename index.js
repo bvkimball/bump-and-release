@@ -10,15 +10,22 @@ const shell = require("child-process-promise");
 const glob = require("fast-glob");
 const ghpages = require("gh-pages");
 
-const hasEventFile = fs.existsSync("/github/workflow/event.json");
-const event = hasEventFile
-  ? JSON.parse(fs.readFileSync("/github/workflow/event.json").toString())
-  : null;
-
-const root = process.env.GITHUB_WORKSPACE;
 const branch = process.env.GITHUB_REF.split("/").slice(2).join("/");
-const pkg = require(path.join(root, "package.json"));
-const globalConfig = require(path.join(root, "./bump.json"));
+const root = process.env.GITHUB_WORKSPACE;
+const readJSON = (fileName) => {
+  const filePath = fileName[0] !== "/" ? path.join(root, fileName) : fileName;
+  try {
+    const bytes = fs.readFileSync(filePath);
+    return JSON.parse(bytes.toString());
+  } catch (err) {
+    core.warning(`Error reading file: ${filePath}`);
+  }
+  return {};
+};
+
+const event = readJSON("/github/workflow/event.json");
+const pkg = readJSON("package.json");
+const globalConfig = readJSON("./bump.json");
 
 const initialize = async () => {
   const gitUserEmail = core.getInput("git-user-email");
