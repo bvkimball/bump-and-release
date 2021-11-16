@@ -1,3 +1,12 @@
+# [0.1.0](https://github.com/bvkimball/bump-and-release/compare/v0.0.9...v0.1.0) (2021-11-16)
+
+
+### Features
+
+* Fixed git log failure ([7e2dc40](https://github.com/bvkimball/bump-and-release/commit/7e2dc4006689d9028ccf2e7b7d9eab053c6bc611))
+
+
+
 ## [0.0.9](https://github.com/bvkimball/bump-and-release/compare/v0.0.8...v0.0.9) (2021-11-16)
 
 
