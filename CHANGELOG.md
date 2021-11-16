@@ -1,3 +1,12 @@
+## 0.0.6 (2021-11-16)
+
+
+### Features
+
+* minor version test ([3fd547d](https://github.com/bvkimball/bump-and-release/commit/3fd547daa4d027166ead3fb757df1d2b0d0adee0))
+
+
+
 ## 0.0.5 (2021-11-16)
 
 
