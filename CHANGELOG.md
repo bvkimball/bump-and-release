@@ -1,3 +1,13 @@
+## [0.2.1](https://github.com/bvkimball/bump-and-release/compare/v0.2.0...v0.2.1) (2021-11-16)
+
+
+### Bug Fixes
+
+* Fixed working directory ([a7f986f](https://github.com/bvkimball/bump-and-release/commit/a7f986fbcec98c4be1ac0698b2dce949f11b09c7))
+* working directory updated to use GITHUB_WORKSPACE ([72a4085](https://github.com/bvkimball/bump-and-release/commit/72a4085a5c2318ad3af22aea881795129c793e3b))
+
+
+
 # [0.2.0](https://github.com/bvkimball/bump-and-release/compare/v0.1.0...v0.2.0) (2021-11-16)
 
 
