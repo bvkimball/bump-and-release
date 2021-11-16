@@ -46734,7 +46734,7 @@ module.exports = eval("require")("spawn-sync");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.8","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.1.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -47212,24 +47212,28 @@ async function run() {
       );
       core.info(`Next Version is: ${version}`);
 
-      const changedFiles = await bump(version, globalConfig.bumpFiles);
-      core.info(`Bumped Version in ${changedFiles.length} files`);
-      if (!skipChangeLog) {
-        const changelogFile = path.join(root, "CHANGELOG.md");
-        await changelog(version, changelogFile);
-        core.info(`Change Log Generated`);
-        changedFiles.push(changelogFile);
+      if (core.getBooleanInput("skip-bump")) {
+        core.info(`Skipping Bump and Publish`);
+      } else {
+        const changedFiles = await bump(version, globalConfig.bumpFiles);
+        core.info(`Bumped Version in ${changedFiles.length} files`);
+        if (!skipChangeLog) {
+          const changelogFile = path.join(root, "CHANGELOG.md");
+          await changelog(version, changelogFile);
+          core.info(`Change Log Generated`);
+          changedFiles.push(changelogFile);
+        }
+
+        await commitVersion(version, [...changedFiles]);
+        core.info(`Generated Tag`);
+        await publish(version, config, globalConfig.bundles);
+        core.info(`Published Bundles`);
+        await push();
       }
 
-      await commitVersion(version, [...changedFiles]);
-      core.info(`Generated Tag`);
-
-      await publish(version, config, globalConfig.bundles);
-      core.info(`Published Bundles`);
-
-      await push();
-
-      if (docs) {
+      if (core.getBooleanInput("skip-docs")) {
+        core.info(`Skipping Deploy Docs/Demo`);
+      } else if (docs) {
         switch (docs.type) {
           case "ghpages":
             await deployGithubPages(version, docs);
