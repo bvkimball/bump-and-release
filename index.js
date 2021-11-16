@@ -67,7 +67,7 @@ const getGitHash = async (latest) => {
   if (latest.gitHead) return latest.gitHead;
   try {
     core.info("Getting latest git hash from tag");
-    const hash = await git.raw(["rev-list", "-n 1", `tags/v${latest.version}`]);
+    const hash = await git.revparse([`tags/v${latest.version}`]);
     core.info(hash);
     return hash;
   } catch (e) {
