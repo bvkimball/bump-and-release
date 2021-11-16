@@ -46999,7 +46999,7 @@ const getLatestFromNPM = async () => {
 const recommendVersion = async (latest, type, prerelease) => {
   if (type) {
     const suggested = semver.inc(latest.version, type, prerelease);
-    if (semver.gte(pkg.version, suggested) && prerelease.length) {
+    if (semver.gte(pkg.version, suggested) && prerelease && prerelease.length) {
       return semver.inc(pkg.version, "prerelease", prerelease);
     }
     return suggested;
@@ -47040,6 +47040,7 @@ const getReleaseType = async (config, latest) => {
     }
     if (hash) {
       try {
+        core.info(`get logs from ${hash} to ${process.env.GITHUB_SHA}`);
         let logs = await git.getlog({
           from: hash,
           to: process.env.GITHUB_SHA,
