@@ -47137,7 +47137,7 @@ const deployGithubPages = async (version, docs) => {
     switch (docs.build.preset) {
       case "angular":
         await shell.exec(
-          `ng build --prod ${docs.app} --base-href /${docs.dest}/ --deploy-url /${docs.dest}/`
+          `npx ng build --prod ${docs.app} --base-href /${docs.dest}/ --deploy-url /${docs.dest}/`
         );
         break;
       default:
