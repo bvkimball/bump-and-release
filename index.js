@@ -15,10 +15,10 @@ const event = hasEventFile
   ? JSON.parse(fs.readFileSync("/github/workflow/event.json").toString())
   : null;
 
-const root = path.join(process.cwd(), process.env.ROOT_DIR || "./");
+const root = process.env.GITHUB_WORKSPACE;
 const branch = process.env.GITHUB_REF.split("/").slice(2).join("/");
-const pkg = require("./package.json");
-const globalConfig = require("./bump.json");
+const pkg = require(path.join(root, "package.json"));
+const globalConfig = require(path.join(root, "./bump.json"));
 
 const initialize = async () => {
   const gitUserEmail = core.getInput("git-user-email");
