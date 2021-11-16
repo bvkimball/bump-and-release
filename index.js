@@ -204,21 +204,23 @@ async function changelog(version, file) {
 }
 
 const deployGithubPages = async (version, docs) => {
-  if (docs.build && docs.build.preset) {
-    switch (docs.build.preset) {
-      case "angular":
-        await shell.exec(
-          `npx ng build ${docs.build.app} --base-href /${pkg.name}/${docs.dest}/ --deploy-url /${pkg.name}/${docs.dest}/`
-        );
-        break;
-      default:
-        throw new Error("Build Command not defined");
+  const prepublish = Array.isArray(docs.prepublish)
+    ? docs.prepublish
+    : [docs.prepublish];
+  const commands = prepublish.map((it) => {
+    if (it && it.preset) {
+      switch (it.preset) {
+        case "angular":
+          return `npx ng build ${docs.build.app} --base-href /${pkg.name}/${docs.dest}/ --deploy-url /${pkg.name}/${docs.dest}/`;
+        default:
+          return false;
+      }
     }
-  }
-  if (docs.build && docs.build.cmd) {
-    await shell.exec(docs.build.cmd);
-  } else {
-    core.info("No build for docs task specified");
+    return it;
+  });
+  for (let command of commands) {
+    core.info(`Running Prepublish command: ${command}`);
+    await shell.exec(command);
   }
 
   //git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
