@@ -46734,7 +46734,7 @@ module.exports = eval("require")("spawn-sync");
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.2","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
+module.exports = JSON.parse('{"name":"bump-and-release-github-action","version":"0.0.3-rc.0","description":"Version and publish projects. Only published to NPM for testing.","main":"index.js","scripts":{"lint":"eslint index.js","package":"ncc build index.js -o dist","test":"eslint index.js && jest"},"repository":{"type":"git","url":"git+https://github.com/bvkimball/bump-and-release.git"},"keywords":["GitHub","Actions","JavaScript"],"author":"Brian Kimball<bvkimball@gmail.com>","license":"MIT","bugs":{"url":"https://github.com/bvkimball/bump-and-release/issues"},"homepage":"https://github.com/bvkimball/bump-and-release#readme","dependencies":{"@actions/core":"^1.6.0","child-process-promise":"^2.2.1","fast-glob":"^3.2.7","gh-pages":"^3.2.3","got":"^11.8.2","replace":"^1.2.1","semver":"^7.3.5","simple-git":"^2.47.0"},"devDependencies":{"@vercel/ncc":"^0.31.1","eslint":"^7.32.0","cpy-cli":"3.1.1"}}');
 
 /***/ }),
 
@@ -46998,7 +46998,11 @@ const getLatestFromNPM = async () => {
 
 const recommendVersion = async (latest, type, prerelease) => {
   if (type) {
-    return semver.inc(latest.version, type, prerelease);
+    const suggested = semver.inc(latest.version, type, prerelease);
+    if (semver.gte(pkg.version, suggested) && prerelease.length) {
+      return semver.inc(pkg.version, "prerelease", prerelease);
+    }
+    return suggested;
   }
   return latest.version;
 };
@@ -47026,10 +47030,6 @@ const getGitHash = async (latest) => {
 };
 
 const getReleaseType = async (config, latest) => {
-  if (config.prerelease) {
-    // Use pkg.version because `latest` wont return prerelease tag
-    return "prerelease";
-  }
   let releaseType = "patch";
   let messages = [];
   if (latest && latest.version) {
@@ -47066,6 +47066,10 @@ const getReleaseType = async (config, latest) => {
     messages.map((it) => it.toLowerCase().startsWith("feat")).includes(true)
   ) {
     releaseType = "minor";
+  }
+  if (config.prerelease) {
+    // Use pkg.version because `latest` wont return prerelease tag
+    return `pre${releaseType}`;
   }
   return releaseType;
 };

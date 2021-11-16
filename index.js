@@ -53,7 +53,11 @@ const getLatestFromNPM = async () => {
 
 const recommendVersion = async (latest, type, prerelease) => {
   if (type) {
-    return semver.inc(latest.version, type, prerelease);
+    const suggested = semver.inc(latest.version, type, prerelease);
+    if (semver.gte(pkg.version, suggested) && prerelease.length) {
+      return semver.inc(pkg.version, "prerelease", prerelease);
+    }
+    return suggested;
   }
   return latest.version;
 };
@@ -81,10 +85,6 @@ const getGitHash = async (latest) => {
 };
 
 const getReleaseType = async (config, latest) => {
-  if (config.prerelease) {
-    // Use pkg.version because `latest` wont return prerelease tag
-    return "prerelease";
-  }
   let releaseType = "patch";
   let messages = [];
   if (latest && latest.version) {
@@ -121,6 +121,10 @@ const getReleaseType = async (config, latest) => {
     messages.map((it) => it.toLowerCase().startsWith("feat")).includes(true)
   ) {
     releaseType = "minor";
+  }
+  if (config.prerelease) {
+    // Use pkg.version because `latest` wont return prerelease tag
+    return `pre${releaseType}`;
   }
   return releaseType;
 };
