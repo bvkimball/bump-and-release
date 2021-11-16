@@ -2,7 +2,7 @@
 
 ![logo](_media/logo.png ':size=256x256')
 
-# Bump And Release <small>1.0-RELEASE CANDIDATE</small>
+# Bump And Release <small>1.0</small>
 
 > Github Action to automate version bump and release
 
