@@ -31,7 +31,7 @@ const initialize = async () => {
   const gitUserEmail = core.getInput("git-user-email");
   await git.addConfig("user.email", gitUserEmail);
   await git.addConfig("user.name", "Bump And Release");
-  await shell.exec(
+  await shell.spawn(
     `npm config set //registry.npmjs.org/:_authToken ${process.env.NPM_AUTH_TOKEN}`
   );
 };
@@ -167,12 +167,12 @@ async function publish(version, config, bundles) {
     for (let bundle of bundles) {
       if (bundle.prepublish) {
         core.info(`Running prepublish command: ${bundle.prepublish}...`);
-        await shell.exec(bundle.prepublish);
+        await shell.spawn(bundle.prepublish);
       }
       switch (bundle.type.toLowerCase()) {
         case "npm":
           core.info(`Publishing ${bundle.folder}...`);
-          response = await shell.exec(
+          response = await shell.spawn(
             `npm publish ${bundle.folder} --access public --tag ${tag}`
           );
           core.info(response.stdout);
@@ -199,7 +199,7 @@ async function push() {
 }
 
 async function changelog(version, file) {
-  await shell.exec(`npx standard-changelog -i ${file} -s`);
+  await shell.spawn(`npx standard-changelog -i ${file} -s`);
   return version;
 }
 
@@ -220,7 +220,7 @@ const deployGithubPages = async (version, docs) => {
   });
   for (let command of commands) {
     core.info(`Running Prepublish command: ${command}`);
-    await shell.exec(command);
+    await shell.spawn(command);
   }
 
   //git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
