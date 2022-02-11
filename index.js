@@ -32,7 +32,14 @@ const initialize = async () => {
   await git.addConfig("user.email", gitUserEmail);
   await git.addConfig("user.name", "Bump And Release");
   await shell.spawn(
-    `npm config set //registry.npmjs.org/:_authToken ${process.env.NPM_AUTH_TOKEN}`
+    `npm`,
+    [
+      "config",
+      "set",
+      "//registry.npmjs.org/:_authToken",
+      `${process.env.NPM_AUTH_TOKEN}`,
+    ],
+    { capture: ["stdout", "stderr"] }
   );
 };
 
@@ -166,14 +173,24 @@ async function publish(version, config, bundles) {
   try {
     for (let bundle of bundles) {
       if (bundle.prepublish) {
+        const [cmd, ...args] = bundle.prepublish.match(/('.*?'|".*?"|\S+)/g);
         core.info(`Running prepublish command: ${bundle.prepublish}...`);
-        await shell.spawn(bundle.prepublish);
+        await shell.spawn(cmd, args, { capture: ["stdout", "stderr"] });
       }
       switch (bundle.type.toLowerCase()) {
         case "npm":
           core.info(`Publishing ${bundle.folder}...`);
           response = await shell.spawn(
-            `npm publish ${bundle.folder} --access public --tag ${tag}`
+            `npm`,
+            [
+              "publish",
+              `${bundle.folder}`,
+              "--access",
+              "public",
+              "--tag",
+              `${tag}`,
+            ],
+            { capture: ["stdout", "stderr"] }
           );
           core.info(response.stdout);
           core.warning(response.stderr);
@@ -199,7 +216,9 @@ async function push() {
 }
 
 async function changelog(version, file) {
-  await shell.spawn(`npx standard-changelog -i ${file} -s`);
+  await shell.spawn("npx", ["standard-changelog", "-i", `${file}`, "-s"], {
+    capture: ["stdout", "stderr"],
+  });
   return version;
 }
 
@@ -220,7 +239,8 @@ const deployGithubPages = async (version, docs) => {
   });
   for (let command of commands) {
     core.info(`Running Prepublish command: ${command}`);
-    await shell.spawn(command);
+    const [cmd, ...args] = command.match(/('.*?'|".*?"|\S+)/g);
+    await shell.spawn(cmd, args, { capture: ["stdout", "stderr"] });
   }
 
   //git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
