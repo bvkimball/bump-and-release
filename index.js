@@ -226,17 +226,19 @@ const deployGithubPages = async (version, docs) => {
   const prepublish = Array.isArray(docs.prepublish)
     ? docs.prepublish
     : [docs.prepublish];
-  const commands = prepublish.map((it) => {
-    if (it && it.preset) {
-      switch (it.preset) {
-        case "angular":
-          return `npx ng build ${it.app} --base-href /${pkg.name}/${docs.dest}/ --deploy-url /${pkg.name}/${docs.dest}/`;
-        default:
-          return false;
+  const commands = prepublish
+    .map((it) => {
+      if (it && it.preset) {
+        switch (it.preset) {
+          case "angular":
+            return `npx ng build ${it.app} --base-href /${pkg.name}/${docs.dest}/ --deploy-url /${pkg.name}/${docs.dest}/`;
+          default:
+            return false;
+        }
       }
-    }
-    return it;
-  });
+      return it;
+    })
+    .filter(Boolean);
   for (let command of commands) {
     core.info(`Running Prepublish command: ${command}`);
     const [cmd, ...args] = command.match(/('.*?'|".*?"|\S+)/g);
