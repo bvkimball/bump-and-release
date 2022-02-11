@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/bvkimball/bump-and-release/compare/v1.0.0...v1.0.1) (2022-02-11)
+
+
+### Bug Fixes
+
+* **spawn:** fixing spawn vs exec ([dd70475](https://github.com/bvkimball/bump-and-release/commit/dd70475185185fbab1e3bdea2db81deb5ae10eba))
+
+
+
 # [1.0.0](https://github.com/bvkimball/bump-and-release/compare/v0.2.1...v1.0.0) (2022-02-11)
 
 
