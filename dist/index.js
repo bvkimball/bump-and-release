@@ -46960,12 +46960,12 @@ const spawnWithLogs = async (command) => {
   const [cmd, ...args] = command.match(/('.*?'|".*?"|\S+)/g);
   const spawned = shell.spawn(cmd, args);
   const childProcess = spawned.childProcess;
-  core.info(`[${cmd}] childProcess.pid: `, childProcess.pid);
-  childProcess.stdout.on("data", function (data) {
-    core.info(`[${cmd}] stdout: `, data.toString());
+  core.info(`[${cmd}] childProcess.pid: ${childProcess.pid}`);
+  childProcess.stdout.on("data", (data) => {
+    core.info(`[${cmd}] stdout: ${data.toString()}`);
   });
-  childProcess.stderr.on("data", function (data) {
-    core.warning(`[${cmd}] stderr: `, data.toString());
+  childProcess.stderr.on("data", (data) => {
+    core.warning(`[${cmd}] stderr: ${data.toString()}`);
   });
   return spawned;
 };
