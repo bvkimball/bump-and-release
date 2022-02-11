@@ -1,3 +1,21 @@
+# [1.0.0](https://github.com/bvkimball/bump-and-release/compare/v0.2.1...v1.0.0) (2022-02-11)
+
+
+### Bug Fixes
+
+* angular preset should use correct app name ([7cb97a5](https://github.com/bvkimball/bump-and-release/commit/7cb97a59aa66bcf818f2210c902cad69adfd632a))
+* appname works again ([8eca483](https://github.com/bvkimball/bump-and-release/commit/8eca483e668c14cf717fb67e78d66ed3bac6f2d7))
+* base-href should use pkg-name as base of base ([908bf9b](https://github.com/bvkimball/bump-and-release/commit/908bf9b51191f6ccfbb550a547d2868134ae9ea7))
+* remove prod build by default ([c99b545](https://github.com/bvkimball/bump-and-release/commit/c99b545dd79b190cfc13fdbdf714da1a5854c351))
+* switch exec to spawn ([d0be934](https://github.com/bvkimball/bump-and-release/commit/d0be934c8482154641fe7cbd069939aa8e0e8b75))
+
+
+### Features
+
+* angular preset should use npx ([121783b](https://github.com/bvkimball/bump-and-release/commit/121783bc4e8eb58ae7b1997cdd447909be38f097))
+
+
+
 ## [0.2.1](https://github.com/bvkimball/bump-and-release/compare/v0.2.0...v0.2.1) (2021-11-16)
 
 
