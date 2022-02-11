@@ -46956,19 +46956,26 @@ const event = readJSON("/github/workflow/event.json");
 const pkg = readJSON("package.json");
 const globalConfig = readJSON("./bump.json");
 
+const spawnWithLogs = async (command) => {
+  const [cmd, ...args] = command.match(/('.*?'|".*?"|\S+)/g);
+  const spawned = shell.spawn(cmd, args);
+  const childProcess = spawned.childProcess;
+  core.info(`[${cmd}] childProcess.pid: `, childProcess.pid);
+  childProcess.stdout.on("data", function (data) {
+    core.info(`[${cmd}] stdout: `, data.toString());
+  });
+  childProcess.stderr.on("data", function (data) {
+    core.warning(`[${cmd}] stderr: `, data.toString());
+  });
+  return spawned;
+};
+
 const initialize = async () => {
   const gitUserEmail = core.getInput("git-user-email");
   await git.addConfig("user.email", gitUserEmail);
   await git.addConfig("user.name", "Bump And Release");
-  await shell.spawn(
-    `npm`,
-    [
-      "config",
-      "set",
-      "//registry.npmjs.org/:_authToken",
-      `${process.env.NPM_AUTH_TOKEN}`,
-    ],
-    { capture: ["stdout", "stderr"] }
+  await spawnWithLogs(
+    `npm config set //registry.npmjs.org/:_authToken ${process.env.NPM_AUTH_TOKEN}`
   );
 };
 
@@ -47096,33 +47103,20 @@ async function commitVersion(version) {
 }
 
 async function publish(version, config, bundles) {
-  let response;
   let tag = config.prerelease ? `${config.prerelease}` : "latest";
 
   try {
     for (let bundle of bundles) {
       if (bundle.prepublish) {
-        const [cmd, ...args] = bundle.prepublish.match(/('.*?'|".*?"|\S+)/g);
         core.info(`Running prepublish command: ${bundle.prepublish}...`);
-        await shell.spawn(cmd, args, { capture: ["stdout", "stderr"] });
+        await spawnWithLogs(bundle.prepublish);
       }
       switch (bundle.type.toLowerCase()) {
         case "npm":
           core.info(`Publishing ${bundle.folder}...`);
-          response = await shell.spawn(
-            `npm`,
-            [
-              "publish",
-              `${bundle.folder}`,
-              "--access",
-              "public",
-              "--tag",
-              `${tag}`,
-            ],
-            { capture: ["stdout", "stderr"] }
+          await spawnWithLogs(
+            `npm publish ${bundle.folder} --access public --tag ${tag}`
           );
-          core.info(response.stdout);
-          core.warning(response.stderr);
           break;
         default:
           core.warning(
@@ -47145,9 +47139,7 @@ async function push() {
 }
 
 async function changelog(version, file) {
-  await shell.spawn("npx", ["standard-changelog", "-i", `${file}`, "-s"], {
-    capture: ["stdout", "stderr"],
-  });
+  await spawnWithLogs(`npx standard-changelog -i ${file} -s`);
   return version;
 }
 
@@ -47170,8 +47162,7 @@ const deployGithubPages = async (version, docs) => {
     .filter(Boolean);
   for (let command of commands) {
     core.info(`Running Prepublish command: ${command}`);
-    const [cmd, ...args] = command.match(/('.*?'|".*?"|\S+)/g);
-    await shell.spawn(cmd, args, { capture: ["stdout", "stderr"] });
+    await spawnWithLogs(command);
   }
 
   //git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
