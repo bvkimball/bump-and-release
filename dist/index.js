@@ -46986,12 +46986,14 @@ const getBranchConfig = async (config) => {
   return internal;
 };
 
-const getLatestFromNPM = async () => {
+const getLatestFromNPM = async (tag = "latest") => {
   try {
     const registry =
       process.env.NPM_REGISTRY_URL || "https://registry.npmjs.org";
-    const response = await got(`${registry}/${pkg.name}/latest`).json();
-    if (response && response.version) return response;
+    const response = await got(
+      `${registry}/~/package/${pkg.name}/dist-tags`
+    ).json();
+    if (response && response[tag]) return response[tag];
   } catch (e) {
     core.warning(
       `Unable to find latest info in registry, using package.json as fallback.`
@@ -47220,6 +47222,14 @@ async function run() {
 
       if (core.getBooleanInput("skip-bump")) {
         core.info(`Skipping Bump and Publish`);
+        for (let bundle of globalConfig.bundles) {
+          if (bundle.prepublish) {
+            core.info(
+              `Still running prepublish command: ${bundle.prepublish}...`
+            );
+            await spawnWithLogs(bundle.prepublish);
+          }
+        }
       } else {
         const changedFiles = await bump(version, globalConfig.bumpFiles);
         core.info(`Bumped Version in ${changedFiles.length} files`);
