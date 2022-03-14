@@ -293,6 +293,14 @@ async function run() {
 
       if (core.getBooleanInput("skip-bump")) {
         core.info(`Skipping Bump and Publish`);
+        for (let bundle of globalConfig.bundles) {
+          if (bundle.prepublish) {
+            core.info(
+              `Still running prepublish command: ${bundle.prepublish}...`
+            );
+            await spawnWithLogs(bundle.prepublish);
+          }
+        }
       } else {
         const changedFiles = await bump(version, globalConfig.bumpFiles);
         core.info(`Bumped Version in ${changedFiles.length} files`);
